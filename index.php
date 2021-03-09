@@ -58,6 +58,7 @@
 		</script> 
 	</head>
 	<body onload="showSlides()">
+	<a name="start"></a>
 		<div class="container"> 
 			<div class="header"> 
 				<h1 class ="h1">Coming soon...</h1>
@@ -179,7 +180,8 @@
 						<span class="dot" onclick="currentSlide(3)"></span>
 					</div>
 					
-					
+					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
+
 		   		 
 				</div>
 				<div class="right">
