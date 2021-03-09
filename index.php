@@ -128,7 +128,7 @@
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 7</div>
 							<img src="images\kiki.jpg" style="border-radius: 35px; width:100%; height:500px">
-							<div class="text">KikiQutest</div>
+							<div class="text">KikiCutest</div>
 						</div>
 						
 						  <div class="mySlides fade">
