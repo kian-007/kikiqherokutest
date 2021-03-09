@@ -133,39 +133,51 @@
 							<div class="text">KikiCutest</div>
 						</div>
 						
-						  <div class="mySlides fade">
+						<div class="mySlides fade">
 							<div class="numbertext">2 / 7</div>
+							<a href="http://localhost/kikiq/showimages.php?image=2">
 							<img src="images\bags1.jpg" style="border-radius: 35px; width:100%; height:500px">
+							</a>
 							<div class="text">BAG's</div>
 						</div>
 						
-						  <div class="mySlides fade">
+						<div class="mySlides fade">
 							<div class="numbertext">3 / 7</div>
+							<a href="http://localhost/kikiq/showimages.php?image=3">
 							<img src="images\bags2.jpg" style="border-radius: 35px; width:100%; height:500px">
+                            </a>
 							<div class="text">BAG's</div>
 						</div>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">4 / 7</div>
+							<a href="http://localhost/kikiq/showimages.php?image=4">
 							<img src="images\brushes.jpg" style="border-radius: 35px; width:100%; height:500px">
+							</a>
 							<div class="text">Brush</div>
 						</div>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">5 / 7</div>
+							<a href="http://localhost/kikiq/showimages.php?image=5">
 							<img src="images\mirror1.jpg" style="border-radius: 35px; width:100%; height:500px">
+                            </a>
 							<div class="text">Mirror</div>
 						</div>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">6 / 7</div>
+							<a href="http://localhost/kikiq/showimages.php?image=6">
 							<img src="images\mirror1.jpg" style="border-radius: 35px; width:100%; height:500px">
+							</a>
 							<div class="text">Mirror</div>
 						</div>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">7 / 7</div>
+							<a href="http://localhost/kikiq/showimages.php?image=7">
 							<img src="images\mirror2.jpg" style="border-radius: 35px; width:100%; height:500px">
+							</a>
 							<div class="text">BAG's</div>
 						</div>
 						
