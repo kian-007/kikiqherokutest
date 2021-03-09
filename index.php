@@ -127,7 +127,9 @@
 						<!-- Full-width images with number and caption text -->
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 7</div>
+							<a href="https://kikiq.herokuapp.com/showimages.php?image=1">
 							<img src="images\kiki.jpg" style="border-radius: 35px; width:100%; height:500px">
+							</a>
 							<div class="text">KikiCutest</div>
 						</div>
 						
