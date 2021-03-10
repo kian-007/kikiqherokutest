@@ -3,14 +3,12 @@
 				margin : 0px;
 				
 			}
-			
 			.container
 			{
 				width : 100%;
 				height: 1500px;
 				margin:0 auto 0;
 			}
-			
 			.header
 			{
 				position: fixed;
@@ -20,27 +18,20 @@
 				background-color : #ff80b3;
 				Z-index: 20;
 			}
-			
 			.left
 			{
 				display: visible;
 				float: left;
 				width : 20%;
 				height:100%;
-				
-				
 			}
-			
 			.content{
 				/*overflow: auto; */
 				width : 60%;
 				height:500px;
 				float : left;
 				margin-top: 200px;
-				/* background-color : blue; */
-				
 			}
-			
 			.right{
 				display: none;
 				position: relative;
@@ -50,25 +41,13 @@
 				 background-color : pink; 
 				 Z-index: 2;	
 			}  
-		
 			.footer
 			{
 				width : 100%;
 				height : 100px;
 				background-color : gray;
 				clear: both;
-				
 			}
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			.h1
 			{
 				float:right;
@@ -77,7 +56,6 @@
 				right:85px;
 				letter-spacing :3px;
 			}
-			
 			.logo
 			{
 				position: relative;
@@ -89,7 +67,6 @@
 				border-radius: 27px;
 				z-index: 7;
 			}
-			
 			.logoText
 			{
 				z-index:16;
@@ -101,7 +78,6 @@
 				font-style : oblique;
 				font-family : tahoma,arial;
 			}
-			
 			.menue
 			{
 				background-color: #ff1a75;
@@ -109,10 +85,6 @@
 				height: 41px;
 			    position: relative;
 				z-index: 10;
-			   /*margin-bottom: -50px;
-				padding-top: -20px;
-				padding-left: -500px;
-				margin-top: 0px; */
 			}
 			
 			.ulmenue, .ulmenue ul
@@ -123,11 +95,7 @@
 				margin : 0px;
 				float: right;
 				border-bottom: solid black 1px;
-				
 			}
-			
-			
-			
 			.ulmenue li
 			{
 				float : left;
@@ -135,7 +103,7 @@
 				height: 40px;
 				background-color : #ff1a75;
 				cursor: pointer;
-				
+				text-align: center;
 			}
 			.ulmenue li:last-child
 			{
@@ -147,14 +115,11 @@
 				border-top-right-radius: 20px;
 				border-top-left-radius: 20px;
 			}
-			
-			
 			.ulmenue li a
 			{
 				text-decoration: none;
 				color: white;
 				display : block;
-				
 			}
 			
 			.ulmenue li ul
@@ -163,64 +128,30 @@
 				border: solid black 3px;
 				border-radius: 20px;
 			}
-			
-			
 			.ulmenue li:hover
 			{
-				color: gold;
+				color: #ff1a75;
 				font-size: 15pt;
-				background-color: #990033;
-				
+				background-color: pink;
 			}
-			
-		/*	.ulmenue li:hover ul
+			.ulmenue li a:hover
 			{
-				display : block;
-				
-			}  */
-			
+				color: #ff1a75;
+				background-color: white;
+			}
 			.subul li a:hover
 			{
 				display : block;
-				background-color: #ffcce6;
-				color: gold;
-				font-size: 18pt;
 				
+				background-color: white;
+				color: ff1a75;
+				font-size: 18pt;
+				font-weight: bold;
 			}
-			
 			.clearfix
 			{
 				overflow: auto;
 			}
-			
-			
-			/* #imgcase img
-			{
-				display: none;
-				width: 500px;
-				height: 500px;
-				background-color: #c266ff;
-				position: relative;
-				top: 100px;
-				left: 300px;
-				z-index: 1; 
-			}
-			
-			#imgcase img:first-child
-			{
-				display: inline;
-				width: 500px;
-				height: 500px;
-				background-color: #c266ff;
-			} 	 */
-			
-			
-			
-			
-			
-			
-			
-			
 			
 			
 			* {box-sizing:border-box}
