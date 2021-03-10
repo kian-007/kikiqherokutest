@@ -78,7 +78,7 @@
 					<li><a href='#'>فانتزی</a>
 						<ul class ="subul" >
 							<li><a href='#'>پاپوش یونیکرن</a></li>
-							<li><a href='#'>آینه</a></li>
+							<li><a href='#'>آیینه</a></li>
 							<li><a href='#'>empty</a></li>
 							<li><a href='#'>empty</a></li>
 						</ul>
