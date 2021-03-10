@@ -13,29 +13,14 @@
 				slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue').find('li').hover(function(){
 					$(this).find('.subul').slideDown(250)
+					$('body').css('background-color', "rgba(0,0,0,0.5")
+					$('.middle').css('-webkit-filter', "blur(10px)")
 				}, 
 				function(){
 					$(this).find('.subul').slideUp(250)
+					$('body').css('background-color', "rgba(0,0,0,0")
+					$('.middle').css('-webkit-filter', "blur(0px)")
 				})
-				
-			/*	setInterval(function(){slider()}, 3000)
-				var index = 0;
-			
-			function slider(){
-				var slides = $('imgcase').find('img')
-				++index;
-				if (index == slides.lengh)
-					index = 0;
-					
-				if(index == 0)
-					slides[slides.lengh-1].css('display': 'none')
-				else
-					slides[index-1].css('display': 'none')
-				
-				slides[index].css('display': 'inline')
-				
-			} */
-				
 				
 				
 			})
