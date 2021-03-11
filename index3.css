@@ -1,0 +1,157 @@
+html
+{
+	background: url('images/unii.jpg') repeat center fixed;
+	filter: saturate(150%);
+	-webkit-filter: saturate(150%);
+	filter: brightness(110%);
+	-webkit-filter: brightness(110%);
+}
+.left2
+{
+	display: visible;
+	float: left;
+	width : 20%;
+	height:150%;
+}
+.dani
+{
+	position:relative;
+	top: 300px;
+	clear: both;
+	background-color: rgb(100,0,220);
+	width: 50px;
+	height: 50px;
+	border: solid navy 2px;
+	border-radius: 50%;
+	z-index: 3;
+	/*-webkit-transition: -webkit-transform 3s;*/
+	
+}
+.pani
+{
+	position:relative;
+	top: -23px;
+	left: -7px;
+	background-color: rgba(0,0,0,0);
+	width: 60px;
+	height: 60px;
+	border: dashed purple 2px;
+	border-radius: 50%;
+	z-index: 2;
+}
+.pani:hover
+{
+		-webkit-animation: a1 20s;
+		-webkit-animation-iteration-count: infinite;
+}
+.dani a:hover
+{
+		color: red;
+}
+
+@-webkit-keyframes a1
+{
+	from
+	{
+		background-color: rgba(0,0,0,0);
+		width: 60px;
+		height: 60px;
+		border: dashed purple 3px;
+		border-radius: 50%;
+	}
+	
+	to
+	{
+		background-color: rgba(0,0,0,0);
+		width: 60px;
+		height: 60px;
+		border: dashed purple 3px;
+		border-radius: 50%;
+		-webkit-transform: rotate(1500deg);
+	}
+}
+
+.doutside, .d1
+{
+	position:relative;
+	float: left;
+	left: -100px;
+	top: 50px;
+	width: 325px;
+	height: 390px;
+	border: solid black 2px;
+	background-color: rgba(100,0,255,0.5);
+	border-radius: 37px;
+	z-index: 3;
+}
+.pinside, .d1 p
+{
+	position:relative;
+	top: -8px;
+	left: 9px;
+	width: 300px;
+	height: 370px;
+	padding: 20px;
+	border: dashed white 3px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 37px;
+	z-index: 0;
+}
+.doutside img, .d1 img
+{
+	position:absolute;
+	left: 30px;
+	top: 25px;
+	width: 260px;
+	height: 333px;
+	border-radius: 40px;
+	filter: saturate(150%);
+	-webkit-filter: saturate(150%);
+}
+#img2
+{
+	display: none;
+}
+.ftl
+{
+	float: left;
+}
+.pinside:hover
+{
+	-webkit-animation: a2 5s;
+}
+
+@-webkit-keyframes a2
+{
+	50%
+	{
+		position:relative;
+		top: -3px;
+		left: 9px;
+		width: 300px;
+		height: 370px;
+		padding: 20px;
+		border: dashed white 4px;
+		background-color: rgba(0,0,0,0);
+		border-radius: 50%;
+	}
+	
+	100%
+	{
+		position:relative;
+		top: -3px;
+		left: 9px;
+		width: 300px;
+		height: 370px;
+		padding: 20px;
+		border: dashed white 3px;
+		background-color: rgba(0,0,0,0);
+		border-radius: 37px;
+		-webkit-transform: rotate(3600deg);
+	}
+}
+
+.clearfix
+{
+	overflow: auto;
+}
