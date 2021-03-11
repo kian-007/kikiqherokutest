@@ -119,6 +119,7 @@
 			{
 				text-decoration: none;
 				color: white;
+				font-size: 15pt;
 				display : block;
 			}
 			
@@ -142,7 +143,6 @@
 			.subul li a:hover
 			{
 				display : block;
-				
 				background-color: white;
 				color: #ff1a75;
 				font-size: 18pt;

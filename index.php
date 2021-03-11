@@ -46,7 +46,7 @@
 	<a name="start"></a>
 		<div class="container"> 
 			<div class="header"> 
-				<h1 class ="h1">Coming soon...</h1>
+				<h1 class ="h1">KikiCutest</h1>
 				<img class = "logo" src = 'images\kiki.jpg'  />
 				<p class ="logoText">KikiCutest</p>
 				<div class= "menue">
