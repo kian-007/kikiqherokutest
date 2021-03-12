@@ -118,7 +118,7 @@ html
 }
 .pinside:hover
 {
-	-webkit-animation: a2 5s;
+	-webkit-animation: a2 2s;
 }
 
 @-webkit-keyframes a2
