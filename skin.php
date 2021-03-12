@@ -67,7 +67,7 @@
 					</li>
 					<li><a href='#'>پوست</a>
 						<ul class ="subul">
-							<li style="height: 60px"><a href='#'>کرم مرطوب کننده دست</a></li>
+							<li style="height: 60px"><a href='skin.php'>کرم مرطوب کننده دست</a></li>
 							<li style="height: 60px"><a href='#'>فیس براش چکشی هولوگرامی</a></li>
 							<li><a href='#'>empty</a></li>
 							<li><a href='#'>empty</a></li>
@@ -83,8 +83,8 @@
 					</li>
 					<li><a href='#'>فانتزی</a>
 						<ul class ="subul" >
-							<li><a href='arayeshi.html'>پاپوش یونیکورن</a></li>
-							<li><a href='#'>آیینه</a></li>
+							<li><a href='#'>پاپوش یونیکورن</a></li>
+							<li><a href='fantasy.php'>آیینه</a></li>
 							<li><a href='#'>empty</a></li>
 							<li><a href='#'>empty</a></li>
 						</ul>
