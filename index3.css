@@ -8,10 +8,27 @@ html
 }
 .left2
 {
-	display: visible;
+	visibility: hidden;
 	float: left;
-	width : 20%;
-	height:150%;
+	width : 10%;
+	height:200%;
+}
+.right2
+{
+	display: visible;
+	position: relative;
+	width : 50%;
+	height:100%;
+	float : left; 
+	Z-index: 2;	
+} 
+.content2
+{
+	/*overflow: auto; */
+	width : 40%;
+	height:500px;
+	float : left;
+	margin-top: 200px;
 }
 .dani
 {
@@ -74,7 +91,6 @@ html
 .doutside, .d1
 {
 	position:relative;
-	float: left;
 	left: -100px;
 	top: 50px;
 	width: 325px;
@@ -97,6 +113,12 @@ html
 	border-radius: 37px;
 	z-index: 0;
 }
+.ftr
+{
+	float: right;
+	left: 150px;
+	background-color: yellow;
+}
 .doutside img, .d1 img
 {
 	position:absolute;
@@ -111,10 +133,6 @@ html
 #img2
 {
 	display: none;
-}
-.ftl
-{
-	float: left;
 }
 .pinside:hover
 {
