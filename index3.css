@@ -9,16 +9,22 @@ html
 .left2
 {
 	float: left;
+	width: 35%;
+	height: 500px;
 	background-color: yellow;
 } 
 .content2
 {
 	float: left;
+	width: 35%;
+	height: 500px;
 	background-color: orange;
 }
 .right2
 {
 	float: left;
+	width: 30%;
+	height: 500px;
 	background-color: red;
 }
 .dani
