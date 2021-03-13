@@ -99,7 +99,7 @@ html
 	width: 325px;
 	height: 390px;
 	border: solid black 2px;
-	background-color: rgba(100,0,255,0.5);
+	background-color: rgba(153,0,255,0.5);
 	border-radius: 37px;
 	z-index: 3;
 }
