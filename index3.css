@@ -10,21 +10,12 @@ html
 {
 	display: visible;
 	position: relative;
-	left: 200px;
 	top: 200px;
 	width : 50%;
 	height:100%;
 	float : left; 
 	Z-index: 2;	
 } 
-.right2
-{
-	visibility: visible;
-	background-color: red;
-	float: left;
-	width : 10%;
-	height:200%;
-}
 .content2
 {
 	/*overflow: auto; */
@@ -32,6 +23,14 @@ html
 	height:500px;
 	float : left;
 	margin-top: 200px;
+}
+.right2
+{
+	visibility: visible;
+	background-color: orange;
+	float: left;
+	width : 10%;
+	height:200%;
 }
 .dani
 {
