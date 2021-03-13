@@ -9,8 +9,6 @@ html
 .left2
 {
 	visibility: visible;
-	position: absolute;
-	left: 300px;
 	background-color: red;
 	top: 200px;
 	width : 50%;
