@@ -1,7 +1,37 @@
+<?php
+	function get_value($para, $default){
+    if(isset($_GET[$para])){
+        $value = $_GET[$para];
+    }else{
+        $value = $default;
+    }
+    return $value;
+}
+
+$lamp = get_value('lamp', 0);
+$capsul = get_value('capsul', 0);
+
+if($lamp ){
+    if($capsul){
+        $title = 'برق لب لامپی و قرصی';
+    }else{
+        $title = 'برق لب لامپی';
+    }
+}else{
+        if($capsul){
+           $title = 'برق لب قرصی';
+        }else{
+           $title = 'آرایشی و بهداشتی';
+        }
+    }
+
+
+?>
+
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>KikiCutest</title>
+		<title><?php echo $title; ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
@@ -96,7 +126,8 @@
 			<div class="middle">
 				<div class="left2">
 				</div>
-				
+				<?php if($lamp): ?>
+				<h2>برق لب لامپی</h2>
 				<div class="content2">
 					<div class="doutside ftl"><img src="images/beautyandhealth/lamp6.jpg"/><p><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp1.jpg"	/><p class="pinside"></p></div>
@@ -106,8 +137,11 @@
 					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp5.jpg"	/><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
+					<?php endif; ?>
 				</div>
 				
+				<?php if($capsul): ?>
+				<h2>برق لب قرصی</h2>
 				<div class="right2">
 					<div class="doutside ftl d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul1.jpg"	/><p class="pinside"></p></div>
@@ -116,6 +150,9 @@
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul4.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul5.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul6.jpg"	/><p class="pinside"></p></div>
+					
+					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
+					<?php endif; ?>
 				</div>
 			</div>
 			<div class="footer">
