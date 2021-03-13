@@ -11,7 +11,7 @@ html
 	position:relative;
 	top: 200px;
 	float: left;
-	width: 35%;
+	width: 55%;
 	height: 150%;
 	background-color: rgba(255, 255, 0, 0.1)
 } 
@@ -20,7 +20,7 @@ html
 	position:relative;
 	top: 200px;
 	float: left;
-	width: 35%;
+	width: 30%;
 	height: 150%;
 	background-color: rgba(255, 204, 0, 0.1);
 }
@@ -29,7 +29,7 @@ html
 	position:relative;
 	top: 200px;
 	float: left;
-	width: 30%;
+	width: 15%;
 	height: 150%;
 	background-color: rgba(255, 0, 0, 0.1);;
 }
