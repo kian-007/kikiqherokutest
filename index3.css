@@ -6,32 +6,7 @@ html
 	filter: brightness(110%);
 	-webkit-filter: brightness(110%);
 }
-.left2
-{
-	visibility: visible;
-	background-color: red;
-	top: 200px;
-	width : 50%;
-	height:100%;
-	float : left; 
-	Z-index: 2;	
-} 
-.content2
-{
-	/*overflow: auto; */
-	background-color: yellow;
-	width : 40%;
-	height:500%;
-	float : left;
-}
-.right2
-{
-	visibility: visible;
-	background-color: orange;
-	float: left;
-	width : 10%;
-	height:200%;
-}
+
 .dani
 {
 	position:relative;
