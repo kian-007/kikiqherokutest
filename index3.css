@@ -10,11 +10,11 @@ html
 {
 	display: visible;
 	position: relative;
+	
 	background-color: red;
 	top: 200px;
 	width : 50%;
-	height:100%;
-	float : left; 
+	height:100%; 
 	Z-index: 2;	
 } 
 .content2
