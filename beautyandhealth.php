@@ -156,14 +156,15 @@ if($lamp ){
 				</div>
 				
 				<div class="right2">
-					<form action="beautyandhealth.php" >
-						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
-						<label for="programming">برق لب لامپی</label><br/>
+					<legend>Search what you are intrested in:</legend>
+					<form action="courses.php" >
+						<input type="checkbox"    name="programming"    id="programming"    value="show" />
+						<label for="programming">Programming</label><br/>
 						
-						<input type="checkbox"    name="capsul"    id="capsul"    value='show' />
-						<label for="android">برق لب قرصی</label><br/>
+						<input type="checkbox"    name="android"    id="android"    value='show' />
+						<label for="android">Android</label><br/>
 						
-						<input type="submit" value="search" />
+						<input type="submit" value="Send" />
 					</form>
 				</div>
 			</div>
