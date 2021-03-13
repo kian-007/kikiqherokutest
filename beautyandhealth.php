@@ -137,19 +137,9 @@ if($lamp ){
 					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul6.jpg"	/><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
-					
+					<?php endif; ?>
 				</div>
-				<div class="right2">
-					<legend>Search what you are intrested in:</legend>
-					<form action="beautyandhealth.php" >
-						<input type="checkbox"    name="programming"    id="programming"    value="show" />
-						<label for="programming">Programming</label><br/>
-						<input type="checkbox"    name="android"    id="android"    value='show' />
-						<label for="android">Android</label><br/>
-						<input type="submit" value="Send" />
-					</form>
-				</div>
-				<?php endif; ?>
+				
 				
 				<div class="content2">
 				<?php if($lamp): ?>
