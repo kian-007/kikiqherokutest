@@ -124,8 +124,21 @@ if($lamp ){
 				</div>
 			</div>
 			<div class="middle">
+				<?php if($capsul): ?>
+				<h2>برق لب قرصی</h2>
 				<div class="left2">
+					<div class="doutside ftl d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul1.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul2.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul3.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul4.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul5.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul6.jpg"	/><p class="pinside"></p></div>
+					
+					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
+					<?php endif; ?>
 				</div>
+				
 				<?php if($lamp): ?>
 				<h2>برق لب لامپی</h2>
 				<div class="content2">
@@ -140,19 +153,16 @@ if($lamp ){
 					<?php endif; ?>
 				</div>
 				
-				<?php if($capsul): ?>
-				<h2>برق لب قرصی</h2>
 				<div class="right2">
-					<div class="doutside ftl d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul1.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul2.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul3.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul4.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul5.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul6.jpg"	/><p class="pinside"></p></div>
-					
-					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
-					<?php endif; ?>
+					<form action="beautyandhealth.php" >
+						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
+						<label for="programming">برق لب لامپی</label><br/>
+						
+						<input type="checkbox"    name="capsul"    id="capsul"    value='show' />
+						<label for="android">برق لب قرصی</label><br/>
+						
+						<input type="submit" value="search" />
+					</form>
 				</div>
 			</div>
 			<div class="footer">
