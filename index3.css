@@ -6,14 +6,6 @@ html
 	filter: brightness(110%);
 	-webkit-filter: brightness(110%);
 }
-.right2
-{
-	visibility: visible;
-	background-color: rgba(0,0,0,0.8);
-	float: left;
-	width : 10%;
-	height:200%;
-}
 .left2
 {
 	display: visible;
@@ -25,6 +17,14 @@ html
 	float : left; 
 	Z-index: 2;	
 } 
+.right2
+{
+	visibility: visible;
+	background-color: gray;
+	float: left;
+	width : 10%;
+	height:200%;
+}
 .content2
 {
 	/*overflow: auto; */
