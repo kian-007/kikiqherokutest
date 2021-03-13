@@ -3,21 +3,21 @@
 {
 	float: left;
 	width: 35%;
-	height: 500px;
+	height: 150%;
 	background-color: yellow;
 } 
 .content2
 {
 	float: left;
 	width: 35%;
-	height: 500px;
+	height: 150%;
 	background-color: orange;
 }
 .right2
 {
 	float: left;
 	width: 30%;
-	height: 500px;
+	height: 150%;
 	background-color: red;
 }
 .dani
