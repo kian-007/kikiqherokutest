@@ -10,7 +10,7 @@ html
 {
 	display: visible;
 	position: relative;
-	left: 100px;
+	left: 200px;
 	top: 200px;
 	width : 50%;
 	height:100%;
@@ -20,7 +20,7 @@ html
 .right2
 {
 	visibility: visible;
-	background-color: gray;
+	background-color: red;
 	float: left;
 	width : 10%;
 	height:200%;
