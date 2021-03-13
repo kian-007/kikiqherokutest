@@ -126,7 +126,7 @@ if($lamp ){
 			<div class="middle">
 				<?php if($capsul): ?>
 				<h2>برق لب قرصی</h2>
-				<div class="left">
+				<div class="left2">
 					<div class="doutside ftl d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul2.jpg"	/><p class="pinside"></p></div>
@@ -141,7 +141,7 @@ if($lamp ){
 				
 				<?php if($lamp): ?>
 				<h2>برق لب لامپی</h2>
-				<div class="content">
+				<div class="content2">
 					<div class="doutside ftl"><img src="images/beautyandhealth/lamp6.jpg"/><p><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp2.jpg"	/><p class="pinside"></p></div>
@@ -153,7 +153,7 @@ if($lamp ){
 					<?php endif; ?>
 				</div>
 				
-				<div class="right">
+				<div class="right2">
 					<form action="beautyandhealth.php" >
 						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
 						<label for="programming">برق لب لامپی</label><br/>
