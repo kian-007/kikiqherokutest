@@ -17,6 +17,7 @@ html
 {
 	display: visible;
 	position: relative;
+	top: 200px;
 	width : 50%;
 	height:100%;
 	float : left; 
@@ -118,6 +119,15 @@ html
 	float: right;
 	left: 150px;
 	background-color: rgba(255,255,0,0.5);
+}
+.ftl
+{
+	float: left;
+	background-color: rgba(255,255,0,0.5);
+}
+.clrl
+{
+	clear: left;
 }
 .doutside img, .d1 img
 {
