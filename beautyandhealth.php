@@ -98,7 +98,8 @@
 				</div>
 				
 				<div class="content2">
-					<div class="doutside ftl d1"><img	id='img1'	src="images/beautyandhealth/lamp1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					<div class="doutside ftl"><img src="images/beautyandhealth/lamp6.jpg"/><p><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp3.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp4.jpg"	/><p class="pinside"></p></div>
@@ -108,7 +109,8 @@
 				</div>
 				
 				<div class="right2">
-					<div class="doutside ftl d1"><img	id='img1'	src="images/beautyandhealth/capsul1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					<div class="doutside ftl d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul3.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/beautyandhealth/capsul4.jpg"	/><p class="pinside"></p></div>
