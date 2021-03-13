@@ -6,7 +6,21 @@ html
 	filter: brightness(110%);
 	-webkit-filter: brightness(110%);
 }
-
+.left2
+{
+	float: left;
+	background-color: yellow;
+} 
+.content2
+{
+	float: left;
+	background-color: orange;
+}
+.right2
+{
+	float: left;
+	background-color: red;
+}
 .dani
 {
 	position:relative;
