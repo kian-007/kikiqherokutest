@@ -54,8 +54,8 @@
 					<li><a href='#'>آرایشی و بهداشتی</a>
 						<ul class ="subul">
 							<li><a href='#'>کیف لوازم آرایشی</a></li>
-							<li><a href='#'>برق لب لامپی</a></li>
-							<li><a href='#'>برق لب قرصی</a></li>
+							<li><a href='beautyandhealth.php'>برق لب لامپی</a></li>
+							<li><a href='beautyandhealth.php'>برق لب قرصی</a></li>
 							<li><a href='#'>براش</a></li>
 						</ul>
 					</li>

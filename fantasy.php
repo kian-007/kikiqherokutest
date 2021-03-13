@@ -60,8 +60,8 @@
 					<li><a href='#'>آرایشی و بهداشتی</a>
 						<ul class ="subul">
 							<li><a href='#'>کیف لوازم آرایشی</a></li>
-							<li><a href='#'>برق لب لامپی</a></li>
-							<li><a href='#'>برق لب قرصی</a></li>
+							<li><a href='beautyandhealth.php'>برق لب لامپی</a></li>
+							<li><a href='beautyandhealth.php'>برق لب قرصی</a></li>
 							<li><a href='#'>براش</a></li>
 						</ul>
 					</li>
@@ -83,7 +83,7 @@
 					</li>
 					<li><a href='#'>فانتزی</a>
 						<ul class ="subul" >
-							<li><a href='#>پاپوش یونیکورن</a></li>
+							<li><a href='#'>پاپوش یونیکورن</a></li>
 							<li><a href='fantasy.php'>آیینه</a></li>
 							<li><a href='#'>empty</a></li>
 							<li><a href='#'>empty</a></li>
