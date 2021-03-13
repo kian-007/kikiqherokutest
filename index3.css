@@ -1,11 +1,4 @@
-html
-{
-	background: url('images/unii.jpg') repeat center fixed;
-	filter: saturate(150%);
-	-webkit-filter: saturate(150%);
-	filter: brightness(110%);
-	-webkit-filter: brightness(110%);
-}
+
 .left2
 {
 	float: left;
