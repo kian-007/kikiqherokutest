@@ -11,21 +11,21 @@ html
 	float: left;
 	width: 35%;
 	height: 150%;
-	background-color: yellow;
+	background-color: rgba(255, 255, 0, 0.5)
 } 
 .content2
 {
 	float: left;
 	width: 35%;
 	height: 150%;
-	background-color: orange;
+	background-color: rgba(255, 204, 0, 0.5);
 }
 .right2
 {
 	float: left;
 	width: 30%;
 	height: 150%;
-	background-color: red;
+	background-color: rgba(255, 0, 0, 0.5);;
 }
 .dani
 {
