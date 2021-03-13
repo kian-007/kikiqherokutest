@@ -157,13 +157,11 @@ if($lamp ){
 				
 				<div class="right2">
 					<legend>Search what you are intrested in:</legend>
-					<form action="courses.php" >
+					<form action="beautyandhealth.php" >
 						<input type="checkbox"    name="programming"    id="programming"    value="show" />
 						<label for="programming">Programming</label><br/>
-						
 						<input type="checkbox"    name="android"    id="android"    value='show' />
 						<label for="android">Android</label><br/>
-						
 						<input type="submit" value="Send" />
 					</form>
 				</div>
