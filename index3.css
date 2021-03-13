@@ -8,7 +8,8 @@ html
 }
 .right2
 {
-	visibility: hidden;
+	visibility: visible;
+	background-color: rgba(0,0,0,0.8);
 	float: left;
 	width : 10%;
 	height:200%;
@@ -17,6 +18,7 @@ html
 {
 	display: visible;
 	position: relative;
+	left: 100px;
 	top: 200px;
 	width : 50%;
 	height:100%;
