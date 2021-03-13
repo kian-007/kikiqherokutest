@@ -8,6 +8,8 @@ html
 }
 .left2
 {
+	position:relative;
+	top: 200px;
 	float: left;
 	width: 35%;
 	height: 150%;
@@ -15,6 +17,8 @@ html
 } 
 .content2
 {
+	position:relative;
+	top: 200px;
 	float: left;
 	width: 35%;
 	height: 150%;
@@ -22,6 +26,8 @@ html
 }
 .right2
 {
+	position:relative;
+	top: 200px;
 	float: left;
 	width: 30%;
 	height: 150%;
