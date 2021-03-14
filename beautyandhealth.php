@@ -161,12 +161,12 @@ if($lamp ){
 				
 				<?php if($lamp): ?>
 				<h2>برق لب لامپی</h2>
-					<div class="doutside ftl"><img src="images/beautyandhealth/lamp6.jpg"/><p><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp1.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp2.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp3.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp4.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftl"><img	src="images/beautyandhealth/lamp5.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img src="images/beautyandhealth/lamp6.jpg"/><p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp1.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp2.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp3.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp4.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp5.jpg"	/><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
