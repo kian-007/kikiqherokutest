@@ -134,6 +134,11 @@
 				border-top-right-radius: 20px;
 				border-top-left-radius: 20px;
 			}
+			.ulmenue .subul li a:first-child
+			{
+				border-top-right-radius: 20px;
+				border-top-left-radius: 20px;
+			}
 			.ulmenue li a
 			{
 				text-decoration: none;
