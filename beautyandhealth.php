@@ -42,6 +42,14 @@ if($lamp ){
 				var d = d.toDateString();
 				alert(d + '\n خوش آمدید')
 				slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
+				$('.ulmenue').find('li:last-child').prevAll().css('display', "none")
+				$('.ulmenue').find('li:last-child').find('a').mouseenter(function(){
+					$('.ulmenue').find('li:last-child').prevAll().show()
+				})
+				
+				$('.ulmenue').mouseleave(function(){
+					$('.ulmenue').find('li:last-child').prevAll().hide()
+				})
 				$('.ulmenue').find('li').hover(function(){
 					$(this).find('.subul').slideDown(250)
 					$('body').css('background-color', "rgba(0,0,0,0.5")
