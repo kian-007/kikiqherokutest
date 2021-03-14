@@ -29,48 +29,13 @@
 				box-shadow: 20px 15px 15px #333388
 			}
 		</style>
-		<script src="jquery-3.5.1.min.js"></script>
-		<script>
-			$.noConflict()
-			jQuery(document).ready(function($){
-				/*var d = new Date();
-				var d = d.toDateString();
-				alert(d + '\n خوش آمدید')
-				slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
-				$('.ulmenue').find('li:last-child').prevAll().css('display', "none")
-				$('.ulmenue').find('li:last-child').find('a').mouseenter(function(){
-					$('.ulmenue').find('li:last-child').prevAll().show()
-				})
-				
-				$('.ulmenue').mouseleave(function(){
-					$('.ulmenue').find('li:last-child').prevAll().hide()
-				})
-				$('.ulmenue').find('li').hover(function(){
-					$(this).find('.subul').slideDown(250)
-					$('body').css('background-color', "rgba(0,0,0,0.5")
-					$('.middle').css('-webkit-filter', "blur(10px)")
-				}, 
-				function(){
-					$(this).find('.subul').slideUp(250)
-					$('body').css('background-color', "rgba(0,0,0,0")
-					$('.middle').css('-webkit-filter', "blur(0px)")
-				})
-				$('#p1').mouseenter(function() {
-					$('#img1').fadeOut(500)
-					$('#img2').fadeIn(500)
-				})
-				
-				
-				
-			})
-		</script>
 	</head>
 		<body onload="showSlides()">
 		<div class="container"> 
-			<div class="header"> 
 				<h1 class ="h1">Coming soon...</h1>
 				<img class = "logo" src = 'images\kiki.jpg'  />
 				<p class ="logoText">KikiCutest</p>
+			<div class="header"> 
 				<div class= "menue">
 				<ul class ="ulmenue" >
 					<li><a href='#'>آرایشی و بهداشتی</a>
