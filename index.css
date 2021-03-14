@@ -124,12 +124,12 @@
 				cursor: pointer;
 				text-align: center;
 			}
-			.ulmenue li:last-child
+			.ulmenue .subul li:last-child
 			{
 				border-bottom-right-radius: 20px;
 				border-bottom-left-radius: 20px;
 			}
-			.ulmenue li:first-child
+			.ulmenue .subul li:first-child
 			{
 				border-top-right-radius: 20px;
 				border-top-left-radius: 20px;
