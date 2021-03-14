@@ -131,7 +131,7 @@
 				</div>
 			</div>
 			<div class="footer">foot
-				 <p><span style="color:red">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
+				  <p style="position: absolute; top: 650px; left: 50px; font-size: 22pt;"><span style="color:red;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
 			</div>
 		</div>
 	</body>

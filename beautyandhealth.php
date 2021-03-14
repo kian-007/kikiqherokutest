@@ -185,8 +185,8 @@ if($lamp ){
 				</div>
 			</div>
 			<div class="footer">
-				 <p><span style="color:red">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
-				 <b><a  href="contactus.php"	 style="text-decoration: none; float: right;position:relative;top: -25px; right: 50px; color: #222">تماس با ما</a></b>
+				<p style="position: absolute; top: 650px; left: 50px; font-size: 22pt;"><span style="color:red;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
+				<b><a  href="contactus.php"	 style="text-decoration: none; font-size:22pt; float: right;position:relative;top: 650px; right: 50px; color: #222">تماس با ما</a></b>
 			</div>
 		</div>
 	</body>
