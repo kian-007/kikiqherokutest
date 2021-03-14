@@ -92,8 +92,7 @@
 						</ul>
 					</li>
 					<li><a href='index.php'>خانه</a></li>
-					<span>دسته بندی</span>
-					<li><a>| | |</a></li>
+					<li>دسته بندی<a>| | |</a></li>
 				</ul>
 				</div>
 			</div>
