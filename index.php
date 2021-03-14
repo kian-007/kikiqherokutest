@@ -181,7 +181,7 @@
 				</div>
 			</div>
 			<div class="footer">
-				 <p style="position: absolute; top: 500px"><span style="color:red; font-weight: 27pt;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
+				 <p style="position: absolute; top: 500px; left: 50px; font-weight: 27pt;"><span style="color:red;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
 				 <b><a  href="contactus.php"	 style="text-decoration: none; font-weight:27pt; float: right;position:relative;top: 500px; right: 50px; color: #222">تماس با ما</a></b>
 			</div>
 		</div>
