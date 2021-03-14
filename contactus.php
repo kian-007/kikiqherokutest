@@ -106,6 +106,7 @@
 						</ul>
 					</li>
 					<li><a href='index.php'>خانه</a></li>
+					<li><a>| | |</a></li>
 				</ul>
 				</div>
 			</div>
