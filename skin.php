@@ -1,8 +1,8 @@
 <?php 
-include_once('beautyandhealth.php')
+include_once('beautyandhealth.php');
 
-$facebrush = get_value('facebrush' , 0)
-$handcream = get_value('handcream' , 0)
+$facebrush = get_value('facebrush' , 0);
+$handcream = get_value('handcream' , 0);
 
 if($handcream ){
     if($facebrush){
