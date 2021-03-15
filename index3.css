@@ -139,7 +139,7 @@
 {
 	-webkit-animation: a2 2s;
 }
-
+/*
 @-webkit-keyframes a2
 {
 	50%
@@ -169,7 +169,36 @@
 		-webkit-transform: rotate(3600deg);
 	}
 }
+*/
 
+@-webkit-keyframes a2
+{
+	from
+	{
+		position:relative;
+		left: -100px;
+		top: 50px;
+		width: 325px;
+		height: 390px;
+		border: solid black 2px;
+		background-color: rgba(153,0,255,0.5);
+		border-radius: 37px;
+		z-index: 3;
+	}
+	
+	100%
+	{
+		position:relative;
+		left: -100px;
+		top: 50px;
+		width: 330px;
+		height: 395px;
+		border: solid black 2px;
+		background-color: rgba(31,0,51,0.5);
+		border-radius: 37px;
+		z-index: 3;
+	}
+}
 .clearfix
 {
 	overflow: auto;
