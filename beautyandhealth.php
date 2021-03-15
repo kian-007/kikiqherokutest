@@ -56,6 +56,7 @@ if($lamp ){
 				function(){
 					$(this).find('.subul').slideUp(250)
 					$('body').css('background-color', "rgba(0,0,0,0")
+					$('.footer').css('background-color', "rgba(0,0,0,0.5")
 					$('.middle').css('-webkit-filter', "blur(0px)")
 					$('.footer').css('-webkit-filter', "blur(0px)")
 				})
