@@ -94,7 +94,7 @@
 	background-color: rgba(153,0,255,0.5);
 	border-radius: 37px;
 	z-index: 3;
-	-webkit-transition: background-color 1s, width 1s, height 1s;
+	-webkit-transition: background-color 1s;
 }
 .pinside, .d1 p
 {
@@ -143,8 +143,6 @@
 .doutside:hover
 {
 	background-color: #1f0033;
-	width: 328px;
-	height: 393px;
 }
 
 @-webkit-keyframes a2
