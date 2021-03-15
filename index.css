@@ -281,13 +281,7 @@
 					display: none;
 				}
 			}
-			@media screen and (max-width: 601px)
-			{
-				.prevli
-				{
-					display: visible;
-				}
-			}
+			
 			
 			
 			
