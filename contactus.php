@@ -38,7 +38,7 @@
 				alert(d + '\n خوش آمدید')
 				slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue').find('li:last-child').click(function(){ 
-					$('.ulmenue').find('li:last-child').prevAll().toggle()
+					$('.ulmenue').find('li:last-child').prevAll().toggle(250)
 				})
 				$('.ulmenue').find('li:last-child').prevAll().addClass('prevli')
 				
