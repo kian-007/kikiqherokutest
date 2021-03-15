@@ -38,10 +38,9 @@
 				alert(d + '\n خوش آمدید')
 				slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue').find('li:last-child').prevAll().css('display', "none")
-				$('.ulmenue').find('li:last-child').find('a').mouseenter(function(){
-					$('.ulmenue').find('li:last-child').prevAll().show()
+				$('.ulmenue').find('li:last-child').click(function(){ 
+					$('.ulmenue').find('li:last-child').prevAll().toggle()
 				})
-				
 				$('.ulmenue').mouseleave(function(){
 					$('.ulmenue').find('li:last-child').prevAll().hide()
 				})

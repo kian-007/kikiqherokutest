@@ -5,7 +5,7 @@
 	float: left;
 	width: 10%;
 	height: 150%;
-	background-color: rgba(255, 255, 0, 0.1)
+	background-color: rgba(255, 255, 0, 0)
 } 
 .content2
 {
@@ -14,7 +14,7 @@
 	float: left;
 	width: 75%;
 	height: 150%;
-	background-color: rgba(255, 204, 0, 0.1);
+	background-color: rgba(255, 204, 0, 0);
 }
 .right2
 {
@@ -23,7 +23,7 @@
 	float: left;
 	width: 15%;
 	height: 150%;
-	background-color: rgba(255, 0, 0, 0.1);;
+	background-color: rgba(255, 0, 0, 0);;
 }
 .dani
 {
