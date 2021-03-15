@@ -162,9 +162,9 @@ if($handcream ){
 				</div>
 				
 				<div class="right2">
-				<?php if($lamp || $capsul): ?>
+				<?php if($handcream || $facebrush): ?>
 					<legend><span style="font-size:15pt"><b>Search what you are intrested in:</b></span></legend>
-					<form action="beautyandhealth.php" >
+					<form action="skin.php" >
 						<input type="checkbox"    name="handcream"    id="handcream"    value="show" />
 						<label for="handcream"><b>کرم مرطوب کننده دست</b></label><br/>
 						
