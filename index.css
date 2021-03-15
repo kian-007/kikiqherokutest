@@ -274,14 +274,14 @@
 			to {opacity: 1}
 			}
 
-			@media screen and (max-width: 300px)
+			@media screen and (max-width: 200px)
 			{
 				.prevli
 				{
 					display: none;
 				}
 			}
-			@media screen and (max-width: 301px)
+			@media screen and (max-width: 201px)
 			{
 				.prevli
 				{
