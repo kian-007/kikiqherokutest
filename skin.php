@@ -107,8 +107,8 @@ if($handcream ){
 					</li>
 					<li><a href='#'>پوست</a>
 						<ul class ="subul">
-							<li style="height: 60px"><a href='skin.php'>کرم مرطوب کننده دست</a></li>
-							<li style="height: 60px"><a href='#'>فیس براش چکشی هولوگرامی</a></li>
+							<li style="height: 60px"><a href='https://kikiq.herokuapp.com/skin.php?handcream=1'>کرم مرطوب کننده دست</a></li>
+							<li style="height: 60px"><a href='https://kikiq.herokuapp.com/skin.php?facebrush=1'>فیس براش چکشی هولوگرامی</a></li>
 							<li><a href='#'>empty</a></li>
 							<li><a href='#'>empty</a></li>
 						</ul>
