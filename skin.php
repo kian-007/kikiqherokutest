@@ -87,6 +87,12 @@ if($handcream ){
 			setTimeout(showSlides, 2000); // Change image every 2 seconds
 			}
 		</script> 
+		<style>
+			form
+			{
+				background-color: rgba(204, 0, 102, 0.7)
+			}
+		</style>
 	</head>
 	<body onload="showSlides()">
 	<a name="start"></a>
