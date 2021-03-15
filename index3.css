@@ -94,6 +94,7 @@
 	background-color: rgba(153,0,255,0.5);
 	border-radius: 37px;
 	z-index: 3;
+	-webkit-transition: background-color 1s, width 1s, height 1s;
 }
 .pinside, .d1 p
 {
@@ -137,11 +138,13 @@
 }
 .pinside:hover
 {
-	-webkit-animation: a2 2s;
+	-webkit-animation: a2 1s;
 }
 .doutside:hover
 {
-	-webkit-animation: a3 2s;
+	background-color: #1f0033;
+	width: 325px;
+	height: 390px;
 }
 
 @-webkit-keyframes a2
@@ -174,35 +177,6 @@
 	}
 }
 
-
-@-webkit-keyframes a3
-{
-	from
-	{
-		position:relative;
-		left: -100px;
-		top: 50px;
-		width: 325px;
-		height: 390px;
-		border: solid black 2px;
-		background-color: rgba(153,0,255,0.5);
-		border-radius: 37px;
-		z-index: 3;
-	}
-	
-	100%
-	{
-		position:relative;
-		left: -100px;
-		top: 50px;
-		width: 330px;
-		height: 395px;
-		border: solid black 2px;
-		background-color: rgba(31,0,51,0.5);
-		border-radius: 37px;
-		z-index: 3;
-	}
-}
 .clearfix
 {
 	overflow: auto;
