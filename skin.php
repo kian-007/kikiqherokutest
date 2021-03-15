@@ -22,6 +22,7 @@
 					$(this).find('.subul').slideDown(250)
 					$('body').css('background-color', "rgba(0,0,0,0.5")
 					$('.middle').css('-webkit-filter', "blur(10px)")
+					$('.footer').css('-webkit-filter', "blur(10px)")
 				}, 
 				function(){
 					$(this).find('.subul').slideUp(250)
