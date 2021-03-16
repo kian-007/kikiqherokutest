@@ -68,6 +68,14 @@
 			setTimeout(showSlides, 2000); // Change image every 2 seconds
 			}
 		</script> 
+		<style>
+			.prevli
+			{
+				background-image: url('images/arrow2.jpg');
+				background-repeat: no-repeat;
+				background-position: 130px 5px;
+			}
+		</style>
 	</head>
 	<body onload="showSlides()">
 	<a name="start"></a>
