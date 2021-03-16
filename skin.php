@@ -105,6 +105,17 @@ if($handcream ){
 			{
 				background-color: rgba(204, 0, 102, 0.7)
 			}
+			.prevli
+			{
+				background-image: url('images/arrow2.jpg');
+				background-repeat: no-repeat;
+				background-position: 130px 5px;
+			}
+			.ulmenue li a:hover
+			{
+				color: #ff1a75;
+				background-color: rgba(0,0,0,0.3);
+			}
 		</style>
 	</head>
 	<body onload="showSlides()">

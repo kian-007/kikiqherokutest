@@ -79,6 +79,19 @@
 				
 			})
 		</script>
+		<style>
+			.prevli
+			{
+				background-image: url('images/arrow2.jpg');
+				background-repeat: no-repeat;
+				background-position: 130px 5px;
+			}
+			.ulmenue li a:hover
+			{
+				color: #ff1a75;
+				background-color: rgba(0,0,0,0.3);
+			}
+		</style>
 	</head>
 		<body onload="showSlides()">
 		<div class="container"> 
