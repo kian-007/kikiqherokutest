@@ -45,8 +45,9 @@ if($handcream ){
 				$('.ulmenue').find('li:last-child').click(function(){ 
 					$('.ulmenue').find('li:last-child').prevAll().toggle(250)
 				})
-				$('.ulmenue').find('li:last-child').prevAll().addClass('prevli')
-				
+				$('.ulmenue').children().addClass('prevli')
+				$('.ulmenue').children(':last-child').removeClass('prevli')
+				$('.ulmenue').children(':nth-child(5)').removeClass('prevli')
 				
 				$('.ulmenue').find('li').hover(function(){
 					$(this).find('.subul').slideDown(250)
@@ -54,6 +55,12 @@ if($handcream ){
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
 					$('.middle').css('-webkit-filter', "blur(10px)")
 					$('.footer').css('-webkit-filter', "blur(10px)")
+					
+					if($(this).next().hasClass('open')){
+						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}
 				}, 
 				function(){
 					$(this).find('.subul').slideUp(250)
@@ -61,6 +68,12 @@ if($handcream ){
 					$('.footer').css('background-color', "rgba(0,0,0,0")
 					$('.middle').css('-webkit-filter', "blur(0px)")
 					$('.footer').css('-webkit-filter', "blur(0px)")
+					
+					if($(this).prev().hasClass('open')){
+						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}
 				})
 				$('#p1').mouseenter(function() {
 					$('#img1').fadeOut(500)

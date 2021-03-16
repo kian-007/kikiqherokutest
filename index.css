@@ -122,7 +122,8 @@
 				height: 50px;
 				background-color : pink;
 				cursor: pointer;
-				text-align: center;
+				text-align: right;
+				padding-right: 23px;
 			}
 			.ulmenue .subul li:last-child
 			{
@@ -280,6 +281,13 @@
 				{
 					display: none;
 				}
+			}
+			
+			.prevli
+			{
+				background-image: url('images/arrow2.jpg');
+				background-repeat: no-repeat;
+				background-position: 130px 5px;
 			}
 			
 			
