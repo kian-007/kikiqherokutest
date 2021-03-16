@@ -21,7 +21,7 @@
 				
 				
 				$('.ulmenue').find('.prevli').hover(function(){
-					$(this).find('.subul').slideDown(250)
+					$(this).find('.subul').slideDown(250).addClass('open')
 					$('body').css('background-color', "rgba(0,0,0,0.5")
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
 					$('.middle').css('-webkit-filter', "blur(10px)")
@@ -32,7 +32,9 @@
 					}else{
 						$(this).css('background-image', "url('images/arrow3.jpg')")
 					}
-				}, 
+					
+					
+				},
 				function(){
 					$(this).find('.subul').slideUp(250)
 					$('body').css('background-color', "rgba(0,0,0,0")
