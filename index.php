@@ -18,7 +18,9 @@
 				$('.ulmenue').children(':last-child').removeClass('prevli')
 				$('.ulmenue').children(':nth-child(5)').removeClass('prevli')
 				
-				$('.ulmenue').find('li').hover(function(){
+				
+				
+				$('.ulmenue').find('.prevli').hover(function(){
 					$(this).find('.subul').slideDown(250)
 					$('body').css('background-color', "rgba(0,0,0,0.5")
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
