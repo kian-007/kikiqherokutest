@@ -210,6 +210,7 @@ if($lamp ){
 				</div>
 				<div class="right2">
 				<?php if($lamp || $capsul): ?>
+				<fieldset>
 					<legend><span style="font-size:15pt"><b>Search what you are intrested in:</b></span></legend>
 					<form action="beautyandhealth.php" >
 						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
@@ -220,6 +221,7 @@ if($lamp ){
 						
 						<input type="submit" value="جست و جو" />
 					</form>
+				</fieldset>
 					<?php endif; ?>
 				</div>
 			</div>

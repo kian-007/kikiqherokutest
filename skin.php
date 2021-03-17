@@ -203,6 +203,7 @@ if($handcream ){
 				
 				<div class="right2">
 				<?php if($handcream || $facebrush): ?>
+				<fieldset>
 					<legend><span style="font-size:15pt"><b>Search what you are intrested in:</b></span></legend>
 					<form action="skin.php" >
 						<input type="checkbox"    name="handcream"    id="handcream"    value="show" />
@@ -213,6 +214,7 @@ if($handcream ){
 						
 						<input type="submit" value="جست و جو" />
 					</form>
+				</fieldset>
 					<?php endif; ?>
 				</div>
 			</div>
