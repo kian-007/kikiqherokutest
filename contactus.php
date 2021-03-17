@@ -37,8 +37,14 @@
 				var d = d.toDateString();
 				alert(d + '\n خوش آمدید')
 				slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
-				$('.ulmenue').find('li:last-child').click(function(){ 
-					$('.ulmenue').find('li:last-child').prevAll().toggle(250)
+				$('.ulmenue').find('li:nth-child(6)').click(function(){ 
+					$(this).toggleClass('baz')
+					$('.ulmenue').find('li:nth-child(6)').prevAll().toggle(250)
+					if($(this).hasClass('baz')){
+					$(this).css({'background-image': "url('images/threeline4.jpg')", 'background-size': "45px 41px"})
+					}else{
+						$(this).css({'background-image': "url('images/threeline3.jpg')", 'background-size': "45px 41px"})
+					}
 				})
 				$('.ulmenue').children().addClass('prevli')
 				$('.ulmenue').children(':last-child').removeClass('prevli')
@@ -122,7 +128,7 @@
 						</ul>
 					</li>
 					<li><a href='index.php'>خانه</a></li>
-					<li><a>| | |</a></li>
+					<li><span>دسته بندی</span></li>
 				</ul>
 				</div>
 			</div>
