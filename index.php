@@ -17,7 +17,7 @@
 					if($(this).hasClass('baz')){
 					$(this).css({'background-image': "url('images/threeline4.jpg')", 'background-size': "45px 41px"})
 					}else{
-						$(this).css({'background-image': "url('images/threeline5.jpg')", 'background-size': "45px 41px"})
+						$(this).css({'background-image': "url('images/threeline6.jpg')", 'background-size': "45px 41px"})
 					}
 				})
 				$('.ulmenue').children().addClass('prevli')
