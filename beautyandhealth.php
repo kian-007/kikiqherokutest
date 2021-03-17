@@ -109,6 +109,8 @@ if($lamp ){
 		<style>
 			form
 			{
+				position: relative;
+				right: 25px;
 				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
 				border-radius:25px;
 				width: 200px;
