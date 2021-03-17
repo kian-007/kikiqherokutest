@@ -109,7 +109,7 @@ if($handcream ){
 		<style>
 			form
 			{
-				background-color: linear-gradient(to top right, #cc208e , #6713d2);
+				background: linear-gradient(to top right, #cc208e , #6713d2);
 			}
 			.ulmenue > li:nth-child(6)
 			{

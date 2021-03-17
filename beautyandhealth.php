@@ -109,7 +109,7 @@ if($lamp ){
 		<style>
 			form
 			{
-				background-color: linear-gradient(to top right, #84fab0 , #8fd3f4);
+				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
 			}
 			.ulmenue > li:nth-child(6)
 			{
