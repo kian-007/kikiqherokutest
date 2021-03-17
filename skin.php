@@ -111,7 +111,8 @@ if($handcream ){
 			{
 				background: linear-gradient(to top right, #cc208e , #6713d2);
 				border-radius: 40px;
-				height: 200px;
+				width: 130px;
+				height: 100px;
 			}
 			.ulmenue > li:nth-child(6)
 			{
@@ -206,7 +207,7 @@ if($handcream ){
 				<div class="right2">
 				<?php if($handcream || $facebrush): ?>
 				<fieldset>
-					<legend><span style="font-size:15pt"><b>Search what you are intrested in:</b></span></legend>
+					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="skin.php" >
 						<input type="checkbox"    name="handcream"    id="handcream"    value="show" />
 						<label for="handcream"><b>کرم مرطوب کننده دست</b></label><br/>

@@ -111,7 +111,8 @@ if($lamp ){
 			{
 				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
 				border-radius:40px;
-				height: 200px;
+				width: 130px;
+				height: 100px;
 			}
 			.ulmenue > li:nth-child(6)
 			{
