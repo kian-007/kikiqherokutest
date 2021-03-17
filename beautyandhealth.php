@@ -111,6 +111,21 @@ if($lamp ){
 			{
 				background-color: rgba(204, 0, 102, 0.7)
 			}
+			.ulmenue > li:nth-child(6)
+			{
+				background-image: url('images/threeline3.jpg');
+				background-size: 45px 41px;
+				background-repeat: no-repeat;
+				background-position: 85px 4px;
+				text-align: left;
+			}
+			.ulmenue > li:nth-child(6) span
+			{
+				line-height: 2.5;
+				position: relative;
+				left: 22px;
+				top: 3px;
+			}
 		</style>
 	</head>
 	<body onload="showSlides()">
