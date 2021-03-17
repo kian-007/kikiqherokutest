@@ -288,7 +288,7 @@
 				background-repeat: no-repeat;
 				background-position: 130px 5px;
 				padding-right: 23px;
-				transition: background-image 0.5s;
+				transition: background-image 0.3s;
 			}
 			.ulmenue > li:nth-child(6)
 			{

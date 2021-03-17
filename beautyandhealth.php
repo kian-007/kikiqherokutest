@@ -211,7 +211,7 @@ if($lamp ){
 				<div class="right2">
 				<?php if($lamp || $capsul): ?>
 				<fieldset>
-					<legend><span style="font-size:15pt"><b>Search what you are intrested in:</b></span></legend>
+					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth.php" >
 						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
 						<label for="lamp"><b>برق لب لامپی</b></label><br/>
