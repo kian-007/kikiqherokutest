@@ -79,15 +79,7 @@
 				
 			})
 		</script>
-		<style>
-			.prevli
-			{
-				background-image: url('images/arrow2.jpg');
-				background-repeat: no-repeat;
-				background-position: 130px 5px;
-			}
-			
-		</style>
+		
 	</head>
 		<body onload="showSlides()">
 		<div class="container"> 
