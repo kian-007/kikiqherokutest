@@ -122,7 +122,7 @@
 				height: 50px;
 				background-color : pink;
 				cursor: pointer;
-				padding-right: 23px;
+				
 			}
 			.ulmenue .subul li:last-child
 			{
@@ -288,4 +288,5 @@
 				background-repeat: no-repeat;
 				background-position: 130px 5px;
 				text-align: right;
+				padding-right: 23px;
 			}
