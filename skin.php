@@ -111,7 +111,7 @@ if($handcream ){
 			{
 				background: linear-gradient(to top right, #cc208e , #6713d2);
 				border-radius: 40px;
-				width: 130px;
+				width: 170px;
 				height: 100px;
 			}
 			.ulmenue > li:nth-child(6)
