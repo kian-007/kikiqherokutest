@@ -110,6 +110,8 @@ if($lamp ){
 			form
 			{
 				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
+				border-radius:40px;
+				height: 200px;
 			}
 			.ulmenue > li:nth-child(6)
 			{
