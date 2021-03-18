@@ -4,14 +4,15 @@
 			$(this).click(function(){
 				if(this.checked)
 				{
+					$(this).addClass('mychk')
 					$(this).hide()
-					if($(this).find('img').not('.mychk'))
+					if($(this).not('.mychk'))
 					{
-					$(this).after("<img class='mychk' src='images/chk2.jpg' />")
+					$(this).after("<img src='images/chk2.jpg' />")
 					}
 					$('.mychk').click(function(){
-						$(this).prev('input[type="checkbox"]').attr('checked' , false).show()
-						$(this).remove()
+						$(this).find('img').remove()
+						$(this).attr('checked' , false).show()
 					})
 				}
 			})
