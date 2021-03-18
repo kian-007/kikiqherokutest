@@ -7,7 +7,7 @@
 					$(this).hide()
 					$(this).after("<img class='mychk' src='images/chk2.jpg' />")
 					$('.mychk').click(function(){
-						$(this).prev('input[type="checkbox"]').attr('checked' , false).show()
+						$(this).prev('input[type="checkbox"]').attr('checked' , false)
 						$(this).remove()
 					})
 				}
