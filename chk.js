@@ -13,6 +13,7 @@
 					$('.mychk').click(function(){
 						$(this).find('img').remove()
 						$(this).attr('checked' , false).show()
+						$(this).removeClass('mychk')
 					})
 				}
 			})
