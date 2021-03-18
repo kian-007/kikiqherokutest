@@ -6,7 +6,7 @@
 				{
 					$(this).addClass('mychk')
 					$(this).hide()
-					if($(this).not('.mychk'))
+					if($(this).not('mychk'))
 					{
 					$(this).after("<img src='images/chk2.jpg' />")
 					}
