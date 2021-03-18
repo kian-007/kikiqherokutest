@@ -87,7 +87,8 @@ if($handcream ){
 					$('#img1').fadeOut(500)
 					$('#img2').fadeIn(500)
 				})
-				
+				$('input[type="checkbox"]').hide()
+				$('input[type="checkbox"]').after("<img src='images/chk3.jpg' />")
 				$('form').find('input[type="checkbox"]').mychk()
 				
 			})
