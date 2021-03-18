@@ -5,9 +5,9 @@
 				if(this.checked)
 				{
 					$(this).hide()
-					$(this).after("<img class='mychk' src='chk2.png' />")
+					$(this).after("<img class='mychk' src='chk2.jpg' />")
 					$('.mychk').click(function(){
-						$('input[checkbox]').attr('checked' , false).show()
+						$(this).prev('input[type="checkbox"]').attr('checked' , false).show()
 						$(this).remove()
 					})
 				}
