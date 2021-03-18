@@ -88,7 +88,7 @@ if($handcream ){
 					$('#img2').fadeIn(500)
 				})
 				$('input[type="checkbox"]').hide()
-				$('input[type="checkbox"]').after("<img src='images/chk3.jpg' />")
+				$('input[type="checkbox"]').after('<img class="chk" src="images/chk3.jpg" />')
 				$('form').find('input[type="checkbox"]').mychk()
 				
 			})
