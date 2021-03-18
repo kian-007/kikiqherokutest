@@ -81,12 +81,13 @@ if($handcream ){
 						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}
 				})
+				
 				$('#p1').mouseenter(function() {
 					$('#img1').fadeOut(500)
 					$('#img2').fadeIn(500)
 				})
 				
-				
+				$('input[type="checkbox"]').mychk()
 				
 			})
 		</script>
