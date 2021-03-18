@@ -86,7 +86,9 @@ if($lamp ){
 					$('#img2').fadeIn(500)
 				})
 				
-				
+				$('form').find('input[type="checkbox"]').hide()
+				$('form').find('input[type="checkbox"]').after("<img class='mychk' src='images/chk3.jpg' />")
+				$('form').find('input[type="checkbox"]').mychk()
 				
 			})
 		</script>
