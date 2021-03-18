@@ -111,11 +111,11 @@ if($handcream ){
 			{
 				position: relative;
 				right: 25px;
+				background: linear-gradient(to top right, #cc208e , #6713d2);
+				border-radius: 25px;
 			}
 			form
 			{
-				background: linear-gradient(to top right, #cc208e , #6713d2);
-				border-radius: 25px;
 				width: 200px;
 				height: 120px;
 			}
