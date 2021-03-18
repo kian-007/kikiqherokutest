@@ -4,12 +4,12 @@
 			$(this).click(function(){
 				if(this.checked)
 				{
-					$(this).after("<img	class='mychk' src='images/chk2.jpg'	/>")
+					$(this).hide()
+					$(this).after("<img class='mychk' src='mychk.png' />")
 					$('.mychk').click(function(){
-						$(this).attr('checked', false).show()
+						$('input[checkbox]').attr('checked' , false).show()
 						$(this).remove()
 					})
-					$(this).hide()
 				}
 			})
 		})
