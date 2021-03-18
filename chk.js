@@ -9,6 +9,7 @@
 					$('.mychk').click(function(){
 						$(this).prev('input[type="checkbox"]').attr('checked' , false)
 						$(this).remove()
+						$(this).prev('input[type="checkbox"]').show()
 					})
 				}
 			})
