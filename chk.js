@@ -5,7 +5,7 @@
 				if(this.checked)
 				{
 					$(this).hide()
-					if($(this)).find('img').not('.mychk')
+					if($(this).find('img').not('.mychk'))
 					{
 					$(this).after("<img class='mychk' src='images/chk2.jpg' />")
 					}
