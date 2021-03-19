@@ -223,10 +223,10 @@ if($lamp ){
 					
 				<?php if($brush): ?>
 				<h2>براش</h2>
-					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush1.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					<div class="doutside ftr"><img src="images/beautyandhealth/nbrush5.jpg.jpg"/><p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					<div class="doutside ftr"><img src="images/beautyandhealth/nbrush5.jpg"/><p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg"	/><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
