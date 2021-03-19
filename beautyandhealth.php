@@ -10,6 +10,7 @@
 
 $lamp = get_value('lamp', 0);
 $capsul = get_value('capsul', 0);
+$brush = get_value('brush', 0);
 
 if($lamp ){
     if($capsul){
@@ -20,6 +21,8 @@ if($lamp ){
 }else{
         if($capsul){
            $title = 'برق لب قرصی';
+		}elseif($brush){
+			$title = 'براش';
         }else{
            $title = 'آرایشی و بهداشتی';
         }
@@ -153,7 +156,7 @@ if($lamp ){
 							<li><a href='#'>کیف لوازم آرایشی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lamp=1'>برق لب لامپی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?capsul=1'>برق لب قرصی</a></li>
-							<li><a href='#'>براش</a></li>
+							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?brush=1'>براش</a></li>
 						</ul>
 					</li>
 					<li><a href='#'>پوست</a>
@@ -218,9 +221,19 @@ if($lamp ){
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
 					
+				<?php if($brush): ?>
+				<h2>براش</h2>
+					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush1.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					<div class="doutside ftr"><img src="images/beautyandhealth/nbrush5.jpg.jpg"/><p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg.jpg"	/><p class="pinside"></p></div>
+					
+					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
+					<?php endif; ?>
+					
 				</div>
 				<div class="right2">
-				<?php if($lamp || $capsul): ?>
+				<?php if($lamp || $capsul || $brush): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth.php" >
@@ -229,6 +242,9 @@ if($lamp ){
 						
 						<input type="checkbox"    name="capsul"    id="capsul"    value='show' />
 						<label for="capsul"><b>برق لب قرصی</b></label><br/>
+						
+						<input type="checkbox"    name="brush"    id="brush"    value='show' />
+						<label for="brush"><b>براش</b></label><br/>
 						
 						<input type="submit" value="جست و جو" />
 					</form>
