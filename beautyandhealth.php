@@ -240,8 +240,8 @@ if($lamp ){
 						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
 						<label for="lamp"><b>برق لب لامپی</b></label><br/>
 						
-						<input type="checkbox"    name="capsul"    id="capsul"    value='show' />
-						<label for="capsul"><b>برق لب قرصی</b></label><br/>
+						<input type="checkbox"    name="lipgloss"    id="lipgloss"    value='show' />
+						<label for="lipgloss"><b>برق لب قرصی</b></label><br/>
 						
 						<input type="checkbox"    name="brush"    id="brush"    value='show' />
 						<label for="brush"><b>براش</b></label><br/>
