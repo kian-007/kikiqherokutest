@@ -152,7 +152,7 @@ if($handcream ){
 						<ul class ="subul">
 							<li><a href='#'>کیف لوازم آرایشی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lamp=1'>برق لب لامپی</a></li>
-							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?capsul=1'>برق لب قرصی</a></li>
+							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lipgloss=1'>برق لب قرصی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?brush=1'>براش</a></li>
 						</ul>
 					</li>

@@ -9,17 +9,17 @@
 }
 
 $lamp = get_value('lamp', 0);
-$capsul = get_value('capsul', 0);
+$lipgloss = get_value('lipgloss', 0);
 $brush = get_value('brush', 0);
 
 if($lamp ){
-    if($capsul){
+    if($lipgloss){
         $title = 'برق لب لامپی و قرصی';
     }else{
         $title = 'برق لب لامپی';
     }
 }else{
-        if($capsul){
+        if($lipgloss){
            $title = 'برق لب قرصی';
 		}elseif($brush){
 			$title = 'براش';
@@ -155,7 +155,7 @@ if($lamp ){
 						<ul class ="subul">
 							<li><a href='#'>کیف لوازم آرایشی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lamp=1'>برق لب لامپی</a></li>
-							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?capsul=1'>برق لب قرصی</a></li>
+							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lipgloss=1'>برق لب قرصی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?brush=1'>براش</a></li>
 						</ul>
 					</li>
@@ -196,7 +196,7 @@ if($lamp ){
 				
 				<div class="content2">
 				
-				<?php if($capsul): ?>
+				<?php if($lipgloss): ?>
 				<h2>برق لب قرصی</h2>
 					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul1.jpg"	/><p class="pinside"></p></div>
@@ -233,7 +233,7 @@ if($lamp ){
 					
 				</div>
 				<div class="right2">
-				<?php if($lamp || $capsul || $brush): ?>
+				<?php if($lamp || $lipgloss || $brush): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth.php" >
