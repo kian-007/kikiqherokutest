@@ -1,4 +1,4 @@
-Option All -Indexes
+
 
 RewriteEngine on
 RewriteBase https://kikiq.herokuapp.com/
