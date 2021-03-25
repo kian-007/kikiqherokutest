@@ -1,8 +1,5 @@
 Option All -Indexes
 
-RewriteEngine on
-RewriteRule ^index\.php - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+
 
 
