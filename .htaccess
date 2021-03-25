@@ -5,4 +5,4 @@ RewriteBase /kikiq.herokuapp.com/
 RewriteRule ^index\.php -[L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
+RewriteRule . /index.php [L]
