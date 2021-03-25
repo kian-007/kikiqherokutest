@@ -1,8 +1,9 @@
-Options All -Indexes
+#deny from all
+#Options All -Indexes
 
-RewriteEngine on
-RewriteBase /kikiq.herokuapp.com/kikiqheroku/
-RewriteRule ^index\.php -[L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
+#RewriteEngine on
+#RewriteBase /kikiq.herokuapp.com/
+#RewriteRule ^index\.php -[L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . index.php [L]
