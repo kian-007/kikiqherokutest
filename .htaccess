@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteBase https://kikiq.herokuapp.com/
+RewriteBase /kikiq.herokuapp.com/
 RewriteRule ^index\.php -[L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
