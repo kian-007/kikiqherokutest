@@ -3,7 +3,7 @@
 		<meta charset="UTF-8" />
 		<title>KikiCutest</title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
-		<script src="jquery-3.5.1.min.js"></script>
+		
 		<script>
 			$.noConflict()
 			jQuery(document).ready(function($){
@@ -261,5 +261,6 @@
 				 <b><a  href="contactus.php"	 style="text-decoration: none; font-size:22pt; float: right;position:relative;top: 650px; right: 50px; color: #222">تماس با ما</a></b>
 			</div>
 		</div>
+		<script src="jquery-3.5.1.min.js"></script>
 	</body>
 </html>
