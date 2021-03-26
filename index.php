@@ -58,53 +58,7 @@
 				
 			})
 		</script>
-		<script type="text/javascript">
-			// var Index = 0;                    auto slide show
-			// showSlides();
-			
-			// function showSlides() {
-			// var i;
-			// var slides = document.getElementsByClassName("mySlides");
-			// for (i = 0; i < slides.length; i++) {
-				// slides[i].style.display = "none";
-			// }
-			// Index++;
-			// if (Index > slides.length) {Index = 1} 
-			// slides[Index-1].style.display = "block";
-			// setTimeout(showSlides, 3500); // Change image every 2 seconds
-			// }
-			
-			
-			
-			var slideIndex = 1;
-			showSlides(slideIndex);
-			
-			// Next/previous controls
-			function plusSlides(n) {
-			showSlides(slideIndex += n);
-			}
-			
-			// Thumbnail image controls
-			function currentSlide(n) {
-			showSlides(slideIndex = n);
-			}
-			
-			function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			if (n > slides.length) {slideIndex = 1}
-			if (n < 1) {slideIndex = slides.length}
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex-1].style.display = "block";
-			dots[slideIndex-1].className += " active";
-			}
-		</script> 
+		
 		<style>
 			.ulmenue > li:nth-child(6)
 			{
@@ -261,5 +215,53 @@
 				 <b><a  href="contactus.php"	 style="text-decoration: none; font-size:22pt; float: right;position:relative;top: 650px; right: 50px; color: #222">تماس با ما</a></b>
 			</div>
 		</div>
+		
+		<script type="text/javascript">
+			// var Index = 0;                    auto slide show
+			// showSlides();
+			
+			// function showSlides() {
+			// var i;
+			// var slides = document.getElementsByClassName("mySlides");
+			// for (i = 0; i < slides.length; i++) {
+				// slides[i].style.display = "none";
+			// }
+			// Index++;
+			// if (Index > slides.length) {Index = 1} 
+			// slides[Index-1].style.display = "block";
+			// setTimeout(showSlides, 3500); // Change image every 2 seconds
+			// }
+			
+			
+			
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			// Next/previous controls
+			function plusSlides(n) {
+			showSlides(slideIndex += n);
+			}
+			
+			// Thumbnail image controls
+			function currentSlide(n) {
+			showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
+			}
+		</script> 
 	</body>
 </html>
