@@ -3,7 +3,7 @@
 		<meta charset="UTF-8" />
 		<title>KikiCutest</title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
-		
+		<!--	JavaScript is down of the body	-->
 		<script>
 			$.noConflict()
 			jQuery(document).ready(function($){
