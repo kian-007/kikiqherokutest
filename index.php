@@ -249,6 +249,12 @@
 						<span class="dot" onclick="currentSlide(7)"></span>
 					</div>
 					
+					<?php 
+					echo '<pre>';
+					print_r($_SERVER);
+					echo '</pre>';
+					?>
+					
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
 		   		 
