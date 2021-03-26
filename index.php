@@ -4,6 +4,7 @@
 		<title>KikiCutest</title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<script src="jquery-3.5.1.min.js"></script>
+		<!--	JavaScript codes is down of body	-->
 		<script>
 			$.noConflict()
 			jQuery(document).ready(function($){
