@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>KikiCutest</title>
-		<link type="text/css"	rel="stylesheet"	href="<?php SITE_URL; ?>index.css" />
+		<link type="text/css"	rel="stylesheet"	href="<?php echo SITE_URL; ?>index.css" />
 		<script src="jquery-3.5.1.min.js"></script>
 		<!--	JavaScript codes is down of body	-->
 		<script>
