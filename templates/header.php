@@ -104,3 +104,4 @@
 				<?php	include_once('nav.php');	?>
 			</div>
 			<div class="middle">
+			
