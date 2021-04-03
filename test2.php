@@ -1,7 +1,8 @@
 <?php 
 
 require_once ('config.php');
-<?php 
+
+
 function get_value($para, $default){
     if(isset($_GET[$para])){
         $value = $_GET[$para];
@@ -27,6 +28,7 @@ if($handcream ){
            $title = 'پوست';
         }
     }
-?>
+
+
 render_skin_page();
     
