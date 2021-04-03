@@ -27,5 +27,4 @@ function get_content(){ ?>
 				
 				<div class="right2">
 				</div>
-			</div>
 <?php }
