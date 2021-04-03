@@ -2,5 +2,5 @@
 
 require_once ('config.php');
 
-render_page();
+render_skin_page();
     

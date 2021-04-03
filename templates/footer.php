@@ -1,7 +1,3 @@
-				</div>
-				<div class="right">
-				</div>
-			</div>
 			<div class="footer">
 				<p style=" font-size: 19pt; float:left; position:relative; top:300px;"><span style="color:red;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
 				<b><a  href="contactus.php"	 style="text-decoration: none; font-size:22pt; color: #222;float:right; position:relative; top:300px; right:50px; ">تماس با ما</a></b>
