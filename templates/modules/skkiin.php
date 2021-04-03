@@ -1,7 +1,7 @@
 <?php
 
 function get_title(){
-    return 'SITE_TITLE';
+    return 'skin';
 }
 function get_content(){ ?>
 				<div class="left2">

@@ -8,7 +8,7 @@ function render_home_page(){
 }
 
 function render_skin_page(){
-    include_once ('templates/modules/s.php');
+    include_once ('templates/modules/skkiin.php');
     include_once ('templates/header.php');
     get_content();
     include_once ('templates/footer.php');
