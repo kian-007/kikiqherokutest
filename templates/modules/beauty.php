@@ -66,5 +66,4 @@ function get_content(){ ?>
 				</fieldset>
 					<?php endif; ?>
 				</div>
-			</div>
 <?php }
