@@ -4,7 +4,7 @@ function get_title(){
     return 'SITE_TITLE';
 }
 function get_content(){ ?>
-
+			<div class="slideshow-container">
 				<!-- Full-width images with number and caption text -->
 				<div class="mySlides fade">
 					<div class="numbertext">1 / 7</div>
