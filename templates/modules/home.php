@@ -4,84 +4,28 @@ function get_title(){
     return 'SITE_TITLE';
 }
 function get_content(){ ?>
-					<div class="slideshow-container">
-						<!-- Full-width images with number and caption text -->
-						<div class="mySlides fade">
-							<div class="numbertext">1 / 7</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=2">
-							<img src="images\bags1.jpg" style="border-radius: 35px; width:100%; height:550px">
-							</a>
-							<div class="text">BAG's</div>
-						</div>
-						
-						<div class="mySlides fade">
-							<div class="numbertext">2 / 7</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=3">
-							<img src="images\bags2.jpg" style="border-radius: 35px; width:100%; height:550px">
-							</a>
-							<div class="text">BAG's</div>
-						</div>
-						
-						<div class="mySlides fade">
-							<div class="numbertext">3 / 7</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=4">
-							<img src="images\brushes.jpg" style="border-radius: 35px; width:100%; height:550px">
-							</a>
-							<div class="text">Brush</div>
-						</div>
-						
-						<div class="mySlides fade">
-							<div class="numbertext">4 / 7</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=5">
-							<img src="images\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
-							</a>
-							<div class="text">Mirror</div>
-						</div>
-						
-						<div class="mySlides fade">
-							<div class="numbertext">5 / 7</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=6">
-							<img src="images\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
-							</a>
-							<div class="text">Mirror</div>
-						</div>
-						
-						<div class="mySlides fade">
-							<div class="numbertext">6 / 7</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=7">
-							<img src="images\mirror2.jpg" style="border-radius: 35px; width:100%; height:550px">
-							</a>
-							<div class="text">BAG's</div>
-						</div>
-						
-						<div class="mySlides fade">
-							<div class="numbertext">7 / 7</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=1">
-							<img src="images\kiki.jpg" style="border-radius: 35px; width:100%; height:550px">
-							</a>
-							<div class="text">KikiCutest</div>
-						</div>
-						  <!-- Next and previous buttons -->
-						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1)">&#10095;</a>
-						<br>
-						
-					</div>
-					<!-- The dots/circles -->
-					<div style="text-align:center">
-						<span class="dot" onclick="currentSlide(1)"></span>
-						<span class="dot" onclick="currentSlide(2)"></span>
-						<span class="dot" onclick="currentSlide(3)"></span>
-						<span class="dot" onclick="currentSlide(4)"></span>
-						<span class="dot" onclick="currentSlide(5)"></span>
-						<span class="dot" onclick="currentSlide(6)"></span>
-						<span class="dot" onclick="currentSlide(7)"></span>
-					</div>
-					
-					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
-					
+				<div class="left2">
 				</div>
-				<div class="right">
+				<div class="content2">
+					<div class="doutside ftl d1"><img	src="images/fantasy/mir14.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir1.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir2.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir4.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir5.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir6.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir7.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir8.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir9.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir10.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir11.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir12.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftl"><img	src="images/fantasy/mir13.jpg"	/><p class="pinside"></p></div>
+					
+					
+					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
+				</div>
+				
+				<div class="right2">
 				</div>
 			</div>
 <?php }

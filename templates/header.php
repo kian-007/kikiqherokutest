@@ -2,9 +2,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>KikiCutest</title>
-		<link type="text/css"	rel="stylesheet"	href="<?php echo SITE_URL; ?>index.css" />
+		<link type="text/css"	rel="stylesheet"	href="index.css" />
+		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
-		<!--	JavaScript codes is down of body	-->
 		<script>
 			$.noConflict()
 			jQuery(document).ready(function($){
@@ -25,10 +25,8 @@
 				$('.ulmenue').children(':last-child').removeClass('prevli')
 				$('.ulmenue').children(':nth-child(5)').removeClass('prevli')
 				
-				
-				
 				$('.ulmenue').find('.prevli').hover(function(){
-					$(this).find('.subul').slideDown(250).addClass('open')
+					$(this).find('.subul').slideDown(250)
 					$('body').css('background-color', "rgba(0,0,0,0.5")
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
 					$('.middle').css('-webkit-filter', "blur(10px)")
@@ -39,9 +37,7 @@
 					}else{
 						$(this).css('background-image', "url('images/arrow3.jpg')")
 					}
-					
-					
-				},
+				}, 
 				function(){
 					$(this).find('.subul').slideUp(250)
 					$('body').css('background-color', "rgba(0,0,0,0")
@@ -55,11 +51,31 @@
 						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}
 				})
+				$('#p1').mouseenter(function() {
+					$('#img1').fadeOut(500)
+					$('#img2').fadeIn(500)
+				})
+				
 				
 				
 			})
 		</script>
-		
+		<script type="text/javascript">
+			var Index = 0;
+			showSlides();
+			
+			function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			Index++;
+			if (Index > slides.length) {Index = 1} 
+			slides[Index-1].style.display = "block";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+		</script> 
 		<style>
 			.ulmenue > li:nth-child(6)
 			{
@@ -88,10 +104,3 @@
 				<?php	include_once('nav.php');	?>
 			</div>
 			<div class="middle">
-				<div class="left">
-				</div>
-				<div class="content">
-				
-					<div class="slideshow-container">
-					
-					
