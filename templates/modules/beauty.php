@@ -4,6 +4,39 @@ function get_title(){
     return 'beauty';
 }
 function get_content(){ ?>
+
+<?php
+	function get_value($para, $default){
+    if(isset($_GET[$para])){
+        $value = $_GET[$para];
+    }else{
+        $value = $default;
+    }
+    return $value;
+}
+
+$lamp = get_value('lamp', 0);
+$lipgloss = get_value('lipgloss', 0);
+$brush = get_value('brush', 0);
+
+if($lamp ){
+    if($lipgloss){
+        $title = 'برق لب لامپی و قرصی';
+    }else{
+        $title = 'برق لب لامپی';
+    }
+}else{
+        if($lipgloss){
+           $title = 'برق لب قرصی';
+		}elseif($brush){
+			$title = 'براش';
+        }else{
+           $title = 'آرایشی و بهداشتی';
+        }
+    }
+
+
+?>
 				
 				<div class="left2">
 				</div>
