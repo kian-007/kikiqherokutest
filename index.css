@@ -35,7 +35,7 @@
 				display: visible;
 				float: left;
 				width : 20%;
-				height:100%;
+				height:90%;
 			}
 			.content{
 				/*overflow: auto; */
@@ -45,25 +45,19 @@
 				margin-top: 350px;
 			}
 			.right{
-				display: none;
-				position: relative;
+				display: visible;
+				float: left;
 				width : 20%;
-				height:100%;
+				height:90%;
 				float : left;
-				 background-color : pink; 
-				 Z-index: 2;	
+				Z-index: 2;	
 			}  
 			.footer
 			{
 				position:relative;
-				bottom: 450px;
-				background: url('images/footer2.jpg') no-repeat;
-				background-size: cover;
-				filter: saturate(150%);
-				-webkit-filter: saturate(150%);
+				margin-bottom: 0;
 				width : 100%;
-				height : 800px;
-				clear: both;
+				height : 10%;
 			}
 			.h1
 			{
