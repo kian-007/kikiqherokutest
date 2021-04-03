@@ -1,12 +1,7 @@
 <?php
+$title = null;
 
-function get_title(){
-    return 'beauty';
-}
-function get_content(){ ?>
-
-<?php
-	function get_value($para, $default){
+function get_value($para, $default){
     if(isset($_GET[$para])){
         $value = $_GET[$para];
     }else{
@@ -15,11 +10,13 @@ function get_content(){ ?>
     return $value;
 }
 
+
+function get_title(){
+global $title;
 $lamp = get_value('lamp', 0);
 $lipgloss = get_value('lipgloss', 0);
 $brush = get_value('brush', 0);
-
-if($lamp ){
+    if($lamp ){
     if($lipgloss){
         $title = 'برق لب لامپی و قرصی';
     }else{
@@ -34,7 +31,17 @@ if($lamp ){
            $title = 'آرایشی و بهداشتی';
         }
     }
+    return $title;
+}
 
+
+function get_content(){ ?>
+
+<?php
+
+$lamp = get_value('lamp', 0);
+$lipgloss = get_value('lipgloss', 0);
+$brush = get_value('brush', 0);
 
 ?>
 				

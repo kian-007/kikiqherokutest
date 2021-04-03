@@ -1,7 +1,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title><?php echo $title; ?></title>
+                <?php include ('templates/modules/beauty.php'); ?>
+                <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
