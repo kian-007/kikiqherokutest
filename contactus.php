@@ -1,7 +1,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>تماس با ما</title>
+			<?php include ('templates/modules/contactus2.php'); ?>
+            <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<style>
 			
@@ -148,30 +149,7 @@
 				</div>
 			</div>
 			<div class="middle">
-				<div class="left">
-				</div>
-				<div class="content">
-				<span style="color:gray;float:right; position:relative; top:70px; right:250px">تماس با ما  < </span><a href="index.php"	style="text-decoration: none; color: black;float:right; position:relative; top:70px; right:100px">صفحه اصلی  <</a>
-					<div id=pcontainer >
-						<div id="dimages">
-							<span style="font-size:15pt; position:relative; float:right; text-align:right;">KikiCutest را در شبکه های اجتماعی دنبال کنید</span>
-							<p class="mg" style="color:white; position: relative; top:50px">kikiqutest_online@<img style="float:right" class="imglogo" src="images\instagram.svg"  /></p>
-							<p class="mg" style="color:white; position: relative; top:70px">kikiqutest_online@<img style="clear:right; float:right;"class="imglogo" src="images\telegram.svg"  /></p>
-							<p class="mg" style="color:white; position: relative; top:90px">kikiqutest.online@gmail.com<img style="clear:right; float:right;" class="imglogo" src="images\email.svg"  /></p>
-							<p class="mg" style="color:white; position: relative; top:110px">phone > 09931556696</p>
-						</div>
-					</div>
-					
-					
-				</div>
-				<div class="right">
-				</div>
-			</div>
-			<div class="footer">
-				<p style=" font-size: 19pt; float:left; position:relative; top:300px;"><span style="color:red;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
-				<b><a  href="contactus.php"	 style="text-decoration: none; font-size:22pt; color: #222;float:right; position:relative; top:300px; right:50px; ">تماس با ما</a></b>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff66b3" fill-opacity="1" d="M0,64L48,58.7C96,53,192,43,288,53.3C384,64,480,96,576,128C672,160,768,192,864,197.3C960,203,1056,181,1152,149.3C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-			</div>
-		</div>
-	</body>
-</html>
+				
+			<?php include_once('templates/modules/contactus2.php');
+			  get_content();
+			  include_once('templates/footer.php'); ?>

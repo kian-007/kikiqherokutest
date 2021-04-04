@@ -125,6 +125,6 @@
 			</div>
 			<div class="middle">
 			
-			<?php include_once('templates/modules/beauty.php'); ?>
-			<?php get_content(); ?>
-			<?php include_once('templates/footer.php'); ?>
+			<?php include_once('templates/modules/beauty.php');
+				  get_content();
+				  include_once('templates/footer.php'); ?>
