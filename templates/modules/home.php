@@ -2,7 +2,7 @@
 
 function get_title(){
 return 'KikiCutest';
-
+}
 
 function get_content(){ ?>
 
