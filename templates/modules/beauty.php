@@ -65,7 +65,7 @@ $brush = get_value('brush', 0);
 					<?php endif; ?>
 				
 				<?php if($lamp): ?>
-				<h2>برق لب لامپی</h2>
+				<h2>* برق لب لامپی *</h2>
 					<div class="doutside ftr"><img src="images/beautyandhealth/lamp6.jpg"/><p><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp2.jpg"	/><p class="pinside"></p></div>
@@ -77,7 +77,7 @@ $brush = get_value('brush', 0);
 					<?php endif; ?>
 					
 				<?php if($brush): ?>
-				<h2>براش</h2>
+				<h2>* براش *</h2>
 					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					<div class="doutside ftr"><img src="images/beautyandhealth/nbrush5.jpg"/><p><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg"	/><p class="pinside"></p></div>

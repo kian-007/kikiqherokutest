@@ -46,7 +46,7 @@ $handcream = get_value('handcream' , 0);
 				<div class="content2">
 				
 				<?php if($handcream): ?>
-					<h2>کرم مرطوب کننده</h2>
+					<h2>* کرم مرطوب کننده *</h2>
 					<div class="doutside ftr d1"><img	id='img1'	src="images/skin/ax1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/skin/mrtb44.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/skin/mrtb55.jpg"	/><p class="pinside"></p></div>
@@ -57,7 +57,7 @@ $handcream = get_value('handcream' , 0);
 					<?php endif; ?>
 					
 				<?php if($facebrush): ?>
-					<h2>فیس براش</h2>
+					<h2>* فیس براش *</h2>
 					<div class="doutside ftr d1"><img	id='img1'	src="images/skin/facebrush1.jpg"	/><img	id='img2' src="images/skin/brush4.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/skin/brush2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/skin/brush7.jpg"	/><p class="pinside"></p></div>
