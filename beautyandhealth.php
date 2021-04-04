@@ -110,7 +110,8 @@
 			}
 			h2
 			{
-				margin = auto;
+				position = relative;
+				left: 50%;
 			}
 		</style>
 	</head>
