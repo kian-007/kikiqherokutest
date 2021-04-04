@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-			<?php include ('templates/modules/beauty.php'); ?>
+			<?php include ('templates/modules/skin2.php'); ?>
 			<title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
