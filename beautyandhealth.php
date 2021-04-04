@@ -110,8 +110,7 @@
 			}
 			h2
 			{
-				position = relative;
-				left: 50%;
+				margin-left: 200px;
 			}
 		</style>
 	</head>
