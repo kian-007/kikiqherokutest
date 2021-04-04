@@ -121,6 +121,6 @@
 			</div>
 			<div class="middle">
 			
-			<?php include_once('templates/modules/skin2.php'); ?>
-			<?php get_content(); ?>
-			<?php include_once('templates/footer.php'); ?>
+			<?php include_once('templates/modules/skin2.php'); 
+				  get_content(); 
+				  include_once('templates/footer.php'); ?>
