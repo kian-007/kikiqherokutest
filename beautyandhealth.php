@@ -110,7 +110,7 @@
 			}
 			h2
 			{
-				margin-left: 350px;
+				margin-left: 450px;
 			}
 		</style>
 	</head>

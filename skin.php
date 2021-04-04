@@ -108,6 +108,10 @@
 				left: 22px;
 				top: 3px;
 			}
+			h2
+			{
+				margin-left: 450px;
+			}
 		</style>
 	</head>
 	<body onload="showSlides()">
