@@ -31,7 +31,8 @@ if($handcream ){
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>KikiCutest</title>
+			<?php include ('templates/modules/beauty.php'); ?>
+			<title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
@@ -146,94 +147,10 @@ if($handcream ){
 				<img class = "logo" src = 'images\kiki.jpg'  />
 				<p class ="logoText">KikiCutest</p>
 			<div class="header"> 
-				<div class= "menue">
-				<ul class ="ulmenue" >
-					<li><a href='#'>آرایشی و بهداشتی</a>
-						<ul class ="subul">
-							<li><a href='#'>کیف لوازم آرایشی</a></li>
-							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lamp=1'>برق لب لامپی</a></li>
-							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lipgloss=1'>برق لب قرصی</a></li>
-							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?brush=1'>براش</a></li>
-						</ul>
-					</li>
-					<li><a href='#'>پوست</a>
-						<ul class ="subul">
-							<li style="height: 60px"><a href='https://kikiq.herokuapp.com/skin.php?handcream=1'>کرم مرطوب کننده دست</a></li>
-							<li style="height: 60px"><a href='https://kikiq.herokuapp.com/skin.php?facebrush=1'>فیس براش چکشی هولوگرامی</a></li>
-							<li><a href='#'>empty</a></li>
-							<li><a href='#'>empty</a></li>
-						</ul>
-					</li>
-					<li><a href='#'>مو</a>
-						<ul class ="subul">
-							<li><a href='#'>empty</a></li>
-							<li><a href='#'>empty</a></li>
-							<li><a href='#'>empty</a></li>
-							<li><a href='#'>empty</a></li>
-						</ul>
-					</li>
-					<li><a href='#'>فانتزی</a>
-						<ul class ="subul" >
-							<li><a href='#'>پاپوش یونیکورن</a></li>
-							<li><a href='fantasy.php'>آیینه</a></li>
-							<li><a href='#'>empty</a></li>
-							<li><a href='#'>empty</a></li>
-						</ul>
-					</li>
-					<li><a href='index.php'>خانه</a></li>
-					<li><span>دسته بندی</span></li>
-				</ul>
-				</div>
+				<?php include_once('templates/nav.php'); ?>
 			</div>
 			<div class="middle">
-				<div class="left2">
-				</div>
-				<div class="content2">
-				
-				<?php if($handcream): ?>
-					<div class="doutside ftr d1"><img	id='img1'	src="images/skin/ax1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/mrtb44.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/mrtb55.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/mrtb66.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/mrtb77.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/mrtb88.jpg"	/><p class="pinside"></p></div>
-					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
-					<?php endif; ?>
-					
-				<?php if($facebrush): ?>
-					<div class="doutside ftr d1"><img	id='img1'	src="images/skin/facebrush1.jpg"	/><img	id='img2' src="images/skin/brush4.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/brush2.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/brush7.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/brush6.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/brush5.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/skin/brush3.jpg"	/><p class="pinside"></p></div>
-					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
-					<?php endif; ?>
-					
-				</div>
-				
-				<div class="right2">
-				<?php if($handcream || $facebrush): ?>
-				<fieldset>
-					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
-					<form action="skin.php" >
-						<input type="checkbox"    name="handcream"    id="handcream"    value="show" />
-						<label for="handcream"><b>کرم مرطوب کننده دست</b></label><br/>
-						
-						<input type="checkbox"    name="facebrush"    id="facebrush"    value='show' />
-						<label for="facebrush"><b>فیس براش چکشی هولوگرامی</b></label><br/>
-						
-						<input type="submit" value="جست و جو" />
-					</form>
-				</fieldset>
-					<?php endif; ?>
-				</div>
-			</div>
-			<div class="footer">
-				<p style=" font-size: 19pt; float:left; position:relative; top:300px;"><span style="color:red;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
-				<b><a  href="contactus.php"	 style="text-decoration: none; font-size:22pt; color: #222;float:right; position:relative; top:300px; right:50px; ">تماس با ما</a></b>
-				<p style="position: absolute; top: 650px; left: 50px; font-size: 22pt;"><span style="color:red;">  2021©  کلیه حقوق این سایت محفوظ میباشد</span></p>
-			</div>
-		</div>
-	</body>
-</html>
+			
+			<?php include_once('templates/modules/skin2.php'); ?>
+			<?php get_content(); ?>
+			<?php include_once('templates/footer.php'); ?>
