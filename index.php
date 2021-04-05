@@ -156,6 +156,5 @@
 			<script>
 				window.onload = function(){ document.getElementById("preloader").style.display = "none"; }
 			</script> 
-			<script src='bootstrap.bundle.min.js'></script>
 	</body>
 </html>
