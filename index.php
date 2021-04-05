@@ -66,7 +66,8 @@
 			
 			preloader
 			{
-				margin-left: 350px;
+				position: relative;
+				left: 350px;
 			}
 			.ulmenue > li:nth-child(6)
 			{
