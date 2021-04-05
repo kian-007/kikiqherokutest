@@ -1,8 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-			<?php include ('templates/modules/contactus2.php'); ?>
-            <title><?php echo get_title(); ?></title>
+			
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<style>
 			
