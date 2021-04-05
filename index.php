@@ -4,7 +4,7 @@
 			<?php include ('templates/modules/home.php'); ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
-		<link href="bootstrap.min.css" rel="stylesheet"/>
+		<link type="text/css"	rel="stylesheet"	href="bootstrapmin.css" />
 		<script src="jquery-3.5.1.min.js"></script>
 		<!--	JavaScript codes is down of body	-->
 		<script>
