@@ -4,6 +4,9 @@
 			<?php include ('templates/modules/home.php'); ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
+		<link rel="canonical" href="https://getbootstrap.com/docs/5.0/components/spinners/">
+		<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<link href="/docs/5.0/assets/css/docs.css" rel="stylesheet">
 		<script src="jquery-3.5.1.min.js"></script>
 		<!--	JavaScript codes is down of body	-->
 		<script>
