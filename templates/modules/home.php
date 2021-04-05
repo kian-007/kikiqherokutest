@@ -12,8 +12,9 @@ function get_content(){ ?>
 				<div class="content">
 				<div id='preloader'>
 					<div class="text-center">
+						Loading...
 						<div class="spinner-border" role="status">
-							<span class="visually-hidden">Loading...</span>
+							<span class="visually-hidden"></span>
 						</div>
 					</div>
 				</div>
