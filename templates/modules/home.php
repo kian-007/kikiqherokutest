@@ -10,9 +10,11 @@ function get_content(){ ?>
 				<div class="left">
 				</div>
 				<div class="content">
+				<div id='preloader'>
 					<div class="spinner-border text-danger" role="status">
 						<span class="visually-hidden">Loading...</span>
 					</div>
+				</div>
 					<div class="slideshow-container">
 					
 						<!-- Full-width images with number and caption text -->
