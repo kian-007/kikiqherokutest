@@ -2,7 +2,7 @@
 
 function get_title(){
 return 'آیینه';
-
+}
 
 function get_content(){ ?>
 
