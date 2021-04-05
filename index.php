@@ -145,6 +145,12 @@
 			slides[slideIndex-1].style.display = "block";
 			dots[slideIndex-1].className += " active";
 			}
+			
+			
+			
+			
+			//loading spinner
+			window.onload = function(){ document.getElementById("preloader").style.display = "none"; }
 		</script> 
 	</body>
 </html>
