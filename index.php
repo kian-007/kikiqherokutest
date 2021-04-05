@@ -148,13 +148,10 @@
 			dots[slideIndex-1].className += " active";
 			}
 			
-			</script>
-			
 			
 			
 			<!-- loading spinner -->
-			<script>
-				window.onload = function(){ document.getElementById("preloader").style.display = "none"; }
-			</script> 
+			window.onload = function(){ document.getElementById("preloader").style.display = "none"; }
+		</script> 
 	</body>
 </html>
