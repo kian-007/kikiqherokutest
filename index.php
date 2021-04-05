@@ -89,6 +89,11 @@
 				<?php include_once('templates/nav.php'); ?>
 			</div>
 			<div class="middle">
+				<div id='preloader'>
+					<div class="spinner-border text-danger" role="status">
+						<span class="visually-hidden">Loading...</span>
+					</div>
+				</div>
 				<?php include_once('templates/modules/home.php');
 					  get_content(); ?>
 			</div>
