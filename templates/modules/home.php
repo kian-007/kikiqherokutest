@@ -25,7 +25,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 7</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=2">
-							<img src="images\compressed\bags1.jpg" style="border-radius: 35px; width:100%; height:550px">
+							<img src="images\bags1.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">BAG's</div>
 						</div>
@@ -33,7 +33,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">2 / 7</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=3">
-							<img src="images\compressed\bags2.jpg" style="border-radius: 35px; width:100%; height:550px">
+							<img src="images\bags2.jpg" style="border-radius: 35px; width:100%; height:550px">
                             </a>
 							<div class="text">BAG's</div>
 						</div>
@@ -41,7 +41,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">3 / 7</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=4">
-							<img src="images\compressed\brushes.jpg" style="border-radius: 35px; width:100%; height:550px">
+							<img src="images\brushes.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Brush</div>
 						</div>
@@ -49,7 +49,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">4 / 7</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=5">
-							<img src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
+							<img src="images\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
                             </a>
 							<div class="text">Mirror</div>
 						</div>
@@ -57,7 +57,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">5 / 7</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=6">
-							<img src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
+							<img src="images\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Mirror</div>
 						</div>
