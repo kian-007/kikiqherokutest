@@ -17,6 +17,7 @@ function get_content(){ ?>
 						</div>
 					</div>
 				</div>
+				<br/>
 					<div class="slideshow-container">
 					
 						<!-- Full-width images with number and caption text -->
