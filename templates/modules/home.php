@@ -73,7 +73,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">7 / 7</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=1">
-							<img src="images\kiki.jpg" style="border-radius: 35px; width:85%; height:550px">
+							<img src="images\kiki.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">KikiCutest</div>
 						</div>
