@@ -11,8 +11,10 @@ function get_content(){ ?>
 				</div>
 				<div class="content">
 				<div id='preloader'>
-					<div class="spinner-border text-danger" role="status">
-						<span class="visually-hidden">Loading...</span>
+					<div class="text-center">
+						<div class="spinner-border" role="status">
+							<span class="visually-hidden">Loading...</span>
+						</div>
 					</div>
 				</div>
 					<div class="slideshow-container">
