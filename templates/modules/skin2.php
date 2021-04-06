@@ -80,7 +80,7 @@ $handcream = get_value('handcream' , 0);
 						<input type="checkbox"    name="facebrush"    id="facebrush"    value='show' />
 						<label for="facebrush"><b>فیس براش چکشی هولوگرامی</b></label><br/>
 						
-						<input type="submit" value="جست و جو" />
+						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
 				</fieldset>
 					<?php endif; ?>
