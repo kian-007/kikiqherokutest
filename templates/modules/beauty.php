@@ -101,7 +101,7 @@ $brush = get_value('brush', 0);
 						<input type="checkbox"    name="brush"    id="brush"    value='show' />
 						<label for="brush"><b>براش</b></label><br/>
 						
-						<button type="button" class="btn btn-info">Info</button>
+						<button type="button" class="btn btn-info">جست و جو</button>
 					</form>
 				</fieldset>
 					<?php endif; ?>
