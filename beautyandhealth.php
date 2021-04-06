@@ -81,6 +81,8 @@
 			}
 		</script> 
 		<style>
+			.btn .badge{position:relative;top:-1px}
+			.btn-info{color:#000;background-color:#0dcaf0;border-color:#0dcaf0}.btn-info:hover{color:#000;background-color:#31d2f2;border-color:#25cff2}
 			fieldset
 			{
 				position: relative;
