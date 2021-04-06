@@ -5,7 +5,6 @@
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
-		<link type="text/css"	rel="stylesheet"	href="bootstrap.min.css" />
 		<script src="jquery-3.5.1.min.js"></script>
 		<script src="chk.js"></script>
 		<script>
