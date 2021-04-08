@@ -94,6 +94,7 @@
 				/*background-color: #ff1a75;*/
 				background-color: #ff1a75;
 				width: 110%;
+				padding-right: 10px;
 				height: 50px;
 			    position: relative;
 				top: -201px;
@@ -292,6 +293,10 @@
 				background-repeat: no-repeat;
 				background-position: 85px 4px;
 				text-align: left;
+			}
+			.ulmenue li:last-child
+			{
+				padding-right: 15px;
 			}
 			.ulmenue > li:nth-child(6) span
 			{
