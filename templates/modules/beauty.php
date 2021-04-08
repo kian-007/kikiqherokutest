@@ -96,7 +96,7 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 					
 					<?php if($bag): ?>
-				<h2>* کیف آرایشی Victoria's secret *</h2>
+				<h2>*  Victoria's secret کیف آرایشی *</h2>
 					<div class="doutside ftr"><img	src="images/compressed/bags1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/compressed/bags2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img src="images/beautyandhealth/abag1.jpg"/><p><p class="pinside"></p></div>
@@ -122,7 +122,7 @@ $bag = get_value('bag', 0);
 						<label for="brush"><b>براش</b></label><br/>
 						
 						<input type="checkbox"    name="bag"    id="bag"    value='show' />
-						<label for="bag"><b>کیف آرایشی Victoria's secret</b></label><br/>
+						<label for="bag"><b>Victoria's secret کیف آرایشی</b></label><br/>
 						
 						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
