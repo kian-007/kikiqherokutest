@@ -93,8 +93,7 @@
 			{
 				/*background-color: #ff1a75;*/
 				background-color: #ff1a75;
-				width: 110%;
-				padding-right: 10px;
+				width: 100%;
 				height: 50px;
 			    position: relative;
 				top: -201px;
@@ -109,6 +108,7 @@
 				margin : 0px;
 				float: right;
 				border-bottom: solid black 1px;
+				margin-right: -10px;
 			}
 			.ulmenue li
 			{
@@ -293,10 +293,6 @@
 				background-repeat: no-repeat;
 				background-position: 85px 4px;
 				text-align: left;
-			}
-			.ulmenue li:last-child
-			{
-				padding-right: 15px;
 			}
 			.ulmenue > li:nth-child(6) span
 			{
