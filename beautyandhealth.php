@@ -64,22 +64,6 @@
 				
 			})
 		</script>
-		<script type="text/javascript">
-			var Index = 0;
-			showSlides();
-			
-			function showSlides() {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			Index++;
-			if (Index > slides.length) {Index = 1} 
-			slides[Index-1].style.display = "block";
-			setTimeout(showSlides, 2000); // Change image every 2 seconds
-			}
-		</script> 
 		<style>
 			.btn .badge{position:relative;top:-1px}
 			.btn-info{color:#000;background-color:#0dcaf0;border-color:#0dcaf0}.btn-info:hover{color:#000;background-color:#31d2f2;border-color:#25cff2}
