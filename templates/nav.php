@@ -1,3 +1,4 @@
+				<?php	include_once('config.php');?>
 				<div class= "menue">
 				<ul class ="ulmenue" >
 					<li><a href='#'>آرایشی و بهداشتی</a>
