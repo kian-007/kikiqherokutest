@@ -33,7 +33,7 @@ $bag = get_value('bag', 0);
 		}elseif($brush){
 			$title = 'براش';
         }elseif($bag){
-			$title = 'کیف';
+			$title = 'کیف آرایشی Victoria\'s secret';
 		}else{
            $title = 'آرایشی و بهداشتی';
         }
@@ -96,7 +96,7 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 					
 					<?php if($bag): ?>
-				<h2>* کیف *</h2>
+				<h2>* کیف آرایشی Victoria's secret *</h2>
 					<div class="doutside ftr"><img	src="images/compressed/bags1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/compressed/bags2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img src="images/beautyandhealth/abag1.jpg"/><p><p class="pinside"></p></div>
@@ -122,7 +122,7 @@ $bag = get_value('bag', 0);
 						<label for="brush"><b>براش</b></label><br/>
 						
 						<input type="checkbox"    name="bag"    id="bag"    value='show' />
-						<label for="bag"><b>کیف</b></label><br/>
+						<label for="bag"><b>کیف آرایشی Victoria's secret</b></label><br/>
 						
 						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
