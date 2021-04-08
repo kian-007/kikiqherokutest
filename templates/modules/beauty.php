@@ -120,6 +120,9 @@ $bag = get_value('bag', 0);
 						<input type="checkbox"    name="brush"    id="brush"    value='show' />
 						<label for="brush"><b>براش</b></label><br/>
 						
+						<input type="checkbox"    name="bag"    id="bag"    value='show' />
+						<label for="bag"><b>کیف</b></label><br/>
+						
 						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
 				</fieldset>
