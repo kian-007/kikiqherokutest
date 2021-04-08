@@ -96,8 +96,8 @@ $bag = get_value('bag', 0);
 					
 					<?php if($bag): ?>
 				<h2>* کیف *</h2>
-					<div class="doutside ftr"><img	src="images/compressed/bags.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/compressed/bags1.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/compressed/bags2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img src="images/beautyandhealth/abag1.jpg"/><p><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/abag2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/abag3.jpg"	/><p class="pinside"></p></div>
