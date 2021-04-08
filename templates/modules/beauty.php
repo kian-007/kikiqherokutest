@@ -96,9 +96,8 @@ $bag = get_value('bag', 0);
 					
 					<?php if($bag): ?>
 				<h2>* کیف *</h2>
-					<div class="doutside ftr"><img	src="images/bags.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/bags1.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/bags2.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/compressed/bags.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/compressed/bags1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img src="images/beautyandhealth/abag1.jpg"/><p><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/abag2.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/beautyandhealth/abag3.jpg"	/><p class="pinside"></p></div>
@@ -108,7 +107,7 @@ $bag = get_value('bag', 0);
 					
 				</div>
 				<div class="right2">
-				<?php if($lamp || $lipgloss || $brush): ?>
+				<?php if($lamp || $lipgloss || $brush || $bag): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth.php" >
