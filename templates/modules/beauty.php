@@ -16,6 +16,7 @@ global $title;
 $lamp = get_value('lamp', 0);
 $lipgloss = get_value('lipgloss', 0);
 $brush = get_value('brush', 0);
+$bag = get_value('bag', 0);
 
     if($lamp ){
     if($lipgloss){
