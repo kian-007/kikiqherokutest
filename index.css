@@ -93,11 +93,11 @@
 			{
 				/*background-color: #ff1a75;*/
 				background-color: #ff1a75;
-				width: 150%;
+				width: 120%;
 				height: 50px;
 			    position: relative;
 				top: -201px;
-				left: 100px;
+				left: 20px;
 				right: 20px;
 				z-index: 21;
 			}
@@ -118,6 +118,7 @@
 				background-color : pink;
 				cursor: pointer;
 				text-align: right;
+				padding-right: 15px;
 			}
 			.ulmenue .subul li:last-child
 			{
