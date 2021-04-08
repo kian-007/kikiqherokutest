@@ -2,7 +2,7 @@
 				<ul class ="ulmenue" >
 					<li><a href='#'>آرایشی و بهداشتی</a>
 						<ul class ="subul">
-							<li><a href='#'>کیف لوازم آرایشی</a></li>
+							<li><a href='<?php	SITE_URL;?>beautyandhealth.php?bag=1'>کیف لوازم آرایشی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lamp=1'>برق لب لامپی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?lipgloss=1'>برق لب قرصی</a></li>
 							<li><a href='https://kikiq.herokuapp.com/beautyandhealth.php?brush=1'>براش</a></li>

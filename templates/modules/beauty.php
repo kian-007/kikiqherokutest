@@ -95,13 +95,13 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 					
 					<?php if($bag): ?>
-				<h2>* برق لب لامپی *</h2>
-					<div class="doutside ftr"><img src="images/beautyandhealth/abag1.jpg"/><p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/abag2.jpg"	/><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/abag3.jpg"	/><p class="pinside"></p></div>
+				<h2>* کیف *</h2>
 					<div class="doutside ftr"><img	src="images/bags.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/bags1.jpg"	/><p class="pinside"></p></div>
 					<div class="doutside ftr"><img	src="images/bags2.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img src="images/beautyandhealth/abag1.jpg"/><p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/abag2.jpg"	/><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/abag3.jpg"	/><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
