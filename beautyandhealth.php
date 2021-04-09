@@ -59,10 +59,10 @@
 				})
 				$('.pinside').hover(
                                    function(){
-                               $(this).prev('.price').css('background-color', "yellow"),
+								   $(this).prev('.price').css('background-color', "yellow")},
                                    function(){
                                $(this).prev('.price').css('background-color', "#ff3385")        
-                                   }})
+                                   })
 				
 				$('form').find('input[type="checkbox"]').hide()
 				$('form').find('input[type="checkbox"]').after("<img class='mychk' src='images/chk3.jpg' />")

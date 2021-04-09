@@ -58,10 +58,10 @@
 				})
 				$('.pinside').hover(
                             function(){
-                        $(this).prev('.price').css('background-color', "yellow"),
+							$(this).prev('.price').css('background-color', "yellow")},
                             function(){
                         $(this).prev('.price').css('background-color', "#ff3385")        
-                            }})
+                            })
 				
 				
 			})
