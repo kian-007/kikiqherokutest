@@ -84,7 +84,7 @@
 		</script> 
 		<style>
 			.price
-			{ 
+			{
 				width: 70px;
 				height: 20px;
 				position: absolute;
