@@ -83,6 +83,20 @@
 			}
 		</script> 
 		<style>
+			.price
+			{
+				width: 70px;
+				height: 20px;
+				position: absolute;
+				top: 347px;
+				left: 130px;
+				background-color: #ff3385;
+				border-top-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+				transition: background-color 2s;
+				z-index: 7;
+			}
 			.ulmenue > li:nth-child(6)
 			{
 				background-image: url('images/threeline3.jpg');
