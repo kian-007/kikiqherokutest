@@ -3,7 +3,7 @@
 		<meta charset="UTF-8" />
 			<?php include ('templates/modules/fantasy2.php'); ?>
             <title><?php echo get_title(); ?></title>
-		
+		 
 		<script src="jquery-3.5.1.min.js"></script>
 		<script>
 			$.noConflict()
