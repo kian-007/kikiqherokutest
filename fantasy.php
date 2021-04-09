@@ -56,7 +56,12 @@
 					$('#img1').fadeOut(500)
 					$('#img2').fadeIn(500)
 				})
-				
+				$('.pinside').hover(
+                            function(){
+                        $(this).prev('.price').css('background-color', "yellow"),
+                            function(){
+                        $(this).prev('.price').css('background-color', "#ff3385")        
+                            }})
 				
 				
 			})

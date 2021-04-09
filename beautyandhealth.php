@@ -57,6 +57,12 @@
 					$('#img1').fadeOut(500)
 					$('#img2').fadeIn(500)
 				})
+				$('.pinside').hover(
+                                   function(){
+                               $(this).prev('.price').css('background-color', "yellow"),
+                                   function(){
+                               $(this).prev('.price').css('background-color', "#ff3385")        
+                                   }})
 				
 				$('form').find('input[type="checkbox"]').hide()
 				$('form').find('input[type="checkbox"]').after("<img class='mychk' src='images/chk3.jpg' />")
