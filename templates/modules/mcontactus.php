@@ -26,3 +26,45 @@ function get_content(){ ?>
 				<div class="right">
 				</div>
 <?php }
+
+function get_style(){ ?>
+        <style>
+			#pcontainer
+			{
+				position:relative;
+				top: 100px;
+				background-color:#dddddd;
+				height: 500px;
+				border: solid black 3px;
+				border-top-left-radius:35px;
+				border-bottom-right-radius:35px;
+				overflow:auto;
+			}
+			
+			#pcontainer #dimages
+			{
+				background-color:#888888; 
+				width:300px;
+				height:300px;
+				position:relative;
+				top:100px;
+				left: 300px;
+				box-shadow: 20px 15px 15px #333388
+			}
+			.ulmenue > li:nth-child(6)
+			{
+				background-image: url('images/threeline3.jpg');
+				background-size: 45px 41px;
+				background-repeat: no-repeat;
+				background-position: 85px 4px;
+				text-align: left;
+			}
+			.ulmenue > li:nth-child(6) span
+			{
+				line-height: 2.5;
+				position: relative;
+				left: 22px;
+				top: 3px;
+			}
+		</style>
+<?php }
