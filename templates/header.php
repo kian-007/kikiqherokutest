@@ -1,10 +1,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>KikiCutest</title>
-		<link type="text/css"	rel="stylesheet"	href="<?php echo SITE_URL; ?>index.css" />
-		<link type="text/css"	rel="stylesheet"	href="<?php echo SITE_URL; ?>index3.css" />
+            <?php include_once ('lib/functions.php');
+                  $module = get_module_name();
+                  include_once ('templates/modules/'.'m'."$module"); ?>
+            <title><?php echo get_title(); ?></title>
+		<link type="text/css"	rel="stylesheet"	href="index.css" />
+		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
+		<script src="chk.js"></script>
 		<script>
 			$.noConflict()
 			jQuery(document).ready(function($){
@@ -56,43 +60,16 @@
 					$('#img2').fadeIn(500)
 				})
 				
-				
+				$('form').find('input[type="checkbox"]').hide()
+				$('form').find('input[type="checkbox"]').after("<img class='mychk' src='images/chk3.jpg' />")
+				$('form').find('input[type="checkbox"]').mychk()
 				
 			})
 		</script>
-		<script type="text/javascript">
-			var Index = 0;
-			showSlides();
-			
-			function showSlides() {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			Index++;
-			if (Index > slides.length) {Index = 1} 
-			slides[Index-1].style.display = "block";
-			setTimeout(showSlides, 2000); // Change image every 2 seconds
-			}
-		</script> 
-		<style>
-			.ulmenue > li:nth-child(6)
-			{
-				background-image: url('images/threeline3.jpg');
-				background-size: 45px 41px;
-				background-repeat: no-repeat;
-				background-position: 85px 4px;
-				text-align: left;
-			}
-			.ulmenue > li:nth-child(6) span
-			{
-				line-height: 2.5;
-				position: relative;
-				left: 22px;
-				top: 3px;
-			}
-		</style>
+                <?php  include_once ('lib/functions.php');
+                       $module = get_module_name();
+                       include_once ('templates/modules/'.'m'."$module");
+                       get_style(); ?>
 	</head>
 	<body onload="showSlides()">
 	<a name="start"></a>
@@ -101,7 +78,6 @@
 				<img class = "logo" src = 'images\kiki.jpg'  />
 				<p class ="logoText">KikiCutest</p>
 			<div class="header"> 
-				<?php	include_once('nav.php');	?>
+				<?php include_once('templates/nav.php'); ?>
 			</div>
 			<div class="middle">
-			

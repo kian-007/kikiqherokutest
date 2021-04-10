@@ -130,3 +130,42 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 				</div>
 <?php }
+
+
+function get_style(){ ?>
+        <style>
+			.btn .badge{position:relative;top:-1px}
+			.btn-info{color:#000;background-color:#0dcaf0;border-color:#0dcaf0}.btn-info:hover{color:#000;background-color:#31d2f2;border-color:#25cff2}
+			fieldset
+			{
+				position: relative;
+				right: 25px;
+				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
+				border-radius:25px;
+			}
+			form
+			{
+				width: 200px;
+				height: 120px;
+			}
+			.ulmenue > li:nth-child(6)
+			{
+				background-image: url('images/threeline3.jpg');
+				background-size: 45px 41px;
+				background-repeat: no-repeat;
+				background-position: 85px 4px;
+				text-align: left;
+			}
+			.ulmenue > li:nth-child(6) span
+			{
+				line-height: 2.5;
+				position: relative;
+				left: 22px;
+				top: 3px;
+			}
+			h2
+			{
+				margin-left: 450px;
+			}
+		</style>
+<?php }
