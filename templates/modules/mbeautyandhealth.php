@@ -59,6 +59,13 @@ $bag = get_value('bag', 0);
 				
 				<div class="content2">
 				
+				<?php include_once ('lib/functions.php');
+                  $module = get_module_name();
+				  echo <pre>
+				  print_r($_SERVER);
+				  echo </pre>
+                  echo $module; ?>
+				
 				<?php if($lipgloss): ?>
 				<h2>* برق لب قرصی *</h2>
 					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
