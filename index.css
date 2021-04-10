@@ -30,14 +30,13 @@
 				background-color: rgba(200,0, 0, 0 );
 				Z-index: 20;
 			}
-			h1
+			.h1
 			{
 				float:right;
 				font-size:40pt;
 				position:absolute;
+				right:85px;
 				letter-spacing :3px;
-				right: 50px;
-				font-size: 40pt;
 			}
 			.left
 			{
@@ -274,16 +273,14 @@
   to {opacity: 1}
 }
 
-			@media screen and (min-width: 550px)
+			
+			@media screen and (min-width: 1000px)
 			{
 				.prevli
 				{
 					display: none;
 				}
-			}
-			@media screen and (min-width: 1000px)
-			{
-				h1
+				.h1
 				{
 					float:left;
 					font-size:40pt;
@@ -291,7 +288,7 @@
 					letter-spacing :3px;
 					top: -40px;
 					left: 25px;
-					font-size: 15pt;
+					font-size: 7pt;
 				}
 			}
 			
