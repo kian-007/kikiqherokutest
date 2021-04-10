@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-			<?php include ('templates/modules/contactus2.php'); ?>
+			<?php include ('templates/modules/mcontactus.php'); ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<style>
@@ -113,6 +113,6 @@
 			</div>
 			<div class="middle">
 				
-			<?php include_once('templates/modules/contactus2.php');
+			<?php include_once('templates/modules/mcontactus.php');
 			  get_content();
 			  include_once('templates/footer.php'); ?>
