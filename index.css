@@ -30,6 +30,16 @@
 				background-color: rgba(200,0, 0, 0 );
 				Z-index: 20;
 			}
+			h1
+			{
+				float:left;
+				font-size:40pt;
+				position:absolute;
+				letter-spacing :3px;
+				top: -40px;
+				left: 25px;
+				font-size: 15pt;
+			}
 			.left
 			{
 				display: visible;
@@ -61,12 +71,7 @@
 			}
 			.h1
 			{
-				float:left;
-				font-size:40pt;
-				position:absolute;
-				letter-spacing :3px;
-				top: -40px;
-				left: 25px;
+				
 			}
 			.logo
 			{
@@ -270,7 +275,14 @@
   to {opacity: 1}
 }
 
-			@media screen and (max-width: 700px)
+			@media screen and (min-width: 550px)
+			{
+				.prevli
+				{
+					display: none;
+				}
+			}
+			@media screen and (max-width: 500px)
 			{
 				.prevli
 				{
@@ -278,7 +290,7 @@
 				}
 				h1
 				{
-					font-size: 15pt;
+					display: none;
 				}
 			}
 			
