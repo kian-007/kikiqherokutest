@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-			<?php include ('templates/modules/fantasy2.php'); ?>
+			<?php include ('templates/modules/mfantasy.php'); ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
