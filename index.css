@@ -276,6 +276,10 @@
 				{
 					display: none;
 				}
+				h1
+				{
+					font-size: 15pt;
+				}
 			}
 			
 			.prevli
