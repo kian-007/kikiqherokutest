@@ -61,9 +61,6 @@ $bag = get_value('bag', 0);
 				
 				<?php include_once ('lib/functions.php');
                   $module = get_module_name();
-				  echo <pre>
-				  print_r($_SERVER);
-				  echo </pre>
                   echo $module; ?>
 				
 				<?php if($lipgloss): ?>
