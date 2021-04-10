@@ -61,10 +61,9 @@
 			}
 			.h1
 			{
-				float:right;
+				float:left;
 				font-size:40pt;
 				position:absolute;
-				right:85px;
 				letter-spacing :3px;
 			}
 			.logo
