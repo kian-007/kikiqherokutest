@@ -115,6 +115,6 @@
 			</div>
 			<div class="middle">
 			
-			<?php include_once('templates/modules/fantasy2.php');
+			<?php include_once('templates/modules/mfantasy.php');
 			  get_content();
 			  include_once('templates/footer.php'); ?>
