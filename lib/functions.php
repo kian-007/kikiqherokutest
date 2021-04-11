@@ -16,9 +16,12 @@ function get_module_name(){
     if($question_mark_pos !== false){
         $req = substr($req, 0, $question_mark_pos);
     }
-	if(!$req || $req == '' || $req == '/'){
-		return 'index.php';
-	}else{
-		return $req;
+	foreach(glob('templates/modules/*.php') as $lib_file){
+		
+		if(!$req || $req != $lib_file){
+			return 'index.php';
+		}else{
+			return $req;
+		}
 	}
 }
