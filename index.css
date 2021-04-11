@@ -30,6 +30,11 @@
 				background-color: rgba(200,0, 0, 0 );
 				Z-index: 20;
 			}
+			.h1
+			{
+				color: black;
+				font-size: 15pt;
+			}
 			.left
 			{
 				display: visible;
@@ -266,11 +271,16 @@
 }
 
 			
-			@media only screen and (min-width: 200px)
+			@media only screen and (min-width: 100px)
 			{
 				.h1
 				{
-					display: none;
+					float:right;
+					font-size:40pt;
+					position:absolute;
+					right:85px;
+					letter-spacing :3px;
+					color: red;
 				}
 			}
 			@media only screen and (min-width: 500px)
@@ -282,6 +292,7 @@
 					position:absolute;
 					right:85px;
 					letter-spacing :3px;
+					color: yellow;
 				}
 			}
 			@media only screen and (min-width: 900px) {
@@ -294,6 +305,7 @@
 					top: -40px;
 					left: 25px;
 					font-size: 30pt;
+					color: blue;
 				}
 			}
 			@media only screen and (orientation: portrait) {
