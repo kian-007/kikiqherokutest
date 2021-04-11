@@ -6,7 +6,7 @@
 				  try{
 						include_once ('templates/modules/'.'m'."$module"); 
 				  }catch{
-						echo 'Caught exception '
+						echo 'Caught exception ';
 				  }?>
             <title><?php if(!get_title()){echo 'KikiCutest'}else{echo get_title();} ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
