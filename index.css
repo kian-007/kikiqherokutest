@@ -30,8 +30,9 @@
 				background-color: rgba(200,0, 0, 0 );
 				Z-index: 20;
 			}
-			.h1
+			h1
 			{
+				display: none;
 				color: black;
 				font-size: 15pt;
 			}
@@ -275,6 +276,7 @@
 			{
 				.h1
 				{
+					display: visible;
 					float:right;
 					font-size:40pt;
 					position:absolute;
@@ -287,6 +289,7 @@
 			{
 				.h1
 				{
+					display: visible;
 					float:right;
 					font-size:40pt;
 					position:absolute;
@@ -299,6 +302,7 @@
 			@media only screen and (min-width: 900px) {
 				.ph
 				{
+					display: visible;
 					float:left;
 					font-size:40pt;
 					position:absolute;
@@ -311,6 +315,7 @@
 			}@media only screen and (min-width: 900px) and (orientation: landscape) {
 				.phland
 				{
+					display: visible;
 					float:left;
 					font-size:40pt;
 					position:absolute;
@@ -325,6 +330,7 @@
 			@media only screen and (min-width: 1300px) {
 				.lap
 				{
+					display: visible;
 					float:right;
 					font-size:40pt;
 					position:absolute;
