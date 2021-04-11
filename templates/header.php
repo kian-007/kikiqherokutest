@@ -4,15 +4,14 @@
 				  <?php include_once ('lib/functions.php');
 						$module = get_module_name();
 						$title = '';
-						try{
+					try{
 						include_once ('templates/modules/'.'m'."$module");
-						$title=get_title(); ?>
-						<title><?php echo $title; ?></title>
+						$title = get_title();
 						
-				  <?php }catch(Exception $e){
+				    }catch(Exception $e){
 						$title = 'KikiCutest';
 						
-						}finally{ ?>
+					}finally{ ?>
 				  <title><?php echo $title; ?></title>
 				  <?php } ?>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
