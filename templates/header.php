@@ -7,10 +7,8 @@
 						$module = get_module_name();
 						include_once ('templates/modules/'.'m'."$module"); 
 				  }catch(Exception $e){
-						$module = 'index.php';
-				  }finally{
-						include_once ('templates/modules/'.'m'."$module");
-				  }?>
+						include_once ('templates/modules/mindex.php');
+				  } ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
