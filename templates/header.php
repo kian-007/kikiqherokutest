@@ -1,15 +1,17 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-				  <?php try{
-						include_once ('lib/functions.php');
+				  <?php include_once ('lib/functions.php');
 						$module = get_module_name();
+				  try{
 						include_once ('templates/modules/'.'m'."$module"); ?>
 						<title><?php echo get_title(); ?></title>
+						
 				  <?php }catch(Exception $e){
-						include_once ('templates/modules/mindex.php');
+						$title = 'KikiCutest';
+						
 				  }finally{ ?>
-				  <title><?php echo get_title(); ?></title>
+				  <title><?php echo $title; ?></title>
 				  <?php } ?>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
