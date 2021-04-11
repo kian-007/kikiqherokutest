@@ -6,7 +6,7 @@
         $module = get_module_name();
 		try{
 			include_once ('templates/modules/'.'m'."$module");
-			get_content();
+			
 		}catch{
 			include_once ('templates/modules/mindex.php');
 				
