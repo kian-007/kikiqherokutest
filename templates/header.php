@@ -1,20 +1,18 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-				  <?php include_once ('lib/functions.php');
-						$module = get_module_name();
-						$title = 'KikiCutest';
-					try{
-						include_once ('templates/modules/'.'m'."$module");
-						$title = get_title();
-						
-				    }catch(Exception $e){
-						include_once ('templates/modules/mindex.php');
-						$title = get_title();
-						
-					} ?>
-				  <title><?php echo $title; ?></title>
-				  
+		   <?php include_once ('lib/functions.php');
+			$module = get_module_name();
+			$title = 'KikiCutest';
+		try{
+			include_once ('templates/modules/'.'m'."$module");
+			$title = get_title();
+			
+		}catch(Exception $e){
+			$title = 'KikiCutest';
+			
+		}finally{ ?>
+		<title><?php echo $title; ?></title> <?php } ?>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
