@@ -1,9 +1,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-            <?php include_once ('lib/functions.php');
-                  $module = get_module_name();
-				  try{ 
+				  <?php try{
+						include_once ('lib/functions.php');
+						$module = get_module_name();
 						include_once ('templates/modules/'.'m'."$module"); ?>
 						<title><?php echo get_title(); ?></title>
 				  <?php }catch(Exception $e){
