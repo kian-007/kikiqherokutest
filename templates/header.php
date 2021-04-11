@@ -4,7 +4,7 @@
             <?php include_once ('lib/functions.php');
                   $module = get_module_name();
                   include_once ('templates/modules/'.'m'."$module"); ?>
-            <title><?php echo get_title(); ?></title>
+            <title><?php if(!get_title){echo 'KikiCutest'}else{echo get_title();} ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
