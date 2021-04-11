@@ -273,19 +273,7 @@
   to {opacity: 1}
 }
 
-			@media only screen and (min-width: 450px)
-			{
-				.h1
-				{
-					float:left;
-					font-size:40pt;
-					position:absolute;
-					letter-spacing :3px;
-					top: -40px;
-					left: 25px;
-					font-size: 7pt;
-				}
-			}
+			
 			@media only screen and (max-width: 450px)
 			{
 				.h1
@@ -299,10 +287,22 @@
 					display: none;
 				}
 			}
-			@media only screen and (orientation: portrait) {
+			@media only screen and (orientation: landscape) {
 				.prevli
 				{
 					display: visible;
+				}
+			}
+			@media only screen and (orientation: landscape) and (min-width: 900px) {
+				.h1
+				{
+					float:left;
+					font-size:40pt;
+					position:absolute;
+					letter-spacing :3px;
+					top: -40px;
+					left: 25px;
+					font-size: 7pt;
 				}
 			}
 			
