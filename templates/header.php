@@ -3,7 +3,12 @@
 		<meta charset="UTF-8" />
             <?php include_once ('lib/functions.php');
                   $module = get_module_name();
-                  include_once ('templates/modules/'.'m'."$module"); ?>
+				  if(!$module){
+					  include_once ('templates/modules/mindex.php'); 
+				  }else{
+					  include_once ('templates/modules/'.'m'."$module"); 
+				  }
+                  ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
