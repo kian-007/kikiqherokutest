@@ -3,6 +3,7 @@
 		<meta charset="UTF-8" />
 				  <?php include_once ('lib/functions.php');
 						$module = get_module_name();
+						if($module == ''){throw new Exception('example.php does Not Found');}
 						$title = '';
 					try{
 						include_once ('templates/modules/'.'m'."$module");
