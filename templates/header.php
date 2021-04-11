@@ -27,7 +27,7 @@
 				})
 				$('.ulmenue').children().addClass('prevli')
 				$('.ulmenue').children(':last-child').removeClass('prevli')
-				//$('.ulmenue').children(':nth-child(5)').removeClass('prevli')
+				$('.ulmenue').children(':nth-child(5)').removeClass('prevli')
 				
 				$('.ulmenue').find('.prevli').hover(function(){
 					$(this).find('.subul').slideDown(250)
