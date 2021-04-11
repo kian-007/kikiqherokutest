@@ -16,6 +16,10 @@
 var d = d.toDateString();
 alert(d + '\n خوش آمدید')
 slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
+				$('.ulmenue').children().addClass('prevli')
+				$('.ulmenue').find('li').last().removeClass('prevli')
+				$('.ulmenue').find('li').last().prev().removeClass('prevli')
+				
 				$('.ulmenue').find('li:nth-child(6)').click(function(){ 
 					$(this).toggleClass('baz')
 					$('.ulmenue').find('li').filter('.prevli').toggle(250)
@@ -25,9 +29,6 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 						$(this).css({'background-image': "url('images/threeline6.jpg')", 'background-size': "45px 41px"})
 					}
 				})
-				$('.ulmenue').children().addClass('prevli')
-				$('.ulmenue').children(':last-child').removeClass('prevli')
-				$('.ulmenue').children(':nth-child(5)').removeClass('prevli')
 				
 				$('.ulmenue').find('.prevli').hover(function(){
 					$(this).find('.subul').slideDown(250)
