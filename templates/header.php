@@ -12,13 +12,13 @@
 		<script>
 			$.noConflict()
 			jQuery(document).ready(function($){
-				/*var d = new Date();
-				var d = d.toDateString();
-				alert(d + '\n خوش آمدید')
-				slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
+/*var d = new Date();
+var d = d.toDateString();
+alert(d + '\n خوش آمدید')
+slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue').find('li:nth-child(6)').click(function(){ 
 					$(this).toggleClass('baz')
-					$('.ulmenue').find('li:nth-child(5)').prevAll().toggle(250)
+					$('.ulmenue').find('li:nth-child(4)').prevAll().toggle(250)
 					if($(this).hasClass('baz')){
 					$(this).css({'background-image': "url('images/threeline4.jpg')", 'background-size': "45px 41px"})
 					}else{
@@ -26,8 +26,8 @@
 					}
 				})
 				$('.ulmenue').children().addClass('prevli')
-				$('.ulmenue').children(':last-child').removeClass('.prevli')
-				$('.ulmenue').children(':nth-child(5)').removeClass('.prevli')
+				$('.ulmenue').children(':last-child').removeClass('prevli')
+				$('.ulmenue').children(':nth-child(5)').removeClass('prevli')
 				
 				$('.ulmenue').find('.prevli').hover(function(){
 					$(this).find('.subul').slideDown(250)
