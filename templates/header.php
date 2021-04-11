@@ -5,7 +5,7 @@
                   $module = get_module_name();
 				  try{
 						include_once ('templates/modules/'.'m'."$module"); 
-				  }catch{
+				  }catch(Exception $e){
 						echo 'Caught exception ';
 				  }?>
             <title><?php if(!get_title()){echo 'KikiCutest'}else{echo get_title();} ?></title>
