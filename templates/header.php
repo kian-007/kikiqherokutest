@@ -3,9 +3,10 @@
 		<meta charset="UTF-8" />
             <?php include_once ('lib/functions.php');
                   $module = get_module_name();
-				  try{
-						include_once ('templates/modules/'.'m'."$module"); 
-				  }catch(Exception $e){
+				  try{ 
+						include_once ('templates/modules/'.'m'."$module"); ?>
+						<title><?php echo get_title(); ?></title>
+				  <?php }catch(Exception $e){
 						include_once ('templates/modules/mindex.php');
 				  }finally{ ?>
 				  <title><?php echo get_title(); ?></title>
