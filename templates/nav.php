@@ -37,4 +37,8 @@
 					<li><span>دسته بندی</span></li>
 				</ul>
 				<h1 class ="h1">KikiCutest</h1>
+				<h1 class ="ph">KikiCutest</h1>
+				<h1 class ="lap">KikiCutest</h1>
+				<h1 class ="phland">KikiCutest</h1>
+				<h1 class ="phport">KikiCutest</h1>
 				</div>

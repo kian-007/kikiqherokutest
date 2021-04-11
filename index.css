@@ -297,7 +297,7 @@
 			}
 			/* for smart phones */
 			@media only screen and (min-width: 900px) {
-				.h1
+				.ph
 				{
 					float:left;
 					font-size:40pt;
@@ -308,8 +308,8 @@
 					font-size: 30pt;
 					color: white;
 				}
-			}@media only screen and (min-width: 900px) {
-				.h1
+			}@media only screen and (min-width: 900px) and (orientation: landscape) {
+				.phland
 				{
 					float:left;
 					font-size:40pt;
@@ -323,7 +323,7 @@
 			}
 			/* for laptops */
 			@media only screen and (min-width: 1300px) {
-				.h1
+				.lap
 				{
 					float:right;
 					font-size:40pt;
