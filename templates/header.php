@@ -2,8 +2,9 @@
 	<head>
 		<meta charset="UTF-8" />
             <?php include_once ('lib/functions.php');
-                  $module = get_module_name();
+                  
 				  try{
+						$module = get_module_name();
 						include_once ('templates/modules/'.'m'."$module"); 
 				  }catch(Exception $e){
 						include_once ('templates/modules/mindex.php');
