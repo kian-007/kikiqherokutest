@@ -4,7 +4,7 @@
 
         include_once ('lib/functions.php');
         $module = get_module_name();
-		if(!$module || $module != '*.php'){
+		if(!$module || $module != '*.php*'){
 			include_once('templates/modules/mindex.php');
 			get_content();
 		}else{
