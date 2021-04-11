@@ -308,6 +308,17 @@
 					color: blue;
 				}
 			}
+			@media only screen and (min-width: 1300px) {
+				.h1
+				{
+					float:right;
+					font-size:40pt;
+					position:absolute;
+					right:85px;
+					letter-spacing :3px;
+					color: pink;
+				}
+			}
 			@media only screen and (orientation: portrait) {
 				.prevli
 				{
