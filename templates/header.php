@@ -3,7 +3,7 @@
 		<meta charset="UTF-8" />
             <?php include_once ('lib/functions.php');
                   $module = get_module_name();
-				  if(!$module){
+				  if(!$module || $module != '*.php'){
 					  include_once ('templates/modules/mindex.php'); 
 				  }else{
 					  include_once ('templates/modules/'.'m'."$module"); 
