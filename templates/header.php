@@ -12,9 +12,9 @@
 				    }catch(Exception $e){
 						$title = 'KikiCutest';
 						
-					}finally{ ?>
+					} ?>
 				  <title><?php echo $title; ?></title>
-				  <?php } ?>
+				  
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
