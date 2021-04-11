@@ -7,7 +7,7 @@
 		try{
 			include_once ('templates/modules/'.'m'."$module");
 			
-		}catch{
+		}catch(Exception $e){
 			include_once ('templates/modules/mindex.php');
 				
 		}finally{
