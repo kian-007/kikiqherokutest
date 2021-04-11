@@ -30,14 +30,6 @@
 				background-color: rgba(200,0, 0, 0 );
 				Z-index: 20;
 			}
-			.h1
-			{
-				float:right;
-				font-size:40pt;
-				position:absolute;
-				right:85px;
-				letter-spacing :3px;
-			}
 			.left
 			{
 				display: visible;
@@ -274,11 +266,34 @@
 }
 
 			
-			@media only screen and (max-width: 450px)
+			@media only screen and (min-width: 0px)
 			{
 				.h1
 				{
 					display: none;
+				}
+			}
+			@media only screen and (min-width: 500px)
+			{
+				.h1
+				{
+					float:right;
+					font-size:40pt;
+					position:absolute;
+					right:85px;
+					letter-spacing :3px;
+				}
+			}
+			@media only screen and (min-width: 900px) {
+				.h1
+				{
+					float:left;
+					font-size:40pt;
+					position:absolute;
+					letter-spacing :3px;
+					top: -40px;
+					left: 25px;
+					font-size: 30pt;
 				}
 			}
 			@media only screen and (orientation: portrait) {
@@ -291,18 +306,6 @@
 				.prevli
 				{
 					display: visible;
-				}
-			}
-			@media only screen and (orientation: landscape) and (min-width: 900px) {
-				.h1
-				{
-					float:left;
-					font-size:40pt;
-					position:absolute;
-					letter-spacing :3px;
-					top: -40px;
-					left: 25px;
-					font-size: 7pt;
 				}
 			}
 			
