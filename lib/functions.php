@@ -16,6 +16,6 @@ function get_module_name(){
     if($question_mark_pos !== false){
         $req = substr($req, 0, $question_mark_pos);
     }
-
+	
     return $req;
 }
