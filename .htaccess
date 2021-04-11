@@ -1,8 +1,10 @@
 Options All -Indexes
 
-RewriteEngine on
-RewriteBase https://kikiq.herokuapp.com/
-RewriteRule ^index\.php -[L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteBase RewriteBase https://kikiq.herokuapp.com/
+ RewriteRule ^index\.php -[L]
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule . index.php [L]
+</IfModule>
