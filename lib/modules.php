@@ -4,16 +4,13 @@
 
         include_once ('lib/functions.php');
         $module = get_module_name();
-		try{
+		if($module == ''){
+			include_once('templates/modules/mindex.php');
+			get_content();
+		}else{
 			include_once ('templates/modules/'.'m'."$module");
-			
-		}catch(Exception $e){
-			include_once ('templates/modules/mindex.php');
-				
-		}finally{
 			get_content();
 		}
-		
 	include_once('templates/footer.php'); 
 }
 
