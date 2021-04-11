@@ -2,14 +2,14 @@
 	<head>
 		<meta charset="UTF-8" />
             <?php include_once ('lib/functions.php');
-                  
+                  $module = get_module_name();
 				  try{
-						$module = get_module_name();
 						include_once ('templates/modules/'.'m'."$module"); 
 				  }catch(Exception $e){
 						include_once ('templates/modules/mindex.php');
-				  } ?>
-            <title><?php echo get_title(); ?></title>
+				  }finally{ ?>
+				  <title><?php echo get_title(); ?></title>
+				  <?php } ?>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
 		<link type="text/css"	rel="stylesheet"	href="index3.css" />
 		<script src="jquery-3.5.1.min.js"></script>
