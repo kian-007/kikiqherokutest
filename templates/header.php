@@ -3,13 +3,14 @@
 		<meta charset="UTF-8" />
 				  <?php include_once ('lib/functions.php');
 						$module = get_module_name();
-						$title = '';
+						$title = 'KikiCutest';
 					try{
 						include_once ('templates/modules/'.'m'."$module");
 						$title = get_title();
 						
 				    }catch(Exception $e){
-						$title = 'KikiCutest';
+						include_once ('templates/modules/mindex.php');
+						$title = get_title();
 						
 					} ?>
 				  <title><?php echo $title; ?></title>
