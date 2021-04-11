@@ -295,6 +295,7 @@
 					color: yellow;
 				}
 			}
+			/* for smart phones */
 			@media only screen and (min-width: 900px) {
 				.h1
 				{
@@ -302,12 +303,24 @@
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :3px;
-					top: -40px;
+					top: -30px;
 					left: 25px;
 					font-size: 30pt;
 					color: blue;
 				}
+			}@media only screen and (min-width: 900px) and (orientation: landscape) {
+				.h1
+				{
+					float:left;
+					font-size:40pt;
+					position:absolute;
+					top: -30px;
+					left: 25px;
+					font-size: 30pt;
+					color: white;
+				}
 			}
+			/* for laptops */
 			@media only screen and (min-width: 1300px) {
 				.h1
 				{
@@ -319,12 +332,14 @@
 					color: pink;
 				}
 			}
+			/* for portrait screens like phones */
 			@media only screen and (orientation: portrait) {
 				.prevli
 				{
 					display: none;
 				}
 			}
+			/* for landscape screens like laptops */
 			@media only screen and (orientation: landscape) {
 				.prevli
 				{
