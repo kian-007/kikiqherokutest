@@ -306,10 +306,10 @@
 					width: 200px;
 					font-size:40pt;
 					position:absolute;
-					letter-spacing :3px;
+					letter-spacing :2px;
 					top: -30px;
 					left: 25px;
-					font-size: 25pt;
+					font-size: 20pt;
 					color: white;
 				}
 			}@media only screen and (min-width: 900px) and (orientation: landscape) {
@@ -320,11 +320,11 @@
 					width: 200px;
 					font-size:40pt;
 					position:absolute;
-					letter-spacing :0px;
-					top: -30px;
+					letter-spacing :2px;
+					top: -20px;
 					left: 25px;
 					font-size: 20pt;
-					color: gray;
+					color: white;
 				}
 			}
 			/* for laptops */
@@ -337,10 +337,10 @@
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :7px;
-					top: -30px;
+					top: -20px;
 					left: 25px;
 					font-size: 30pt;
-					color: pink;
+					color: white;
 				}
 			}
 			/* for portrait screens like phones */
