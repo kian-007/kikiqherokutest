@@ -32,6 +32,8 @@
 			}
 			.h1
 			{
+				display: inline-block;
+				width: 100px;
 				color: #293abd;
 				font-size: 15pt;
 			}
@@ -272,6 +274,8 @@
 				.h1
 				{
 					float:right;
+					display: inline-block;
+					width: 100px;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -284,6 +288,8 @@
 				.h1
 				{
 					float:right;
+					display: inline-block;
+					width: 100px;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -296,6 +302,8 @@
 				.h1
 				{
 					float:left;
+					display: inline-block;
+					width: 100px;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :3px;
@@ -308,6 +316,8 @@
 				.h1
 				{
 					float:left;
+					display: inline-block;
+					width: 100px;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :0px;
@@ -322,6 +332,8 @@
 				.h1
 				{
 					float:left;
+					display: inline-block;
+					width: 100px;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :7px;
