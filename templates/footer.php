@@ -13,6 +13,22 @@
 					   include_once ('lib/functions.php');
 					   $module = get_module_name();
 					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
+					   echo $module;
 				  ?>
 	</body>
 </html>
