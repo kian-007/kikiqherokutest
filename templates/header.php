@@ -1,14 +1,13 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-            <?php 	include_once ('lib/functions.php');
-					$module = get_module_name();
-					$module_file = 'templates/modules/'.'m'."$module";
-					if(file_exists($module_file){
-						include_once ('templates/modules/'.'m'."$module");
-					}else{
-						include_once ('templates/modules/mindex.php');
-					}
+            <?php include_once ('lib/functions.php');
+                  $module = get_module_name();
+				  if(!$module){
+					  include_once ('templates/modules/mindex.php'); 
+				  }else{
+					  include_once ('templates/modules/'.'m'."$module"); 
+				  }
                   ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
@@ -83,14 +82,9 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('form').find('input[type="checkbox"]').mychk()
 			})
 		</script>
-                <?php   include_once ('lib/functions.php');
-						$module = get_module_name();
-						$module_file = 'templates/modules/'.'m'."$module";
-						if(file_exists($module_file){
-							include_once ('templates/modules/'.'m'."$module");
-						}else{
-							include_once ('templates/modules/mindex.php');
-						}
+                <?php  include_once ('lib/functions.php');
+                       $module = get_module_name();
+                       include_once ('templates/modules/'.'m'."$module");
                        get_style(); ?>
 	</head>
 	<body onload="showSlides()">
