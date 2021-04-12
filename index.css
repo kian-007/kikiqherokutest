@@ -32,7 +32,7 @@
 			}
 			.h1
 			{
-				display: inline;
+				display: inline-block;
 				color: #293abd;
 				font-size: 15pt;
 			}
@@ -277,7 +277,7 @@
 				.h1
 				{
 					float:right;
-					display: inline;
+					display: inline-block;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -290,7 +290,7 @@
 				.h1
 				{
 					float:right;
-					display: inline;
+					display: inline-block;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -303,7 +303,7 @@
 				.h1
 				{
 					float:left;
-					display: inline;
+					display: inline-block;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :3px;
@@ -316,7 +316,7 @@
 				.h1
 				{
 					float:left;
-					display: inline;
+					display: inline-block;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :0px;
@@ -331,7 +331,7 @@
 				.h1
 				{
 					float:left;
-					display: inline;
+					display: inline-block;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :7px;
