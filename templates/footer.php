@@ -11,24 +11,15 @@
                        get_java_script(); 
 					   
 					   include_once ('lib/functions.php');
-					   $module = get_module_name();
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-					   echo $module;
-				  ?>
+					   $module = get_module_name(); ?>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
+					   <p><?php echo $module; ?></p>
 	</body>
 </html>
