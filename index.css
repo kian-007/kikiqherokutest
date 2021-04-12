@@ -346,7 +346,7 @@
 			@media only screen and (orientation: landscape) {
 				.prevli
 				{
-					display: inline;
+					visibility: visible;
 				}
 			}
 			
