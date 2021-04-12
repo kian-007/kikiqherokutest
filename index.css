@@ -30,6 +30,11 @@
 				background-color: rgba(200,0, 0, 0 );
 				Z-index: 20;
 			}
+			.h1
+			{
+				color: #293abd;
+				font-size: 15pt;
+			}
 			.left
 			{
 				display: visible;
@@ -270,41 +275,30 @@
 			{
 				.h1
 				{
-					display: visible;
 					float:right;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
 					letter-spacing :3px;
-					color: black;
+					color: red;
 				}
-				.h1{display: visible;}
-				.ph{display: none;}
-				.phland{display: none;}
-				.lap{display: none;}
 			}
 			@media only screen and (min-width: 500px)
 			{
 				.h1
 				{
-					display: visible;
 					float:right;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
 					letter-spacing :3px;
-					color: gray;
+					color: yellow;
 				}
-				.h1{display: visible;}
-				.ph{display: none;}
-				.phland{display: none;}
-				.lap{display: none;}
 			}
 			/* for smart phones */
 			@media only screen and (min-width: 900px) {
-				.ph
+				.h1
 				{
-					display: visible;
 					float:left;
 					font-size:40pt;
 					position:absolute;
@@ -314,15 +308,9 @@
 					font-size: 30pt;
 					color: white;
 				}
-				.ph{display: visible;}
-				.h1{display: none;}
-				.phland{display: none;}
-				.lap{display: none;}
-			}
-			@media only screen and (min-width: 900px) and (orientation: landscape) {
-				.phland
+			}@media only screen and (min-width: 900px) and (orientation: landscape) {
+				.h1
 				{
-					display: visible;
 					float:left;
 					font-size:40pt;
 					position:absolute;
@@ -330,18 +318,13 @@
 					top: -30px;
 					left: 25px;
 					font-size: 30pt;
-					color: yellow;
+					color: gray;
 				}
-				.phland{display: visible;}
-				.ph{display: none;}
-				.h1{display: none;}
-				.lap{display: none;}
 			}
 			/* for laptops */
 			@media only screen and (min-width: 1300px) {
-				.lap
+				.h1
 				{
-					display: visible;
 					float:right;
 					font-size:40pt;
 					position:absolute;
@@ -349,10 +332,6 @@
 					letter-spacing :3px;
 					color: pink;
 				}
-				.lap{display: visible;}
-				.ph{display: none;}
-				.phland{display: none;}
-				.h1{display: none;}
 			}
 			/* for portrait screens like phones */
 			@media only screen and (orientation: portrait) {
@@ -365,7 +344,7 @@
 			@media only screen and (orientation: landscape) {
 				.prevli
 				{
-					display: visible;
+					display: inline;
 				}
 			}
 			
