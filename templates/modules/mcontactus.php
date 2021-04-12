@@ -66,5 +66,9 @@ function get_style(){ ?>
 				left: 22px;
 				top: 3px;
 			}
+			a
+			{
+				text-decoration: none;
+			}
 		</style>
 <?php }
