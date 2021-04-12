@@ -32,7 +32,6 @@
 			}
 			.h1
 			{
-				visibility: visible;
 				color: #293abd;
 				font-size: 15pt;
 			}
@@ -273,7 +272,6 @@
 				.h1
 				{
 					float:right;
-					visibility: visible;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -286,7 +284,6 @@
 				.h1
 				{
 					float:right;
-					visibility: visible;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -299,7 +296,6 @@
 				.h1
 				{
 					float:left;
-					visibility: visible;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :3px;
@@ -312,7 +308,6 @@
 				.h1
 				{
 					float:left;
-					visibility: visible;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :0px;
@@ -327,7 +322,6 @@
 				.h1
 				{
 					float:left;
-					visibility: visible;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :7px;
