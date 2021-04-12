@@ -3,14 +3,12 @@
         include_once ('templates/header.php');
 
         include_once ('lib/functions.php');
-        $module = get_module_name();
-		if(!$module){
-			include_once('templates/modules/mindex.php');
-			get_content();
-		}else{
+        $module_file = get_module_name();
+		if(file_exists($module_file){
 			include_once ('templates/modules/'.'m'."$module");
-			get_content();
+		}else{
+			include_once ('templates/modules/mindex.php');
 		}
+		
 	include_once('templates/footer.php'); 
 }
-

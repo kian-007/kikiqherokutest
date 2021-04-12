@@ -1,13 +1,13 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-            <?php include_once ('lib/functions.php');
-                  $module = get_module_name();
-				  if(!$module){
-					  include_once ('templates/modules/mindex.php'); 
-				  }else{
-					  include_once ('templates/modules/'.'m'."$module"); 
-				  }
+            <?php 	include_once ('lib/functions.php');
+					$module_file = get_module_name();
+					if(file_exists($module_file){
+						include_once ('templates/modules/'.'m'."$module");
+					}else{
+						include_once ('templates/modules/mindex.php');
+					}
                   ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
@@ -82,9 +82,13 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('form').find('input[type="checkbox"]').mychk()
 			})
 		</script>
-                <?php  include_once ('lib/functions.php');
-                       $module = get_module_name();
-                       include_once ('templates/modules/'.'m'."$module");
+                <?php   include_once ('lib/functions.php');
+						$module_file = get_module_name();
+						if(file_exists($module_file){
+							include_once ('templates/modules/'.'m'."$module");
+						}else{
+							include_once ('templates/modules/mindex.php');
+						}
                        get_style(); ?>
 	</head>
 	<body onload="showSlides()">
