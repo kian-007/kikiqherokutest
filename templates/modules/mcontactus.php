@@ -68,7 +68,7 @@ function get_style(){ ?>
 			}
 			a
 			{
-				text-decoration: none;
+				color: white;
 			}
 		</style>
 <?php }
