@@ -8,18 +8,6 @@
 		<?php  include_once ('lib/functions.php');
                        $module = get_module_name();
                        include_once ('templates/modules/'.'m'."$module");
-                       get_java_script(); 
-					   
-					   include_once ('lib/functions.php');
-					   $module = get_module_name(); ?>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
+                       get_java_script(); ?>
 	</body>
 </html>
