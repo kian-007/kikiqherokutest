@@ -8,7 +8,6 @@
 				  }else{
 					  include_once ('templates/modules/'.'m'."$module"); 
 				  }
-				  echo $module;
                   ?>
             <title><?php echo get_title(); ?></title>
 		<link type="text/css"	rel="stylesheet"	href="index.css" />
