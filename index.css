@@ -325,10 +325,13 @@
 			@media only screen and (min-width: 1300px) {
 				.h1
 				{
-					float:right;
+					float:left;
 					font-size:40pt;
-					right:85px;
+					position:absolute;
 					letter-spacing :3px;
+					top: -30px;
+					left: 25px;
+					font-size: 30pt;
 					color: pink;
 				}
 			}
