@@ -48,8 +48,9 @@ function get_style(){ ?>
 				width:300px;
 				height:300px;
 				position:relative;
+				float: left;
 				top:100px;
-				left: 300px;
+				left: 100px;
 				box-shadow: 20px 15px 15px #333388
 			}
 			.ulmenue > li:nth-child(6)
