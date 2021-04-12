@@ -33,7 +33,7 @@
 			.h1
 			{
 				display: inline-block;
-				width: 100px;
+				width: 200px;
 				color: #293abd;
 				font-size: 15pt;
 			}
@@ -275,7 +275,7 @@
 				{
 					float:right;
 					display: inline-block;
-					width: 100px;
+					width: 200px;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -289,7 +289,7 @@
 				{
 					float:right;
 					display: inline-block;
-					width: 100px;
+					width: 200px;
 					font-size:40pt;
 					position:absolute;
 					right:85px;
@@ -303,13 +303,13 @@
 				{
 					float:left;
 					display: inline-block;
-					width: 100px;
+					width: 200px;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :3px;
 					top: -30px;
 					left: 25px;
-					font-size: 30pt;
+					font-size: 25pt;
 					color: white;
 				}
 			}@media only screen and (min-width: 900px) and (orientation: landscape) {
@@ -317,13 +317,13 @@
 				{
 					float:left;
 					display: inline-block;
-					width: 100px;
+					width: 200px;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :0px;
 					top: -30px;
 					left: 25px;
-					font-size: 30pt;
+					font-size: 20pt;
 					color: gray;
 				}
 			}
@@ -333,7 +333,7 @@
 				{
 					float:left;
 					display: inline-block;
-					width: 100px;
+					width: 200px;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :7px;
