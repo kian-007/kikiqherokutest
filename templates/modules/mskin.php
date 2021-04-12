@@ -85,19 +85,6 @@ $handcream = get_value('handcream' , 0);
 				</fieldset>
 					<?php endif; ?>
 				</div>
-				<?php
-				include_once ('lib/functions.php');
-					   $module = get_module_name();
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   <p><?php echo $module; ?></p>
-					   ?>
 <?php }
 
 function get_style(){ ?>
