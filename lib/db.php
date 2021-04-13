@@ -1,8 +1,8 @@
 <?php
 
 global $db;
-require_once('config.php');
-$db = new SQLite3(DB_FILENAME);
+
+$db = new SQLite3('myapp.data');
 
 function create_db_tables(){
 	global $db;
