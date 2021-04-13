@@ -376,6 +376,23 @@
 					font-size: 30pt;
 					color: white;
 				}
+				.rights
+				{
+					font-size: 19pt;
+					float:left;
+					position:relative;
+					top:250px;
+				}
+				.contact
+				{
+					text-decoration: none;
+					font-size:22pt;
+					color: #222;
+					float:right;
+					position:relative;
+					top:250px;
+					right:50px; 
+				}
 			}
 			/* for portrait screens like phones */
 			@media only screen and (orientation: portrait) {
