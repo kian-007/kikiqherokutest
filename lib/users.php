@@ -16,7 +16,7 @@ function get_user($username){
 
 function user_exists($username){
 	$user = get_user($username);
-	return isset($row['id']);
+	return isset($user['id']);
 }
 
 function user_count(){
