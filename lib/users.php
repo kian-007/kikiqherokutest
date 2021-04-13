@@ -61,8 +61,8 @@ function add_user($userdata){
 	}else{
 		$db->query("
             UPDATE users
-            SET password=$password, first_name=$first_name, last_name=$last_name
-            WHERE username =$username;
+            SET password='$password', first_name='$first_name', last_name='$last_name'
+            WHERE username ='$username';
         ");
 	}
 }
