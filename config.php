@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 define('SITE_TITLE', 'KikiCutest');
 
 define('DB_FILENAME', 'myapp.data');
