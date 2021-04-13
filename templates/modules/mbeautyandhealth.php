@@ -66,24 +66,24 @@ $bag = get_value('bag', 0);
 				<?php if($lipgloss): ?>
 				<h2>* برق لب قرصی *</h2>
 					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul1.jpg"	/><p class="price">20,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul2.jpg"	/><p class="price">20,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul3.jpg"	/><p class="price">20,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul4.jpg"	/><p class="price">20,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul5.jpg"	/><p class="price">20,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul6.jpg"	/><p class="price">20,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul1.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul2.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul3.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul4.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul5.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/capsul6.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
 				
 				<?php if($lamp): ?>
 				<h2>* برق لب لامپی *</h2>
-					<div class="doutside ftr"><img src="images/beautyandhealth/lamp6.jpg"/><p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp1.jpg"	/><p class="price">23,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp2.jpg"	/><p class="price">23,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp3.jpg"	/><p class="price">23,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp4.jpg"	/><p class="price">23,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp5.jpg"	/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img  src="images/beautyandhealth/lamp6.jpg"	alt="برق لب"/><p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp1.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp2.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp3.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp4.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/lamp5.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
@@ -91,21 +91,21 @@ $bag = get_value('bag', 0);
 				<?php if($brush): ?>
 				<h2>* براش *</h2>
 					<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					<div class="doutside ftr"><img src="images/beautyandhealth/nbrush5.jpg"		/><p class="price">60,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg"	/><p class="price">60,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg"	/><p class="price">60,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/beautyandhealth/bbrushes.jpg"	/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img  src="images/beautyandhealth/nbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"><img	src="images/beautyandhealth/bbrushes.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
 					
 					<?php if($bag): ?>
 				<h2>*  Victoria's secret کیف آرایشی *</h2>
-					<div class="doutside ftr"><img	src="images/compressed/bags1.jpg"		/><p class="price">40,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr"><img	src="images/compressed/bags2.jpg"		/><p class="price">40,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr fil"><img  src="images/beautyandhealth/abag1.jpg"	/><p class="price">40,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag2.jpg"	/><p class="price">40,000 t</p><p class="pinside"></p></div>
-					<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag3.jpg"	/><p class="price">40,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"	 ><img	src="images/compressed/bags1.jpg"		alt="کیف"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr"	 ><img	src="images/compressed/bags2.jpg"		alt="کیف"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr fil"><img  src="images/beautyandhealth/abag1.jpg"	alt="کیف"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag2.jpg"	alt="کیف"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+					<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag3.jpg"	alt="کیف"/><p class="price">40,000 t</p><p class="pinside"></p></div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
