@@ -2,7 +2,7 @@
 
 global $db;
 
-$db = new SQLite3('myapp.data');
+$db = new SQLite3(DB_FILENAME);
 
 function create_db_tables(){
 	global $db;
