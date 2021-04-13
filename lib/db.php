@@ -16,7 +16,6 @@ function create_db_tables(){
 		);
 	");
 	
-	global $db;
 	$db->query("
 		CREATE TABLE IF NOT EXISTS options(
 		id INTEGER PRIMARY KEY AUTOINCREMENT,
