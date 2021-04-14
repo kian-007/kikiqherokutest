@@ -99,7 +99,6 @@ function get_content(){ ?>
 				<br/>
 				<br/>
 				<br/>
-				<p style="background-color: yellow; width: 300px; height: 300px;">
 					<?php 
 					global $db;
 					$db = parse_url(getenv("DATABASE_URL"));
@@ -110,9 +109,11 @@ function get_content(){ ?>
 						WHERE username = 'admin'
 					");
 					$row = $result->fetchArray(SQLITE3_ASSOC);
-					echo $row['password'];
+					echo <pre>;
+					var_dump($row);
+					echo </pre>;
 					?>
-				</p>
+				
 				</div>
 				<div class="right">
 				</div>
