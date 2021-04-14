@@ -99,7 +99,19 @@ function get_content(){ ?>
 				<br/>
 				<br/>
 				<br/>
+					<?php 
 					
+					$db = parse_url(getenv("DATABASE_URL"));
+					$db["path"] = ltrim($db["path"], "/"); 
+					$result = $db->query("
+						SELECT *
+						FROM users
+						WHERE username = 'admin'
+					");
+					echo <pre>;
+					var_dump($result);
+					echo </pre>;
+					?>
 				
 				</div>
 				<div class="right">
