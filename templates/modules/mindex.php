@@ -96,7 +96,8 @@ function get_content(){ ?>
 					
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
-		   		
+		   		<?php   $url = 'https://kikiq.herokuapp.com/';
+						var_dump(parse_url($url)); ?>
 				</div>
 				<div class="right">
 				</div>
