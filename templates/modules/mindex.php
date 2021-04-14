@@ -103,14 +103,11 @@ function get_content(){ ?>
 					
 					$db = parse_url(getenv("DATABASE_URL"));
 					$db["path"] = ltrim($db["path"], "/"); 
-					$result = $db->query("
-						SELECT *
-						FROM users
-						WHERE username = 'admin'
+					$db->query("
+						INSERT INTO users(username, password, first_name, last_name) VALUES
+						('admin2', '98765' ,'kiann' ,'soleimanii');
 					");
-					echo <pre>;
-					var_dump($result);
-					echo </pre>;
+					
 					?>
 				
 				</div>
