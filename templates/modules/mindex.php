@@ -101,6 +101,7 @@ function get_content(){ ?>
 				<br/>
 				<p style="background-color: yellow; width: 300px; height: 300px;">
 					<?php 
+					
 					$user = get_user('admin');
 					echo($user['password']);
 					?>
