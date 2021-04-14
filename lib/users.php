@@ -11,7 +11,7 @@ function get_user($username){
 		FROM users
 		WHERE username = '$username'
 	");
-	$row = $result->fetchArray();
+	$row = $result->fetch(PDO::FETCH_ASSOC);
 	return $row;
 }
 
@@ -27,7 +27,7 @@ function user_count(){
 		FROM users
 	");
 	$counter = 0;
-	while($row = $result->fetchArray()){
+	while($row = $result->fetch(PDO::FETCH_ASSOC)){
 		$counter++;
 	}
 	return $counter;

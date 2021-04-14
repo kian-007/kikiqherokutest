@@ -7,7 +7,7 @@ function get_option($option_name, $full_row = false){
 	global $pdo;
 	$result = $pdo->query(" SELECT * FROM options WHERE option_name = '$option_name' ");
 	
-	$row = $result->fetchArray();
+	$row = $result->fetch(PDO::FETCH_ASSOC);
 	if($row){
 		if($full_row){
 			return $row;
