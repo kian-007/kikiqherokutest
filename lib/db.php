@@ -3,7 +3,7 @@
 global $pdo;
 
 function connect_to_db(){
-	
+	global $pdo;
 	$db = parse_url(getenv("DATABASE_URL"));
 	
 	$pdo = new PDO("pgsql:" . sprintf(
