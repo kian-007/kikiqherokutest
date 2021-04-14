@@ -96,6 +96,9 @@ function get_content(){ ?>
 					
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
+				<br/>
+				<br/>
+				<br/>
 				<?php 
 		   		$db = parse_url(getenv("DATABASE_URL"));
 				$db["path"] = ltrim($db["path"], "/"); 
