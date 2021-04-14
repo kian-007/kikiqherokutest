@@ -98,7 +98,8 @@ function get_content(){ ?>
 
 				<?php 
 		   		$db = parse_url(getenv("DATABASE_URL"));
-				$db["path"] = ltrim($db["path"], "/"); ?>
+				$db["path"] = ltrim($db["path"], "/"); 
+				var_dump($db);?>
 				</div>
 				<div class="right">
 				</div>
