@@ -14,5 +14,5 @@ function connect_to_db(){
 		$db["pass"],
 		ltrim($db["path"], "/")
 	));
-	
+	return $pdo;
 }
