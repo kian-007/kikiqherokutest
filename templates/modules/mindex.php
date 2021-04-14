@@ -103,7 +103,7 @@ function get_content(){ ?>
 					
 					$db = parse_url(getenv("DATABASE_URL"));
 					$db["path"] = ltrim($db["path"], "/"); 
-					$db->query("
+					$db['path']->query("
 						INSERT INTO users(username, password, first_name, last_name) VALUES
 						('admin2', '98765' ,'kiann' ,'soleimanii');
 					");
