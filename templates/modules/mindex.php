@@ -95,7 +95,9 @@ function get_content(){ ?>
 					</div>
 					
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
-
+				<br/>
+				<br/>
+				<br/>
 		   		<?php  
 					$db = parse_url(getenv("DATABASE_URL"));
 
@@ -108,7 +110,7 @@ function get_content(){ ?>
 						ltrim($db["path"], "/")
 					));
 					
-					if(!$result){
+					if(!$pdo){
 						echo 'connection faild!';
 					}else{
 						echo 'connected successfully!';
