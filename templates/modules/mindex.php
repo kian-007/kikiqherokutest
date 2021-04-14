@@ -96,7 +96,20 @@ function get_content(){ ?>
 					
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
-		   		<?php connect_to_db(); ?>
+		   		<?php  
+				try{
+						connect_to_db();
+						$result = $connection->query('SELECT * FROM users');
+						foreach ($result as $row) {
+						print_r($row);
+						}
+					
+					}catch(PDOException $e) {
+						echo 'Opps, Something bad just happened!' . '<br>';
+						echo $e->getMessage();
+					
+					}
+				?>
 				</div>
 				<div class="right">
 				</div>
