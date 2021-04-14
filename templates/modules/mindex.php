@@ -96,7 +96,7 @@ function get_content(){ ?>
 					
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
-		   		
+		   		<?php connect_to_db(); ?>
 				</div>
 				<div class="right">
 				</div>
