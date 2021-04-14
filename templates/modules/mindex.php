@@ -97,18 +97,33 @@ function get_content(){ ?>
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
 		   		<?php  
-				connect_to_db();
-				try{
-						$result = $pdo->query('SELECT * FROM users');
-						foreach ($result as $row) {
-						print_r($row);
-						}
+					$db = parse_url(getenv("DATABASE_URL"));
+
+					$pdo = new PDO("pgsql:" . sprintf(
+						"host=%s;port=%s;user=%s;password=%s;dbname=%s",
+						$db["host"],
+						$db["port"],
+						$db["user"],
+						$db["pass"],
+						ltrim($db["path"], "/")
+					));
 					
-					}catch(PDOException $e) {
-						echo 'Opps, Something bad just happened!' . '<br>';
-						echo $e->getMessage();
-					
+					if(!$result){
+						echo 'connection faild!';
+					}else{
+						echo 'connected successfully!';
 					}
+					$result = $pdo->query('SELECT * FROM users');
+					if(!$result){
+						echo 'query faild!';
+					}else{
+						echo 'query is alive!';
+					}
+					foreach ($result as $row) {
+					print_r($row);
+					}
+					
+					
 				?>
 				</div>
 				<div class="right">
