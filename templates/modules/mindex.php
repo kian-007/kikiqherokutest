@@ -101,7 +101,22 @@ function get_content(){ ?>
 				<br/>
 				<p style="background-color: yellow; width: 300px; height: 300px;">
 					<?php 
-					
+					global $db;
+					$db = parse_url(getenv("DATABASE_URL"));
+					$db["path"] = ltrim($db["path"], "/"); 
+					function get_user($username){
+					if(!$username){
+						return null;
+					}
+					global $db;
+					$result = $db->query("
+						SELECT *
+						FROM users
+						WHERE username = '$username'
+					");
+					$row = $result->fetchArray(SQLITE3_ASSOC);
+					return $row;
+					}
 					$user = get_user('admin');
 					echo($user['password']);
 					?>
