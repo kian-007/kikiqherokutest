@@ -1,5 +1,6 @@
 <?php
 
+
 function get_user($username){
 	if(!$username){
 		return null;
@@ -10,7 +11,7 @@ function get_user($username){
 		FROM users
 		WHERE username = '$username'
 	");
-	$row = $result->fetchArray(SQLITE3_ASSOC);
+	$row = $result->fetchArray();
 	return $row;
 }
 
@@ -26,7 +27,7 @@ function user_count(){
 		FROM users
 	");
 	$counter = 0;
-	while($row = $result->fetchArray(SQLITE3_ASSOC)){
+	while($row = $result->fetchArray()){
 		$counter++;
 	}
 	return $counter;

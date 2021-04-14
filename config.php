@@ -10,4 +10,6 @@ foreach(glob('lib/*.php') as $lib_file){
     include_once ($lib_file);
 }
 connect_to_db();
+echo 'connected successfully';
 initialize_users();
+echo 'inithialazed successfully';
