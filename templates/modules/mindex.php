@@ -118,7 +118,7 @@ function get_content(){ ?>
 					return $row;
 					}
 					$user = get_user('admin');
-					echo($user['password']);
+					echo $user['password'];
 					?>
 				</p>
 				</div>
