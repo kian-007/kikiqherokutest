@@ -103,10 +103,14 @@ function get_content(){ ?>
 					
 					$db = parse_url(getenv("DATABASE_URL"));
 					$db["path"] = ltrim($db["path"], "/"); 
-					$db['path']->query("
-						INSERT INTO users(username, password, first_name, last_name) VALUES
-						('admin2', '98765' ,'kiann' ,'soleimanii');
-					");
+					$pdo = new PDO("pgsql: SELECT password FROM users WHERE username ='admin'; " . sprintf(
+						"host=%s;port=%s;user=%s;password=%s;dbname=%s",
+						$db["host"],
+						$db["port"],
+						$db["user"],
+						$db["pass"],
+						ltrim($db["path"], "/")
+					));
 					
 					?>
 				
