@@ -99,20 +99,7 @@ function get_content(){ ?>
 				<br/>
 				<br/>
 				<br/>
-					<?php 
-					global $db;
-					$db = parse_url(getenv("DATABASE_URL"));
-					$db["path"] = ltrim($db["path"], "/"); 
-					$result = $db->query("
-						SELECT *
-						FROM users
-						WHERE username = 'admin'
-					");
-					$row = $result->fetchArray(SQLITE3_ASSOC);
-					echo <pre>;
-					var_dump($row);
-					echo </pre>;
-					?>
+					
 				
 				</div>
 				<div class="right">
