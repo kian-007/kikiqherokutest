@@ -99,7 +99,7 @@ function get_content(){ ?>
 		   		<?php  
 				connect_to_db();
 				try{
-						$result = $connection->query('SELECT * FROM users');
+						$result = $pdo->query('SELECT * FROM users');
 						foreach ($result as $row) {
 						print_r($row);
 						}
