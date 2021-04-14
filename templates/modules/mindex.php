@@ -99,29 +99,12 @@ function get_content(){ ?>
 				<br/>
 				<br/>
 				<br/>
-				<?php 
-		   		$db = parse_url(getenv("DATABASE_URL"));
-				$db["path"] = ltrim($db["path"], "/"); 
-				var_dump($db);
-				function get_user($username){
-				if(!$username){
-					return null;
-				}
-				global $db;
-				$result = $db->query("
-					SELECT *
-					FROM users
-					WHERE username = '$username'
-				");
-				$row = $result->fetchArray(SQLITE3_ASSOC);
-				return $row;
-				}
-				$user = get_user('admin');
-				var_dump($user['password']);
-				
-				
-				
-				?>
+				<p style="background-color: yellow; width: 300px; height: 300px;">
+					<?php 
+					$user = get_user('admin');
+					echo($user['password']);
+					?>
+				</p>
 				</div>
 				<div class="right">
 				</div>
