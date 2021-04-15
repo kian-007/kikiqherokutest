@@ -162,6 +162,7 @@
 			.login li a:hover
 			{
 				color: white;
+				background-color: gray;
 			}
 			.ulmenue, .ulmenue ul
 			{
