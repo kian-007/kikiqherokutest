@@ -116,7 +116,10 @@
 				right: 20px;
 				z-index: 21;
 			}
-			
+			#ahome::after
+			{
+				content: "<img src='images/home.jpg' />";
+			}
 			.ulmenue, .ulmenue ul
 			{
 				list-style-type : none;
