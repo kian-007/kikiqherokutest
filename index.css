@@ -118,8 +118,9 @@
 			}
 			#ahome
 			{
-				background-image: url('images/home.jpg') right;
+				background-image: url('images/home.jpg');
 				background-repeat: no-repeat;
+				background-position: 70px 4px;
 				text-align: center;
 				
 			}
