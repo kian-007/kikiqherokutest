@@ -129,7 +129,7 @@
 				list-style-type : none;
 				padding : 0px;
 				margin : 0px;
-				float: right;
+				float: left;
 				border-bottom: solid black 1px;
 			}
 			.login li
