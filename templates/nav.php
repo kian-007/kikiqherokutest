@@ -1,5 +1,9 @@
 				<?php	include_once('config.php');?>
 				<div class= "menue">
+				<ul class="login">
+					<li><a href='#'>ورود</a></li>
+					<li><a href='#'>صفحه کاربری</a></li>
+				</ul>
 				<ul class ="ulmenue" >
 					<li><a href='#'>آرایشی و بهداشتی</a>
 						<ul class ="subul">
@@ -33,9 +37,7 @@
 							<li><a href='#'>empty</a></li>
 						</ul>
 					</li>
-					<li><a href='#'>ورود</a></li>
-					<li><a href='#'>صفحه کاربری</a></li>
-					<li id='homeli'><a href='index.php'>خانه</a></li>
+					<li><a href='index.php'>خانه</a></li>
 					<li><span>دسته بندی</span></li>
 				</ul>
 				<h1 class ="h1">KikiCutest</h1>

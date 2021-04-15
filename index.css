@@ -124,6 +124,23 @@
 				text-align: center;
 				
 			}
+			.login, .login ul
+			{
+				list-style-type : none;
+				padding : 0px;
+				margin : 0px;
+				float: right;
+				border-bottom: solid black 1px;
+			}
+			.login li
+			{
+				float : left;
+				width : 100px;
+				height: 50px;
+				background-color : pink;
+				cursor: pointer;
+				text-align: right;
+			}
 			.ulmenue, .ulmenue ul
 			{
 				list-style-type : none;
