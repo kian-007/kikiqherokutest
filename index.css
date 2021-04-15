@@ -118,9 +118,9 @@
 			}
 			#ahome
 			{
-				background-image: url('images/home.jpg');
-				background-size: 45px 39px;
+				background-image: url('images/home.jpg') top right;
 				background-repeat: no-repeat;
+				text-align: center;
 				
 			}
 			.ulmenue, .ulmenue ul
