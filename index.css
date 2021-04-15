@@ -140,6 +140,7 @@
 				background-color : pink;
 				cursor: pointer;
 				text-align: center;
+				z-index: 5;
 			}
 			.login li a
 			{
@@ -183,6 +184,7 @@
 				background-color : pink;
 				cursor: pointer;
 				text-align: right;
+				z-index: 5;
 			}
 			.ulmenue .subul li:last-child
 			{
@@ -348,6 +350,7 @@
 					right:85px;
 					letter-spacing :3px;
 					color: red;
+					z-index: 1;
 				}
 			}
 			@media only screen and (min-width: 500px)
@@ -362,6 +365,7 @@
 					right:85px;
 					letter-spacing :3px;
 					color: yellow;
+					z-index: 1;
 				}
 			}
 			/* for smart phones */
@@ -375,9 +379,10 @@
 					position:absolute;
 					letter-spacing :2px;
 					top: -15px;
-					left: 25px;
+					left: 250px;
 					font-size: 20pt;
-					color: rgba( 0, 0, 0 ,0.5);
+					color: white;
+					z-index: 1;
 				}
 				.rights
 				{
@@ -408,7 +413,8 @@
 					top: -15px;
 					left: 25px;
 					font-size: 20pt;
-					color: rgba( 0, 0, 0 ,0.5);
+					color: white;
+					z-index: 1;
 				}
 			}
 			/* for laptops */
@@ -424,7 +430,8 @@
 					top: -30px;
 					left: 250px;
 					font-size: 30pt;
-					color: rgba( 0, 0, 0 ,0.5);
+					color: white;
+					z-index: 1;
 				}
 				.rights
 				{
