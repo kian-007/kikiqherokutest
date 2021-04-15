@@ -377,7 +377,7 @@
 					top: -15px;
 					left: 25px;
 					font-size: 20pt;
-					color: white;
+					color: rgba( 0, 0, 0 ,0.5);
 				}
 				.rights
 				{
@@ -408,7 +408,7 @@
 					top: -15px;
 					left: 25px;
 					font-size: 20pt;
-					color: white;
+					color: rgba( 0, 0, 0 ,0.5);
 				}
 			}
 			/* for laptops */
@@ -424,7 +424,7 @@
 					top: -30px;
 					left: 250px;
 					font-size: 30pt;
-					color: white;
+					color: rgba( 0, 0, 0 ,0.5);
 				}
 				.rights
 				{
