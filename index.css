@@ -116,9 +116,12 @@
 				right: 20px;
 				z-index: 21;
 			}
-			#ahome::after
+			#ahome
 			{
-				content: "<img src='images/home.jpg' />";
+				background-image: url('images/threeline6.jpg');
+				background-size: 45px 39px;
+				background-repeat: no-repeat;
+				
 			}
 			.ulmenue, .ulmenue ul
 			{
