@@ -374,16 +374,17 @@
 			@media only screen and (min-width: 900px) {
 				.h1
 				{
-					float:left;
+					float:right;
 					display: inline-block;
 					width: 200px;
 					font-size:40pt;
 					position:absolute;
 					letter-spacing :2px;
-					top: -15px;
-					left: 250px;
+					top: 100px;
+					right: 50px;
 					font-size: 20pt;
-					color: rgba(0, 0, 0, 0.2);
+					color: white;
+					background-color: rgba(150, 52, 79, 0.5);
 					z-index: 1;
 				}
 				.rights
@@ -406,17 +407,7 @@
 			}@media only screen and (min-width: 900px) and (orientation: landscape) {
 				.h1
 				{
-					float:left;
-					display: inline-block;
-					width: 200px;
-					font-size:40pt;
-					position:absolute;
-					letter-spacing :2px;
-					top: -15px;
-					left: 25px;
-					font-size: 20pt;
-					color: rgba(0, 0, 0, 0.2);
-					z-index: 1;
+					display: none;
 				}
 			}
 			/* for laptops */
