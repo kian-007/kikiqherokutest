@@ -84,10 +84,14 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				
 				$('.login').find('li').hover(function(){
 					$(this).css('background-color', "#56313b")
-					$(this).css('transition', "background-color 2s")
+					$(this).css('transition', "background-color 1s")
 					$(this).find('a').css('color', "#e7dade")
-					$(this).find('a').css('transition', "color 2s")
-				}, function(){})
+					
+				}, function(){
+					$(this).css('background-color', "pink")
+					$(this).css('transition', "background-color 1s")
+					$(this).find('a').css('color', "rgb(70,48,48)")
+				})
 			})
 		</script>
                 <?php   include_once ('lib/functions.php');
