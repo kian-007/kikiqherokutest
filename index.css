@@ -147,7 +147,7 @@
 			{
 				text-decoration: none;
 				color: rgb(70,48,48);
-				margin-top: 7px;
+				margin-top: 10px;
 				font-size: 11pt;
 				font-weight: bold;
 				display : block;
@@ -158,6 +158,10 @@
 				display : none;
 				border: solid black 3px;
 				border-radius: 20px;
+			}
+			.login li a:hover
+			{
+				color: white;
 			}
 			.ulmenue, .ulmenue ul
 			{
@@ -196,6 +200,7 @@
 			{
 				text-decoration: none;
 				color: red;
+				margin-top: 10px;
 				font-size: 15pt;
 				display : block;
 				-webkit-transition: background-color 1s;
