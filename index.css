@@ -153,20 +153,11 @@
 				display : block;
 				-webkit-transition: background-color 1s;
 			}
-			
 			.login li ul
 			{
 				display : none;
 				border: solid black 3px;
 				border-radius: 20px;
-			}
-			.login li:hover
-			{
-				background-color: rgb(50,28,28);
-			}
-			.login li a:hover
-			{
-				color: #d9cace;
 			}
 			.ulmenue, .ulmenue ul
 			{
