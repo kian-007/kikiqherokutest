@@ -146,7 +146,7 @@
 			.login li a
 			{
 				text-decoration: none;
-				color: red;
+				color: rgb(70,48,48);
 				margin-top: 7px;
 				font-size: 11pt;
 				display : block;
@@ -159,16 +159,10 @@
 				border: solid black 3px;
 				border-radius: 20px;
 			}
-			.login li:hover
-			{
-				color: #ff1a75;
-				font-size: 15pt;
-				background-color: pink;
-			}
 			.login li a:hover
 			{
-				color: #ff1a75;
-				background-color: white;
+				color: rgb(106,74,74);
+				background-color: rgb(174,129,129);
 			}
 			.ulmenue, .ulmenue ul
 			{
