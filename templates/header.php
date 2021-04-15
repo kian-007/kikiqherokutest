@@ -81,6 +81,13 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('form').find('input[type="checkbox"]').hide()
 				$('form').find('input[type="checkbox"]').after("<img class='mychk' src='images/chk3.jpg' />")
 				$('form').find('input[type="checkbox"]').mychk()
+				
+				$('.login').find('li').hover(function(){
+					$(this).css('background-color', "#56313b")
+					$(this).css('transition', "background-color 2s")
+					$(this).find('a').css('color', "#e7dade")
+					$(this).find('a').css('transition', "color 2s")
+				}, function(){})
 			})
 		</script>
                 <?php   include_once ('lib/functions.php');
