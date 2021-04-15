@@ -36,6 +36,7 @@
 				width: 200px;
 				color: #293abd;
 				font-size: 15pt;
+				z-index: 1;
 			}
 			.left
 			{
