@@ -149,6 +149,7 @@
 				color: rgb(70,48,48);
 				margin-top: 7px;
 				font-size: 11pt;
+				font-weight: bold;
 				display : block;
 				-webkit-transition: background-color 1s;
 			}
@@ -161,8 +162,7 @@
 			}
 			.login li a:hover
 			{
-				color: rgb(106,74,74);
-				background-color: rgb(174,129,129);
+				color: rgb(50,28,28);
 			}
 			.ulmenue, .ulmenue ul
 			{
