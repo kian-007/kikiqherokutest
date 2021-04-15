@@ -457,7 +457,7 @@
 			{
 				background-image: url('images/arrow2.jpg');
 				background-repeat: no-repeat;
-				background-position: 130px 5px;
+				background-position: 130px 15px;
 				padding-right: 23px;
 				transition: background-image 0.3s;
 				z-index: 5;
