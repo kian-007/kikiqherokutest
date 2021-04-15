@@ -121,7 +121,7 @@
 			{
 				background-image: url('images/home.jpg');
 				background-repeat: no-repeat;
-				background-position: 70px 4px;
+				background-position: 85px 4px;
 				text-align: center;
 				
 			}
@@ -147,6 +147,7 @@
 			{
 				text-decoration: none;
 				color: red;
+				margin: auto;
 				font-size: 11pt;
 				display : block;
 				-webkit-transition: background-color 1s;
