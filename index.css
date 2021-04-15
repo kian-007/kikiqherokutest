@@ -474,6 +474,7 @@
 				background-position: 130px 5px;
 				padding-right: 23px;
 				transition: background-image 0.3s;
+				z-index: 5;
 			}
 			.ulmenue > li:nth-child(6)
 			{
