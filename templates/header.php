@@ -12,15 +12,7 @@
                   ?>
             <title><?php echo get_title(); ?></title>
 
-			<?php   include_once ('lib/functions.php');
-					$module = get_module_name();
-					$module_file = "templates/modules/m$module";
-					if(file_exists($module_file)){
-						include_once ("templates/modules/m$module");
-					}else{
-						include_once ('templates/modules/mindex.php');
-					} 
-                    css_link(); ?>
+        <?php css_link(); ?>
 		<script src="jquery-3.5.1.min.js"></script>
 		<script src="chk.js"></script>
 		<script>
