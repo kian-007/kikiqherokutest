@@ -220,6 +220,15 @@
 			    -webkit-transition: background-color 1s;
 			}
 			
+			.subul li a {
+			    text-decoration: none;
+			    color: pink;
+			    margin-top: 10px;
+			    font-size: 15pt;
+			    display: block;
+			    -webkit-transition: background-color 1s;
+			}
+			
 			.ulmenue li ul {
 			    display: none;
 			    border: solid black 3px;
