@@ -48,13 +48,14 @@ function get_style(){ ?>
        }
        button
        {
-           margin: auto;
+           margin-left: 170px;
            background-color: blue;
            width: 200px;
            height: 30px;
        }
        input
        {
+           margin-left: 170px;
            width: 200px;
            height: 30px;
        }
@@ -71,10 +72,7 @@ function get_style(){ ?>
             font-size: small;
             font-weight: 100;
        }
-       .dinput
-       {
-            width: 50px;
-       }
+      
     </style>
 <?php }
 
