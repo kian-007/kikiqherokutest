@@ -190,7 +190,7 @@
 			    float: left;
 			    width: 150px;
 			    height: 50px;
-			    background-color: #ff1a75;
+			    background-color: #white;
 			    cursor: pointer;
 			    text-align: right;
 			    z-index: 5;
@@ -222,7 +222,7 @@
 			
 			.subul li a {
 			    text-decoration: none;
-			    color: pink;
+			    color: black;
 			    margin-top: 10px;
 			    font-size: 15pt;
 			    display: block;
