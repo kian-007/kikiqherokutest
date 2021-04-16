@@ -1,10 +1,7 @@
 <?php
-$title = null;
 
 function get_title(){
-    global $title;
-    $title = 'صفحه کاربری';
-    return $title;
+    return = 'صفحه کاربری';
 }
 
 
