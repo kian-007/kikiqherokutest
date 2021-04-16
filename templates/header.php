@@ -88,20 +88,9 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).find('a').css('color', "#e7dade")
 					
 				}, function(){
-					$(this).css('background-color', "#ff1a75")
-					$(this).css('transition', "background-color 1s")
-					$(this).find('a').css('color', "rgb(70,48,48)")
-				})
-
-				$('.menue').not('.subul').find('li').hover(function(){
 					$(this).css('background-color', "pink")
 					$(this).css('transition', "background-color 1s")
-					$(this).find('a').css('color', "red")
-					
-				}, function(){
-					$(this).css('background-color', "#ff1a75")
-					$(this).css('transition', "background-color 1s")
-					$(this).find('a').css('color', "pink")
+					$(this).find('a').css('color', "rgb(70,48,48)")
 				})
 			})
 		</script>

@@ -138,10 +138,9 @@
 			    float: left;
 			    width: 70px;
 			    height: 50px;
-			    background-color: #ff1a75;
+			    background-color: pink;
 			    cursor: pointer;
 			    text-align: center;
-			    border-radius: 13px;
 			    z-index: 5;
 			}
 			
@@ -175,22 +174,11 @@
 			    border-bottom: solid black 1px;
 			}
 			
-			.ulmenue>li {
+			.ulmenue li {
 			    float: left;
 			    width: 150px;
 			    height: 50px;
-			    background-color: #ff1a75;
-			    cursor: pointer;
-			    text-align: right;
-			    border-radius: 13px;
-			    z-index: 5;
-			}
-			
-			.subul li {
-			    float: left;
-			    width: 150px;
-			    height: 50px;
-			    background-color: #white;
+			    background-color: pink;
 			    cursor: pointer;
 			    text-align: right;
 			    z-index: 5;
@@ -211,18 +199,9 @@
 			    border-top-left-radius: 20px;
 			}
 			
-			.ulmenue>li a {
+			.ulmenue li a {
 			    text-decoration: none;
-			    color: pink;
-			    margin-top: 10px;
-			    font-size: 15pt;
-			    display: block;
-			    -webkit-transition: background-color 1s;
-			}
-			
-			.subul li a {
-			    text-decoration: none;
-			    color: black;
+			    color: red;
 			    margin-top: 10px;
 			    font-size: 15pt;
 			    display: block;
@@ -235,7 +214,14 @@
 			    border-radius: 20px;
 			}
 			
+			.ulmenue li:hover {
+			    color: #ff1a75;
+			    font-size: 15pt;
+			    background-color: pink;
+			}
+			
 			.ulmenue li a:hover {
+			    color: #ff1a75;
 			    background-color: white;
 			}
 			
