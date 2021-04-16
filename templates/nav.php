@@ -13,7 +13,7 @@
 							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?brush=1'>براش</a></li>
 						</ul>
 					</li>
-					<pre> </pre>
+					
 					<li><a href='#'>پوست</a>
 						<ul class ="subul">
 							<li style="height: 60px"><a href='<?php echo SITE_URL; ?>skin.php?handcream=1'>کرم مرطوب کننده دست</a></li>
@@ -22,7 +22,7 @@
 							<li><a href='#'>empty</a></li>
 						</ul>
 					</li>
-					<pre> </pre>
+					
 					<li><a href='#'>مو</a>
 						<ul class ="subul">
 							<li><a href='#'>empty</a></li>
@@ -31,7 +31,7 @@
 							<li><a href='#'>empty</a></li>
 						</ul>
 					</li>
-					<pre> </pre>
+					
 					<li><a href='#'>فانتزی</a>
 						<ul class ="subul" >
 							<li><a href='#'>پاپوش یونیکورن</a></li>
@@ -40,7 +40,7 @@
 							<li><a href='#'>empty</a></li>
 						</ul>
 					</li>
-					<pre> </pre>
+					
 					<li id='homeli'><a href='index.php'>خانه</a></li>
 					<li><span>دسته بندی</span></li>
 				</ul>
