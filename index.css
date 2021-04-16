@@ -176,7 +176,7 @@
 			    border-bottom: solid black 1px;
 			}
 			
-			.ulmenue li {
+			.ulmenue>li {
 			    float: left;
 			    width: 150px;
 			    height: 50px;
@@ -185,6 +185,17 @@
 			    text-align: right;
 			    border: solid white 1px;
 			    border-radius: 12px;
+			    z-index: 5;
+			}
+			
+			.subul li {
+			    float: left;
+			    width: 150px;
+			    height: 50px;
+			    background-color: pink;
+			    cursor: pointer;
+			    text-align: right;
+			    border-bottom: solid white 1px;
 			    z-index: 5;
 			}
 			
@@ -222,6 +233,12 @@
 			    color: #ff1a75;
 			    font-size: 15pt;
 			    background-color: pink;
+			}
+			
+			.ulmenue>li:hover {
+			    color: #ff1a75;
+			    font-size: 15pt;
+			    background-color: rgb(201, 53, 78);
 			}
 			
 			.ulmenue li a:hover {
