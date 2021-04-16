@@ -23,7 +23,7 @@ function get_content(){ ?>
                             </div>
                             <br/>
                             <button type="submit">Sign in</button>
-                            <p>&copy; 2017–2021</p>
+                            <p style="margin-left: 170px;">&copy; 2017–2021</p>
                         </form>
                     </div>
 				<div class="right2">
