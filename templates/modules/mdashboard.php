@@ -27,6 +27,7 @@ function get_style(){ ?>
             background-color: gray;
             height: 25px;
 	    border-radius: 35px;
+	    text-align: right;
         }
     </style>
 <?php }
