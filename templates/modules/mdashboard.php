@@ -15,7 +15,7 @@ function get_content(){ ?>
 				</div>
 
 				<div class="content2">
-				<p> این صفحه فقظ به کاربران نمایش داده میشود. </p>
+				<p id ='p1'> این صفحه فقظ به کاربران نمایش داده میشود. </p>
 				</div>
 				
 				<div class="right2">
@@ -24,10 +24,12 @@ function get_content(){ ?>
 
 function get_style(){ ?>
         <style>
-            p
+            #p1
             {
                 background-color: gray;
-                border-radius: 45;
+                height: 25px;
+                border-radius: 45px;
+                text-align: right;
             }
 		</style>
 <?php }

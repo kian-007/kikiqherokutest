@@ -36,3 +36,9 @@ function get_content(){ ?>
 
 
 <?php }
+
+function css_link(){ ?>
+
+    <link href="<?php echo SITE_URL;  ?>bootstrap.min.css" rel="stylesheet"/>
+
+<?php }

@@ -182,3 +182,10 @@ function get_java_script(){ ?>
 			window.onload = function(){ document.getElementById("preloader").style.display = "none"; }
 		</script> 
 <?php }
+
+function css_link(){ ?
+
+	<link type="text/css"	rel="stylesheet"	href="index.css" />
+	<link type="text/css"	rel="stylesheet"	href="index3.css" />
+
+<?php }
