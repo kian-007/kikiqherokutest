@@ -22,10 +22,11 @@ function get_content(){ ?>
 
 function get_style(){ ?>
     <style>
-        p
+        #p1
         {
             background-color: gray;
             height: 25px;
+	    border-radius: 35px;
         }
     </style>
 <?php }
