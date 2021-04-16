@@ -12,7 +12,6 @@
                   ?>
             <title><?php echo get_title(); ?></title>
 
-        <?php css_link(); ?>
 		<script src="jquery-3.5.1.min.js"></script>
 		<script src="chk.js"></script>
 		<script>
