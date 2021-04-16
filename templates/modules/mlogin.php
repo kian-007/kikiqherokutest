@@ -32,6 +32,10 @@ function get_content(){ ?>
 
 function get_style(){ ?>
     <style>
+        h1
+        {
+            margin-left: 170px;
+        }
        .dform
        {
             background-color: gray;
