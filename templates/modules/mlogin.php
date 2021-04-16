@@ -38,8 +38,8 @@ function get_style(){ ?>
             margin-top: 100px;
             margin-left: 300px;
             botder: solid black 1px;
-            width: 300px;
-            height: 300px;
+            width: 500px;
+            height: 500px;
             -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";/*IE 8*/
             -moz-box-shadow: 3px 3px 3px 3px #274540;/*FF 3.5+*/
             -webkit-box-shadow: 3px 3px 3px 3px #274540;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
@@ -48,14 +48,15 @@ function get_style(){ ?>
        }
        button
        {
+           margin: auto;
            background-color: blue;
            width: 200px;
-           height: 15px;
+           height: 30px;
        }
        input
        {
            width: 200px;
-           height: 15px;
+           height: 30px;
        }
        input :hover
        {
@@ -72,11 +73,7 @@ function get_style(){ ?>
        }
        .dinput
        {
-            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";/*IE 8*/
-            -moz-box-shadow: 3px 3px 3px 3px #274540 inset;/*FF 3.5+*/
-            -webkit-box-shadow: 3px 3px 3px 3px #274540 inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-            box-shadow: 3px 3px 3px 3px #274540 inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-            filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540); /*IE 5.5-7*/
+            width: 50px;
        }
     </style>
 <?php }
