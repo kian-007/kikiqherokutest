@@ -216,15 +216,9 @@
 			    border-radius: 20px;
 			}
 			
-			.ulmenue li:hover {
-			    color: #ff1a75;
-			    font-size: 15pt;
-			    background-color: pink;
-			}
-			
 			.ulmenue li a:hover {
-			    color: red;
-			    background-color: white;
+			    color: white;
+			    background-color: gray;
 			}
 			
 			.subul li a:hover {
