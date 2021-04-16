@@ -13,13 +13,13 @@ function get_content(){ ?>
                 <div class="row mb-3">
                       <div class="col-md-4 themed-grid-col"></div>
                       <div class="col-md-4 themed-grid-col">
-                          
+
                           <br/>
                           <br/>
                           <main class="form-signin">
                               <form    method="post">
                                   <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-                
+
                                   <div class="form-floating">
                                         <input class="form-control" id="username" name='username' placeholder="username">
                                         <label for="floatingInput">Username</label>
@@ -33,7 +33,7 @@ function get_content(){ ?>
                                   <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
                                 </form>
                           </main>
-                          
+
                       </div>
                       <div class="col-md-4 themed-grid-col"></div>
                 </div>
@@ -51,6 +51,8 @@ function get_style(){ ?>
 
 function css_link(){ ?>
 
-    <link href="bootstrap.min.css" rel="stylesheet"/>
+<link type="text/css"	rel="stylesheet"	href="index.css" />
+<link type="text/css"	rel="stylesheet"	href="index3.css" />
+<link href="bootstrap.min.css" rel="stylesheet"/>
 
 <?php }
