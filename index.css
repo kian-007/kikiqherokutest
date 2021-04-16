@@ -211,7 +211,7 @@
 			    border-top-left-radius: 20px;
 			}
 			
-			.ulmenue li a {
+			.ulmenue>li a {
 			    text-decoration: none;
 			    color: pink;
 			    margin-top: 10px;
@@ -236,8 +236,7 @@
 			}
 			
 			.ulmenue li a:hover {
-			    color: white;
-			    background-color: gray;
+			    background-color: white;
 			}
 			
 			.subul li a:hover {
