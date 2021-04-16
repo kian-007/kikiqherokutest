@@ -13,11 +13,11 @@ function get_content(){ ?>
                     <div class="dform">
                         <form    method="post">
                             <h1>Please sign in</h1>
-                            <div>
-                                  <input class="form-control" id="username" name='username' placeholder="username">
+                            <div class="dinput">
+                                  <input id="username" name='username' placeholder="username">
                                   <label for="username">Username</label>
                             </div>
-                            <div>
+                            <div class="dinput">
                                   <input type="password" id="password" name='password' placeholder="Password">
                                   <label for="password">Password</label>
                             </div>
@@ -32,7 +32,51 @@ function get_content(){ ?>
 
 function get_style(){ ?>
     <style>
-       
+       #date_format
+       {
+            margin-top: 100px;
+            margin-left: 300px;
+            botder: solid black 1px;
+            width: 300px;
+            height: 300px;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";/*IE 8*/
+            -moz-box-shadow: 3px 3px 3px 3px #274540;/*FF 3.5+*/
+            -webkit-box-shadow: 3px 3px 3px 3px #274540;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+            box-shadow: 3px 3px 3px 3px #274540;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+            filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540); /*IE 5.5-7*/
+       }
+       button
+       {
+           background-color: blue;
+           width: 100px;
+           height: 100px;
+       }
+       input
+       {
+           width: 100px;
+           height: 100px;
+       }
+       input :hover
+       {
+            border-top-color: blue;
+            border-left-color: blue;
+            border-right-color: blue;
+
+       }
+       input ::placeholder :hover
+       {
+            color: blue;
+            font-size: small;
+            font-weight: 100;
+       }
+       dinput
+       {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";/*IE 8*/
+            -moz-box-shadow: 3px 3px 3px 3px #274540 inset;/*FF 3.5+*/
+            -webkit-box-shadow: 3px 3px 3px 3px #274540 inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+            box-shadow: 3px 3px 3px 3px #274540 inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+            filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540); /*IE 5.5-7*/
+       }
     </style>
 <?php }
 
