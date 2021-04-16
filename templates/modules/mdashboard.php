@@ -24,10 +24,11 @@ function get_style(){ ?>
     <style>
         #p1
         {
+            margin-top: 100px;
             background-color: gray;
             height: 25px;
-	    border-radius: 35px;
-	    text-align: right;
+	        border-radius: 35px;
+	        text-align: right;
         }
     </style>
 <?php }
