@@ -21,21 +21,3 @@ function get_content(){ ?>
 				</div>
 <?php }
 
-function get_style(){ ?>
-        <style>
-            #p1
-            {
-                background-color: gray;
-                height: 25px;
-                border-radius: 45px;
-                text-align: right;
-            }
-		</style>
-<?php }
-
-function css_link(){ ?>
-
-	<link type="text/css"	rel="stylesheet"	href="index.css" />
-	<link type="text/css"	rel="stylesheet"	href="index3.css" />
-
-<?php }
