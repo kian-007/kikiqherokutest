@@ -182,6 +182,7 @@
 			    height: 50px;
 			    background-color: pink;
 			    cursor: pointer;
+			    margin-right: 5px;
 			    text-align: right;
 			    border: solid white 1px;
 			    border-radius: 12px;
