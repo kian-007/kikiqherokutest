@@ -1,7 +1,7 @@
 <?php
 
 function get_title(){
-    return 'آیینه';
+    return 'صفحه کاربری';
 }
 
 function get_content(){ ?>
@@ -11,9 +11,9 @@ function get_content(){ ?>
 				</div>
 
 				<div class="content2">
-                    <div>
-				        <p id ='p1'> این صفحه فقظ به کاربران نمایش داده میشود. </p>
-                    </div>
+                    			<div>
+				        	<p id ='p1'> این صفحه فقظ به کاربران نمایش داده میشود. </p>
+                    			</div>
 				</div>
 				
 				<div class="right2">
