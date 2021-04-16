@@ -93,15 +93,15 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).find('a').css('color', "rgb(70,48,48)")
 				})
 
-				$('.ulmenue').children().hover(function(){
+				$('.ulmenue').find('li').hover(function(){
 					$(this).css('background-color', "pink")
 					$(this).css('transition', "background-color 1s")
-					$(this).find('a').css('color', "red")
+					$(this).not('.subul').find('a').css('color', "red")
 					
 				}, function(){
 					$(this).css('background-color', "#ff1a75")
 					$(this).css('transition', "background-color 1s")
-					$(this).find('a').css('color', "pink")
+					$(this).not('.subul').find('a').css('color', "pink")
 				})
 			})
 		</script>
