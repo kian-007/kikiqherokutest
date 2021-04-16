@@ -109,12 +109,14 @@
 			
 			.menue {
 			    /*background-color: #ff1a75;*/
-			    background-color: #ff1a75;
+			    background-color: pink;
 			    width: 102%;
 			    height: 50px;
 			    position: relative;
 			    top: -201px;
 			    right: 20px;
+			    border: solid white 1px;
+			    border-radius: 12px;
 			    z-index: 21;
 			}
 			
@@ -201,7 +203,7 @@
 			
 			.ulmenue li a {
 			    text-decoration: none;
-			    color: red;
+			    color: white;
 			    margin-top: 10px;
 			    font-size: 15pt;
 			    display: block;
