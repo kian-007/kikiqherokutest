@@ -39,6 +39,6 @@ function get_content(){ ?>
 
 function css_link(){ ?>
 
-    <link href="<?php echo SITE_URL;  ?>bootstrap.min.css" rel="stylesheet"/>
+    <link type="text/css" href="bootstrap.min.css" rel="stylesheet"/>
 
 <?php }

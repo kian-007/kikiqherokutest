@@ -20,9 +20,7 @@
 					}else{
 						include_once ('templates/modules/mindex.php');
 					} 
-                  ?>
-
-			<?php css_link(); ?>
+                    css_link(); ?>
 		<script src="jquery-3.5.1.min.js"></script>
 		<script src="chk.js"></script>
 		<script>
