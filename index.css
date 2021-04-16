@@ -143,6 +143,7 @@
 			    background-color: pink;
 			    cursor: pointer;
 			    text-align: center;
+			    border: solid white 1px;
 			    z-index: 5;
 			}
 			
