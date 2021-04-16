@@ -186,6 +186,7 @@
 			    text-align: right;
 			    border: solid white 1px;
 			    border-radius: 12px;
+			    transition: background-color 1s;
 			    z-index: 5;
 			}
 			
@@ -243,7 +244,7 @@
 			}
 			
 			.ulmenue li a:hover {
-			    color: #ff1a75;
+			    color: #bd2d66;
 			}
 			
 			.subul li a:hover {
