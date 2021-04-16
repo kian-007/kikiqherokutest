@@ -20,3 +20,19 @@ function get_content(){ ?>
 				</div>
 <?php }
 
+function get_style(){ ?>
+    <style>
+        p
+        {
+            background-color: gray;
+            height: 25px;
+        }
+    </style>
+<?php }
+
+function css_link(){ ?>
+
+<link type="text/css"	rel="stylesheet"	href="index.css" />
+<link type="text/css"	rel="stylesheet"	href="index3.css" />
+
+<?php }
