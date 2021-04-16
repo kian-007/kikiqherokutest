@@ -1,9 +1,8 @@
 <?php
 
 function get_title(){
-    return = 'صفحه کاربری';
+    return 'آیینه';
 }
-
 
 function get_content(){ ?>
 
