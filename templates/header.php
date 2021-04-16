@@ -93,7 +93,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).find('a').css('color', "rgb(70,48,48)")
 				})
 
-				$('.menue').find('ul').not('.subul').find('li').hover(function(){
+				$('.menue').not('.subul').find('li').hover(function(){
 					$(this).css('background-color', "pink")
 					$(this).css('transition', "background-color 1s")
 					$(this).find('a').css('color', "red")
