@@ -147,10 +147,6 @@
 			    z-index: 5;
 			}
 			
-			.login li:first-child {
-			    margin-left: 10px;
-			}
-			
 			.login li a {
 			    text-decoration: none;
 			    color: rgb(70, 48, 48);
