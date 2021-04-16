@@ -32,8 +32,9 @@ function get_content(){ ?>
 
 function get_style(){ ?>
     <style>
-       #date_format
+       .dform
        {
+            background-color: gray;
             margin-top: 100px;
             margin-left: 300px;
             botder: solid black 1px;
@@ -48,13 +49,13 @@ function get_style(){ ?>
        button
        {
            background-color: blue;
-           width: 100px;
-           height: 100px;
+           width: 200px;
+           height: 15px;
        }
        input
        {
-           width: 100px;
-           height: 100px;
+           width: 200px;
+           height: 15px;
        }
        input :hover
        {
@@ -63,13 +64,13 @@ function get_style(){ ?>
             border-right-color: blue;
 
        }
-       input ::placeholder :hover
+       input ::placeholder
        {
             color: blue;
             font-size: small;
             font-weight: 100;
        }
-       dinput
+       .dinput
        {
             -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";/*IE 8*/
             -moz-box-shadow: 3px 3px 3px 3px #274540 inset;/*FF 3.5+*/
