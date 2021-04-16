@@ -32,9 +32,12 @@ function get_content(){ ?>
       </div>
       <div class="col-md-4 themed-grid-col"></div>
 </div>
+<?php }
 
-
-
+function get_style(){ ?>
+    <style>
+       
+    </style>
 <?php }
 
 function css_link(){ ?>
