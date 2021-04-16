@@ -12,7 +12,9 @@ function get_content(){ ?>
 				</div>
 
 				<div class="content2">
-				<p id ='p1'> این صفحه فقظ به کاربران نمایش داده میشود. </p>
+                    <div>
+				        <p id ='p1'> این صفحه فقظ به کاربران نمایش داده میشود. </p>
+                    </div>
 				</div>
 				
 				<div class="right2">
