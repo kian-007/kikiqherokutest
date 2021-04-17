@@ -116,18 +116,22 @@ $bag = get_value('bag', 0);
 						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
 						<label for="lamp"><b>برق لب لامپی</b></label><br/>
 					</div>
+					<br/>
 					<div class="input">
 						<input type="checkbox"    name="lipgloss"    id="lipgloss"    value='show' />
 						<label for="lipgloss"><b>برق لب قرصی</b></label><br/>
 					</div>
+					<br/>
 					<div class="input">
 						<input type="checkbox"    name="brush"    id="brush"    value='show' />
 						<label for="brush"><b>براش</b></label><br/>
 					</div>
+					<br/>
 					<div class="input">
 						<input type="checkbox"    name="bag"    id="bag"    value='show' />
 						<label for="bag"><b>Victoria's secret کیف آرایشی</b></label><br/>
 					</div>
+					<br/>
 						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
 				</fieldset>
@@ -143,7 +147,7 @@ function get_style(){ ?>
 				border-radius: 30px;
 				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
 				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
-				color: pink;
+				color: #2a1d96;
 				transition: background-color 1s;
 				cursor: pointer;
 			}
