@@ -496,10 +496,6 @@
 			    z-index: 5;
 			}
 			
-			.prevli:nth-child(5) {
-			    background-position: 40px 10px;
-			}
-			
 			.ulmenue>li:nth-child(6) {
 			    background-image: url('images/threeline6.jpg');
 			    background-size: 45px 41px;
