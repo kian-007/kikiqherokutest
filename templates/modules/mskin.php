@@ -103,7 +103,7 @@ function get_style(){ ?>
 			}
 			button:hover
 			{
-				background-color: #220746;
+				background-color: rgb(23, 5, 46);
 			}
 			.input{
 				border-radius: 30px;
