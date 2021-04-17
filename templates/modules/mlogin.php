@@ -14,11 +14,11 @@ function get_content(){ ?>
                         <form    method="post">
                             <h1>Please sign in</h1>
                             <div class="dinput">
-                                  <input class="input second" type="text" id="username" name='username' placeholder="username">
+                                  <input class="input second" id="username" name='username' placeholder="username" />
                                   <label for="username">Username</label>
                             </div>
                             <div class="dinput">
-                                  <input class="input second" type="password" id="password" name='password' placeholder="Password">
+                                  <input class="input second" type="password" id="password" name='password' placeholder="Password" />
                                   <label for="password">Password</label>
                             </div>
                             <br/>
