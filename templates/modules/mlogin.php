@@ -38,6 +38,7 @@ function get_style(){ ?>
         }
        .dform
        {
+           background: #f3f0f1;
             margin-top: 100px;
             margin-left: 300px;
             border: solid black 1px;
@@ -106,6 +107,7 @@ function get_style(){ ?>
        @media only screen and (min-width: 900px) {
         .dform
        {
+            background: #f3f0f1;
             margin-top: 100px;
             margin-left: 222px;
             border: solid black 1px;
