@@ -97,7 +97,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue').children('li').eq(0).nextUntil('li:last-child').css('background-position', "50px 15px")
 				$('.ulmenue').children('li').first().css('width', "160px")
 				$('.ulmenue').children('li').first().css('background-position', "130px 15px")
-				$('.ulmenue').children('li').eq(5).css('background-position', "33px 7px")
+				$('.ulmenue').children('li').eq(4).css('background-position', "33px 7px")
 
 			})
 		</script>

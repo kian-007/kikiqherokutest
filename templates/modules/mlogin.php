@@ -67,7 +67,7 @@ function get_style(){ ?>
        }
        button :hover
        {
-           background-color: #1a34ff;
+           background: #000c66;
        }
        .input
        {
