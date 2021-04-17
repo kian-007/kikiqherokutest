@@ -38,7 +38,7 @@ function get_style(){ ?>
         }
        .dform
        {
-           background: #f3f0f1;
+            background: #d1bbbb;
             margin-top: 100px;
             margin-left: 300px;
             border: solid black 1px;
@@ -50,55 +50,52 @@ function get_style(){ ?>
             box-shadow: 3px 3px 3px 3px #274540;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
             filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540); /*IE 5.5-7*/
        }
-       button
-       {
-            color: white;
-            margin-left: 170px;
-            margin-left: 170px;
-            margin-left: 170px;
-            width: 250px;
-            height: 40px;
-            background: #6375ff;
+       button {
+            margin-top: 200px;
+            margin-left: 300px;
+            width: 200px;
+            height: 50px;
+            background: #d1bbbb;
             position: relative;
             margin-bottom: 25px;
             border-radius: 32px;
             text-align: center;
             cursor: pointer;
-       }
+        }
        button :hover
        {
            background: #000c66;
        }
        .input
        {
-            margin-left: 170px;
-            width: 250px;
-            height: 40px;
-            background: #f3f0f1;
+            margin-top: 200px;
+            margin-left: 300px;
+            width: 200px;
+            height: 50px;
+            background: #d1bbbb;
             position: relative;
             margin-bottom: 25px;
             border-radius: 32px;
             text-align: center;
+            cursor: pointer;
         }
 
         .input::placeholder
         {
             line-height: 100px;
-            color: blue;
-            font-family: Arial, Halvetica, sans-serif;
-            font-size: 20px;
-            font-weight: 100;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            font-weight: semibold;
         }
 
-        .first 
-        {
-            box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px, rgba(0, 0, 0, 0.2);
+        .first {
+            box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.8), -6px -6px 10px rgba(0, 0, 0, 0.2);
+            color: white;
         }
-        .second 
-        {
-            box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.5),
-            inset 8px 8px 16px rgba(0, 0, 0, 0.1);
-            color: #79e3b6;
+        
+        .second {
+            box-shadow: inset -4px -4px 7px rgb(255, 255, 255), inset 8px 8px 7px rgba(0, 0, 0, 0.5);
+            color: gray;
         }
        input :hover
        {
@@ -111,7 +108,7 @@ function get_style(){ ?>
        @media only screen and (min-width: 900px) {
         .dform
        {
-            background: #f3f0f1;
+            background: #d1bbbb;
             margin-top: 100px;
             margin-left: 222px;
             border: solid black 1px;
