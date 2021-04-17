@@ -14,15 +14,15 @@ function get_content(){ ?>
                         <form    method="post">
                             <h1>Please sign in</h1>
                             <div class="dinput">
-                                  <input class="input first" type="text" id="username" name='username' placeholder="username">
+                                  <input class="input second" type="text" id="username" name='username' placeholder="username">
                                   <label for="username">Username</label>
                             </div>
                             <div class="dinput">
-                                  <input class="input first" type="password" id="password" name='password' placeholder="Password">
+                                  <input class="input second" type="password" id="password" name='password' placeholder="Password">
                                   <label for="password">Password</label>
                             </div>
                             <br/>
-                            <button class="second" type="submit">Sign in</button>
+                            <button class="first" type="submit">Sign in</button>
                             <p style="margin-left: 170px;">&copy; 2017–2021</p>
                         </form>
                     </div>
@@ -61,6 +61,7 @@ function get_style(){ ?>
             margin-bottom: 25px;
             border-radius: 32px;
             text-align: center;
+            cursor: pointer;
        }
        .input
        {
