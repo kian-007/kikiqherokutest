@@ -81,14 +81,13 @@ function get_style(){ ?>
             line-height: 100px;
             color: blue;
             font-family: Arial, Halvetica, sans-serif;
-            font-size: 32px;
-            font-weight: semibold;
+            font-size: 20px;
+            font-weight: 100;
         }
 
         .first 
         {
             box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px, 6px, 10px, rgba(0, 0, 0, 0.2);
-            color: #6f6cde;
         }
         .second 
         {
