@@ -99,8 +99,9 @@ function get_style(){ ?>
 				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
 				color: pink;
 				transition: background-color 1s;
+				cursor: pointer;
 			}
-			button :hover
+			button:hover
 			{
 				background-color: #220746;
 			}
