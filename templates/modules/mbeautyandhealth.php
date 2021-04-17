@@ -112,18 +112,22 @@ $bag = get_value('bag', 0);
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth.php" >
+					<div class="input">
 						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
 						<label for="lamp"><b>برق لب لامپی</b></label><br/>
-						
+					</div>
+					<div class="input">
 						<input type="checkbox"    name="lipgloss"    id="lipgloss"    value='show' />
 						<label for="lipgloss"><b>برق لب قرصی</b></label><br/>
-						
+					</div>
+					<div class="input">
 						<input type="checkbox"    name="brush"    id="brush"    value='show' />
 						<label for="brush"><b>براش</b></label><br/>
-						
+					</div>
+					<div class="input">
 						<input type="checkbox"    name="bag"    id="bag"    value='show' />
 						<label for="bag"><b>Victoria's secret کیف آرایشی</b></label><br/>
-						
+					</div>
 						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
 				</fieldset>
@@ -163,7 +167,7 @@ function get_style(){ ?>
 			form
 			{
 				width: 200px;
-				height: 120px;
+				height: 200px;
 			}
 			.ulmenue > li:nth-child(6)
 			{
