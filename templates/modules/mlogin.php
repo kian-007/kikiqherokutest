@@ -38,10 +38,9 @@ function get_style(){ ?>
         }
        .dform
        {
-            background-color: gray;
             margin-top: 100px;
             margin-left: 300px;
-            botder: solid black 1px;
+            border: solid black 1px;
             width: 500px;
             height: 500px;
             -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";/*IE 8*/
