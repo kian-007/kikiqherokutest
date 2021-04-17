@@ -105,7 +105,7 @@ function get_style(){ ?>
                 background-color: rgb(202, 67, 168);
             }
 			.input{
-				opacity: 0.5;
+				opacity: 0.7;
 				border-radius: 30px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
 				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
