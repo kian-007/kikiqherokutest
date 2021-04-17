@@ -134,14 +134,31 @@ $bag = get_value('bag', 0);
 
 function get_style(){ ?>
         <style>
-			.btn .badge{position:relative;top:-1px}
-			.btn-info{color:#000;background-color:#0dcaf0;border-color:#0dcaf0}.btn-info:hover{color:#000;background-color:#31d2f2;border-color:#25cff2}
+			button{
+				margin-top: 10px;
+				border-radius: 30px;
+				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
+				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
+				color: pink;
+				transition: background-color 1s;
+				cursor: pointer;
+			}
+			button:hover {
+                background-color: rgb(202, 67, 168);
+            }
+			.input{
+				border-radius: 30px;
+				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
+				box-shadow: inset -3px -3px 10px rgba(255, 255, 255, 0.7), inset 8px 8px 10px rgba(0, 0, 0, 0.8);
+                color: #262626;
+			}
 			fieldset
 			{
 				position: relative;
 				right: 25px;
 				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
-				border-radius:25px;
+				box-shadow: -6px -6px 7px rgb(255, 255, 255), 6px 10px 7px rgba(0, 0, 0, 0.8);
+				border-radius: 25px;
 			}
 			form
 			{
