@@ -123,7 +123,6 @@
 			#homeli {
 			    background-image: url('images/home.jpg');
 			    background-repeat: no-repeat;
-			    background-position: 80px -3px;
 			}
 			
 			.login,
@@ -495,6 +494,10 @@
 			    padding-right: 12px;
 			    transition: background-image 0.3s;
 			    z-index: 5;
+			}
+			
+			.prevli:nth-child(5) {
+			    background-position: 40px 10px;
 			}
 			
 			.ulmenue>li:nth-child(6) {
