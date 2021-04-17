@@ -51,8 +51,7 @@ function get_style(){ ?>
             filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540); /*IE 5.5-7*/
        }
        button {
-            margin-top: 200px;
-            margin-left: 300px;
+            margin-left: 170px;
             width: 200px;
             height: 50px;
             background: #d1bbbb;
@@ -68,8 +67,7 @@ function get_style(){ ?>
        }
        .input
        {
-            margin-top: 200px;
-            margin-left: 300px;
+            margin-left: 170px;
             width: 200px;
             height: 50px;
             background: #d1bbbb;
