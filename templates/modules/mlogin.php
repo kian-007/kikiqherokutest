@@ -51,14 +51,13 @@ function get_style(){ ?>
        }
        button
        {
-           background-color: #6375ff;
-           color: white;
+            color: white;
             margin-left: 170px;
             margin-left: 170px;
             margin-left: 170px;
             width: 250px;
             height: 40px;
-            background: #f3f0f1;
+            background: #6375ff;
             position: relative;
             margin-bottom: 25px;
             border-radius: 32px;
@@ -80,6 +79,7 @@ function get_style(){ ?>
         .input::placeholder
         {
             line-height: 100px;
+            color: blue;
             font-family: Arial, Halvetica, sans-serif;
             font-size: 32px;
             font-weight: semibold;
