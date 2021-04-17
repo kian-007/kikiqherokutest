@@ -101,9 +101,10 @@ function get_style(){ ?>
 			}
 			.input{
 				border-radius: 30px;
+				font-size: 15px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
-				box-shadow: inset 4px 4px 7px rgba(255, 255, 255, 0.8),inset -6px -6px 7px rgba(0, 0, 0, 0.2);
-				color: #242424;
+				box-shadow: inset -4px -4px 7px rgb(255, 255, 255), inset 8px 8px 7px rgba(0, 0, 0, 0.5);
+                color: gray;
 			}
 			fieldset
 			{
