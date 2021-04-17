@@ -74,12 +74,14 @@ $handcream = get_value('handcream' , 0);
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="skin.php" >
-						<input type="checkbox"    name="handcream"    id="handcream"    value="show" />
-						<label for="handcream"><b>کرم مرطوب کننده دست</b></label><br/>
-						
+						<div class="input">
+							<input type="checkbox"    name="handcream"    id="handcream"    value="show" />
+							<label for="handcream"><b>کرم مرطوب کننده دست</b></label><br/>
+						</div>
+						<div class="input">
 						<input type="checkbox"    name="facebrush"    id="facebrush"    value='show' />
 						<label for="facebrush"><b>فیس براش چکشی هولوگرامی</b></label><br/>
-						
+						</div>
 						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
 				</fieldset>
@@ -96,7 +98,7 @@ function get_style(){ ?>
 				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
 				color: pink;
 			}
-			input{
+			.input{
 				border-radius: 30px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
 				box-shadow: inset 4px 4px 7px rgba(255, 255, 255, 0.5), -6px -6px 7px rgba(0, 0, 0, 0.5);
