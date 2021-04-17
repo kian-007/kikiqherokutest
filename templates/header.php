@@ -92,6 +92,9 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).css('transition', "background-color 1s")
 					$(this).find('a').css('color', "rgb(70,48,48)")
 				})
+
+				$('.ulmenue').children('li').eq(1).nextUntil(':last-child').css('width', "75px")
+
 			})
 		</script>
                 <?php   include_once ('lib/functions.php');
