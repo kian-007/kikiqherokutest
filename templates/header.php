@@ -93,7 +93,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).find('a').css('color', "rgb(70,48,48)")
 				})
 
-				$('.ulmenue').children('li').eq(0).nextUntil(':last-child').css('width', "150px")
+				$('.ulmenue').children('li').eq(0).nextUntil(':last-child').css('width', "75px")
 				$('.ulmenue').children('li').eq(0).nextUntil(':last-child').css('background-position', "50px 15px")
 				$('.ulmenue').children('li').first().css('width', "160px")
 
