@@ -65,6 +65,10 @@ function get_style(){ ?>
             text-align: center;
             cursor: pointer;
        }
+       button :hover
+       {
+           background-color: #1a34ff;
+       }
        .input
        {
             margin-left: 170px;
