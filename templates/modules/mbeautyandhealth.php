@@ -159,7 +159,7 @@ function get_style(){ ?>
 				border-radius: 30px;
 				background: linear-gradient(to top right, #84fab0 , #8fd3f4);
 				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
-				color: #262626;
+				color: black;
 			}
 			fieldset
 			{
