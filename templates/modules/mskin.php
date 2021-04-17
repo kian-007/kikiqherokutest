@@ -101,10 +101,9 @@ function get_style(){ ?>
 				transition: background-color 1s;
 				cursor: pointer;
 			}
-			button:hover
-			{
-				background-color: rgb(23, 5, 46);
-			}
+			button:hover {
+                background-color: rgb(202, 67, 168);
+            }
 			.input{
 				border-radius: 30px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
