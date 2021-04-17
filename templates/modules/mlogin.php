@@ -51,11 +51,13 @@ function get_style(){ ?>
        }
        button
        {
+           background-color: #6375ff;
+           color: white;
             margin-left: 170px;
             margin-left: 170px;
             margin-left: 170px;
-            width: 200px;
-            height: 30px;
+            width: 250px;
+            height: 40px;
             background: #f3f0f1;
             position: relative;
             margin-bottom: 25px;
@@ -66,8 +68,8 @@ function get_style(){ ?>
        .input
        {
             margin-left: 170px;
-            width: 200px;
-            height: 30px;
+            width: 250px;
+            height: 40px;
             background: #f3f0f1;
             position: relative;
             margin-bottom: 25px;
