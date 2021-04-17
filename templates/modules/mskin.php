@@ -102,7 +102,7 @@ function get_style(){ ?>
 			.input{
 				border-radius: 30px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
-				box-shadow: inset -3px -3px 10px rgab(255, 255, 255, 0.7), inset 8px 8px 10px rgba(0, 0, 0, 0.8);
+				box-shadow: inset -3px -3px 10px rgba(255, 255, 255, 0.7), inset 8px 8px 10px rgba(0, 0, 0, 0.8);
                 color: #262626;
 			}
 			fieldset
