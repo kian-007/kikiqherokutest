@@ -492,7 +492,7 @@
 			.prevli {
 			    background-image: url('images/arrow2.jpg');
 			    background-repeat: no-repeat;
-			    background-position: 100px 15px;
+			    background-position: 120px 15px;
 			    padding-right: 40px;
 			    transition: background-image 0.3s;
 			    z-index: 5;
