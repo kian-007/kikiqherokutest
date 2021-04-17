@@ -89,14 +89,20 @@ $handcream = get_value('handcream' , 0);
 
 function get_style(){ ?>
         <style>
-			.btn .badge{position:relative;top:-1px}
-			.btn-info{color:#000;background-color:#0dcaf0;border-color:#0dcaf0}.btn-info:hover{color:#000;background-color:#31d2f2;border-color:#25cff2}
+			button{
+				margin-top: 10px;
+				border-radius: 30px;
+				background: linear-gradient(to top right, #cc208e , #6713d2);
+				box-shadow: -6px -6px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
+				color: pink;
+			}
 		
 			fieldset
 			{
 				position: relative;
 				right: 25px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
+				box-shadow: -6px -6px 7px rgba(255, 255, 255, 0.5), 6px 10px 7px rgba(0, 0, 0, 0.5);
 				border-radius: 25px;
 			}
 			form
