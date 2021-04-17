@@ -98,6 +98,11 @@ function get_style(){ ?>
 				background: linear-gradient(to top right, #cc208e , #6713d2);
 				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
 				color: pink;
+				transition: background-color 1s;
+			}
+			button :hover
+			{
+				background-color: #220746;
 			}
 			.input{
 				border-radius: 30px;
