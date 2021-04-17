@@ -93,7 +93,7 @@ function get_style(){ ?>
 				margin-top: 10px;
 				border-radius: 30px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
-				box-shadow: -6px -6px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
+				box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.5), 6px 6px 7px rgba(0, 0, 0, 0.5);
 				color: pink;
 			}
 		
@@ -102,7 +102,7 @@ function get_style(){ ?>
 				position: relative;
 				right: 25px;
 				background: linear-gradient(to top right, #cc208e , #6713d2);
-				box-shadow: -6px -6px 7px rgba(255, 255, 255, 0.5), 6px 10px 7px rgba(0, 0, 0, 0.5);
+				box-shadow: -6px -6px 7px rgb(255, 255, 255), 6px 10px 7px rgba(0, 0, 0, 0.8);
 				border-radius: 25px;
 			}
 			form
