@@ -11,13 +11,10 @@
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
 		}else{
-
-			//require_once ('templates/modules/mindex.php');
+			
+			require_once ('templates/modules/mindex.php');
 		}
-
-		if(function_exists(get_content)){
-			get_content();
-		}
+		get_content();
 	}
 
 
