@@ -10,9 +10,9 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-		}else{
+		}else{ ?>
 			<p>fucking errore</p>
-			//require_once ('templates/modules/mindex.php');
+		<?php	//require_once ('templates/modules/mindex.php');
 		}
 	}
 
