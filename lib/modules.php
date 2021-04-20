@@ -11,7 +11,7 @@
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
 		}else{
-			
+			<p>fucking errore</p>
 			//require_once ('templates/modules/mindex.php');
 		}
 	}
@@ -23,6 +23,6 @@
 
         load_module();
 		get_content();
-		
+
 		include_once('templates/footer.php'); 
 }
