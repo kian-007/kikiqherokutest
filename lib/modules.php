@@ -27,7 +27,6 @@
 		if(function_exists('get_content')){
 			get_content();
 		}
-		get_content();
 
 		include_once('templates/footer.php'); 
 }
