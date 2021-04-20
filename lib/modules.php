@@ -12,7 +12,7 @@
 			require_once ("templates/modules/m$module");
 		}else{
 			
-			require_once ('templates/modules/mindex.php');
+			//require_once ('templates/modules/mindex.php');
 		}
 		get_content();
 	}
