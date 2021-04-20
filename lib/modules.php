@@ -24,7 +24,7 @@
         include_once ('templates/header.php');
 
         load_module();
-		if(function_exists('get_content'){
+		if(function_exists('get_content')){
 			get_content();
 		}
 		get_content();
