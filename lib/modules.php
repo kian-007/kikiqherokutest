@@ -14,7 +14,6 @@
 			
 			//require_once ('templates/modules/mindex.php');
 		}
-		get_content();
 	}
 
 
@@ -23,6 +22,7 @@
         include_once ('templates/header.php');
 
         load_module();
-
+		get_content();
+		
 		include_once('templates/footer.php'); 
 }
