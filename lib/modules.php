@@ -12,7 +12,10 @@
 			require_once ("templates/modules/m$module");
 		}else{ ?>
 			<div class="alert">
-				<p>fucking errore</p>
+				<p>
+					fucking errore
+					<?php echo $_SERVER['REQUEST_URI']; ?>
+				</p>
 			</div>
 		<?php	require_once ('templates/modules/mindex.php');
 		}
