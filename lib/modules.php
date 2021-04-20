@@ -11,8 +11,10 @@
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
 		}else{ ?>
-			<p>fucking errore</p>
-		<?php	//require_once ('templates/modules/mindex.php');
+			<div class="alert">
+				<p>fucking errore</p>
+			</div>
+		<?php	require_once ('templates/modules/mindex.php');
 		}
 	}
 
@@ -22,6 +24,9 @@
         include_once ('templates/header.php');
 
         load_module();
+		if(!function_exists(get_content())){
+			function get_content(){}
+		}
 		get_content();
 
 		include_once('templates/footer.php'); 
