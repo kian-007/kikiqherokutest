@@ -513,7 +513,10 @@
 			
 			.alert {
 			    background-color: #ff8ebb;
+			    height: 20px;
+			    width: 600px;
 			    border-radius: 30px;
 			    font-weight: bold;
 			    margin-top: 40%;
+			    text-align: right;
 			}

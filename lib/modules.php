@@ -13,7 +13,7 @@
 		}else{ ?>
 			<div class="alert">
 				<p>
-					fucking errore
+					خطای فرضی
 					<?php echo $_SERVER['REQUEST_URI']; ?>
 				</p>
 			</div>
