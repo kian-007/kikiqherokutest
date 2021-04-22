@@ -1,5 +1,5 @@
 				<?php	include_once('config.php');?>
-				<div class= "menue col-12">
+				<div class= "menue">
 				<ul class="login">
 					<li><a href='<?php echo SITE_URL; ?>login.php'>ورود</a></li>
 					<li><a href='<?php echo SITE_URL; ?>dashboard.php'>صفحه کاربری</a></li>
