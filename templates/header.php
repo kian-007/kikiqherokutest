@@ -121,9 +121,9 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 	<body onload="showSlides()">
 	<a name="start"></a>
 		<div class="container col-12"> 
-				<img class = "logo" src = 'images\kiki.jpg'  />
-				<p class ="logoText">KikiCutest</p>
 			<div class="header col-12"> 
 				<?php include_once('templates/nav.php'); ?>
+				<img class = "logo" src = 'images\kiki.jpg'  />
+				<p class ="logoText">KikiCutest</p>
 			</div>
 			<div class="middle">
