@@ -7,9 +7,9 @@ return 'تماس با ما';
 function get_content(){ ?>
 
 				
-				<div class="left">
+				<div class="left2 col-1">
 				</div>
-				<div class="content">
+				<div class="content2 col-9">
 				<span style="color:gray;float:right; position:relative; top:70px; right:250px">تماس با ما  < </span><a href="index.php"	style="text-decoration: none; color: black;float:right; position:relative; top:70px; right:100px">صفحه اصلی  <</a>
 					<div id=pcontainer >
 						<div id="dimages">
@@ -23,7 +23,7 @@ function get_content(){ ?>
 					
 					
 				</div>
-				<div class="right">
+				<div class="right2 col-1">
 				</div>
 <?php }
 

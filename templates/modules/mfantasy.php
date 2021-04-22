@@ -7,9 +7,9 @@ return 'آیینه';
 function get_content(){ ?>
 
 				
-				<div class="left2">
+				<div class="left2 col-1">
 				</div>
-				<div class="content2">
+				<div class="content2 col-9">
 				<h2>* آیینه *</h2>
 					<div class="doutside ftl d1"><img	src="images/fantasy/mir14.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					<div class="doutside ftl"><img	src="images/fantasy/mir1.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
@@ -29,7 +29,7 @@ function get_content(){ ?>
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 				</div>
 				
-				<div class="right2">
+				<div class="right2 col-2">
 				</div>
 <?php }
 

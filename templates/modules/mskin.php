@@ -41,9 +41,9 @@ $handcream = get_value('handcream' , 0);
 
 ?>
 				
-				<div class="left2">
+				<div class="left2 col-1">
 				</div>
-				<div class="content2">
+				<div class="content2 col-9">
 				
 				<?php if($handcream): ?>
 					<h2>* کرم مرطوب کننده *</h2>
@@ -69,7 +69,7 @@ $handcream = get_value('handcream' , 0);
 					
 				</div>
 				
-				<div class="right2">
+				<div class="right2 col-2">
 				<?php if($handcream || $facebrush): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
