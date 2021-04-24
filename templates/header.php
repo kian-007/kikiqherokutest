@@ -80,9 +80,11 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				})
 				$('.pinside').hover(
                                    function(){
-								   $(this).prev('.price').css('background-color', "yellow")},
+								   $(this).prev('.price').css('background-color', "yellow")
+								   $(this).prev('.price').css('color', "black")},
                                    function(){
                                $(this).prev('.price').css('background-color', "#ff3385")        
+                               $(this).prev('.price').css('color', "#ffffff")        
                                    })
 				
 				$('form').find('input[type="checkbox"]').hide()
