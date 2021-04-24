@@ -43,7 +43,7 @@ $handcream = get_value('handcream' , 0);
 				
 				<div class="left2 col-1">
 				</div>
-				<div class="content2 col-9">
+				<div class="content2 col-9 clearfix">
 				
 				<?php if($handcream): ?>
 					<h2>* کرم مرطوب کننده *</h2>
