@@ -192,8 +192,8 @@
         position: relative;
         top: -3px;
         left: 9px;
-        width: 320px;
-        height: 390px;
+        width: 220px;
+        height: 220px;
         padding: 20px;
         border: dashed white 4px;
         background-color: rgba(0, 0, 0, 0);
@@ -203,8 +203,8 @@
         position: relative;
         top: -8px;
         left: 9px;
-        width: 300px;
-        height: 370px;
+        width: 220px;
+        height: 220px;
         padding: 20px;
         border: dashed white 3px;
         background-color: rgba(0, 0, 0, 0);
