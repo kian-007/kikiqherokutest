@@ -7,9 +7,9 @@ return 'KikiCutest';
 function get_content(){ ?>
 
 				
-				<div class="left2 col-1">
+				<div class="left2 col-l-1 col-12">
 				</div>
-				<div class="content2 col-9">
+				<div class="content2 col-l-9 col-12 clearfix">
 				<div id='preloader'>
 					<div class="text-center">
 						Loading...
@@ -98,7 +98,7 @@ function get_content(){ ?>
 
 		   		
 				</div>
-				<div class="right2 col-2">
+				<div class="right2 col-l-2 col-12">
 				</div>
 <?php }
 

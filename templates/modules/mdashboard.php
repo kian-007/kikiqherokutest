@@ -7,16 +7,16 @@ function get_title(){
 function get_content(){ ?>
 
 				
-				<div class="left2 col-1">
+				<div class="left2 col-l-1 col-12">
 				</div>
 
-				<div class="content2 col-9">
+				<div class="content2 col-l-9 col-12 clearfix">
                     			<div>
 				        	<p id ='p1'> این صفحه فقظ به کاربران نمایش داده میشود. </p>
                     			</div>
 				</div>
 				
-				<div class="right2 col-2">
+				<div class="right2 col-l-2 col-12">
 				</div>
 <?php }
 
