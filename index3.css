@@ -549,8 +549,12 @@
 				top: 100px;
 			}
 			
+			
+			
+	}
+	
+	@media only screen and (max-width:768px){
 			h2{
 				margin-left: 150px;
 			}
-			
 	}
