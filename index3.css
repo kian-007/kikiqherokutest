@@ -295,7 +295,20 @@
 			.col-10{width:83.33%;}
 			.col-11{width:91.66%;}
 			.col-12{width:100%;}
-		
+
+
+			html{
+			    position: relative;
+			    background: url('images/headerr2.jpg') top left, fixed;
+			    background-repeat: no-repeat;
+			    background-size: 100% 500px;
+			    filter: saturate(150%);
+			    -webkit-filter: saturate(150%);
+			    filter: brightness(110%);
+			    -webkit-filter: brightness(110%);
+			}
+
+
 			.left2{
 				display: none;
 			}
