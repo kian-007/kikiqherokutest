@@ -375,6 +375,7 @@
             height: 800px;
             background-color: #ae77ff;
             float: right;
+			z-index: 77px;
         }
         
         .secondulmenue>li {
@@ -486,7 +487,7 @@
 			}
 			
 			.login2 li:first-child {
-			    margin-left: 50px;
+			    margin-left: 20px;
 			}
 			
 			.login2 li:last-child {
