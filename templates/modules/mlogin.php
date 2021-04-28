@@ -14,7 +14,17 @@
                                 }
                                 
                                 function get_style() {
-                                    ?><style>h1 {
+                                    ?><style>
+									@media only screen and (max-width:768px){
+										.dform{
+											float: left;
+											width: 400px;
+											height: 400px;
+										}
+									}
+									
+									
+									h1 {
                                         margin-left: 170px;
                                     }
                                     .dform {
@@ -89,6 +99,7 @@
                                             filter: progid: DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540);
                                             /*IE 5.5-7*/
                                         }
+										
                                         </style><?php
                                     }
 
