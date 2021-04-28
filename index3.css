@@ -253,7 +253,7 @@
 			[class*="col-"]
 		{
 			float : left;
-			
+			border: 2px solid #bfbfbf;
 		}
 		
 		.new{
@@ -522,8 +522,4 @@
 			    background-color: gray;
 			}
 			
-			html{
-			    position: relative;
-			    background: url('images/headerr2.jpg') top left, fixed;
-			}
 	}
