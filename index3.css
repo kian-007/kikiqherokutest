@@ -417,7 +417,7 @@
 			
 			.ulmenue2>li {
 			    float: left;
-			    width: 150px;
+			    width: 80px;
 			    height: 50px;
 			    background-color: pink;
 			    cursor: pointer;
@@ -466,5 +466,54 @@
 			    height: 50px;
 			    border-radius: 12px;
 			    z-index: 21;
+			}
+			
+			.login2,
+			.login2 ul {
+			    list-style-type: none;
+			    padding: 0px;
+			    margin: 0px;
+			    float: left;
+			    border-bottom: solid black 1px;
+			}
+			
+			.login2 li {
+			    float: left;
+			    width: 70px;
+			    height: 50px;
+			    background-color: pink;
+			    cursor: pointer;
+			    text-align: center;
+			    border: solid white 1px;
+			    z-index: 5;
+			}
+			
+			.login2 li:first-child {
+			    margin-left: 50px;
+			}
+			
+			.login2 li:last-child {
+			    width: 100px;
+			}
+			
+			.login2 li a {
+			    text-decoration: none;
+			    color: rgb(70, 48, 48);
+			    margin-top: 10px;
+			    font-size: 11pt;
+			    font-weight: bold;
+			    display: block;
+			    -webkit-transition: background-color 1s;
+			}
+			
+			.login2 li ul {
+			    display: none;
+			    border: solid black 3px;
+			    border-radius: 20px;
+			}
+			
+			.login2 li a:hover {
+			    color: white;
+			    background-color: gray;
 			}
 	}
