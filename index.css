@@ -24,6 +24,13 @@
 			    Z-index: 20;
 			}
 			
+			.header2 {
+			    margin-top: 0px;
+			    height: 500px;
+			    background-color: rgba(200, 0, 0, 0);
+			    Z-index: 20;
+			}
+			
 			.h1 {
 			    display: inline-block;
 			    width: 200px;
