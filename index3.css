@@ -524,9 +524,11 @@
 			
 			.contact{
 				font-size: 10pt;
+				top: 10px;
 			}
 			.rights{
 				font-size: 7pt;
+				top: 10px;
 			}
 			
 	}
