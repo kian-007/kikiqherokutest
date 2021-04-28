@@ -469,4 +469,11 @@
 			    color: pink;
 			}
 		
+		.menue2 {
+			    position: fixed;
+			    background-color: pink;
+			    height: 50px;
+			    border-radius: 12px;
+			    z-index: 21;
+			}
 	}
