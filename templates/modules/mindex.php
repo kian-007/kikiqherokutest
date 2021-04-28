@@ -125,6 +125,12 @@ function get_style(){ ?>
 				left: 22px;
 				top: 3px;
 			}
+			
+			@media only screen and (max-width:768px){
+				.mySlides img{
+					height: 450px;
+				}
+			}
 		</style>
 <?php }
 
