@@ -420,7 +420,9 @@
         .subul2 li {
             border-bottom: dashed yellow 1px;
         }
-		
+		.subul2 li a:hover{
+			color: #ff66d9;
+		}
 		
 		
 		
