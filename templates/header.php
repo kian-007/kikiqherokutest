@@ -4,9 +4,7 @@
 		<meta name="keywords"  content="kikicutest,کیکی کیوتست,ارایشی,بهداشتی,فانتزی,پوست,مو" />
 		<meta name="description"  content="کیکی کیوتست ارائه کننده انواع محصولات فانتزی و آرایشی و بهداشتی پوست مو" />
 		<meta name="author"  content="kikicutest" />
-		<!--
-			<meta name="viewport"  content="width=device-width, initial-scale=1.0" />
-		-->
+		<meta name="viewport"  content="width=device-width, initial-scale=1.0" />
 
             <?php   include_once ('lib/functions.php');
 					$module = get_module_name();
@@ -69,6 +67,20 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}
 				})
+				
+				
+				// for header2 -------------------------
+				$('.ulmenue').find('li:nth-child(2)').click(function(){
+					$('.showmenue').fadeToggle();
+				}
+				
+				$('.secondulmenue').find('li').click(function() {
+					$(this).find('.subul2').addClass('current')
+					$(this).find('.subul2').slideToggle()
+					$('.subul2').not('.current').slideUp()
+					$(this).find('.subul2').removeClass('current')
+				})
+				// for header2 -------------------------
 				
 				$('#p1').mouseenter(function() {
 					$('#img1').fadeOut(500)
