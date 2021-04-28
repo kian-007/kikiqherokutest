@@ -17,9 +17,13 @@
                                     ?><style>
 									@media only screen and (max-width:768px){
 										.dform{
+											background: #d1bbbb;
+											margin-top: 80px;
 											margin-left: 0px;
+											border-radius: 30px;
 											width: 400px;
 											height: 400px;
+											box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
 										}
 									}
 									
