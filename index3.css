@@ -297,6 +297,18 @@
 			.col-12{width:100%;}
 
 
+			html{
+			    position: relative;
+			    background: url('images/headerr2.jpg') top left, fixed;
+			    background-repeat: no-repeat;
+			    background-size: 100% 500px;
+			    filter: saturate(150%);
+			    -webkit-filter: saturate(150%);
+			    filter: brightness(110%);
+			    -webkit-filter: brightness(110%);
+			}
+
+
 			.left2{
 				display: none;
 			}
@@ -530,21 +542,6 @@
 			.rights{
 				font-size: 7pt;
 				top: 100px;
-			}
-			
-			.header2 {
-				position: relative;
-			    background: url('images/headerr2.jpg') top left, fixed;
-			    background-repeat: no-repeat;
-			    background-size: 100% 500px;
-			    filter: saturate(150%);
-			    -webkit-filter: saturate(150%);
-			    filter: brightness(110%);
-			    -webkit-filter: brightness(110%);
-			    margin-top: 0px;
-			    height: 350px;
-			    background-color: rgba(200, 0, 0, 0);
-			    Z-index: 20;
 			}
 			
 	}
