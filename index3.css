@@ -301,7 +301,7 @@
 			    position: relative;
 			    background: url('images/headerr2.jpg') top left, fixed;
 			    background-repeat: no-repeat;
-			    background-size: 100% 500px;
+			    background-size: 100% 300px;
 			    filter: saturate(150%);
 			    -webkit-filter: saturate(150%);
 			    filter: brightness(110%);
@@ -547,6 +547,10 @@
 			.rights{
 				font-size: 7pt;
 				top: 100px;
+			}
+			
+			h2{
+				margin-left: 150px;
 			}
 			
 	}
