@@ -169,7 +169,7 @@ function get_style(){ ?>
 			}
 			h2
 			{
-				margin-left: 450px;
+				margin-left: 150px;
 			}
 		</style>
 <?php }
