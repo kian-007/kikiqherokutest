@@ -382,6 +382,7 @@
 			
 			
 			.showmenue {
+			display: none;
             width: 250px;
             height: 800px;
             background-color: #ae77ff;

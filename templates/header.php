@@ -70,7 +70,9 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				
 				
 				// for header2 -------------------------
-				
+				$('.ulmenue2').find('li:nth-child(2)').click(function(){ 
+					$('.showmenue').fadeToggle()
+				})
 				
 				$('.secondulmenue').find('li').click(function() {
 					$(this).find('.subul2').addClass('current')
