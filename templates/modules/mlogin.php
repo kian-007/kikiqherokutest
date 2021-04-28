@@ -17,7 +17,7 @@
                                     ?><style>
 									@media only screen and (max-width:768px){
 										.dform{
-											float: left;
+											margin-left: 0px;
 											width: 400px;
 											height: 400px;
 										}
