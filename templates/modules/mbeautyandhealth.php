@@ -236,7 +236,7 @@ function get_style(){ ?>
 			}
 			h2
 			{
-				margin-left: 150px;
+				margin-left: 450px;
 			}
 			.fil img
 			{

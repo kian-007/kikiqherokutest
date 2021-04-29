@@ -281,7 +281,13 @@
 
 		
 		
-		
+		h2{
+				margin-left: 150px;
+			}
+			
+			
+			
+			
 		@media only screen and (max-width:768px){
 			.col-1{width:8.33%;}
 			.col-2{width:16.66%;}
@@ -295,8 +301,6 @@
 			.col-10{width:83.33%;}
 			.col-11{width:91.66%;}
 			.col-12{width:100%;}
-
-
 			html{
 			    position: relative;
 			    background: url('images/headerr2.jpg') top left, fixed;
@@ -307,8 +311,6 @@
 			    filter: brightness(110%);
 			    -webkit-filter: brightness(110%);
 			}
-
-
 			.left2{
 				display: none;
 			}
@@ -324,23 +326,17 @@
 			#homeli{
 				width: 50px;
 			}
-
-			
-
 			.doutside, .d1
 			 { width: 150px;
    			   height: 190px; 
 			   left: -25px;}
-
 			.doutside img, .d1 img
 			{ width: 110px;
     		  height: 150px; 
 			  border-radius: 30px;}
-
 			.pinside, .d1 p
 			{ width: 130px;
     		  height: 170px; }
-
 
 			@-webkit-keyframes a2 {
 			    50% {
@@ -373,17 +369,12 @@
     		  left: 40px; }
 
 			h2{margin-left: 150px;}
-
 			.header{
 				display: none;
 			}
-			
 			.header2{
 				display: block;
 			}
-			
-			
-			
 			
 			.showmenue {
 			display: none;
@@ -393,7 +384,6 @@
             float: right;
 			z-index: 33;
         }
-        
         .secondulmenue>li {
             padding-bottom: 20px;
             list-style-type: none;
@@ -401,22 +391,18 @@
             background-color: #d1b3ff;
             border-bottom: solid #140033 3px;
         }
-        
 		.secondulmenue>li:first-child {
 			margin-top: 100px;
 		}
-		
         .secondulmenue>li a {
             text-decoration: none;
             color: #ffffff;
         }
-        
         .subul2 {
             display: none;
             list-style-type: none;
             background-color: #ff66ff;
         }
-        
         .subul2 li {
             border-bottom: dashed yellow 1px;
         }
@@ -426,9 +412,6 @@
 		.subul2 li:hover{
 			color: #ffff33;
 		}
-		
-		
-		
 		.ulmenue2,
 			.ulmenue2 ul {
 			    list-style-type: none;
@@ -437,7 +420,6 @@
 			    float: right;
 			    border-bottom: solid black 1px;
 			}
-			
 			.ulmenue2>li {
 			    float: left;
 			    width: 80px;
@@ -451,7 +433,6 @@
 			    transition: background-color 1s;
 			    z-index: 5;
 			}
-			
 			.ulmenue2 li a {
 			    text-decoration: none;
 			    color: white;
@@ -460,29 +441,24 @@
 			    display: block;
 			    -webkit-transition: background-color 1s;
 			}
-			
 			.ulmenue2 li ul {
 			    display: none;
 			    border: solid black 3px;
 			    border-radius: 20px;
 			}
-			
 			.ulmenue2 li:hover {
 			    color: #ff1a75;
 			    font-size: 15pt;
 			    background-color: pink;
 			}
-			
 			.ulmenue2>li:hover {
 			    color: #ff1a75;
 			    font-size: 15pt;
 			    background-color: rgb(201, 53, 78);
 			}
-			
 			.ulmenue2 li a:hover {
 			    color: pink;
 			}
-		
 		.menue2 {
 			    position: fixed;
 			    background-color: pink;
@@ -490,7 +466,6 @@
 			    border-radius: 12px;
 			    z-index: 21;
 			}
-			
 			.login2,
 			.login2 ul {
 			    list-style-type: none;
@@ -499,7 +474,6 @@
 			    float: left;
 			    border-bottom: solid black 1px;
 			}
-			
 			.login2 li {
 			    float: left;
 			    width: 70px;
@@ -510,15 +484,12 @@
 			    border: solid white 1px;
 			    z-index: 5;
 			}
-			
 			.login2 li:first-child {
 			    margin-left: 20px;
 			}
-			
 			.login2 li:last-child {
 			    width: 100px;
 			}
-			
 			.login2 li a {
 			    text-decoration: none;
 			    color: rgb(70, 48, 48);
@@ -528,18 +499,15 @@
 			    display: block;
 			    -webkit-transition: background-color 1s;
 			}
-			
 			.login2 li ul {
 			    display: none;
 			    border: solid black 3px;
 			    border-radius: 20px;
 			}
-			
 			.login2 li a:hover {
 			    color: white;
 			    background-color: gray;
 			}
-			
 			.contact{
 				font-size: 10pt;
 				top: 100px;
@@ -549,8 +517,11 @@
 				top: 100px;
 			}
 			
-			h2{
-				margin-left: 150px;
-			}
-			
+	}
+	
+	
+	@media only screen and (min-width:768px){
+		h2{
+			margin-left: 450px;
+		}
 	}
