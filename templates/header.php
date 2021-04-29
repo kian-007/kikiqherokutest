@@ -85,7 +85,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 						$('.footer').css('-webkit-filter', "blur(10px)")
 					}
 
-					if($('.showmenue').css('display', "none")){
+					if($('.showmenue').blur()){
 						$('body').css('background-color', "rgba(0,0,0,0")
 						$('.footer').css('background-color', "rgba(0,0,0,0")
 						$('.middle').css('-webkit-filter', "blur(0px)")
