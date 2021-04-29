@@ -412,6 +412,7 @@
         display: block;
     }
     .showmenue {
+        position: fixed;
         display: none;
         width: 250px;
         height: 650px;
@@ -550,5 +551,8 @@
     .rights {
         font-size: 7pt;
         top: 100px;
+    }
+    .mySlides img {
+        height: 450px;
     }
 }
