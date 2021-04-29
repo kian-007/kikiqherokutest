@@ -128,7 +128,7 @@ function get_style(){ ?>
 			
 			@media only screen and (max-width:768px){
 				.mySlides img{
-					height: 450px;
+					height: 350px;
 				}
 			}
 		</style>
