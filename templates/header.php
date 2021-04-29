@@ -78,9 +78,17 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue2').find('li:nth-child(2)').click(function(){ 
 					$('.showmenue').fadeToggle()
 
-					if(document.getElementsByClassName('showmenue').style.display == 'block'){
-						document.getElementsByClassName('middle').style.filter == 'blur(10px)'
-						document.getElementsByClassName('footer').style.filter == 'blur(10px)'
+					if(document.getElementsByClassName('showmenue').style.display == "block"){
+						$('body').css('background-color', "rgba(0,0,0,0.5")
+						$('.footer').css('background-color', "rgba(0,0,0,0.5")
+						$('.middle').css('-webkit-filter', "blur(10px)")
+						$('.footer').css('-webkit-filter', "blur(10px)")
+						$('.showmenue').removeClass('open')
+					}else{
+						$('body').css('background-color', "rgba(0,0,0,0")
+						$('.footer').css('background-color', "rgba(0,0,0,0")
+						$('.middle').css('-webkit-filter', "blur(0px)")
+						$('.footer').css('-webkit-filter', "blur(0px)")
 					}
 				})
 				
