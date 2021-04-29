@@ -96,16 +96,10 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.subul2').not('.current').slideUp()
 					$(this).find('.subul2').removeClass('current')
 
-					if($(this).next().hasClass('current')){
+					if($(this).next().hasClass('current') || $(this).prev().hasClass('current')){
 						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}else{
 						$(this).css('background-image', "url('images/arrow3.jpg')")
-					}
-
-					if($(this).prev().hasClass('current')){
-						$(this).css('background-image', "url('images/arrow3.jpg')")
-					}else{
-						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}
 					
 				})
