@@ -563,6 +563,9 @@
     .mySlides img {
         height: 450px;
     }
+    .image {
+        height: 450px;
+    }
     #pcontainer {
         position: relative;
         top: 100px;
