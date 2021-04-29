@@ -172,7 +172,7 @@ function get_style(){ ?>
 				margin-left: 150px;
 			}
 
-			@meida only screen and (min-width:768px){
+			@meida only screen and (orientation: landscape) {
 				h2
 				{
 					margin-left: 450px;
