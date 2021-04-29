@@ -28,6 +28,7 @@ var d = d.toDateString();
 alert(d + '\n خوش آمدید')
 slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue').children().addClass('prevli')
+				$('.subul2').children().addClass('prevli2')
 				$('.ulmenue').find('li').last().removeClass('prevli')
 				$('.ulmenue').find('li').last().prev().removeClass('prevli')
 				
@@ -79,6 +80,12 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).find('.subul2').slideToggle()
 					$('.subul2').not('.current').slideUp()
 					$(this).find('.subul2').removeClass('current')
+
+					if($(this).hasClass('current')){
+						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}
 				})
 				// for header2 -------------------------
 				
