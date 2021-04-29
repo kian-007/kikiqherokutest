@@ -28,7 +28,8 @@ var d = d.toDateString();
 alert(d + '\n خوش آمدید')
 slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue').children().addClass('prevli')
-				$('.secondmenue').find('li').addClass('prevli2')
+				$('.subul2').find('li').addClass('prevli2')
+				document.getElementsByClassName('prevli2').style.backgroundColor = "yellow"
 				$('.ulmenue').find('li').last().removeClass('prevli')
 				$('.ulmenue').find('li').last().prev().removeClass('prevli')
 				
