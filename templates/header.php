@@ -71,6 +71,8 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				
 
 				$('.prevli2').before('<img src="images/arrow2.jpg" />');
+				$('.prevli2').after('<img src="images/arrow2.jpg" />');
+				$('.prevli2').css('background', "url('images/arrow2.jpg')")
 				
 				// for header2 -------------------------
 				$('.ulmenue2').find('li:nth-child(2)').click(function(){ 
