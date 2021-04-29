@@ -171,6 +171,13 @@ function get_style(){ ?>
 			{
 				margin-left: 150px;
 			}
+
+			@meida only screen and (min-width:768px){
+				h2
+				{
+					margin-left: 450px;
+				}
+			}
 		</style>
 <?php }
 
