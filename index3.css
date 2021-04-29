@@ -413,7 +413,7 @@
     }
     .showmenue {
         position: fixed;
-        left: 300px;
+        left: 150px;
         display: none;
         width: 250px;
         height: 650px;
