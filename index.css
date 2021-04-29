@@ -495,7 +495,6 @@
 			
 			.prevli2 {
 			    background-image: url('images/arrow2.jpg');
-			    background-repeat: no-repeat;
 			    transition: background-image 0.3s;
 			    z-index: 5;
 			}
