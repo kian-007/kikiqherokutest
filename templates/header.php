@@ -83,7 +83,8 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 						$('.footer').css('background-color', "rgba(0,0,0,0.5")
 						$('.middle').css('-webkit-filter', "blur(10px)")
 						$('.footer').css('-webkit-filter', "blur(10px)")
-					}else{
+					}
+					if($('.showmenue').css('display', "none")){
 						$('body').css('background-color', "rgba(0,0,0,0")
 						$('.footer').css('background-color', "rgba(0,0,0,0")
 						$('.middle').css('-webkit-filter', "blur(0px)")
