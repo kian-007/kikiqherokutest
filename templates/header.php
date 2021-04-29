@@ -83,11 +83,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).find('.subul2').removeClass('current')
 					$(this).removeClass('current')
 
-					if($(this).hasClass('current')){
-						$(this).css('background-image', "url('images/arrow2.jpg')")
-					}else{
-						$(this).css('background-image', "url('images/arrow3.jpg')")
-					}
+					
 				})
 				// for header2 -------------------------
 				
