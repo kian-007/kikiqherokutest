@@ -14,5 +14,8 @@
 					include_once ('templates/modules/mindex.php');
 				}
                 get_java_script(); ?>
+			<script type="text/javascript">
+				document.getElementsByClassName('prevli2').style.backgroundColor = "yellow"
+			</script>
 	</body>
 </html>

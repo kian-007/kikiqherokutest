@@ -70,7 +70,6 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				})
 				
 
-				document.getElementsByClassName('prevli2').style.backgroundColor('yellow')
 				
 				// for header2 -------------------------
 				$('.ulmenue2').find('li:nth-child(2)').click(function(){ 
