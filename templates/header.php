@@ -100,17 +100,17 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				})
 
 				$('.secondulmenue').children('li').hover(function(){
-					if($(this).hasClass('showarrow')){
-						$(this).css('background-image', "url('images/arrow3.jpg')")
-					}else{
+					if($(this).next().hasClass('open')){
 						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow3.jpg')")
 					}
 				}, 
 				function(){
-					if($(this).hasClass('showarrow')){
-						$(this).css('background-image', "url('images/arrow2.jpg')")
-					}else{
+					if($(this).prev().hasClass('open')){
 						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}
 				})
 				// for header2 -------------------------
