@@ -100,16 +100,12 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				})
 
 				$('.secondulmenue').children('li').hover(function(){
-					if($(this).next().hasClass('showarrow') || $(this).prev().hasClass('showarrow') ){
+					if($(this).hasClass('showarrow')){
 						$(this).css('background-image', "url('images/arrow2.jpg')")
-					}else{
-						$(this).css('background-image', "url('images/arrow3.jpg')")
 					}
 				}, 
 				function(){
-					if($(this).prev().hasClass('showarrow') || $(this).next().hasClass('showarrow')){
-						$(this).css('background-image', "url('images/arrow2.jpg')")
-					}else{
+					if($(this).hasClass('showarrow')){
 						$(this).css('background-image', "url('images/arrow3.jpg')")
 					}
 				})
