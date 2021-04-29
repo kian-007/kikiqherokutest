@@ -96,6 +96,12 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.subul2').not('.current').slideUp()
 					$(this).find('.subul2').removeClass('current')
 
+					if($(this).next().hasClass('current')){
+						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}
+
 					
 				})
 				// for header2 -------------------------
