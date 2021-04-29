@@ -403,6 +403,7 @@
     }
     h2 {
         margin-left: 150px;
+        z-index: 8;
     }
     .header {
         display: none;
