@@ -101,12 +101,12 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 
 				$('.secondulmenue').children('li').hover(function(){
 					if($(this).hasClass('showarrow')){
-						$(this).css('background-image', "url('images/arrow2.jpg')")
+						$(this).css('background-image', "url('images/arrow3.jpg')")
 					}
 				}, 
 				function(){
 					if($(this).hasClass('showarrow')){
-						$(this).css('background-image', "url('images/arrow3.jpg')")
+						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}
 				})
 				// for header2 -------------------------
