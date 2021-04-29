@@ -80,13 +80,13 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.showmenue').toggleClass('show')
 
 					if($('.showmenue').hasClass('show')){
-						$('body').css('background-color', "rgba(0,0,0,0.5")
-						$('.footer').css('background-color', "rgba(0,0,0,0.5")
+						$('body').css('background-color', "rgba(0,0,0,0.5)")
+						$('.footer').css('background-color', "rgba(0,0,0,0.5)")
 						$('.middle').css('-webkit-filter', "blur(10px)")
 						$('.footer').css('-webkit-filter', "blur(10px)")
 					}else{
 						$('body').css('background-color', "rgba(0,0,0,0")
-						$('.footer').css('background-color', "rgba(0,0,0,0")
+						$('.footer').css('background-color', "rgb(255, 112, 197)")
 						$('.middle').css('-webkit-filter', "blur(0px)")
 						$('.footer').css('-webkit-filter', "blur(0px)")
 					}
