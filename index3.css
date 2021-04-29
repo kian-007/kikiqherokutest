@@ -565,6 +565,7 @@
     }
     .image {
         height: 450px;
+        background-size: contain;
     }
     #pcontainer {
         position: relative;
