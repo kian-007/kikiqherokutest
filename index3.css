@@ -290,6 +290,7 @@
 
 .header2 {
     display: none;
+    z-index: 10;
 }
 
 @media only screen and (max-width:768px) {
@@ -425,7 +426,7 @@
         border-bottom: solid #140033 3px;
     }
     .secondulmenue>li:first-child {
-        margin-top: 100px;
+        margin-top: 85px;
     }
     .secondulmenue>li a {
         text-decoration: none;
