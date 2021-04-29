@@ -76,7 +76,7 @@ function get_style(){ ?>
 				top: 3px;
 			}
 			h2{
-				margin-left: 450px;
+				margin-left: 150px;
 			}
 		</style>
 <?php }
