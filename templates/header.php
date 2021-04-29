@@ -102,6 +102,11 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 						$(this).css('background-image', "url('images/arrow3.jpg')")
 					}
 
+					if($(this).prev().hasClass('open')){
+						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}
 					
 				})
 				// for header2 -------------------------
