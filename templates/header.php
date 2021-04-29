@@ -91,12 +91,13 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				})
 				
 				$('.secondulmenue').find('li').click(function() {
+					$(this).toggleClass('showarrow')
 					$(this).find('.subul2').addClass('current')
 					$(this).find('.subul2').slideToggle()
 					$('.subul2').not('.current').slideUp()
 					$(this).find('.subul2').removeClass('current')
 
-					if($(this).next().hasClass('current') || $(this).prev().hasClass('current')){
+					if($(this).next().hasClass('showarrow') || $(this).prev().hasClass('showarrow')){
 						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}else{
 						$(this).css('background-image', "url('images/arrow3.jpg')")
