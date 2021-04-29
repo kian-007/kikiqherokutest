@@ -330,6 +330,12 @@
     .col-12 {
         width: 100%;
     }
+    .footer {
+        background-color: #ff70c5;
+    }
+    .footer svg {
+        display: none;
+    }
     html {
         position: relative;
         background: url('images/headerr2.jpg') top left, fixed;
