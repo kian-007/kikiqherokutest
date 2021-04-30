@@ -83,7 +83,6 @@ $bag = get_value('bag', 0);
 						<div class="doutside ftr"><img	src="images/beautyandhealth/capsul6.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
 					</div>
 					
-					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
 				
 				<?php if($lamp): ?>
@@ -106,7 +105,6 @@ $bag = get_value('bag', 0);
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp5.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
 					</div>
-					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
 					
 				<?php if($brush): ?>
@@ -127,7 +125,6 @@ $bag = get_value('bag', 0);
 						<div class="doutside ftr"><img	src="images/beautyandhealth/bbrushes.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
 					</div>
 					
-					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
 					
 					<?php if($bag): ?>
@@ -148,9 +145,14 @@ $bag = get_value('bag', 0);
 						<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag3.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
 					</div>
 					
-					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 					<?php endif; ?>
 					
+
+					<?php if($bag || $lamp || $lipgloss || $brush): ?>
+						<div class="new col-6 col-l-4">
+							<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
+						</div>
+					<?php endif; ?>
 				</div>
 				<div class="right2 col-l-2 col-12">
 				<?php if($lamp || $lipgloss || $brush || $bag): ?>
