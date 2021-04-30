@@ -354,11 +354,12 @@
     }
     form .input {
         position: relative;
-        left: 100px;
+        left: 150px;
     }
     form button {
         position: relative;
-        left: 50px;
+        left: 100px;
+        bottom: 100px;
     }
     .h1 {
         display: none;
