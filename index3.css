@@ -363,9 +363,11 @@
     }
     .dform {
         background: #d1bbbb;
+        margin-top: 0px;
+        margin-left: 0px;
         border-radius: 30px;
-        width: 350px;
-        height: 350px;
+        width: 500px;
+        height: 500px;
         box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
     }
     form .input {
