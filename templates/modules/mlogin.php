@@ -33,7 +33,7 @@ function get_content(){ ?>
 function get_style(){ ?>
     <style>
         h1 {
-            margin-left: 111px;
+            margin-left: 85px;
         }
         .dform {
             background: #d1bbbb;
@@ -45,7 +45,7 @@ function get_style(){ ?>
             box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
         }
         button {
-            margin-left: 111px;
+            margin-left: 85px;
             width: 200px;
             height: 50px;
             background: rgb(91, 33, 182);
@@ -60,7 +60,7 @@ function get_style(){ ?>
             background-color: rgb(202, 67, 168);
         }
         .input {
-            margin-left: 111px;
+            margin-left: 85px;
             width: 200px;
             height: 50px;
             background: #d1bbbb;
