@@ -54,9 +54,6 @@ function show_message(){
 	foreach($messages as $item){
 		$message = $item['message'];
 		$type = $item['type'];
-		if($type == 'error'){
-
-		}
 		?>
 			<div class="alert alert-<?php echo $type; ?>">
 				<p>
