@@ -120,10 +120,9 @@
                                             filter: progid: DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540);
                                             /*IE 5.5-7*/
                                         }
-                                    }
 										
                                         </style>
-                                <?php}
+                                    <?php}
 
                                     function css_link(){ ?>
 
