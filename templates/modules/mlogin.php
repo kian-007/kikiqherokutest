@@ -89,7 +89,10 @@ function get_style(){ ?>
         }
         @media only screen and (min-width: 768px){
             .input{
-                margin-left: 177px;
+                margin-left: 150px;
+            }
+            button{
+                margin-left: 50px;
             }
         }
     </style>
