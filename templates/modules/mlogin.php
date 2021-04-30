@@ -21,7 +21,7 @@ function get_content(){ ?>
                 </div>
                 <br/>
                 <button class="first" type="submit">Sign in</button>
-                <p style="margin-left: 170px;">&copy;2017–2021</p>
+                <p style="margin-left: 140px;">&copy;2017–2021</p>
             </form>
         </div>
 
@@ -45,7 +45,7 @@ function get_style(){ ?>
             box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
         }
         button {
-            margin-left: 55px;
+            margin-left: 35px;
             width: 200px;
             height: 50px;
             background: rgb(91, 33, 182);
@@ -60,7 +60,7 @@ function get_style(){ ?>
             background-color: rgb(202, 67, 168);
         }
         .input {
-            margin-left: 0px;
+            margin-left: -50px;
             width: 200px;
             height: 50px;
             background: #d1bbbb;
