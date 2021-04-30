@@ -1,48 +1,14 @@
-                                    <?php function get_title() {
+<?php
+                                function get_title() {
                                     return 'ورود به صفحه کاربری';
                                 }
                                 
                                 function get_content() {?>
-                                <div class="left2 col-l-1 col-12">
-                                </div>
-                                <div class="content2 col-l-9 col-12">
-
-                                    <div class="dform">
-                                        <form method="post">
-                                            <h1>Please sign in</h1>
-                                            <div class="dinput">
-                                                <input class="input second" id="username" name='username' placeholder="username" />
-                                                <label for="username">Username</label>
-                                            </div>
-                                            <div class="dinput">
-                                                <input class="input second" type="password" id="password" name='password' placeholder="Password" />
-                                                <label for="password">Password</label>
-                                            </div>
-                                            <br/>
-                                            <button class="first" type="submit">Sign in</button>
-                                            <p style="margin-left: 170px;">&copy;2017–2021</p>
-                                        </form>
-                                    </div>
-
-                                </div>
-                                <div class="right2 col-l-2 col-12">
-                                </div>
+                                    <p>This is a Test</p>
                             <?php }
                                 
                                 function get_style() {?>
                                 <style>
-									@media only screen and (max-width:768px){
-										.dform{
-											background: #d1bbbb;
-											margin-top: 80px;
-											margin-left: 0px;
-											border-radius: 30px;
-											width: 400px;
-											height: 400px;
-											box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
-										}
-									}
-									
 									
 									h1 {
                                         margin-left: 170px;
@@ -100,27 +66,8 @@
                                         border-left-color: blue;
                                         border-right-color: blue;
                                     }
-                                    @media only screen and (min-width: 900px) {
-                                        .dform {
-                                            background: #d1bbbb;
-                                            margin-top: 100px;
-                                            margin-left: 222px;
-                                            border-radius: 30px;
-                                            width: 550px;
-                                            height: 500px;
-                                            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";
-                                            /*IE 8*/
-                                            -moz-box-shadow: 3px 3px 3px 3px #274540;
-                                            /*FF 3.5+*/
-                                            -webkit-box-shadow: 3px 3px 3px 3px #274540;
-                                            /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-                                            box-shadow: 3px 3px 3px 3px #274540;
-                                            /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-                                            filter: progid: DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540);
-                                            /*IE 5.5-7*/
-                                        }
-										
-                                        </style>
+                                    
+                                </style>
                                     <?php}
 
                                     function css_link(){ ?>
