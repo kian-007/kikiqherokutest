@@ -87,14 +87,18 @@ function get_style(){ ?>
             border-left-color: blue;
             border-right-color: blue;
         }
+
+
         @media only screen and (min-width: 768px){
             .input{
-                margin-left: 150px;
+                margin-left: 95px;
             }
             button{
-                margin-left: 50px;
+                margin-left: 100px;
             }
         }
+
+
     </style>
 <?php }
 
