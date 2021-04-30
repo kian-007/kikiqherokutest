@@ -11,12 +11,12 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-		}else{ ?>
+		}else{
 			add_message('پیام خطا', 'error');
 			add_message('موفقیت', 'success');
 			add_message('هشدار', 'warning');
 			add_message('اطلاع رسانی', 'info');
-		<?php	require_once ('templates/modules/mindex.php');
+		require_once ('templates/modules/mindex.php');
 		}
 	}
 
