@@ -41,7 +41,7 @@ function get_style(){ ?>
             border-radius: 30px;
             width: 350px;
             height: 350px;
-            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255) ;
         }
         button {
             margin-left: 35px;
@@ -86,6 +86,11 @@ function get_style(){ ?>
             border-top-color: blue;
             border-left-color: blue;
             border-right-color: blue;
+        }
+        @media only screen and (min-width: 768px){
+            .input{
+                margin-left: 177px;
+            }
         }
     </style>
 <?php }
