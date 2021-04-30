@@ -57,7 +57,7 @@ $bag = get_value('bag', 0);
 				</div>
 				
 				
-				<div class="content2 col-l-9 col-12 clearfix">
+				<div class="content2 col-l-9 col-12">
 				
 				<?php if($lipgloss): ?>
 				<h2>* برق لب قرصی *</h2>
