@@ -93,6 +93,10 @@ function get_style(){ ?>
             .input{
                 margin-left: 95px;
             }
+            .input:focus ~label{
+                top: -20px; left:0;
+                color: #03e9f4; font-size: 14px;
+            }
             button{
                 margin-left: 100px;
             }
