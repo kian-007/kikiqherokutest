@@ -87,7 +87,10 @@ function get_style(){ ?>
             border-left-color: blue;
             border-right-color: blue;
         }
-
+        .input:focus ~label{
+            top: -20px; left:0;
+            color: #03e9f4; font-size: 14px;
+        }
 
         @media only screen and (min-width: 768px){
             .input{
