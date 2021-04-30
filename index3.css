@@ -353,7 +353,8 @@
         height: 300px;
     }
     form .input {
-        float: center;
+        position: relative;
+        left: 25px;
     }
     .h1 {
         display: none;
