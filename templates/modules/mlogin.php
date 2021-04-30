@@ -94,7 +94,7 @@ function get_style(){ ?>
         }
         .input ~label{
             position: relative;
-            top: -70px;
+            top: 0px;
             z-index: 7;
         }
 
@@ -104,6 +104,8 @@ function get_style(){ ?>
                 margin-left: 95px;
             }
             .input:focus ~label{
+                margin-top: -25;
+                margin-left: 0px;
                 color: #03e9f4; font-size: 14px;
             }
             .input ~label{
