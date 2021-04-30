@@ -362,6 +362,7 @@
         height: 300px;
     }
     .dform {
+        display: none;
         background: #d1bbbb;
         border-radius: 30px;
         width: 350px;
