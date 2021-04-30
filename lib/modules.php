@@ -10,12 +10,20 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-		}else{
-			add_message('پیام خطا', 'error');
-			add_message('موفقیت', 'success');
-			add_message('هشدار', 'warning');
-			add_message('اطلاع رسانی', 'info');
-		require_once ('templates/modules/mindex.php');
+		}else{ ?>
+			<div class="alert alert-error">
+				<p>
+					خطای فرضی
+					<?php echo $_SERVER['REQUEST_URI']; ?>
+				</p>
+			</div>
+			<div class="alert alert-success">
+				<p>
+					خطای فرضی
+					<?php echo $_SERVER['REQUEST_URI']; ?>
+				</p>
+			</div>
+		<?php	require_once ('templates/modules/mindex.php');
 		}
 	}
 
@@ -23,45 +31,11 @@
 
     function render_page(){
         include_once ('templates/header.php');
-		show_message();
-		
+
         load_module();
 		if(function_exists('get_content')){
 			get_content();
 		}
 
 		include_once('templates/footer.php'); 
-}
-
-
-$messages = array();
-function add_message($message = null, $type = 'error'){
-	if(!$message){
-		return;
-	}
-	global $messages;
-	$messages[] = array(
-		'message' => $message,
-		'type' => $type,
-	);
-}
-
-function show_message(){
-	global $messages;
-	if(empty($messages)){
-		return;
-	}
-	foreach($messages as $item){
-		$message = $item['message'];
-		$type = $item['type'];
-		?>
-			<div class="alert alert-<?php echo $type; ?>">
-				<p>
-					<?php echo $message; ?>
-					<?php echo $_SERVER['REQUEST_URI']; ?>
-				</p>
-			</div>
-		<?php
-	}
-	
 }
