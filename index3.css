@@ -358,8 +358,8 @@
     }
     form button {
         position: relative;
-        left: 100px;
-        bottom: 100px;
+        left: 80px;
+        bottom: 130px;
     }
     .h1 {
         display: none;
