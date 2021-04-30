@@ -101,28 +101,10 @@
                                         border-left-color: blue;
                                         border-right-color: blue;
                                     }
-                                    @media only screen and (min-width: 900px) {
-                                        .dform {
-                                            background: #d1bbbb;
-                                            margin-top: 100px;
-                                            margin-left: 222px;
-                                            border-radius: 30px;
-                                            width: 550px;
-                                            height: 500px;
-                                            -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540)";
-                                            /*IE 8*/
-                                            -moz-box-shadow: 3px 3px 3px 3px #274540;
-                                            /*FF 3.5+*/
-                                            -webkit-box-shadow: 3px 3px 3px 3px #274540;
-                                            /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
-                                            box-shadow: 3px 3px 3px 3px #274540;
-                                            /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
-                                            filter: progid: DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#274540);
-                                            /*IE 5.5-7*/
-                                        }
+                                   
 										
-                                        </style><?php
-                                    }
+                                        </style>
+                                <?php}
 
                                     function css_link(){ ?>
 
