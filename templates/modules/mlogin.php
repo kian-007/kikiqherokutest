@@ -27,8 +27,7 @@
                                 </div>
                                 <div class="right2 col-l-2 col-12">
                                 </div>
-                                    <?php
-                                }
+                                    <?php}
                                 
                                 function get_style() {
                                     ?><style>
@@ -123,7 +122,7 @@
 										
                                         </style>
                                     <?php}
-
+                                    
                                     function css_link(){ ?>
 
                                         <link type="text/css"	rel="stylesheet"	href="index.css" />
