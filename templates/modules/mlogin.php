@@ -93,9 +93,8 @@ function get_style(){ ?>
             color: #03e9f4; font-size: 14px;
         }
         .input ~label{
-            top: -100px;
-            margin-top: 0px;
-            margin-left: 100px;
+            margin-top: 70px;
+            margin-left: 70px;
             z-index: 7;
         }
 
