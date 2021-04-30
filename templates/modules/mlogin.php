@@ -27,10 +27,10 @@
                                 </div>
                                 <div class="right2 col-l-2 col-12">
                                 </div>
-                                    <?php}
+                            <?php }
                                 
-                                function get_style() {
-                                    ?><style>
+                                function get_style() {?>
+                                <style>
 									@media only screen and (max-width:768px){
 										.dform{
 											background: #d1bbbb;
@@ -122,7 +122,7 @@
 										
                                         </style>
                                     <?php}
-                                    
+
                                     function css_link(){ ?>
 
                                         <link type="text/css"	rel="stylesheet"	href="index.css" />
