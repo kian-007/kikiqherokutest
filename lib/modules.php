@@ -17,12 +17,6 @@
 					<?php echo $_SERVER['REQUEST_URI']; ?>
 				</p>
 			</div>
-			<div class="alert alert-success">
-				<p>
-					خطای فرضی
-					<?php echo $_SERVER['REQUEST_URI']; ?>
-				</p>
-			</div>
 		<?php	require_once ('templates/modules/mindex.php');
 		}
 	}
