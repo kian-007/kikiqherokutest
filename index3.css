@@ -361,6 +361,13 @@
     .right2 {
         height: 300px;
     }
+    .dform {
+        background: #d1bbbb;
+        border-radius: 30px;
+        width: 350px;
+        height: 350px;
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
+    }
     form .input {
         position: relative;
         left: 150px;
