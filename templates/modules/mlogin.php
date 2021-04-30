@@ -92,7 +92,7 @@ function get_style(){ ?>
             color: #03e9f4; font-size: 14px;
         }
         .input ~label{
-            margin-top: -50px;
+            margin-top: -150px;
             margin-left: 100px;
         }
 
