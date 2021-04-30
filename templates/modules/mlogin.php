@@ -37,11 +37,11 @@ function get_style(){ ?>
         }
         .dform {
             background: #d1bbbb;
-            margin-top: 100px;
-            margin-left: 300px;
+            margin-top: 0px;
+            margin-left: 0px;
             border-radius: 30px;
-            width: 500px;
-            height: 500px;
+            width: 350px;
+            height: 350px;
             box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255), ;
         }
         button {
