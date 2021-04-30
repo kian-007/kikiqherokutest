@@ -37,8 +37,7 @@ function get_style(){ ?>
         }
         .dform {
             background: #d1bbbb;
-            margin-top: 0px;
-            margin-left: 0px;
+            margin: 0px auto;
             border-radius: 30px;
             width: 350px;
             height: 350px;
