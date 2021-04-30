@@ -2,7 +2,6 @@
 
 	function load_module(){
 		include_once ('lib/functions.php');
-		show_message();
         $module = get_module_name();
 		if(empty($module)){
 			$module = 'index.php';
@@ -24,7 +23,8 @@
 
     function render_page(){
         include_once ('templates/header.php');
-
+		show_message();
+		
         load_module();
 		if(function_exists('get_content')){
 			get_content();
