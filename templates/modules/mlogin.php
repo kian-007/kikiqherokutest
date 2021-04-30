@@ -95,6 +95,7 @@ function get_style(){ ?>
         .input ~label{
             position: relative;
             top: 0px;
+            left: -100px;
             z-index: 7;
         }
 
