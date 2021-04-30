@@ -73,6 +73,7 @@ function get_style(){ ?>
             font-family: Arial, Helvetica, sans-serif;
             font-size: 32px;
             font-weight: semibold;
+            z-index: 6;
         }
         .first {
             box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.8), -6px -6px 10px rgba(0, 0, 0, 0.2);
@@ -91,10 +92,11 @@ function get_style(){ ?>
             top: -20px; left:0;
             color: #03e9f4; font-size: 14px;
         }
-        .input label{
+        .input ~label{
             top: -100px;
             margin-top: 0px;
             margin-left: 100px;
+            z-index: 7;
         }
 
         @media only screen and (min-width: 768px){
