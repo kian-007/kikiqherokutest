@@ -65,9 +65,7 @@ $handcream = get_value('handcream' , 0);
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/skin/mrtb88.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><p class="pinside"></p></div>
 					</div>
-					<div class="new col-6 col-l-4">
-						<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
-					</div>
+
 					<?php endif; ?>
 					
 				<?php if($facebrush): ?>
@@ -90,11 +88,14 @@ $handcream = get_value('handcream' , 0);
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/skin/brush3.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><p class="pinside"></p></div>
 					</div>
-					<div class="new col-6 col-l-4">
-						<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
-					</div>
+
 					<?php endif; ?>
 					
+					<?php if($handcream || $facebrush): ?>
+						<div class="new col-6 col-l-4">
+							<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
+						</div>
+					<?php endif; ?>
 				</div>
 				
 				<div class="right2 col-l-2 col-12">
