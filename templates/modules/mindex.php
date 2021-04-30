@@ -9,7 +9,7 @@ function get_content(){ ?>
 				
 				<div class="left2 col-l-1 col-12">
 				</div>
-				<div class="content2 col-l-9 col-12 clearfix">
+				<div class="content2 col-l-9 col-12">
 				<div id='preloader'>
 					<div class="text-center">
 						Loading...

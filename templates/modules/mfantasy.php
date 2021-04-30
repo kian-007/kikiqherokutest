@@ -9,7 +9,7 @@ function get_content(){ ?>
 				
 				<div class="left2 col-l-1 col-12">
 				</div>
-				<div class="content2 col-l-9 col-12 clearfix">
+				<div class="content2 col-l-9 col-12">
 				<h2>* آیینه *</h2>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	src="images/fantasy/mir14.jpg"	/><p id='p1'><p class="pinside"></p></div>

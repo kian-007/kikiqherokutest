@@ -9,7 +9,7 @@ function get_content(){ ?>
 				
 				<div class="left2 col-l-1 col-12">
 				</div>
-				<div class="content2 col-l-9 col-12 clearfix">
+				<div class="content2 col-l-9 col-12">
 				<span style="color:gray;float:right; position:relative; top:70px; right:250px">تماس با ما  < </span><a href="index.php"	style="text-decoration: none; color: black;float:right; position:relative; top:70px; right:100px">صفحه اصلی  <</a>
 					<div id=pcontainer >
 						<div id="dimages">
