@@ -61,7 +61,7 @@
 }
 
 .content2 {
-    height: 150%;
+    height: auto;
     background-color: rgba(255, 204, 0, 0);
     z-index: 8;
 }
