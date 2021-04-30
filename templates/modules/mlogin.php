@@ -91,7 +91,7 @@ function get_style(){ ?>
             top: -20px; left:0;
             color: #03e9f4; font-size: 14px;
         }
-        .input ~label{
+        .input label{
             top: -100px;
             margin-top: 0px;
             margin-left: 100px;
