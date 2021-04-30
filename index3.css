@@ -163,6 +163,10 @@
     clear: left;
 }
 
+.clrr {
+    clear: right;
+}
+
 .doutside img,
 .d1 img {
     position: absolute;

@@ -62,7 +62,7 @@ $bag = get_value('bag', 0);
 				<?php if($lipgloss): ?>
 				<h2>* برق لب قرصی *</h2>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						<div class="doutside ftr clrr d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/beautyandhealth/capsul1.jpg"	alt="برق لب"/><p class="price">20,000 t</p><p class="pinside"></p></div>
@@ -88,7 +88,7 @@ $bag = get_value('bag', 0);
 				<?php if($lamp): ?>
 				<h2>* برق لب لامپی *</h2>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/lamp6.jpg"	alt="برق لب"/><p><p class="pinside"></p></div>
+						<div class="doutside ftr clrr"><img  src="images/beautyandhealth/lamp6.jpg"	alt="برق لب"/><p><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp1.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
@@ -110,7 +110,7 @@ $bag = get_value('bag', 0);
 				<?php if($brush): ?>
 				<h2>* براش *</h2>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						<div class="doutside ftr clrr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img  src="images/beautyandhealth/nbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
@@ -130,7 +130,7 @@ $bag = get_value('bag', 0);
 					<?php if($bag): ?>
 				<h2>*  Victoria's secret کیف آرایشی *</h2>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/compressed/bags1.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr clrr"	 ><img	src="images/compressed/bags1.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"	 ><img	src="images/compressed/bags2.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
