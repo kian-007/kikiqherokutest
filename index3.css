@@ -606,4 +606,12 @@
         left: 100px;
         box-shadow: 20px 15px 15px #333388
     }
+    .alert {
+        background-color: #ff8ebb;
+        height: 35px;
+        border-radius: 30px;
+        font-weight: bold;
+        margin-top: 80%;
+        text-align: right;
+    }
 }
