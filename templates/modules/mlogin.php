@@ -93,13 +93,9 @@ function get_style(){ ?>
             color: #03e9f4; font-size: 14px;
         }
         .input ~label{
-            margin-top: 100px;
-            margin-left: 70px;
+            margin-top: 0;
+            margin-left: 100px;
             z-index: 7;
-        }
-        .input::placeholder:hover {
-            top: -20px; left:0;
-            color: #03e9f4; font-size: 14px;
         }
 
 
