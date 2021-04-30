@@ -607,11 +607,22 @@
         box-shadow: 20px 15px 15px #333388
     }
     .alert {
-        background-color: #ff8ebb;
-        height: 35px;
+        height: 40px;
         border-radius: 30px;
         font-weight: bold;
         margin-top: 85%;
         text-align: right;
+    }
+    .alert-error {
+        background-color: #ff8ebb;
+    }
+    .alert-success {
+        background-color: #24ff36;
+    }
+    .alert-warning {
+        background-color: #b13333;
+    }
+    .alert-info {
+        background-color: #6832ff;
     }
 }
