@@ -352,6 +352,9 @@
     .right2 {
         height: 300px;
     }
+    form {
+        width: 100%;
+    }
     form .input {
         position: relative;
         left: 160px;
