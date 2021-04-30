@@ -107,6 +107,11 @@ function get_style(){ ?>
                 top: -20px; left:0;
                 color: #03e9f4; font-size: 14px;
             }
+            .input ~label{
+            margin-top: -25;
+            margin-left: 0px;
+            z-index: 7;
+        }
             button{
                 margin-left: 100px;
             }
