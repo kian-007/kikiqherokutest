@@ -10,12 +10,7 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-			if(is_authentication_required()){
-				$url = 'login.php';
-				$login_url = SITE_URL . $url;
-				header("Location: $login_url");
-				die();
-			}
+			check_for_authentication_requirement();
 		}else{ ?>
 			<div class="alert alert-error">
 				<p>
@@ -28,6 +23,13 @@
 	}
 
 
+	function check_for_authentication_requirement(){
+		if(is_authentication_required() && !is_user_logged_in()){
+			$request_url = 'login.php';
+			$login_url = SITE_URL . $request_url;
+			redirect_to($login_url);
+		}
+	}
 
     function render_page(){
         include_once ('templates/header.php');

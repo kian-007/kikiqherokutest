@@ -19,3 +19,18 @@ function get_module_name(){
 	
     return $req;
 }
+
+function is_valid_url($url){
+    if(empty($url)){
+        return false;
+    }
+    return (filter_var($url, FILTER_VALIDATE_URL) !== false);
+}
+
+function redirect_to($url){
+    if(!is_valid_url($url)){
+        return;
+    }
+    header("Location: $url");
+    die();
+}
