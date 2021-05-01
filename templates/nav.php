@@ -41,7 +41,7 @@
 						</ul>
 					</li>
 
-					<li id='homeli'><a href='index.php'>خانه</a></li>
+					<li id='homeli'><a href="<?php echo home_url('home'); ?>">خانه</a></li>
 					<li><span>دسته بندی</span></li>
 				</ul>
 				<h1 class ="h1">KikiCutest</h1>
