@@ -10,7 +10,7 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-			if(is_authentication_required()){
+			if(authentication_required()){
 				header("Location: login.php");
 				die();
 			}
