@@ -11,9 +11,11 @@
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
 			if(authentication_required()){
-				header("Location: https://kikiq.herokuapp.com/login.php");
+				$login_url = home_url('login');
+				header("Location: $login_url");
 				die();
 			}
+			
 		}else{ ?>
 			<div class="alert alert-error">
 				<p>
