@@ -149,8 +149,7 @@ function get_style(){ ?>
 			.title{
 				margin: 50px auto;
 				width: 300px;
-				border-color: #ff8566;
-				border-bottom: solid black 2px;
+				border-bottom: solid #ff8566 2px;
 			}
 			.title span{
 				font-family: Sahel, Shabnam;
