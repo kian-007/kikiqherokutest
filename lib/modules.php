@@ -13,7 +13,7 @@
 		}else{ ?>
 			<div class="alert alert-error">
 				<p>
-					خطای فرضی
+					آدرس وارد شده صحیح نیست
 					<?php echo $_SERVER['REQUEST_URI']; ?>
 				</p>
 			</div>
