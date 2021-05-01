@@ -5,30 +5,46 @@ $image = $_GET['image'];
 
 switch ($image){
 case 1:
-    $filename = 'kiki.jpg';
+    $filename = 'beautyandhealth/cobrush1.jpg';
     $type = 'image/jpg';
     break;
 case 2:
-    $filename = 'bags1.jpg';
+    $filename = 'beautyandhealth/cobrush2.jpg';
     $type = 'image/jpg';
     break;
 case 3:
-    $filename = 'bags2.jpg';
+    $filename = 'skin/lipbalm1.jpg';
     $type = 'image/jpg';
     break;
 case 4:
-    $filename = 'brushes.jpg';
+    $filename = 'skin/nlipgloss.jpg';
     $type = 'image/jpg';
     break;
 case 5:
-    $filename = 'mirror1.jpg';
+    $filename = 'kiki.jpg';
     $type = 'image/jpg';
     break;
 case 6:
-    $filename = 'mirror1.jpg';
+    $filename = 'bags1.jpg';
     $type = 'image/jpg';
     break;
 case 7:
+    $filename = 'bags2.jpg';
+    $type = 'image/jpg';
+    break;
+case 8:
+    $filename = 'brushes.jpg';
+    $type = 'image/jpg';
+    break;
+case 9:
+    $filename = 'mirror1.jpg';
+    $type = 'image/jpg';
+    break;
+case 10:
+    $filename = 'mirror1.jpg';
+    $type = 'image/jpg';
+    break;
+case 11:
     $filename = 'mirror2.jpg';
     $type = 'image/jpg';
     break;
