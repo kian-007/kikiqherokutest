@@ -304,18 +304,22 @@
 
 .alert-error {
     background-color: #ff8ebb;
+    border-color: pink;
 }
 
 .alert-success {
     background-color: #24ff36;
+    border-color: green;
 }
 
 .alert-warning {
     background-color: #b13333;
+    border-color: red;
 }
 
 .alert-info {
     background-color: #6832ff;
+    border-color: blue;
 }
 
 @media only screen and (max-width:768px) {
