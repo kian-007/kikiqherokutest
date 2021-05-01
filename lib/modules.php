@@ -11,7 +11,7 @@
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
 			if(is_authentication_required()){
-				header("Location: https://kikiq.herokuapp.com/login.php");
+				header("Location: login.php");
 				die();
 			}
 		}else{ ?>
