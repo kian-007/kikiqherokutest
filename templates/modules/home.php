@@ -153,7 +153,7 @@ function get_style(){ ?>
 			}
 			.title span{
 				font-size: 17pt;
-				margin-left: auto;
+				margin-left: 50px;
 				border-bottom: solid black 3px;
 			}
 			#preloader
