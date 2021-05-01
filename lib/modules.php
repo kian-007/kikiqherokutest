@@ -10,11 +10,7 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-			if(is_authentication_required()){
-				$login_url = home_url('login.php');
-				header("Location: $login_url");
-				die();
-			}
+			
 
 		}else{ ?>
 			<div class="alert alert-error">
