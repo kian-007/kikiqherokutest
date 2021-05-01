@@ -10,6 +10,11 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
+			if(is_authentication_required()){
+				$login_url = SITE_URL . 'login.php';
+				header("Location: $login_url");
+				die();
+			}
 		}else{ ?>
 			<div class="alert alert-error">
 				<p>
@@ -32,4 +37,12 @@
 		}
 
 		include_once('templates/footer.php'); 
+}
+
+
+function is_authentication_required(){
+	if(function_exists('authentication_required')){
+		return authentication_required();
+	}
+	return false;
 }
