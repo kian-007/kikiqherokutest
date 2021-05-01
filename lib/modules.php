@@ -4,7 +4,7 @@
 		include_once ('lib/functions.php');
         $module = get_module_name();
 		if(empty($module)){
-			$module = 'home.php';
+			$module = 'home';
 		}
 		$module_file = "templates/modules/$module.php";
 
