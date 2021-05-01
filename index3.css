@@ -625,6 +625,9 @@
     .alert {
         color: #c43434;
         height: 40px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
         border-radius: 30px;
         font-weight: bold;
         margin-top: 85%;

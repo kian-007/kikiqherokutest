@@ -520,6 +520,9 @@
 			    color: #c43434;
 			    height: 35px;
 			    border-radius: 30px;
+			    border-style: solid;
+			    border-color: #000000;
+			    border-width: 1px;
 			    font-weight: bold;
 			    margin-top: 40%;
 			    text-align: right;
