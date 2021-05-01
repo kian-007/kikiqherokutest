@@ -480,6 +480,9 @@
         text-decoration: none;
         color: #ffffff;
     }
+    .secondulmenue li a {
+        font-family: Sahel, Shabnam;
+    }
     .subul2 {
         display: none;
         list-style-type: none;
@@ -487,9 +490,6 @@
     }
     .subul2 li {
         border-bottom: dashed yellow 1px;
-    }
-    .subul2 li a {
-        font-family: Sahel, Shabnam;
     }
     .subul2 li a:hover {
         color: #ffff33;
