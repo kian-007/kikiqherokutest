@@ -148,10 +148,12 @@ function get_style(){ ?>
 			
 			.title{
 				margin: 50px auto;
-				width: 200px;
+				width: 300px;
 				border-bottom: solid black 1px;
 			}
 			.title span{
+				font-size: 17pt;
+				margin-left: auto;
 				border-bottom: solid black 3px;
 			}
 			#preloader
