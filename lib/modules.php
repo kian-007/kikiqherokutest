@@ -12,7 +12,7 @@
 			require_once ("templates/modules/m$module");
 			if(is_authentication_required()){
 				$login_url = "https://kikiq.herokuapp.com/login.php";
-				header("Location:$login_url");
+				header('Location: $login_url');
 				die();
 			}
 		}else{ ?>
