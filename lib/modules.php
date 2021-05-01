@@ -10,12 +10,7 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-			if(is_authentication_required()){
-				$url = 'login.php';
-				$login_url = SITE_URL . $url;
-				header("Location: $login_url");
-				die();
-			}
+			
 		}else{ ?>
 			<div class="alert alert-error">
 				<p>
@@ -33,6 +28,9 @@
         include_once ('templates/header.php');
 
         load_module();
+		$url = 'login.php';
+		$login_url = SITE_URL . $url;
+		header("Location: $login_url");
 		if(function_exists('get_content')){
 			get_content();
 		}
