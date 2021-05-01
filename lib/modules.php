@@ -13,7 +13,7 @@
 			if(authentication_required()){
 				$login_url = "https://kikiq.herokuapp.com/login.php";
 				header("Location: $login_url");
-				die()
+				die();
 			}
 		}else{ ?>
 			<div class="alert alert-error">
