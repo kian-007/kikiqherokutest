@@ -488,6 +488,9 @@
     .subul2 li {
         border-bottom: dashed yellow 1px;
     }
+    .subul2 li a {
+        font-family: Sahel, Shabnam;
+    }
     .subul2 li a:hover {
         color: #ffff33;
     }
