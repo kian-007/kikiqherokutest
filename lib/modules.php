@@ -25,8 +25,7 @@
 
 	function check_for_authentication_requirement(){
 		if(is_authentication_required() && !is_user_logged_in()){
-			$request_url = 'login.php';
-			$login_url = SITE_URL . $request_url;
+			$login_url = home_url('login.php');
 			redirect_to($login_url);
 		}
 	}
