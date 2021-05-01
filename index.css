@@ -1,5 +1,6 @@
 			body {
 			    margin: 0px;
+			    font-family: Shabnam, Sahel;
 			}
 			
 			html {
@@ -11,6 +12,11 @@
 			    -webkit-filter: saturate(150%);
 			    filter: brightness(110%);
 			    -webkit-filter: brightness(110%);
+			}
+			
+			@font-face {
+			    font-family: 'Shabnam', 'sahel';
+			    src: url(persian-web-font/sahel-font-v1.0.0-alpha14/Sahel.ttf) format('ttf'), src: url(persian-web-font/shabnam-font-v2.4.0/Shabnam.ttf) format('ttf');
 			}
 			
 			.container {
