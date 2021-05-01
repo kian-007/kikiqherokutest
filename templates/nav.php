@@ -7,17 +7,17 @@
 				<ul class ="ulmenue" >
 					<li><a href='#'>آرایشی و بهداشتی</a>
 						<ul class ="subul">
-							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?bag=1'>کیف لوازم آرایشی</a></li>
-							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?lamp=1'>برق لب لامپی</a></li>
-							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?lipgloss=1'>برق لب قرصی</a></li>
+							<li><a href="<?php echo home_url('beautyandhealth'); ?>?bag=1">کیف لوازم آرایشی</a></li>
+							<li><a href="<?php echo home_url('beautyandhealth'); ?>?lamp=1">برق لب لامپی</a></li>
+							<li><a href="<?php echo home_url('beautyandhealth'); ?>?lipgloss=1">برق لب قرصی</a></li>
 							<li><a href="<?php echo home_url('beautyandhealth'); ?>?brush=1">براش</a></li>
 						</ul>
 					</li>
 					
 					<li><a href='#'>پوست</a>
 						<ul class ="subul">
-							<li style="height: 60px"><a href='<?php echo SITE_URL; ?>skin.php?handcream=1'>کرم مرطوب کننده دست</a></li>
-							<li style="height: 60px"><a href='<?php echo SITE_URL; ?>skin.php?facebrush=1'>فیس براش چکشی هولوگرامی</a></li>
+							<li style="height: 60px"><a href="<?php echo home_url('skin'); ?>?handcream=1">کرم مرطوب کننده دست</a></li>
+							<li style="height: 60px"><a href="<?php echo home_url('skin'); ?>facebrush=1">فیس براش چکشی هولوگرامی</a></li>
 							<li><a href='#'>empty</a></li>
 							<li><a href='#'>empty</a></li>
 						</ul>
@@ -35,7 +35,7 @@
 					<li><a href='#'>فانتزی</a>
 						<ul class ="subul" >
 							<li><a href='#'>پاپوش یونیکورن</a></li>
-							<li><a href='<?php echo SITE_URL; ?>fantasy.php'>آیینه</a></li>
+							<li><a href="<?php echo home_url('fantasy'); ?>">آیینه</a></li>
 							<li><a href='#'>empty</a></li>
 							<li><a href='#'>empty</a></li>
 						</ul>
