@@ -1,8 +1,8 @@
 				<?php	include_once('config.php');?>
 				<div class= "menue col-l-12 col-12">
 				<ul class="login">
-					<li><a href='<?php echo SITE_URL; ?>login.php'>ورود</a></li>
-					<li><a href='<?php echo SITE_URL; ?>dashboard.php'>صفحه کاربری</a></li>
+					<li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
+					<li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
 				</ul>
 				<ul class ="ulmenue" >
 					<li><a href='#'>آرایشی و بهداشتی</a>
@@ -10,7 +10,7 @@
 							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?bag=1'>کیف لوازم آرایشی</a></li>
 							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?lamp=1'>برق لب لامپی</a></li>
 							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?lipgloss=1'>برق لب قرصی</a></li>
-							<li><a href='<?php echo SITE_URL; ?>beautyandhealth.php?brush=1'>براش</a></li>
+							<li><a href="<?php echo home_url('beautyandhealth'); ?>?brush=1">براش</a></li>
 						</ul>
 					</li>
 					

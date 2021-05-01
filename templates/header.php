@@ -8,11 +8,11 @@
 
             <?php   include_once ('lib/functions.php');
 					$module = get_module_name();
-					$module_file = "templates/modules/m$module";
+					$module_file = "templates/modules/$module.php";
 					if(file_exists($module_file)){
-						include_once ("templates/modules/m$module");
+						include_once ("templates/modules/$module.php");
 					}else{
-						include_once ('templates/modules/mindex.php');
+						include_once ('templates/modules/home.php');
 					}
                   ?>
             <title><?php echo get_title(); ?></title>
