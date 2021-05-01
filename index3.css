@@ -623,7 +623,8 @@
         box-shadow: 20px 15px 15px #333388
     }
     .alert {
-        color: #c43434 height: 40px;
+        color: #c43434;
+        height: 40px;
         border-radius: 30px;
         font-weight: bold;
         margin-top: 85%;
