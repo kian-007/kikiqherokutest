@@ -1,6 +1,6 @@
 			body {
 			    margin: 0px;
-			    font-family: Sahel;
+			    font-family: Sahel, Shabnam;
 			}
 			
 			html {
@@ -15,8 +15,11 @@
 			}
 			
 			@font-face {
-			    font-family: 'Shabnam', 'sahel';
-			    src: url(persian-web-font/sahel-font-v1.0.0-alpha14/Sahel.ttf) format('ttf'), src: url(persian-web-font/shabnam-font-v2.4.0/Shabnam.ttf) format('ttf');
+			    font-family: 'Sahel';
+			    font-style: normal;
+			    font-weight: 400;
+			    src: url('persian-web-font/sahel-font-v1.0.0-alpha14/Sahel.eot');
+			    src: url('persian-web-font/sahel-font-v1.0.0-alpha14/Sahel.eot?#iefix') format('embedded-opentype'), url('persian-web-font/sahel-font-v1.0.0-alpha14/Sahel.woff2') format('woff2'), url('persian-web-font/sahel-font-v1.0.0-alpha14/Sahel.woff') format('woff'), url('persian-web-font/sahel-font-v1.0.0-alpha14/Sahel.ttf') format('truetype');
 			}
 			
 			.container {
