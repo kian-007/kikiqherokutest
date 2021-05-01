@@ -158,7 +158,7 @@ $bag = get_value('bag', 0);
 				<?php if($lamp || $lipgloss || $brush || $bag): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
-					<form action="beautyandhealth.php" >
+					<form action="beautyandhealth" >
 					<div class="input">
 						<input type="checkbox"    name="lamp"    id="lamp"    value="show" />
 						<label for="lamp"><b>برق لب لامپی</b></label><br/>
