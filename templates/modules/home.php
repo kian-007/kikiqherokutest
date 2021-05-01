@@ -149,13 +149,14 @@ function get_style(){ ?>
 			.title{
 				margin: 50px auto;
 				width: 300px;
-				border-bottom: solid black 1px;
+				border-color: #ff8566;
+				border-bottom: solid black 2px;
 			}
 			.title span{
 				font-family: Sahel, Shabnam;
 				font-size: 17pt;
 				margin-left: 60px;
-				border-bottom: solid black 3px;
+				border-bottom: solid #ff471a 3px;
 			}
 			#preloader
 			{
