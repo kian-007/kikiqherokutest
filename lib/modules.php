@@ -10,10 +10,10 @@
 
 		if(file_exists($module_file)){
 			require_once ("templates/modules/m$module");
-			
+			if(authentication_required()){
 				$login_url = "https://kikiq.herokuapp.com/login.php";
 				header("Location: $login_url");
-		
+			}
 		}else{ ?>
 			<div class="alert alert-error">
 				<p>
