@@ -102,7 +102,7 @@ $handcream = get_value('handcream' , 0);
 				<?php if($handcream || $facebrush): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
-					<form action="skin.php" >
+					<form action="skin" >
 						<div class="input">
 							<input type="checkbox"    name="handcream"    id="handcream"    value="show" />
 							<label for="handcream"><b>کرم مرطوب کننده دست</b></label><br/>
