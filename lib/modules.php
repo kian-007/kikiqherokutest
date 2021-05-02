@@ -20,7 +20,6 @@
 
 		}else{
 			add_message('آدرس وارد شده صحیح نیست','error');
-			show_message();
 			require_once ('templates/modules/home.php');
 		}
 	}
@@ -35,9 +34,8 @@
 
 
     function render_page(){
-		load_module();
         include_once ('templates/header.php');
-
+		show_message();
         
 		if(function_exists('get_content')){
 			get_content();
