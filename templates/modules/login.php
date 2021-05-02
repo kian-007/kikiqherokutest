@@ -30,6 +30,32 @@ function get_content(){ ?>
     </div>
 <?php }
 
+
+function process_input(){
+    include_once ('lib/users.php');
+
+    if(isset($_POST['username'])){
+        $username = $_POST['username'];
+    }
+
+    if(isset($_POST['password'])){
+        $password = $_POST['password'];
+    }
+
+    user_login($username, $password);
+
+    if(!is_user_logged_in()){ ?>
+        
+        <div class="alert alert-error">
+			<p>
+				نام کاربری یا رمز عبور اشتباه است.
+			</p>
+		</div>
+
+    <?php }
+}
+
+
 function get_style(){ ?>
     <style>
         h1 {
@@ -119,6 +145,9 @@ function get_style(){ ?>
 
     </style>
 <?php }
+
+
+
 
 function css_link(){ ?>
     <link type="text/css"	rel="stylesheet"	href="index.css" />

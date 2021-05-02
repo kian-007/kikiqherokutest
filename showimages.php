@@ -4,6 +4,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 $image = $_GET['image'];
 
 switch ($image){
+// Home Images ---------------------------------------
 case 1:
     $filename = 'beautyandhealth/cobrush1.jpg';
     $type = 'image/jpg';
@@ -48,6 +49,7 @@ case 11:
     $filename = 'mirror2.jpg';
     $type = 'image/jpg';
     break;
+// Home Images ---------------------------------------
 }
 
 if(!is_null($filename)){

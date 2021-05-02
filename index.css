@@ -537,3 +537,7 @@
 			    margin-top: 40%;
 			    text-align: right;
 			}
+			
+			.alert:first-child {
+			    margin-top: 400px;
+			}
