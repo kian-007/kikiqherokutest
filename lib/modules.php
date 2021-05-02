@@ -22,6 +22,8 @@
 			add_message('آدرس وارد شده صحیح نیست','error');
 			require_once ('templates/modules/home.php');
 		}
+
+		render_page();
 	}
 
 
