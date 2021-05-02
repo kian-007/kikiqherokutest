@@ -303,6 +303,7 @@
 }
 
 .alert-error {
+    color: #c43434;
     background-color: #ff8ebb;
     border-color: pink;
 }
@@ -314,6 +315,7 @@
 }
 
 .alert-warning {
+    color: black;
     background-color: #b13333;
     border-color: red;
 }
@@ -633,7 +635,7 @@
         box-shadow: 20px 15px 15px #333388
     }
     .alert {
-        color: #c43434;
+        font-family: Sahel, Shabnam;
         height: 40px;
         border-radius: 30px;
         font-weight: bold;
@@ -641,6 +643,7 @@
         text-align: right;
     }
     .alert-error {
+        color: #c43434;
         background-color: #ff8ebb;
         border-color: pink;
     }
@@ -650,6 +653,7 @@
         border-color: green;
     }
     .alert-warning {
+        color: black;
         background-color: #b13333;
         border-color: red;
     }

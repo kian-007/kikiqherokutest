@@ -44,15 +44,10 @@ function process_input(){
 
     user_login($username, $password);
 
-    if(!is_user_logged_in()){ ?>
+    if(!is_user_logged_in()){ 
         
-        <div class="alert alert-error">
-			<p>
-				نام کاربری یا رمز عبور اشتباه است.
-			</p>
-		</div>
-
-    <?php }
+        add_message('نام کاربری یا رمز عبور اشتباه است', 'error');
+    }
 }
 
 

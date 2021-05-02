@@ -527,7 +527,7 @@
 			}
 			
 			.alert {
-			    color: #c43434;
+			    font-family: Sahel, Shabnam;
 			    height: 35px;
 			    border-radius: 30px;
 			    border-style: solid;
@@ -539,5 +539,5 @@
 			}
 			
 			.alert p {
-			    margin: 15px 20px;
+			    margin: 18px 20px;
 			}
