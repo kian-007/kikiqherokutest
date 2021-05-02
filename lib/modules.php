@@ -20,6 +20,7 @@
 
 		}else{
 			add_message('آدرس وارد شده صحیح نیست','error');
+			show_message();
 			require_once ('templates/modules/home.php');
 		}
 	}
