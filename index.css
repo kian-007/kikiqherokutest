@@ -537,3 +537,7 @@
 			    margin-top: 40%;
 			    text-align: right;
 			}
+			
+			.alert p {
+			    margin: 15px 20px;
+			}
