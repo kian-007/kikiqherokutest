@@ -31,7 +31,7 @@ function get_content(){ ?>
 <?php }
 
 
-function process_input(){
+function process_inputs(){
     include_once ('lib/users.php');
 
     if(isset($_POST['username'])){

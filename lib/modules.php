@@ -37,6 +37,11 @@
 
     function render_page(){
         include_once ('templates/header.php');
+		
+		if(function_exists('process_inputs')){
+			process_inputs();
+		}
+
 		show_message();
         
 		if(function_exists('get_content')){
