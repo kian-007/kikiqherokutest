@@ -128,6 +128,7 @@ function get_style(){ ?>
             top: -20px; left:0;
             color: #03e9f4; font-size: 14px;
         }
+        
         @media only screen and (max-width: 768px){
             .input ~label{
                 display: none;
@@ -136,6 +137,9 @@ function get_style(){ ?>
 
 
         @media only screen and (min-width: 768px){
+            .dform{
+                width: 375px;
+            }
             .input{
                 margin-left: 95px;
             }
