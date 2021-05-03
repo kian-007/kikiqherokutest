@@ -1,7 +1,11 @@
 				<?php	include_once('config.php');?>
 				<div class= "menue col-l-12 col-12">
 				<ul class="login">
+				<?php if(is_user_logged_in()): ?>
+					<li><a href="<?php echo home_url('login'); ?>">خروج</a></li>
+				<?php else: ?>
 					<li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
+				<?php endif; ?>
 					<li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
 				</ul>
 				<ul class ="ulmenue" >
