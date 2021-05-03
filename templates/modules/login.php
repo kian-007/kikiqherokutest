@@ -20,7 +20,7 @@ function get_content(){ ?>
                     <label for="password">Password</label>
                 </div>
                 <br/>
-                <button class="first" type="submit">Sign in</button>
+                <button class="first" type="submit" name="login">Sign in</button>
                 <p style="margin-left: 140px;">&copy;2017–2021</p>
             </form>
         </div>
@@ -33,6 +33,10 @@ function get_content(){ ?>
 
 function process_inputs(){
     include_once ('lib/users.php');
+
+    if(!isset($_POST['login'])){
+        return;
+    }
 
     if(isset($_POST['username'])){
         $username = $_POST['username'];
