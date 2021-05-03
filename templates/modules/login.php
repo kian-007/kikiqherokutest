@@ -151,7 +151,7 @@ function get_style(){ ?>
             .input ~label{
                 position: relative;
                 margin-top: -25;
-                left: 60px;
+                left: 35px;
                 z-index: 7;
             }
             button{
