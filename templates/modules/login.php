@@ -128,7 +128,7 @@ function get_style(){ ?>
             top: -20px; left:0;
             color: #03e9f4; font-size: 14px;
         }
-        
+
         @media only screen and (max-width: 768px){
             .input ~label{
                 display: none;
@@ -150,7 +150,7 @@ function get_style(){ ?>
             }
             .input ~label{
                 margin-top: -25;
-                margin-left: 25px;
+                margin-left: 60px;
                 z-index: 7;
             }
             button{
