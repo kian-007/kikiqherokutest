@@ -72,6 +72,7 @@ function get_style(){ ?>
             margin-left: 75px;
         }
         .dform {
+            padding-right: 25px;
             background: #d1bbbb;
             margin: 0px auto;
             border-radius: 30px;
