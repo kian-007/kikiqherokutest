@@ -153,7 +153,7 @@ function get_style(){ ?>
                 margin-top: -25;
                 left: 15px;
                 z-index: 7;
-                transition: position 1s, margin 1s;
+                transition: .5s;
             }
             button{
                 margin-left: 100px;
