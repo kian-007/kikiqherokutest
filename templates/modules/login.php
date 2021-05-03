@@ -151,8 +151,9 @@ function get_style(){ ?>
             .input ~label{
                 position: relative;
                 margin-top: -25;
-                left: 35px;
+                left: 15px;
                 z-index: 7;
+                transition: position 1s, margin 1s;
             }
             button{
                 margin-left: 100px;
