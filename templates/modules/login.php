@@ -40,11 +40,11 @@ function get_content(){ ?>
 function process_inputs(){
     include_once ('lib/users.php');
     include_once ('lib/modules.php');
-
+/*
     if(is_user_logged_in()){
         redirect_to(home_url());
     }
-
+*/
     if(!isset($_POST['login'])){
         return;
     }
