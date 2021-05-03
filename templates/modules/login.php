@@ -133,7 +133,7 @@ function get_style(){ ?>
             .input ~label{
                 position: relative;
                 margin-top: -25;
-                left: 15px;
+                left: -70px;
                 z-index: 7;
                 transition: .5s;
             }
