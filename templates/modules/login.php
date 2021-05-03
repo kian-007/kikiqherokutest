@@ -72,7 +72,6 @@ function get_style(){ ?>
             margin-left: 75px;
         }
         .dform {
-            padding-right: 25px;
             background: #d1bbbb;
             margin: 0px auto;
             border-radius: 30px;
@@ -147,7 +146,7 @@ function get_style(){ ?>
             }
             .input ~label{
                 margin-top: -25;
-                margin-left: 0px;
+                margin-left: 25px;
                 z-index: 7;
             }
             button{
