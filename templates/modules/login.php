@@ -125,7 +125,8 @@ function get_style(){ ?>
             border-right-color: blue;
         }
         .input:focus ~label{
-            top: -20px; left:0;
+            margin-top: -25;
+            margin-left: 0px;
             color: #03e9f4; font-size: 14px;
         }
 
@@ -133,7 +134,7 @@ function get_style(){ ?>
             .input ~label{
                 position: relative;
                 margin-top: -25;
-                left: -70px;
+                left: -100px;
                 z-index: 7;
                 transition: .5s;
             }
