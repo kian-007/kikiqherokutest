@@ -131,7 +131,11 @@ function get_style(){ ?>
 
         @media only screen and (max-width: 768px){
             .input ~label{
-                display: none;
+                position: relative;
+                margin-top: -25;
+                left: 15px;
+                z-index: 7;
+                transition: .5s;
             }
         }
 
