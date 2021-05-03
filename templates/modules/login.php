@@ -12,12 +12,12 @@ function get_content(){ ?>
             <form method="post">
                 <h1>Please sign in</h1>
                 <div class="dinput">
-                    <input class="input second" id="username" name='username' placeholder="username" />
-                    <label for="username">Username</label>
+                    <input class="input second" id="username" name='username' placeholder="username" value="<?php echo $_POST['username']; ?>" />
+                    <label for="username">نام کاربری</label>
                 </div>
                 <div class="dinput">
                     <input class="input second" type="password" id="password" name='password' placeholder="Password" />
-                    <label for="password">Password</label>
+                    <label for="password">رمز عبور</label>
                 </div>
                 <br/>
                 <button class="first" type="submit" name="login">Sign in</button>
@@ -33,6 +33,7 @@ function get_content(){ ?>
 
 function process_inputs(){
     include_once ('lib/users.php');
+    include_once ('lib/modules.php');
 
     if(!isset($_POST['login'])){
         return;
@@ -42,8 +43,18 @@ function process_inputs(){
         $username = $_POST['username'];
     }
 
+    if(empty($username)){
+        add_message('نام کاربری نمی تواند خالی باشد !', 'error');
+        return;
+    }
+
     if(isset($_POST['password'])){
         $password = $_POST['password'];
+    }
+
+    if(empty($password)){
+        add_message('رمز عبور نمی تواند خالی باشد !', 'error');
+        return;
     }
 
     user_login($username, $password);
@@ -117,8 +128,10 @@ function get_style(){ ?>
             top: -20px; left:0;
             color: #03e9f4; font-size: 14px;
         }
-        .input ~label{
-            display: none;
+        @media only screen and (max-width: 768px){
+            .input ~label{
+                display: none;
+            }
         }
 
 
