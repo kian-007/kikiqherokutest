@@ -149,8 +149,9 @@ function get_style(){ ?>
                 color: #03e9f4; font-size: 14px;
             }
             .input ~label{
+                position: relative;
                 margin-top: -25;
-                margin-left: 60px;
+                left: 60px;
                 z-index: 7;
             }
             button{
