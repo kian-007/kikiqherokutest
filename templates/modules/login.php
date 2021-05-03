@@ -12,7 +12,13 @@ function get_content(){ ?>
             <form method="post">
                 <h1>Please sign in</h1>
                 <div class="dinput">
-                    <input class="input second" id="username" name='username' placeholder="username" value="<?php echo $_POST['username']; ?>" />
+                    <?php
+                        $username ='';
+                        if(isset($_POST['username'])){
+                            $username = $_POST['username'];
+                        }  
+                     ?>
+                    <input class="input second" id="username" name='username' placeholder="username" value="<?php echo $username; ?>" />
                     <label for="username">نام کاربری</label>
                 </div>
                 <div class="dinput">
@@ -34,6 +40,10 @@ function get_content(){ ?>
 function process_inputs(){
     include_once ('lib/users.php');
     include_once ('lib/modules.php');
+
+    if(is_user_logged_in()){
+        redirect_to(home_url());
+    }
 
     if(!isset($_POST['login'])){
         return;
