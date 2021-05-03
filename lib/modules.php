@@ -9,7 +9,7 @@
 		}
 
 		include_once ('lib/users.php');
-		if(is_user_logged_in() && $module = 'login'){
+		if(is_user_logged_in() && $module == 'login'){
 			redirect_to(home_url());
 		}
 		$module_file = "templates/modules/$module.php";
