@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 define('SITE_TITLE', 'KikiCutest');
 
 define('DB_FILENAME', 'myapp.data');
