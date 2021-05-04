@@ -65,6 +65,7 @@ function check_for_previous_login(){
         global $current_user_id;
         $current_user = $user;
         $current_user_id = $user['id'];
+        add_message('current_user_id is not empty', 'success');
     }
 }
 
