@@ -134,6 +134,13 @@ function get_content(){ ?>
 						<span class="dot" onclick="currentSlide(11)"></span>
 					</div>
 					
+
+					<?php
+					echo '<pre>';
+					var_dump($_SESSION);
+					echo '</pre>';
+					?>
+
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
 		   		
