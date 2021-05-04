@@ -19,7 +19,7 @@ function is_user_logged_in(){
     global $current_user_id;
     if($current_user_id){
         return true;
-        add_message('is user logged in', 'seccess');
+        add_message('is user logged in', 'success');
     }else{
         return false;
         add_message('is user logged in', 'error');
