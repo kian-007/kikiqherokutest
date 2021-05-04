@@ -136,9 +136,9 @@ function get_content(){ ?>
 					
 
 					
-					<p class="width: auto; height: auto; background-color: orange;">
+					<pre>
 						<?php var_dump($_SESSION); ?>
-					</p>
+					</pre>
 
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
