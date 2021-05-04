@@ -43,7 +43,7 @@ function check_for_previous_login(){
         add_message('check for previous login4', 'success');
         clear_user_session();
         add_message('check for previous login5', 'success');
-        return;
+        
         
     }
     
