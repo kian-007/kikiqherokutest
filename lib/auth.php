@@ -38,7 +38,7 @@ function check_for_previous_login(){
     $last_access = $_SESSION['last_access'];
     
     $expired = ((time() - $last_access) > SESSION_EXPIRATION);
-    add_message('check for previous login3', 'success');
+    
     /*
     if($expired){
         add_message('check for previous login4', 'success');
