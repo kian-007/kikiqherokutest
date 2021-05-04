@@ -81,15 +81,16 @@ function user_login($username, $password){
     if(!$user){
         return;
     }
-    
+    add_message('user matched', 'success');
     if(sha1($password) != $user['password']){
         return;
     }
-    
+    add_message('password matched', 'success');
     global $current_user;
     global $current_user_id;
     $current_user = $user;
     $current_user_id = $user['id'];
+    add_message('current_user_id in not empty', 'success');
     
     $_SESSION['last_access'] = time();
     $_SESSION['user_id'] = $current_user_id;
