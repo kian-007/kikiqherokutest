@@ -19,8 +19,10 @@ function is_user_logged_in(){
     global $current_user_id;
     if($current_user_id){
         return true;
+        add_message('is user logged in', 'seccess');
     }else{
         return false;
+        add_message('is user logged in', 'error');
     }
 }
 
@@ -63,6 +65,7 @@ function check_for_previous_login(){
         global $current_user_id;
         $current_user = $user;
         $current_user_id = $user['id'];
+        add_message('check for previous login', 'seccess');
     }
 }
 
@@ -90,6 +93,7 @@ function user_login($username, $password){
     global $current_user_id;
     $current_user = $user;
     $current_user_id = $user['id'];
+    add_message('current user id is not empty', 'seccess');
     
     $_SESSION['last_access'] = time();
     $_SESSION['user_id'] = $current_user_id;
