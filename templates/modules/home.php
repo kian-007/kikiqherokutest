@@ -141,10 +141,14 @@ function get_content(){ ?>
 					echo '<br/>';
 					echo '<br/>';
 					echo '<br/>';
-					echo '<pre>';
-							var_dump($_SESSION);
+
+					echo '<pre class="background-color: yellow;">';
+							var_dump($_SESSION[]);
 					echo '</pre>';
 					?>
+					<p class="width: auto; height: auto; background-color: orange;">
+						<?php var_dump($_SESSION); ?>
+					</p>
 
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
