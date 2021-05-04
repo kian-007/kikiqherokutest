@@ -93,7 +93,7 @@ function user_login($username, $password){
     global $current_user_id;
     $current_user = $user;
     $current_user_id = $user['id'];
-    add_message('current user id is not empty', 'seccess');
+    add_message('current user id is not empty', 'success');
     
     $_SESSION['last_access'] = time();
     $_SESSION['user_id'] = $current_user_id;
