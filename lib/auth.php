@@ -18,8 +18,10 @@ function get_current_user_id(){
 function is_user_logged_in(){
     global $current_user_id;
     if($current_user_id){
+        add_message('user logged in', 'success');
         return true;
     }else{
+        add_message('user is not logged in', 'error');
         return false;
     }
 }
@@ -90,10 +92,11 @@ function user_login($username, $password){
     global $current_user_id;
     $current_user = $user;
     $current_user_id = $user['id'];
-    add_message('current_user_id in not empty', 'success');
+    add_message('current_user_id is not empty', 'success');
     
     $_SESSION['last_access'] = time();
     $_SESSION['user_id'] = $current_user_id;
+    add_message('current_user_id = user_id', 'success');
     $_SESSION['username'] = $user['username'];
     $_SESSION['password'] = $user['password'];
 }
