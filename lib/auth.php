@@ -39,14 +39,15 @@ function check_for_previous_login(){
     
     $expired = ((time() - $last_access) > SESSION_EXPIRATION);
     add_message('check for previous login3', 'success');
+    /*
     if($expired){
         add_message('check for previous login4', 'success');
         clear_user_session();
         add_message('check for previous login5', 'success');
-        
+        return;
         
     }
-    
+    */
     $username = $_SESSION['username'];
     add_message('check for previous login6', 'success');
     $user = get_user($username);
