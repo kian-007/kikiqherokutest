@@ -36,13 +36,13 @@ function clear_user_session(){
 function check_for_previous_login(){
     $last_access = $_SESSION['last_access'];
     $expired = ((time() - $last_access) > SESSION_EXPIRATION);
-/*
+
     if($expired){
         clear_user_session();
         return;
         
     }
-*/
+
     $username = $_SESSION['username'];
     $user = get_user($username);
     
