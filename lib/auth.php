@@ -51,7 +51,7 @@ function check_for_previous_login(){
     $username = $_SESSION['username'];
     add_message('check for previous login6', 'success');
     $user = get_user($username);
-    add_message('check for previous login7', 'success');
+    add_message("check for previous login7 $username", 'success');
     if($user){
         add_message('check for previous login8', 'success');
         $user_id = $_SESSION['user_id'];
