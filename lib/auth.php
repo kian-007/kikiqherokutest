@@ -34,20 +34,22 @@ function clear_user_session(){
 }
 
 function check_for_previous_login(){
-    add_message('check for previous login1', 'seccess');
+    add_message('check for previous login1', 'success');
     $last_access = $_SESSION['last_access'];
-    add_message('check for previous login2', 'seccess');
+    add_message('check for previous login2', 'success');
     $expired = ((time() - $last_access) > SESSION_EXPIRATION);
-    add_message('check for previous login3', 'seccess');
+    add_message('check for previous login3', 'success');
     if($expired){
         clear_user_session();
         return;
-        add_message('check for previous login4', 'seccess');
+        add_message('check for previous login4', 'success');
     }
+    add_message('check for previous login5', 'success');
     $username = $_SESSION['username'];
     $user = get_user($username);
-
+    add_message('check for previous login6', 'success');
     if($user){
+        add_message('check for previous login7', 'success');
         $user_id = $_SESSION['user_id'];
         
         if($user_id != $user['id']){
@@ -67,7 +69,7 @@ function check_for_previous_login(){
         global $current_user_id;
         $current_user = $user;
         $current_user_id = $user['id'];
-        add_message('check for previous login7', 'seccess');
+        add_message('check for previous login777', 'success');
     }
 }
 
