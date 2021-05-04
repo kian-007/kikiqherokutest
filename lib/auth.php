@@ -34,6 +34,7 @@ function clear_user_session(){
 }
 
 function check_for_previous_login(){
+    add_message('current_user_id is not empty', 'success');
     $last_access = $_SESSION['last_access'];
     $expired = ((time() - $last_access) > SESSION_EXPIRATION);
 
