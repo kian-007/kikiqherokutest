@@ -534,6 +534,7 @@
 			    border-color: #000000;
 			    border-width: 1px;
 			    font-weight: bold;
+			    clear: both;
 			    margin-top: 20%;
 			    text-align: right;
 			}
