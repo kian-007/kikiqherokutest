@@ -18,10 +18,8 @@ function get_current_user_id(){
 function is_user_logged_in(){
     global $current_user_id;
     if($current_user_id){
-        add_message('user logged in', 'success');
         return true;
     }else{
-        add_message('user is not logged in', 'error');
         return false;
     }
 }
@@ -34,7 +32,6 @@ function clear_user_session(){
 }
 
 function check_for_previous_login(){
-    add_message('current_user_id is not empty', 'success');
     $last_access = $_SESSION['last_access'];
     $expired = ((time() - $last_access) > SESSION_EXPIRATION);
 
@@ -45,7 +42,7 @@ function check_for_previous_login(){
     }
     $username = $_SESSION['username'];
     $user = get_user($username);
-    add_message('check previous login', 'success');
+
     if($user){
         $user_id = $_SESSION['user_id'];
         
@@ -66,7 +63,6 @@ function check_for_previous_login(){
         global $current_user_id;
         $current_user = $user;
         $current_user_id = $user['id'];
-        add_message('current_user_id is not empty', 'success');
     }
 }
 
@@ -97,7 +93,6 @@ function user_login($username, $password){
     
     $_SESSION['last_access'] = time();
     $_SESSION['user_id'] = $current_user_id;
-    add_message('current_user_id = user_id', 'success');
     $_SESSION['username'] = $user['username'];
     $_SESSION['password'] = $user['password'];
 }
