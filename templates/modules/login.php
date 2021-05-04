@@ -73,6 +73,7 @@ function process_inputs(){
         
         add_message('نام کاربری یا رمز عبور اشتباه است', 'error');
     }
+    add_message('login was successfully', 'success');
 }
 
 
