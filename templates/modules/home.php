@@ -135,17 +135,7 @@ function get_content(){ ?>
 					</div>
 					
 
-					<?php
-					echo '<br/>';
-					echo '<br/>';
-					echo '<br/>';
-					echo '<br/>';
-					echo '<br/>';
-
-					echo '<pre class="background-color: yellow;">';
-							var_dump($_SESSION[]);
-					echo '</pre>';
-					?>
+					
 					<p class="width: auto; height: auto; background-color: orange;">
 						<?php var_dump($_SESSION); ?>
 					</p>
