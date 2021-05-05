@@ -135,9 +135,12 @@ function get_content(){ ?>
 					</div>
 					
 					<pre>
-						<?php var_dump($_SESSION); ?>
+						<?php var_dump($_SESSION);
+							  echo '<br/>';
+							  var_dump($_COOKIE);
+						 ?>
 					</pre>
-					
+
 					<a href="#start" style="position:absolute; text-decoration: none; ">up<img	style="border-radius:45px" src="images/up2.jpg"	/></a>
 
 		   		
