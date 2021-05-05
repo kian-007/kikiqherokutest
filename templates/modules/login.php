@@ -41,10 +41,6 @@ function process_inputs(){
     include_once ('lib/users.php');
     include_once ('lib/modules.php');
 
-    if(is_user_logged_in()){
-        redirect_to(home_url());
-    }
-
     if(!isset($_POST['login'])){
         return;
     }
@@ -72,6 +68,8 @@ function process_inputs(){
     if(!is_user_logged_in()){ 
         
         add_message('نام کاربری یا رمز عبور اشتباه است', 'error');
+    }else{
+        redirect_to(home_url());
     }
     add_message('user login was successfully', 'success');
 }
