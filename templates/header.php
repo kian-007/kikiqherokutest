@@ -76,7 +76,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.showmenue').fadeToggle()
 					$('.showmenue').toggleClass('show')
 					$('.showmenue').blur(function(){
-						$(this).css('display', "none")
+						$(this).fadeOut()
 					})
 
 					if($('.showmenue').hasClass('show')){
