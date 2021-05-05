@@ -116,6 +116,7 @@
 			
 			.menue {
 			    position: fixed;
+			    margin-top: -3px;
 			    background-color: pink;
 			    height: 50px;
 			    border-radius: 12px;
