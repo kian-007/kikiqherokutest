@@ -16,7 +16,7 @@ function get_content(){ ?>
 
 				<div class="content2 col-l-9 col-12 clearfix">
                     			<div>
-				        	<p id ='p1'> این صفحه فقظ به کاربران نمایش داده میشود. </p>
+				        	<p id ='p1'> این صفحه فقط به کاربران نمایش داده میشود. </p>
                     			</div>
 				</div>
 				
