@@ -36,11 +36,10 @@
 
 
     function render_page(){
-        include_once ('templates/header.php');
-		
 		if(function_exists('process_inputs')){
 			process_inputs();
 		}
+        include_once ('templates/header.php');
 
 		show_message();
         
