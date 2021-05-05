@@ -75,8 +75,9 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.ulmenue2').find('li:nth-child(2)').click(function(){ 
 					$('.showmenue').fadeToggle()
 					$('.showmenue').toggleClass('show')
-					$('.container').mouseenter(function(){
-						$('.showmenue').fadeOut()
+					$('.showmenue').mouseout(function(){
+						$(this).fadeOut()
+						$(this).removeClass('show')
 					})
 
 					if($('.showmenue').hasClass('show')){
