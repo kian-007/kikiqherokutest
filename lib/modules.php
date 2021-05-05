@@ -12,9 +12,6 @@
 		if(is_user_logged_in() && $module == 'login'){
 			redirect_to(home_url());
 		}
-		if(!is_user_logged_in() && $module == 'logout'){
-			redirect_to(home_url('login'));
-		}
 		$module_file = "templates/modules/$module.php";
 
 		if(file_exists($module_file)){
