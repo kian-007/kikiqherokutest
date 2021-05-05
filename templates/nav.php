@@ -2,7 +2,7 @@
 				<div class= "menue col-l-12 col-12">
 				<ul class="login">
 				<?php if(is_user_logged_in()): ?>
-					<li><a href="<?php echo home_url('login'); ?>">خروج</a></li>
+					<li><a href="<?php echo home_url('logout'); ?>">خروج</a></li>
 				<?php else: ?>
 					<li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
 				<?php endif; ?>
