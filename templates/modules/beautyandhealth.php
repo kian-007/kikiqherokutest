@@ -191,7 +191,12 @@ $bag = get_value('bag', 0);
 					<br/>
 					<div class="input">
 						<input type="checkbox"    name="brush"    id="brush"    value='show' />
-						<label for="brush"><b>براش</b></label><br/>
+						<label for="brush"><b>براش فانتزی 4تیکه</b></label><br/>
+					</div>
+					<br/>
+					<div class="input">
+						<input type="checkbox"    name="brush"    id="brush"    value='show' />
+						<label for="brush"><b>براش BH Cosmetics</b></label><br/>
 					</div>
 					<br/>
 					<div class="input">
