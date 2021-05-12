@@ -16,6 +16,7 @@ global $title;
 $lamp = get_value('lamp', 0);
 $lipgloss = get_value('lipgloss', 0);
 $brush = get_value('brush', 0);
+$brushbh = get_value('brushbh', 0);
 $bag = get_value('bag', 0);
 
     if($lamp ){
@@ -108,7 +109,7 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 					
 				<?php if($brush): ?>
-				<h2 class="clrb">* براش *</h2>
+				<h2 class="clrb">*براش فانتزی 4تیکه*</h2>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
@@ -124,10 +125,28 @@ $bag = get_value('bag', 0);
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/beautyandhealth/bbrushes.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
 					</div>
-					
 					<?php endif; ?>
 					
-					<?php if($bag): ?>
+				<?php if($brushbh): ?>
+				<h2 class="clrb">*براش BH Cosmetics*</h2>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/cobrush1.jpg"	/><img	id='img2' src="images/beautyandhealth/cobrush5.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush2.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushbh1.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush3.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush4.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+				<?php endif; ?>
+
+				<?php if($bag): ?>
 				<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"	 ><img	src="images/compressed/bags1.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
