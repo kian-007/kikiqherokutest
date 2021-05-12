@@ -69,18 +69,13 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					}
 				})
 
-				$('.ulmenue').find('.subul').children('li').eq(4).hover(function(){
+				$('.ulmenue').find('.subul').children('li').eq(3).hover(function(){
 					$(this).find('.subul-2').slideDown(250)
 					$('body').css('background-color', "rgba(0,0,0,0.5")
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
 					$('.middle').css('-webkit-filter', "blur(10px)")
 					$('.footer').css('-webkit-filter', "blur(10px)")
 					
-					if($(this).next().hasClass('open')){
-						$(this).css('background-image', "url('images/arrow2.jpg')")
-					}else{
-						$(this).css('background-image', "url('images/arrow3.jpg')")
-					}
 				}, 
 				function(){
 					$(this).find('.subul-2').slideUp(250)
@@ -89,11 +84,6 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.middle').css('-webkit-filter', "blur(0px)")
 					$('.footer').css('-webkit-filter', "blur(0px)")
 					
-					if($(this).prev().hasClass('open')){
-						$(this).css('background-image', "url('images/arrow3.jpg')")
-					}else{
-						$(this).css('background-image', "url('images/arrow2.jpg')")
-					}
 				})
 				
 
