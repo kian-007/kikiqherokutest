@@ -215,7 +215,7 @@ $bag = get_value('bag', 0);
 				</fieldset>
 					<?php endif; ?>
 
-				<?php if($brush || $brushbh): ?>
+				<?php if($brush || $brushbh || $brushmask): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth" >
