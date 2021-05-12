@@ -14,7 +14,12 @@
 							<li><a href="<?php echo home_url('beautyandhealth'); ?>?bag=1">کیف لوازم آرایشی</a></li>
 							<li><a href="<?php echo home_url('beautyandhealth'); ?>?lamp=1">برق لب لامپی</a></li>
 							<li><a href="<?php echo home_url('beautyandhealth'); ?>?lipgloss=1">برق لب قرصی</a></li>
-							<li><a href="<?php echo home_url('beautyandhealth'); ?>?brush=1">براش</a></li>
+							<li><a href="#">براش</a>
+								<ul>
+									<li><a href="<?php echo home_url('beautyandhealth'); ?>?brush=1">براش فانتزی 4تیکه</a></li>
+									<li><a href="<?php echo home_url('beautyandhealth'); ?>?brushbh=1">براش BH Cosmetics</a></li>
+								</ul>
+							</li>
 						</ul>
 					</li>
 					

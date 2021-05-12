@@ -50,6 +50,7 @@ function get_content(){ ?>
 $lamp = get_value('lamp', 0);
 $lipgloss = get_value('lipgloss', 0);
 $brush = get_value('brush', 0);
+$brushbh = get_value('brushbh', 0);
 $bag = get_value('bag', 0);
 
 ?>
@@ -144,7 +145,7 @@ $bag = get_value('bag', 0);
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush4.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
 					</div>
-				<?php endif; ?>
+					<?php endif; ?>
 
 				<?php if($bag): ?>
 				<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
