@@ -147,22 +147,22 @@ $bag = get_value('bag', 0);
 					</div>
 					<?php endif; ?>
 
-				<?php if($brushbh): ?>
+				<?php if($brushmask): ?>
 				<h2 class="clrb">*براش ماسک*</h2>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/brushm3.jpg"	/><img	id='img2' src="images/beautyandhealth/brushm6.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm7.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm7.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm1.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm1.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm4.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm4.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm5.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm5.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
 					</div>
 					<?php endif; ?>
 
