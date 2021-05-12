@@ -119,7 +119,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 				$('.secondulmenue').find('.subul2').children('li').eq(3).click(function() {
 					$(this).addClass('showarrow')
 					$(this).find('.subul3').addClass('current')
-					$(this).parent().slideDown()
+					$(this).parent().slideToggle()
 					$(this).find('.subul3').slideToggle()
 					$('.subul3').not('.current').slideUp()
 					$(this).find('.subul3').removeClass('current')
