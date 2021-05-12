@@ -16,7 +16,6 @@ global $title;
 $lamp = get_value('lamp', 0);
 $lipgloss = get_value('lipgloss', 0);
 $brush = get_value('brush', 0);
-$brushbh = get_value('brushbh', 0);
 $bag = get_value('bag', 0);
 
     if($lamp ){
@@ -51,6 +50,7 @@ $lamp = get_value('lamp', 0);
 $lipgloss = get_value('lipgloss', 0);
 $brush = get_value('brush', 0);
 $brushbh = get_value('brushbh', 0);
+$brushmask = get_value('brushmask', 0);
 $bag = get_value('bag', 0);
 
 ?>
@@ -147,6 +147,25 @@ $bag = get_value('bag', 0);
 					</div>
 					<?php endif; ?>
 
+				<?php if($brushbh): ?>
+				<h2 class="clrb">*براش ماسک*</h2>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/brushm3.jpg"	/><img	id='img2' src="images/beautyandhealth/brushm6.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm7.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm1.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm4.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm5.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+					</div>
+					<?php endif; ?>
+
 				<?php if($bag): ?>
 				<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
 					<div class="new col-6 col-l-4">
@@ -168,7 +187,7 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 					
 
-					<?php if($bag || $lamp || $lipgloss || $brush): ?>
+					<?php if($bag || $lamp || $lipgloss || $brush || $brushbh || $brushmask): ?>
 						<div class="new col-6 col-l-4">
 							<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 						</div>
@@ -208,6 +227,11 @@ $bag = get_value('bag', 0);
 					<div class="input">
 						<input type="checkbox"    name="brushbh"    id="brushbh"    value='show' />
 						<label for="brushbh"><b>براش BH Cosmetics</b></label><br/>
+					</div>
+					<br/>
+					<div class="input">
+						<input type="checkbox"    name="brushmask"    id="brushmask"    value='show' />
+						<label for="brushmask"><b>براش ماسک</b></label><br/>
 					</div>
 					<br/>
 

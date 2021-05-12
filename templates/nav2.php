@@ -25,6 +25,7 @@
 									<ul class="subul3">
 										<li><a href="<?php echo home_url('beautyandhealth'); ?>?brush=1">براش فانتزی 4تیکه</a></li>
 										<li><a href="<?php echo home_url('beautyandhealth'); ?>?brushbh=1">براش BH Cosmetics</a></li>
+										<li><a href="<?php echo home_url('beautyandhealth'); ?>?brushmask=1">براش ماسک</a></li>
 									</ul>
 								</li>
 							</ul>
