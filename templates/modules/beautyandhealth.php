@@ -175,7 +175,8 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 				</div>
 				<div class="right2 col-l-2 col-12">
-				<?php if($lamp || $lipgloss || $brush || $brushbh || $bag): ?>
+
+				<?php if($lamp || $lipgloss): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth" >
@@ -189,6 +190,16 @@ $bag = get_value('bag', 0);
 						<label for="lipgloss"><b>برق لب قرصی</b></label><br/>
 					</div>
 					<br/>
+
+						<button type="submit" class="btn btn-info">جست و جو</button>
+					</form>
+				</fieldset>
+					<?php endif; ?>
+
+				<?php if($brush || $brushbh): ?>
+				<fieldset>
+					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
+					<form action="beautyandhealth" >
 					<div class="input">
 						<input type="checkbox"    name="brush"    id="brush"    value='show' />
 						<label for="brush"><b>براش فانتزی 4تیکه</b></label><br/>
@@ -199,15 +210,12 @@ $bag = get_value('bag', 0);
 						<label for="brushbh"><b>براش BH Cosmetics</b></label><br/>
 					</div>
 					<br/>
-					<div class="input">
-						<input type="checkbox"    name="bag"    id="bag"    value='show' />
-						<label for="bag"><b>Victoria's secret کیف آرایشی</b></label><br/>
-					</div>
 
 						<button type="submit" class="btn btn-info">جست و جو</button>
 					</form>
 				</fieldset>
 					<?php endif; ?>
+
 				</div>
 <?php }
 
