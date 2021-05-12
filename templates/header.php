@@ -68,6 +68,33 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 						$(this).css('background-image', "url('images/arrow2.jpg')")
 					}
 				})
+
+				$('.ulmenue').find('.subul').hover(function(){
+					$(this).find('.subul-2').slideDown(250)
+					$('body').css('background-color', "rgba(0,0,0,0.5")
+					$('.footer').css('background-color', "rgba(0,0,0,0.5")
+					$('.middle').css('-webkit-filter', "blur(10px)")
+					$('.footer').css('-webkit-filter', "blur(10px)")
+					
+					if($(this).next().hasClass('open')){
+						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}
+				}, 
+				function(){
+					$(this).find('.subul-2').slideUp(250)
+					$('body').css('background-color', "rgba(0,0,0,0")
+					$('.footer').css('background-color', "rgba(0,0,0,0")
+					$('.middle').css('-webkit-filter', "blur(0px)")
+					$('.footer').css('-webkit-filter', "blur(0px)")
+					
+					if($(this).prev().hasClass('open')){
+						$(this).css('background-image', "url('images/arrow3.jpg')")
+					}else{
+						$(this).css('background-image', "url('images/arrow2.jpg')")
+					}
+				})
 				
 
 				
@@ -99,7 +126,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).removeClass('showarrow')
 				})
 
-				$('.secondulmenue').find('subul2').children('li').click(function() {
+				$('subul2').children('li').click(function() {
 					$(this).addClass('showarrow')
 					$(this).find('.subul3').addClass('current')
 					$(this).find('.subul3').slideToggle()
