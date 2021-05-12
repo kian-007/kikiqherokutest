@@ -175,7 +175,7 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 				</div>
 				<div class="right2 col-l-2 col-12">
-				<?php if($lamp || $lipgloss || $brush || $bag): ?>
+				<?php if($lamp || $lipgloss || $brush || $brushbh || $bag): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth" >
@@ -195,8 +195,8 @@ $bag = get_value('bag', 0);
 					</div>
 					<br/>
 					<div class="input">
-						<input type="checkbox"    name="brush"    id="brush"    value='show' />
-						<label for="brush"><b>براش BH Cosmetics</b></label><br/>
+						<input type="checkbox"    name="brushbh"    id="brushbh"    value='show' />
+						<label for="brushbh"><b>براش BH Cosmetics</b></label><br/>
 					</div>
 					<br/>
 					<div class="input">
