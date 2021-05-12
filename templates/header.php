@@ -69,7 +69,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					}
 				})
 
-				$('.ulmenue').find('.subul').hover(function(){
+				$('.ulmenue').find('.subul').children('li').eq(4).hover(function(){
 					$(this).find('.subul-2').slideDown(250)
 					$('body').css('background-color', "rgba(0,0,0,0.5")
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
