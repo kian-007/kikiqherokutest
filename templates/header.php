@@ -69,7 +69,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					}
 				})
 
-				$('.ulmenue').find('.subul').children('li').eq(3).hover(function(){
+				$('.ulmenue').find('.subul').children('li').eq(4).hover(function(){
 					$(this).find('.subul-2').slideDown(250)
 					$('body').css('background-color', "rgba(0,0,0,0.5")
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
@@ -116,7 +116,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$(this).removeClass('showarrow')
 				})
 
-				$('.secondulmenue').find('.subul2').children('li').eq(3).click(function() {
+				$('.secondulmenue').find('.subul2').children('li').eq(4).click(function() {
 					$(this).addClass('showarrow')
 					$(this).find('.subul3').addClass('current')
 					$(this).parent().slideToggle()
@@ -150,6 +150,16 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('#img2').fadeOut(500)
 					$('#img1').fadeIn(500)
 				})
+
+				$('#p1').mouseenter(function() {
+					$('.img1').fadeOut(500)
+					$('.img2').fadeIn(500)
+				})
+				$('#p1').mouseout(function() {
+					$('.img2').fadeOut(500)
+					$('.img1').fadeIn(500)
+				})
+
 				$('.pinside').hover(
                                    function(){
 								   $(this).prev('.price').css('background-color', "yellow")
