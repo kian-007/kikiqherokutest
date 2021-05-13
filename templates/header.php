@@ -151,13 +151,13 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('#img1').fadeIn(500)
 				})
 
-				$('.p1').mouseenter(function() {
-					$(this).find('.img1').fadeOut(500)
-					$(this).find('.img2').fadeIn(500)
+				$('#p2').mouseenter(function() {
+					$('.img3').fadeOut(500)
+					$('.img4').fadeIn(500)
 				})
-				$('.p1').mouseout(function() {
-					$(this).find('.img2').fadeOut(500)
-					$(this).find('.img1').fadeIn(500)
+				$('#p2').mouseout(function() {
+					$('.img4').fadeOut(500)
+					$('.img3').fadeIn(500)
 				})
 
 				$('.pinside').hover(
