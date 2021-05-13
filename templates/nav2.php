@@ -59,5 +59,5 @@
 						</li>
 					</ul>
 
-					<P style="font-family: Sahel, Shabnam; background-color: #ff5757; border-radius: 35px; width: auto; height: 50px;"><a href="home_url('contactus')">تماس با ما</a></p>
+					<P style="font-family: Sahel, Shabnam;text-decoration: none; background-color: #ffe6f9; border-radius: 35px; width: auto; height: 50px; margin: 100px 13px;"><a href="home_url('contactus')" style="margin: 5px auto;">تماس با ما</a></p>
 				</div>
