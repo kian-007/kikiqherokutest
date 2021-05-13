@@ -244,6 +244,7 @@
 			
 			.subul-2 {
 			    display: none;
+			    margin-right: 70px;
 			    border: solid black 3px;
 			    border-radius: 20px;
 			}
