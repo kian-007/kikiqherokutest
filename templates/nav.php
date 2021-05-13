@@ -14,6 +14,7 @@
 							<li><a href="<?php echo home_url('beautyandhealth'); ?>?bag=1">کیف لوازم آرایشی</a></li>
 							<li><a href="<?php echo home_url('beautyandhealth'); ?>?lamp=1">برق لب لامپی</a></li>
 							<li><a href="<?php echo home_url('beautyandhealth'); ?>?lipgloss=1">برق لب قرصی</a></li>
+							<li><a href="<?php echo home_url('beautyandhealth'); ?>?icebalm=1">برق لب آبمیوه ای</a></li>
 							<li><a href="#">براش</a>
 								<ul class="subul-2">
 									<li><a href="<?php echo home_url('beautyandhealth'); ?>?brush=1">براش فانتزی 4تیکه</a></li>
