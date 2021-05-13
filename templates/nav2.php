@@ -59,5 +59,5 @@
 						</li>
 					</ul>
 
-					<P style="box-shadow: 4px 4px 9px #d966ff,inset -8px -8px 9px #d966ff;background-color: #ffb3ec; border-radius: 35px; width: auto; height: 50px; margin: 100px 13px;"><a href="home_url('contactus')" style="font-family: Sahel, Shabnam;text-decoration: none; margin: 5px 50px;">تماس با ما</a></p>
+					<P style="box-shadow: 4px 4px 7px #d966ff,inset -8px -8px 7px #d966ff;background-color: #ffb3ec; border-radius: 35px; width: auto; height: 50px; margin: 150px 17px;"><a href="home_url('contactus')" style="font-family: Sahel, Shabnam;text-decoration: none; margin: 8px 70px;">تماس با ما</a></p>
 				</div>
