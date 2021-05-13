@@ -48,6 +48,7 @@ function get_content(){ ?>
 
 $lamp = get_value('lamp', 0);
 $lipgloss = get_value('lipgloss', 0);
+$icebalm = get_value('icebalm', 0);
 $brush = get_value('brush', 0);
 $brushbh = get_value('brushbh', 0);
 $brushmask = get_value('brushmask', 0);
@@ -106,6 +107,34 @@ $bag = get_value('bag', 0);
 					</div>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp5.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					</div>
+					<?php endif; ?>
+
+				<?php if($icebalm): ?>
+				<h2 class="clrb">* برق لب آبمیوه ای*</h2>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/balmbastani1.jpg"	/><img	id='img2' src="images/beautyandhealth/balmbastani2.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/balmbastani3.jpg"	/><img	id='img2' src="images/beautyandhealth/balmbastani4.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani5.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani6.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani7.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani8.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani9.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani10.jpg"	alt="برق لب"/><p class="price">23,000 t</p><p class="pinside"></p></div>
 					</div>
 					<?php endif; ?>
 					
@@ -187,7 +216,7 @@ $bag = get_value('bag', 0);
 					<?php endif; ?>
 					
 
-					<?php if($bag || $lamp || $lipgloss || $brush || $brushbh || $brushmask): ?>
+					<?php if($bag || $lamp || $lipgloss || $icebalm || $brush || $brushbh || $brushmask): ?>
 						<div class="new col-6 col-l-4">
 							<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 						</div>
@@ -195,7 +224,7 @@ $bag = get_value('bag', 0);
 				</div>
 				<div class="right2 col-l-2 col-12">
 
-				<?php if($lamp || $lipgloss): ?>
+				<?php if($lamp || $lipgloss || $icebalm): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
 					<form action="beautyandhealth" >
@@ -207,6 +236,11 @@ $bag = get_value('bag', 0);
 					<div class="input">
 						<input type="checkbox"    name="lipgloss"    id="lipgloss"    value='show' />
 						<label for="lipgloss"><b>برق لب قرصی</b></label><br/>
+					</div>
+					<br/>
+					<div class="input">
+						<input type="checkbox"    name="icebalm"    id="icebalm"    value='show' />
+						<label for="icebalm"><b>بالم لب آبمیوه ای</b></label><br/>
 					</div>
 					<br/>
 
