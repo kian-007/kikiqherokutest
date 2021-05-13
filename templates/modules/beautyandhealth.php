@@ -116,7 +116,7 @@ $bag = get_value('bag', 0);
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/balmbastani1.jpg"	/><img	id='img2' src="images/beautyandhealth/balmbastani2.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	class="img1"	src="images/beautyandhealth/balmbastani3.jpg"	/><img	class="img2" src="images/beautyandhealth/balmbastani4.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						<div class="doutside ftr d1"><img	class="img1"	src="images/beautyandhealth/balmbastani3.jpg"	/><img	class="img2" src="images/beautyandhealth/balmbastani4.jpg"	/><p class="p1"><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani5.jpg"	alt="بالم لب"/><p class="price">25,000 t</p><p class="pinside"></p></div>
