@@ -424,14 +424,25 @@
             position: relative;
             top: -3px;
             left: 9px;
-            width: 150px;
-            height: 150px;
+            width: 140px;
+            height: 140px;
             padding: 20px;
             border: dashed white 4px;
             background-color: rgba(0, 0, 0, 0);
             border-radius: 50%;
         }
         50% {
+            position: relative;
+            top: -3px;
+            left: 9px;
+            width: 145px;
+            height: 145px;
+            padding: 20px;
+            border: dashed white 4px;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 50%;
+        }
+        70% {
             position: relative;
             top: -3px;
             left: 9px;
