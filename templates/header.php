@@ -105,6 +105,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 						$('.footer').css('background-color', "rgb(255, 112, 197)")
 						$('.middle').css('-webkit-filter', "blur(0px)")
 						$('.footer').css('-webkit-filter', "blur(0px)")
+						$('.ulmenue').find('.subul').children('li').eq(4).css('background-color', "#ff66ff")
 					}
 					
 				})
@@ -126,6 +127,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.subul3').not('.current').slideUp()
 					$(this).find('.subul3').removeClass('current')
 					$(this).removeClass('showarrow')
+					$(this).css('background-color', "orange")
 				})
 
 				$('.secondulmenue').children('li').hover(function(){
