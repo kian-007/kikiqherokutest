@@ -53,6 +53,7 @@ $brush = get_value('brush', 0);
 $brushbh = get_value('brushbh', 0);
 $brushmask = get_value('brushmask', 0);
 $bag = get_value('bag', 0);
+$rimmel = get_value('rimmel', 0);
 
 ?>
 				
@@ -214,16 +215,42 @@ $bag = get_value('bag', 0);
 					</div>
 					
 					<?php endif; ?>
-					
 
-					<?php if($bag || $lamp || $lipgloss || $icebalm || $brush || $brushbh || $brushmask): ?>
+				<?php if($rimmel): ?>
+				<h2 class="clrb">*ریمل Hudamoji*</h2>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/rimmel6.jpg"	/><img	id='img2' src="images/beautyandhealth/rimmel8.jpg"	/><p id='p1'><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"	 ><img	src="images/compressed/rimmel7.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr"	 ><img	src="images/compressed/rimmel5.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr fil"><img  src="images/beautyandhealth/rimmel4.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel1.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel2.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					</div>
+					<div class="new col-6 col-l-4">
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel3.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+					</div>
+					
+					<?php endif; ?>
+					
+					<!-- -------up------- -->
+					<?php if($rimmel || $bag || $lamp || $lipgloss || $icebalm || $brush || $brushbh || $brushmask): ?>
 						<div class="new col-6 col-l-4">
 							<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 						</div>
 					<?php endif; ?>
 				</div>
 				<div class="right2 col-l-2 col-12">
-
+				<!-- -------search------- -->
 				<?php if($lamp || $lipgloss || $icebalm): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>
@@ -248,7 +275,7 @@ $bag = get_value('bag', 0);
 					</form>
 				</fieldset>
 					<?php endif; ?>
-
+				<!-- -------search------- -->
 				<?php if($brush || $brushbh || $brushmask): ?>
 				<fieldset>
 					<legend><span style="font-size:15pt; text-align:right; direction:rtl"><b>کالای مورد نیاز خود را جست و جو کنید:</b></span></legend>

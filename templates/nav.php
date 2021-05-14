@@ -22,6 +22,7 @@
 									<li><a href="<?php echo home_url('beautyandhealth'); ?>?brushmask=1">براش ماسک</a></li>
 								</ul>
 							</li>
+							<li><a href="<?php echo home_url('beautyandhealth'); ?>?rimmel=1">ریمل Hudamoji</a></li>
 						</ul>
 					</li>
 					
