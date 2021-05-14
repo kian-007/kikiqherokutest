@@ -75,7 +75,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.footer').css('background-color', "rgba(0,0,0,0.5")
 					$('.middle').css('-webkit-filter', "blur(10px)")
 					$('.footer').css('-webkit-filter', "blur(10px)")
-					$(this).child('a').css('background-color', "orange")
+					$(this).children('a').css('background-color', "orange")
 					
 				}, 
 				function(){
@@ -84,7 +84,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.footer').css('background-color', "rgba(0,0,0,0")
 					$('.middle').css('-webkit-filter', "blur(0px)")
 					$('.footer').css('-webkit-filter', "blur(0px)")
-					$(this).child('a').css('background-color', "white")
+					$(this).children('a').css('background-color', "white")
 					
 				})
 				
