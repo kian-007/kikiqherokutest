@@ -246,6 +246,7 @@
 			    display: none;
 			    position: relative;
 			    right: 75px;
+			    margin-left: -75px;
 			    border: solid black 3px;
 			    border-radius: 20px;
 			}
