@@ -450,6 +450,7 @@
         color: #ffffff;
     }
     h2 {
+        direction: rtl;
         margin-left: 150px;
         z-index: 8;
     }

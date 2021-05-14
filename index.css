@@ -454,6 +454,7 @@
 			        display: none;
 			    }
 			    h2 {
+			        direction: rtl;
 			        margin-left: 450px;
 			    }
 			}
