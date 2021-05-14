@@ -222,10 +222,10 @@ $rimmel = get_value('rimmel', 0);
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/rimmel6.jpg"	/><img	id='img2' src="images/beautyandhealth/rimmel8.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/compressed/rimmel7.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel7.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/compressed/rimmel5.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel5.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
 					</div>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr fil"><img  src="images/beautyandhealth/rimmel4.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
