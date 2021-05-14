@@ -84,7 +84,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
 					$('.footer').css('background-color', "rgba(0,0,0,0")
 					$('.middle').css('-webkit-filter', "blur(0px)")
 					$('.footer').css('-webkit-filter', "blur(0px)")
-					$(this).css('background-color', "none")
+					$(this).css('background-color', "pink")
 					
 				})
 				
