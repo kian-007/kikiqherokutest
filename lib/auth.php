@@ -39,8 +39,8 @@ function check_for_previous_login(){
         $last_access = $_SESSION['last_access'];
     }
     
-    if(time() - $last_access > SESSION_EXPIRATION){
-        $expired = time() - $last_access
+    if((time() - $last_access) > SESSION_EXPIRATION){
+        $expired = time() - $last_access;
 
     }
     if($expired){
