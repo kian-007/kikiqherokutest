@@ -3,7 +3,8 @@
 $current_user = null;
 $current_user_id = null;
 
-define('SESSION_EXPIRATION', 2*30*24*3600);
+//ABOUT two month
+define('SESSION_EXPIRATION', 5184000);
 
 function get_current_user_data(){
     global $current_user;
@@ -40,7 +41,7 @@ function check_for_previous_login(){
     }
     
     if((time() - $last_access) > SESSION_EXPIRATION){
-        $expired = time() - $last_access;
+        $expired = (time() - $last_access);
 
     }
     if($expired){
