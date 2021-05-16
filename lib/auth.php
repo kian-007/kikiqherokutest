@@ -86,7 +86,7 @@ function user_logout(){
 }
 
 function user_login($username, $password){
-    user_logout();
+    //user_logout();
     $user = get_user($username);
     
     if(!$user){
