@@ -224,11 +224,9 @@ $rimmel = get_value('rimmel', 0);
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel7.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
-					<a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1">
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel5.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel5.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
-					</a>
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr fil"><a href="https://kikiq.herokuapp.com/iteminfo.php?item-rimmel=1"><img  src="images/beautyandhealth/rimmel4.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><p class="pinside"></p></div>
 					</div>

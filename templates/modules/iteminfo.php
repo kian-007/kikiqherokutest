@@ -18,7 +18,8 @@ function get_title(){
 function get_content(){ ?>
 
 <?php
-
+    $item_title = '';
+    $item_text = '';
     $item1 = get_value('item-lamp', 0);
     $item2 = get_value('item-lipgloss', 0);
     $item3 = get_value('item-icebalm', 0);
@@ -28,26 +29,67 @@ function get_content(){ ?>
     $item7 = get_value('item-bag', 0);
     $item8 = get_value('item-rimmel', 0);
 
+    if($item1){
+        $item_title = '';
+        $item_text = '';
+    }
+    if($item2){
+        $item_title = '';
+        $item_text = '';
+    }
+    if($item3){
+        $item_title = '';
+        $item_text = '';
+    }
+    if($item4){
+        $item_title = '';
+        $item_text = '';
+    }
+    if($item5){
+        $item_title = '';
+        $item_text = '';
+    }
+    if($item6){
+        $item_title = '';
+        $item_text = '';
+    }
+    if($item7){
+        $item_title = '';
+        $item_text = '';
+    }
+    if($item8){
+        $item_title = 'ریمل Hudamoji';
+        $item_text = '💜لطفا با لبخند ورق بزنيد 💜
+        سلام دخترا امروز مي خوام اين ريمل ٢٤ ساعته و زد آب از برند hudamoji رو معرفي كنم 💜
+        بچه ها جدا از طراحي و زيبايي خاص اين ريمل بايد از كيفيتش بگم 💜
+        اين ريمل موژه هارو دونه دونه مي كنه مشكي و پر رنگ ميكنه 💜
+        و همون طور كه گفتم زد آب هست 
+        و به نسبت قيمت خوبي كه داره عاليه 💜
+        
+        ....قيمت=٦٠ تومان ٠٠٠٠
+        هزينه ارسال به عهده مشتري عزيز 💜';
+    }
 ?>
 				<div class="left2 col-l-1 col-12">
 				</div>
 				<div class="content2 col-l-9 col-12">
+
                 <?php if($item8): ?>
-                <p id = 'showitem'>
+                <p id = 'showitem'><?php echo $item_title; ?>
                     <br/>
                     <br/>
                     <span>item8</span> <br/>
-                    <span>...</span> <br/>
+                    <span><?php echo $item_text; ?></span> <br/>
                     <span>...</span> <br/>
                 </p>
                 <?php endif; ?>
 
                 <?php if($item2): ?>
-                <p id = 'showitem'>
+                <p id = 'showitem'><?php echo $item_title; ?>
                     <br/>
                     <br/>
                     <span>item2</span> <br/>
-                    <span>...</span> <br/>
+                    <span><?php echo $item_text; ?></span> <br/>
                     <span>...</span> <br/>
                 </p>
                 <?php endif; ?>
