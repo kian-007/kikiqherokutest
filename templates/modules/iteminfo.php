@@ -101,14 +101,14 @@ function get_style(){ ?>
         <style>
             #showitem{
 				width: 300px;
-				height: 200px;
+				height: 600px;
 				background-color: orange;
 				border: solid red 2px;
 				border-radius: 15px;
 				color: white;
 				font-size: 20pt;
 				text-align: center;
-				margin-left: 550px;
+				margin-left: 150px;
 			}
 			#showitem span{
 				text-align: left;
