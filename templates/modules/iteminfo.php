@@ -12,16 +12,16 @@ function get_value($para, $default){
 
 
 function get_title(){
-    $item = get_value('item-lamp', 0);
-    $item = get_value('item-lipgloss', 0);
-    $item = get_value('item-icebalm', 0);
-    $item = get_value('item-brush', 0);
-    $item = get_value('item-brushbh', 0);
-    $item = get_value('item-brushmask', 0);
-    $item = get_value('item-bag', 0);
-    $item = get_value('item-rimmel', 0);
+    $item_title = get_value('item-lamp', 0);
+    $item_title = get_value('item-lipgloss', 0);
+    $item_title = get_value('item-icebalm', 0);
+    $item_title = get_value('item-brush', 0);
+    $item_title = get_value('item-brushbh', 0);
+    $item_title = get_value('item-brushmask', 0);
+    $item_title = get_value('item-bag', 0);
+    $item_title = get_value('item-rimmel', 0);
 
-    switch ($item){
+    switch ($item_title){
         case 'item-lamp':
             $title =  'برق لب لامپی';
             break;
@@ -52,16 +52,16 @@ function get_title(){
 
 
 get_describtion(){
-    $item = get_value('item-lamp', 0);
-    $item = get_value('item-lipgloss', 0);
-    $item = get_value('item-icebalm', 0);
-    $item = get_value('item-brush', 0);
-    $item = get_value('item-brushbh', 0);
-    $item = get_value('item-brushmask', 0);
-    $item = get_value('item-bag', 0);
-    $item = get_value('item-rimmel', 0);
+    $item_describtion = get_value('item-lamp', 0);
+    $item_describtion = get_value('item-lipgloss', 0);
+    $item_describtion = get_value('item-icebalm', 0);
+    $item_describtion = get_value('item-brush', 0);
+    $item_describtion = get_value('item-brushbh', 0);
+    $item_describtion = get_value('item-brushmask', 0);
+    $item_describtion = get_value('item-bag', 0);
+    $item_describtion = get_value('item-rimmel', 0);
 
-    switch ($item){
+    switch ($item_describtion){
         case 'item-lamp':
             $text =  'برق لب لامپی';
             break;
@@ -95,7 +95,7 @@ get_describtion(){
             هزينه ارسال به عهده مشتري عزيز 💜';
             break; 
     }
-
+    return $text;
 }
 
 
@@ -114,19 +114,17 @@ function get_content(){ ?>
     $item = get_value('item-rimmel', 0);
 
 ?>
-				
 				<div class="left2 col-l-1 col-12">
 				</div>
 				<div class="content2 col-l-9 col-12">
-                <p id = 'showitem'><?php echo get_title(); ?>
+                <p id = 'showitem'>
                     <br/>
                     <br/>
-                    <span><?php echo get_describtion(); ?></span> <br/>
+                    <span>...</span> <br/>
                     <span>...</span> <br/>
                     <span>...</span> <br/>
                 </p>
 				<div class="right2 col-l-2 col-12">
-				
 				</div>
 <?php }
 
