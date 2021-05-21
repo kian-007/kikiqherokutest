@@ -59,6 +59,7 @@ function get_content(){ ?>
     }
     if($item8){
         $item_title = 'ریمل Hudamoji';
+        $img_src = 'images/beautyandhealth/rimmel7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
         سلام دخترا امروز مي خوام اين ريمل ٢٤ ساعته و زد آب از برند hudamoji رو معرفي كنم 💜
         بچه ها جدا از طراحي و زيبايي خاص اين ريمل بايد از كيفيتش بگم 💜
@@ -75,6 +76,7 @@ function get_content(){ ?>
 				<div class="content2 col-l-9 col-12">
 
                 <?php if($item8): ?>
+                <img src="<?php echo $img_src; ?>" />
                 <p id = 'showitem'><?php echo $item_title; ?>
                     <br/>
                     <br/>
@@ -85,6 +87,7 @@ function get_content(){ ?>
                 <?php endif; ?>
 
                 <?php if($item2): ?>
+                <img src="<?php echo $img_src; ?>" />
                 <p id = 'showitem'><?php echo $item_title; ?>
                     <br/>
                     <br/>
@@ -108,7 +111,7 @@ function get_style(){ ?>
 				color: white;
 				font-size: 20pt;
 				text-align: center;
-				margin-left: 150px;
+				margin-left: 50px;
 			}
 			#showitem span{
 				text-align: left;
