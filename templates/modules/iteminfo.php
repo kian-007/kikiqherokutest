@@ -10,120 +10,47 @@ function get_value($para, $default){
     return $value;
 }
 
-
 function get_title(){
-    $item_title = get_value('item-lamp', 0);
-    $item_title = get_value('item-lipgloss', 0);
-    $item_title = get_value('item-icebalm', 0);
-    $item_title = get_value('item-brush', 0);
-    $item_title = get_value('item-brushbh', 0);
-    $item_title = get_value('item-brushmask', 0);
-    $item_title = get_value('item-bag', 0);
-    $item_title = get_value('item-rimmel', 0);
-
-    switch ($item_title){
-        case 'item-lamp':
-            $title =  'برق لب لامپی';
-            break;
-        case 'item-lipgloss':
-            $title = 'برق لب کپسولی';
-            break;
-        case 'item-icebalm':
-            $title = 'بالم لب آبمیوه ای';
-            break;
-        case 'item-brush':
-            $title = 'براش فانتزی 4تیکه';
-            break;
-        case 'item-brushbh':
-            $title = 'براش BH Cosmetics';
-            break;
-        case 'item-brushmask':
-            $title = 'براش ماسک';
-            break;
-        case 'item-bag':
-            $title = 'Victoria\'s secret کیف آرایشی';
-            break;
-        case 'item-rimmel':
-            $title = 'ریمل Hudamoji';
-            break; 
-    }
-    return $title;
+    return 'iteminfo';
 }
-
-
-get_describtion(){
-    $item_describtion = get_value('item-lamp', 0);
-    $item_describtion = get_value('item-lipgloss', 0);
-    $item_describtion = get_value('item-icebalm', 0);
-    $item_describtion = get_value('item-brush', 0);
-    $item_describtion = get_value('item-brushbh', 0);
-    $item_describtion = get_value('item-brushmask', 0);
-    $item_describtion = get_value('item-bag', 0);
-    $item_describtion = get_value('item-rimmel', 0);
-
-    switch ($item_describtion){
-        case 'item-lamp':
-            $text =  'برق لب لامپی';
-            break;
-        case 'item-lipgloss':
-            $text = 'برق لب کپسولی';
-            break;
-        case 'item-icebalm':
-            $text = 'بالم لب آبمیوه ای';
-            break;
-        case 'item-brush':
-            $text = 'براش فانتزی 4تیکه';
-            break;
-        case 'item-brushbh':
-            $text = 'براش BH Cosmetics';
-            break;
-        case 'item-brushmask':
-            $text = 'براش ماسک';
-            break;
-        case 'item-bag':
-            $text = 'Victoria\'s secret کیف آرایشی';
-            break;
-        case 'item-rimmel':
-            $text = '💜لطفا با لبخند ورق بزنيد 💜
-            سلام دخترا امروز مي خوام اين ريمل ٢٤ ساعته و زد آب از برند hudamoji رو معرفي كنم 💜
-            بچه ها جدا از طراحي و زيبايي خاص اين ريمل بايد از كيفيتش بگم 💜
-            اين ريمل موژه هارو دونه دونه مي كنه مشكي و پر رنگ ميكنه 💜
-            و همون طور كه گفتم زد آب هست 
-            و به نسبت قيمت خوبي كه داره عاليه 💜
-            
-            ....قيمت=٦٠ تومان ٠٠٠٠
-            هزينه ارسال به عهده مشتري عزيز 💜';
-            break; 
-    }
-    return $text;
-}
-
 
 
 function get_content(){ ?>
 
 <?php
 
-    $item = get_value('item-lamp', 0);
-    $item = get_value('item-lipgloss', 0);
-    $item = get_value('item-icebalm', 0);
-    $item = get_value('item-brush', 0);
-    $item = get_value('item-brushbh', 0);
-    $item = get_value('item-brushmask', 0);
-    $item = get_value('item-bag', 0);
-    $item = get_value('item-rimmel', 0);
+    $item1 = get_value('item-lamp', 0);
+    $item2 = get_value('item-lipgloss', 0);
+    $item3 = get_value('item-icebalm', 0);
+    $item4 = get_value('item-brush', 0);
+    $item5 = get_value('item-brushbh', 0);
+    $item6 = get_value('item-brushmask', 0);
+    $item7 = get_value('item-bag', 0);
+    $item8 = get_value('item-rimmel', 0);
 
 ?>
 				<div class="left2 col-l-1 col-12">
 				</div>
 				<div class="content2 col-l-9 col-12">
+                <?php if($item8): ?>
                 <p id = 'showitem'>
                     <br/>
                     <br/>
-                    <span>...</span> <br/>
+                    <span>item8</span> <br/>
                     <span>...</span> <br/>
                     <span>...</span> <br/>
                 </p>
+                <?php endif; ?>
+
+                <?php if($item2): ?>
+                <p id = 'showitem'>
+                    <br/>
+                    <br/>
+                    <span>item2</span> <br/>
+                    <span>...</span> <br/>
+                    <span>...</span> <br/>
+                </p>
+                <?php endif; ?>
 				<div class="right2 col-l-2 col-12">
 				</div>
 <?php }
