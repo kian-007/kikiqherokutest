@@ -124,7 +124,8 @@ function get_style(){ ?>
             .item-img{
                 width: auto;
                 height: 200px;
-                margin: 20px auto;
+                margin: 20px;
+                margin-left: auto;
             }
 			button{
 				margin-top: 10px;
