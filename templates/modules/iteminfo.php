@@ -39,6 +39,8 @@ function get_content(){ ?>
     }
     if($item3){
         $item_title = 'بالم لب آبمیوه ای';
+        $price = '27,000 تومان';
+        $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/balmbastani1.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
         سلام دوستاي گلم 💜
@@ -102,11 +104,11 @@ function get_content(){ ?>
                         <span>...</span> <br/>
                     </p>
                     <p class="showitem-details">
-                        <span>نام محصول: - </span> <br/>
-                        <span>قیمت: - </span> <br/>
-                        <span>دسته بندی: - </span> <br/>
-                        <span>رنگ بندی: - </span> <br/>
-                        <span>تخفیف: - </span> <br/>
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                 </div>
                 <?php endif; ?>
@@ -167,7 +169,7 @@ function get_style(){ ?>
                 width: 300px;
 				height: auto;
                 border-right: solid purple 3px;
-                border-bottom: solid purple 1px;
+                border-bottom: solid gray 1px;
                 clear: both;
                 float: right;
                 text-align: right;
