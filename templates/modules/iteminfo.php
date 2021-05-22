@@ -102,11 +102,11 @@ function get_content(){ ?>
                         <span>...</span> <br/>
                     </p>
                     <p class="showitem-details">
-                        نام محصول: -
-                        قیمت: -
-                        دسته بندی: -
-                        رنگ بندی: -
-                        تخفیف: -
+                        <span>نام محصول: - </span> <br/>
+                        <span>قیمت: - </span> <br/>
+                        <span>دسته بندی: - </span> <br/>
+                        <span>رنگ بندی: - </span> <br/>
+                        <span>تخفیف: - </span> <br/>
                     </p>
                 </div>
                 <?php endif; ?>
@@ -124,11 +124,11 @@ function get_content(){ ?>
                         <span>...</span> <br/>
                     </p>
                     <p class="showitem-details">
-                        نام محصول: <?php echo $title; ?>
-                        قیمت: <?php echo $price; ?>
-                        دسته بندی: <?php $categury; ?>
-                        رنگ بندی: -
-                        تخفیف: -
+                        <span>نام محصول: <?php echo $title; ?> </span> <br/>
+                        <span>قیمت: <?php echo $price; ?> </span> <br/>
+                        <span>دسته بندی: <?php $categury; ?> </span> <br/>
+                        <span>رنگ بندی: - </span> <br/>
+                        <span>تخفیف: - </span> <br/>
                     </p>
                 </div>
                 <?php endif; ?>
@@ -166,6 +166,7 @@ function get_style(){ ?>
             .showitem-datails{
                 border-right: solid purple 3px;
                 border-bottom: solid purple 1px;
+                clear: both;
             }
             @media only screen and (min-width: 768px){
                 #showitem{
