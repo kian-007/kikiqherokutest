@@ -172,6 +172,7 @@ function get_style(){ ?>
                 float: right;
                 text-align: right;
                 direction: rtl;
+                margin-right: 50px;
             }
             #showitem-details span{
 				font-size: 14pt;
