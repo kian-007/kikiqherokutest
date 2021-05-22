@@ -76,7 +76,7 @@ function get_content(){ ?>
 				<div class="content2 col-l-9 col-12">
 
                 <?php if($item8): ?>
-                <img src="<?php echo $img_src; ?>" />
+                <img class="item-img" src="<?php echo $img_src; ?>" />
                 <p id = 'showitem'><?php echo $item_title; ?>
                     <br/>
                     <br/>
@@ -87,7 +87,7 @@ function get_content(){ ?>
                 <?php endif; ?>
 
                 <?php if($item2): ?>
-                <img src="<?php echo $img_src; ?>" />
+                <img class="item-img" src="<?php echo $img_src; ?>" />
                 <p id = 'showitem'><?php echo $item_title; ?>
                     <br/>
                     <br/>
@@ -120,6 +120,10 @@ function get_style(){ ?>
 				font-size: 14pt;
                 direction: rtl;
 			}
+            .item-img{
+                width: auto;
+                height: 200px;
+            }
 			button{
 				margin-top: 10px;
 				border-radius: 30px;
