@@ -168,6 +168,10 @@ function get_style(){ ?>
                 border-bottom: solid purple 1px;
                 clear: both;
             }
+            #showitem-details span{
+				font-size: 14pt;
+                direction: rtl;
+			}
             @media only screen and (min-width: 768px){
                 #showitem{
                     width: 600px;
