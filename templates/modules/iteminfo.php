@@ -89,7 +89,9 @@ function get_content(){ ?>
 
                 <?php if($item3): ?>
                 <div class="item-holder">
-                    <img class="item-img" src="<?php echo $img_src; ?>" />
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=13"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
                         <br/>
                         <br/>
@@ -102,7 +104,7 @@ function get_content(){ ?>
 
                 <?php if($item8): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=11"> 
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=12"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -152,8 +154,8 @@ function get_style(){ ?>
 
                 }
                 .item-img{
-                    width: 200px;
-                    height: 400px;
+                    width: 250px;
+                    height: 300px;
                     float: right;
                 }
             }
