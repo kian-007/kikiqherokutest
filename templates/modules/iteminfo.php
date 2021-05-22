@@ -142,7 +142,7 @@ function get_style(){ ?>
         <style>
             #showitem{
                 width: 300px;
-				height: 600px;
+				height: auto;
 				background-color: orange;
 				border: solid red 2px;
 				border-radius: 15px;
@@ -183,7 +183,7 @@ function get_style(){ ?>
             @media only screen and (min-width: 768px){
                 #showitem{
                     width: 600px;
-                    height: 300px;
+                    height: auto;
                     float: right;
 
                 }
