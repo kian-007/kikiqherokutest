@@ -72,6 +72,8 @@ function get_content(){ ?>
     }
     if($item8){
         $item_title = 'ریمل Hudamoji';
+        $price = '60,000 t';
+        $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/rimmel7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
         سلام دخترا امروز مي خوام اين ريمل ٢٤ ساعته و ضد آب از برند hudamoji رو معرفي كنم 💜
@@ -99,6 +101,13 @@ function get_content(){ ?>
                         <span><?php echo $item_text; ?></span> <br/>
                         <span>...</span> <br/>
                     </p>
+                    <p class="showitem-details">
+                        نام محصول: -
+                        قیمت: -
+                        دسته بندی: -
+                        رنگ بندی: -
+                        تخفیف: -
+                    </p>
                 </div>
                 <?php endif; ?>
 
@@ -113,6 +122,13 @@ function get_content(){ ?>
                         <span>item8</span> <br/>
                         <span><?php echo $item_text; ?></span> <br/>
                         <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        نام محصول: <?php echo $title; ?>
+                        قیمت: <?php echo $price; ?>
+                        دسته بندی: <?php $categury; ?>
+                        رنگ بندی: -
+                        تخفیف: -
                     </p>
                 </div>
                 <?php endif; ?>
@@ -146,6 +162,10 @@ function get_style(){ ?>
                 height: 200px;
                 margin: 20px;
                 margin-left: 95px;
+            }
+            .showitem-datails{
+                border-right: solid purple 3px;
+                border-bottom: solid purple 1px;
             }
             @media only screen and (min-width: 768px){
                 #showitem{
