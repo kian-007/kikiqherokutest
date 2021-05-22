@@ -87,13 +87,13 @@ function get_content(){ ?>
 				</div>
 				<div class="content2 col-l-9 col-12">
 
-                <?php if($item2): ?>
+                <?php if($item3): ?>
                 <div class="item-holder">
                     <img class="item-img" src="<?php echo $img_src; ?>" />
                     <p id = 'showitem'><?php echo $item_title; ?>
                         <br/>
                         <br/>
-                        <span>item2</span> <br/>
+                        <span>item3</span> <br/>
                         <span><?php echo $item_text; ?></span> <br/>
                         <span>...</span> <br/>
                     </p>
