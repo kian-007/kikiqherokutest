@@ -166,10 +166,11 @@ function get_style(){ ?>
             .showitem-details{
                 width: 300px;
 				height: auto;
-                background-color: gray;
                 border-right: solid purple 3px;
                 border-bottom: solid purple 1px;
                 clear: both;
+                float: right;
+                text-align: right;
             }
             #showitem-details span{
 				font-size: 14pt;
