@@ -124,7 +124,7 @@ function get_content(){ ?>
                         <span>...</span> <br/>
                     </p>
                     <p class="showitem-details">
-                        <span>نام محصول: <?php echo $title; ?> </span> <br/>
+                        <span>نام محصول: <?php echo $item_title; ?> </span> <br/>
                         <span>قیمت: <?php echo $price; ?> </span> <br/>
                         <span>دسته بندی: <?php $categury; ?> </span> <br/>
                         <span>رنگ بندی: - </span> <br/>
