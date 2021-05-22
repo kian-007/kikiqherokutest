@@ -176,7 +176,7 @@ function get_style(){ ?>
                 direction: rtl;
                 margin-right: 50px;
             }
-            #showitem-details span{
+            .showitem-details span{
 				font-size: 14pt;
                 direction: rtl;
 			}
@@ -192,6 +192,10 @@ function get_style(){ ?>
                     height: 300px;
                     float: right;
                 }
+                .showitem-details{
+                    margin-right: 25px;
+                }
+
             }
 			button{
 				margin-top: 10px;
