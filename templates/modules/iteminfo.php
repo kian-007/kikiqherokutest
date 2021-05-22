@@ -72,7 +72,7 @@ function get_content(){ ?>
     }
     if($item8){
         $item_title = 'ریمل Hudamoji';
-        $price = '60,000 t';
+        $price = '60,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/rimmel7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -171,6 +171,7 @@ function get_style(){ ?>
                 clear: both;
                 float: right;
                 text-align: right;
+                direction: rtl;
             }
             #showitem-details span{
 				font-size: 14pt;
