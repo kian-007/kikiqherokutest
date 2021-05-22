@@ -76,26 +76,30 @@ function get_content(){ ?>
 				</div>
 				<div class="content2 col-l-9 col-12">
 
-                <?php if($item8): ?>
-                <img class="item-img col-l-3" src="<?php echo $img_src; ?>" />
-                <p class="col-l-9" id = 'showitem'><?php echo $item_title; ?>
-                    <br/>
-                    <br/>
-                    <span>item8</span> <br/>
-                    <span><?php echo $item_text; ?></span> <br/>
-                    <span>...</span> <br/>
-                </p>
+                <?php if($item2): ?>
+                <div class="item-holder">
+                    <img class="item-img" src="<?php echo $img_src; ?>" />
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item2</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                </div>
                 <?php endif; ?>
 
-                <?php if($item2): ?>
-                <img class="item-img" src="<?php echo $img_src; ?>" />
-                <p id = 'showitem'><?php echo $item_title; ?>
-                    <br/>
-                    <br/>
-                    <span>item2</span> <br/>
-                    <span><?php echo $item_text; ?></span> <br/>
-                    <span>...</span> <br/>
-                </p>
+                <?php if($item8): ?>
+                <div class="item-holder">
+                    <img class="item-img" src="<?php echo $img_src; ?>" />
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item8</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                </div>
                 <?php endif; ?>
 				<div class="right2 col-l-2 col-12">
 				</div>
@@ -104,7 +108,7 @@ function get_content(){ ?>
 function get_style(){ ?>
         <style>
             #showitem{
-				width: 300px;
+                width: 300px;
 				height: 600px;
 				background-color: orange;
 				border: solid red 2px;
@@ -125,7 +129,17 @@ function get_style(){ ?>
                 width: auto;
                 height: 200px;
                 margin: 20px;
-                margin-left: auto;
+                margin-left: 75px;
+            }
+            @media only screen and (min-width: 768){
+                #showitem{
+                    width: 300px;
+                    height: 600px;
+                }
+                .item-img{
+                    width: auto;
+                    height: 200px;
+                }
             }
 			button{
 				margin-top: 10px;
