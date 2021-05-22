@@ -68,8 +68,7 @@ function get_content(){ ?>
         و همون طور كه گفتم زد آب هست 
         و به نسبت قيمت خوبي كه داره عاليه 💜
         
-        ....قيمت=٦٠ تومان ٠٠٠٠
-        هزينه ارسال به عهده مشتري عزيز 💜';
+        ....';
     }
 ?>
 				<div class="left2 col-l-1 col-12">
@@ -129,16 +128,19 @@ function get_style(){ ?>
                 width: auto;
                 height: 200px;
                 margin: 20px;
-                margin-left: 75px;
+                margin-left: 85px;
             }
             @media only screen and (min-width: 768){
                 #showitem{
                     width: 300px;
                     height: 600px;
+                    float: right;
+
                 }
                 .item-img{
                     width: auto;
                     height: 200px;
+                    float: right;
                 }
             }
 			button{
