@@ -144,14 +144,14 @@ function get_style(){ ?>
             }
             @media only screen and (min-width: 768px){
                 #showitem{
-                    width: 300px;
-                    height: 600px;
+                    width: 600px;
+                    height: 300px;
                     float: right;
 
                 }
                 .item-img{
-                    width: auto;
-                    height: 200px;
+                    width: 200px;
+                    height: 400px;
                     float: right;
                 }
             }
