@@ -102,7 +102,9 @@ function get_content(){ ?>
 
                 <?php if($item8): ?>
                 <div class="item-holder">
-                    <img class="item-img" src="<?php echo $img_src; ?>" />
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=11"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
                         <br/>
                         <br/>

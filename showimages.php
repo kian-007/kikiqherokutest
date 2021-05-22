@@ -50,6 +50,11 @@ case 11:
     $type = 'image/jpg';
     break;
 // Home Images ---------------------------------------
+// iteminfo images -----------------------------------
+case 12:
+    $filename = 'rimmel7.jpg';
+    $type = 'image/jpg';
+    break;
 }
 
 if(!is_null($filename)){
