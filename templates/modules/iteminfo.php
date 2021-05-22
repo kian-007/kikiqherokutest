@@ -130,6 +130,7 @@ function get_style(){ ?>
 				border-radius: 15px;
 				color: white;
 				font-size: 20pt;
+                font-family: Sahel, Shabnam;
 				text-align: center;
 				margin-left: 50px;
 			}
