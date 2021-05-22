@@ -112,30 +112,30 @@ $rimmel = get_value('rimmel', 0);
 					<?php endif; ?>
 
 				<?php if($icebalm): ?>
-				<h2 class="clrb">* برق لب آبمیوه ای*</h2>
+				<h2 class="clrb">* بالم لب آبمیوه ای*</h2>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/balmbastani1.jpg"	/><img	id='img2' src="images/beautyandhealth/balmbastani2.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/balmbastani1.jpg"	/><img	id='img2' src="images/beautyandhealth/balmbastani2.jpg"	/><p id='p1'><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img3'	src="images/beautyandhealth/balmbastani3.jpg"	/><img	id='img4' src="images/beautyandhealth/balmbastani4.jpg"	/><p id='p2'><p class="pinside"></p></div>
+						<div class="doutside ftr d1"><img	id='img3'	src="images/beautyandhealth/balmbastani3.jpg"	/><img	id='img4' src="images/beautyandhealth/balmbastani4.jpg"	/><p id='p2'><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani5.jpg"	alt="بالم لب"/><p class="price">27,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani5.jpg"	alt="بالم لب"/><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani6.jpg"	alt="بالم لب"/><p class="price">27,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani6.jpg"	alt="بالم لب"/><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii1.jpg"><source media="(max-width: 768)" srcset="balmbastani7.jpg"><img	src="images/beautyandhealth/balmbastani7.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii1.jpg"><source media="(max-width: 768)" srcset="balmbastani7.jpg"><img	src="images/beautyandhealth/balmbastani7.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii2.jpg"><source media="(max-width: 768)" srcset="balmbastani8.jpg"><img	src="images/beautyandhealth/balmbastani8.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii2.jpg"><source media="(max-width: 768)" srcset="balmbastani8.jpg"><img	src="images/beautyandhealth/balmbastani8.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii3.jpg"><source media="(max-width: 768)" srcset="balmbastani9.jpg"><img	src="images/beautyandhealth/balmbastani9.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii3.jpg"><source media="(max-width: 768)" srcset="balmbastani9.jpg"><img	src="images/beautyandhealth/balmbastani9.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii4.jpg"><source media="(max-width: 768)" srcset="balmbastani10.jpg"><img	src="images/beautyandhealth/balmbastani10.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii4.jpg"><source media="(max-width: 768)" srcset="balmbastani10.jpg"><img	src="images/beautyandhealth/balmbastani10.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<?php endif; ?>
 					
@@ -219,25 +219,25 @@ $rimmel = get_value('rimmel', 0);
 				<?php if($rimmel): ?>
 				<h2 class="clrb">*ریمل Hudamoji*</h2>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/rimmel6.jpg"	/><img	id='img2' src="images/beautyandhealth/rimmel8.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/rimmel6.jpg"	/><img	id='img2' src="images/beautyandhealth/rimmel8.jpg"	/><p id='p1'><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel7.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel7.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel5.jpg"		alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel5.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><a href="https://kikiq.herokuapp.com/iteminfo.php?item-rimmel=1"><img  src="images/beautyandhealth/rimmel4.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr fil"><img  src="images/beautyandhealth/rimmel4.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><a href="https://kikiq.herokuapp.com/iteminfo.php?item-rimmel=1"><img	src="images/beautyandhealth/rimmel1.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel1.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><a href="https://kikiq.herokuapp.com/iteminfo.php?item-rimmel=1"><img	src="images/beautyandhealth/rimmel2.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel2.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><a href="https://kikiq.herokuapp.com/iteminfo.php?item-rimmel=1"><img	src="images/beautyandhealth/rimmel3.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel3.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
 					</div>
 					
 					<?php endif; ?>
