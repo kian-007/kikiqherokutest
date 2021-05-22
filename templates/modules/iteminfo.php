@@ -124,11 +124,11 @@ function get_content(){ ?>
                         <span>...</span> <br/>
                     </p>
                     <p class="showitem-details">
-                        <span>نام محصول: <?php echo $item_title; ?> </span> <br/>
-                        <span>قیمت: <?php echo $price; ?> </span> <br/>
-                        <span>دسته بندی: <?php echo $categury; ?> </span> <br/>
-                        <span>رنگ بندی: - </span> <br/>
-                        <span>تخفیف: - </span> <br/>
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                 </div>
                 <?php endif; ?>
