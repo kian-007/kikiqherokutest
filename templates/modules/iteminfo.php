@@ -163,9 +163,10 @@ function get_style(){ ?>
                 margin: 20px;
                 margin-left: 95px;
             }
-            .showitem-datails{
+            .showitem-details{
                 width: 300px;
 				height: auto;
+                background-color: gray;
                 border-right: solid purple 3px;
                 border-bottom: solid purple 1px;
                 clear: both;
