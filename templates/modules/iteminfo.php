@@ -30,31 +30,32 @@ function get_content(){ ?>
     $item8 = get_value('item-rimmel', 0);
 
     if($item1){
-        $item_title = '';
+        $item_title = 'برق لب قرصی';
         $item_text = '';
     }
     if($item2){
-        $item_title = '';
+        $item_title = 'برق لب لامپی';
         $item_text = '';
     }
     if($item3){
-        $item_title = '';
+        $item_title = 'برق لب آبمیوه ای';
         $item_text = '';
     }
     if($item4){
-        $item_title = '';
+        $item_title = 'براش فانتزی 4تیکه';
         $item_text = '';
     }
     if($item5){
-        $item_title = '';
+        $item_title = 'براش BH Cosmetics';
         $item_text = '';
     }
     if($item6){
-        $item_title = '';
+        $item_title = 'براش ماسک';
         $item_text = '';
     }
     if($item7){
-        $item_title = '';
+        $item_title = 'Victoria\'s secret کیف آرایشی';
+        $img_src = 'images/compressed/bags2.jpg';
         $item_text = '';
     }
     if($item8){
@@ -76,8 +77,8 @@ function get_content(){ ?>
 				<div class="content2 col-l-9 col-12">
 
                 <?php if($item8): ?>
-                <img class="item-img" src="<?php echo $img_src; ?>" />
-                <p id = 'showitem'><?php echo $item_title; ?>
+                <img class="item-img col-l-3" src="<?php echo $img_src; ?>" />
+                <p class="col-l-9" id = 'showitem'><?php echo $item_title; ?>
                     <br/>
                     <br/>
                     <span>item8</span> <br/>
@@ -123,6 +124,7 @@ function get_style(){ ?>
             .item-img{
                 width: auto;
                 height: 200px;
+                margin: 20px auto;
             }
 			button{
 				margin-top: 10px;
