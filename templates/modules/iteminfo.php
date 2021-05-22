@@ -164,6 +164,8 @@ function get_style(){ ?>
                 margin-left: 95px;
             }
             .showitem-datails{
+                width: 300px;
+				height: auto;
                 border-right: solid purple 3px;
                 border-bottom: solid purple 1px;
                 clear: both;
