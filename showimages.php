@@ -63,7 +63,7 @@ case 14:
     $filename = 'lamp3.jpg';
     $type = 'image/jpg';
     break;
-case 14:
+case 15:
     $filename = 'capsul5.jpg';
     $type = 'image/jpg';
     break;

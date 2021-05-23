@@ -135,6 +135,27 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
+                <?php if($item2): ?>
+                <div class="item-holder">
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=15"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item2</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+                </div>
+                <?php endif; ?>
 
                 <?php if($item3): ?>
                 <div class="item-holder">
