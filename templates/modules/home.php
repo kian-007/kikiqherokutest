@@ -29,7 +29,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=1">
-							<img class="image" src="images\beautyandhealth\cobrush1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\beautyandhealth\cobrush1.jpg" >
 							</a>
 							<div class="text">Brush</div>
 						</div>
@@ -37,7 +37,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">2 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=2">
-							<img class="image" src="images\beautyandhealth\cobrush2.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\beautyandhealth\cobrush2.jpg" >
 							</a>
 							<div class="text">Brush</div>
 						</div>
@@ -45,7 +45,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">3 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=3">
-							<img class="image" src="images\skin\lipbalm1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\skin\lipbalm1.jpg" >
 							</a>
 							<div class="text">Lipbalm's</div>
 						</div>
@@ -53,7 +53,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">4 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=4">
-							<img class="image" src="images\skin\nlipgloss.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\skin\nlipgloss.jpg" >
 							</a>
 							<div class="text">Lipgloss's</div>
 						</div>
@@ -61,7 +61,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">5 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=5">
-							<img class="image" src="images\compressed\bags1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\bags1.jpg" >
 							</a>
 							<div class="text">BAG's</div>
 						</div>
@@ -69,7 +69,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">6 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=6">
-							<img class="image" src="images\compressed\bags2.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\bags2.jpg" >
                             </a>
 							<div class="text">BAG's</div>
 						</div>
@@ -77,7 +77,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">7 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=7">
-							<img class="image" src="images\compressed\brushes.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\brushes.jpg" >
 							</a>
 							<div class="text">Brush</div>
 						</div>
@@ -85,7 +85,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">8 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=8">
-							<img class="image" src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\mirror1.jpg" >
                             </a>
 							<div class="text">Mirror</div>
 						</div>
@@ -93,7 +93,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">9 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=9">
-							<img class="image" src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\mirror1.jpg">
 							</a>
 							<div class="text">Mirror</div>
 						</div>
@@ -101,7 +101,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">10 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=10">
-							<img class="image" src="images\mirror2.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\mirror2.jpg" >
 							</a>
 							<div class="text">BAG's</div>
 						</div>
@@ -109,7 +109,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">11 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=11">
-							<img class="image" src="images\kiki.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\kiki.jpg" >
 							</a>
 							<div class="text">KikiCutest</div>
 						</div>
@@ -146,12 +146,12 @@ function get_style(){ ?>
         <style>
 			spinner-border{to{transform:rotate(360deg)}}@keyframes spinner-border{to{transform:rotate(360deg)}}.spinner-border{display:inline-block;width:2rem;height:2rem;vertical-align:text-bottom;border:.25em solid currentColor;border-right-color:transparent;border-radius:50%;-webkit-animation:.75s linear infinite spinner-border;animation:.75s linear infinite spinner-border}.spinner-border-sm{width:1rem;height:1rem;border-width:.2em}@-webkit-keyframes spinner-grow{0%{transform:scale(0)}50%{opacity:1;transform:none}}@keyframes spinner-grow{0%{transform:scale(0)}50%{opacity:1;transform:none}}.spinner-grow{display:inline-block;width:2rem;height:2rem;vertical-align:text-bottom;background-color:currentColor;border-radius:50%;opacity:0;-webkit-animation:.75s linear infinite spinner-grow;animation:.75s linear infinite spinner-grow}.spinner-grow-sm{width:1rem;height:1rem}@media (prefers-reduced-motion:reduce){.spinner-border,.spinner-grow{-webkit-animation-duration:1.5s;animation-duration:1.5s}}
 			
-			@media only screen and(min-width: 768px){
-				.mySlides a .image {
-					width: 100%;
-					height: 550px;
-				}
+			.mySlides .image {
+				width: 100%;
+				height: 550px;
+				border-radius: 35px;
 			}
+			
 			.title{
 				margin: 50px auto;
 				width: 300px;
