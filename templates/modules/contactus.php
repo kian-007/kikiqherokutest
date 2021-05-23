@@ -11,7 +11,7 @@ function get_content(){ ?>
 				</div>
 				<div class="content2 col-l-9 col-12">
 				<span style="color:gray;float:right; position:relative; top:70px; right:250px">تماس با ما  < </span><a href="index.php"	style="text-decoration: none; color: black;float:right; position:relative; top:70px; right:100px">صفحه اصلی  <</a>
-					<div id=pcontainer >
+					<div id=pcontainer col-12>
 						<div id="dimages">
 							<span style="font-size:15pt; position:relative; float:right; text-align:right;">KikiCutest را در شبکه های اجتماعی دنبال کنید</span>
 							<p class="mg" style="color:white; position: relative; top:50px"><a href="https://www.instagram.com/kikicutest_online/">kikicutest_online@</a><img style="float:right" class="imglogo" src="images\instagram.svg"  /></p>
