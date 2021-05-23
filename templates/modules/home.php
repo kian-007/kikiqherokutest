@@ -29,7 +29,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">1 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=1">
-							<img class="image" src="images\beautyandhealth\cobrush1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\beautyandhealth\cobrush1.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Brush</div>
 						</div>
@@ -37,7 +37,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">2 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=2">
-							<img class="image" src="images\beautyandhealth\cobrush2.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\beautyandhealth\cobrush2.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Brush</div>
 						</div>
@@ -45,7 +45,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">3 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=3">
-							<img class="image" src="images\skin\lipbalm1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\skin\lipbalm1.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Lipbalm's</div>
 						</div>
@@ -53,7 +53,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">4 / 11</div>
 							<a href="<?php echo home_url(); ?>showimages.php?image=4">
-							<img class="image" src="images\skin\nlipgloss.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\skin\nlipgloss.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Lipgloss's</div>
 						</div>
@@ -61,7 +61,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">5 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=5">
-							<img class="image" src="images\compressed\bags1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\bags1.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">BAG's</div>
 						</div>
@@ -69,7 +69,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">6 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=6">
-							<img class="image" src="images\compressed\bags2.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\bags2.jpg" style="border-radius: 35px; width:100%; height:550px">
                             </a>
 							<div class="text">BAG's</div>
 						</div>
@@ -77,7 +77,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">7 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=7">
-							<img class="image" src="images\compressed\brushes.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\brushes.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Brush</div>
 						</div>
@@ -85,7 +85,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">8 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=8">
-							<img class="image" src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
                             </a>
 							<div class="text">Mirror</div>
 						</div>
@@ -93,7 +93,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">9 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=9">
-							<img class="image" src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\compressed\mirror1.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">Mirror</div>
 						</div>
@@ -101,7 +101,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">10 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=10">
-							<img class="image" src="images\mirror2.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\mirror2.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">BAG's</div>
 						</div>
@@ -109,7 +109,7 @@ function get_content(){ ?>
 						<div class="mySlides fade">
 							<div class="numbertext">11 / 11</div>
 							<a href="https://kikiq.herokuapp.com/showimages.php?image=11">
-							<img class="image" src="images\kiki.jpg" style="border-radius: 35px; width:100%; height:400px">
+							<img class="image" src="images\kiki.jpg" style="border-radius: 35px; width:100%; height:550px">
 							</a>
 							<div class="text">KikiCutest</div>
 						</div>
