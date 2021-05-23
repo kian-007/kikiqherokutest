@@ -148,10 +148,17 @@ function get_style(){ ?>
 			
 			.mySlides .image {
 				width: 100%;
-				height: 550px;
+				height: 400px;
 				border-radius: 35px;
 			}
 			
+			@media only screen and (min-width: 768px){
+				.mySlides .image {
+					width: 100%;
+					height: 550px;
+					border-radius: 35px;
+				}
+			}
 			.title{
 				margin: 50px auto;
 				width: 300px;
