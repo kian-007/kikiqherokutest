@@ -78,7 +78,15 @@ function get_content(){ ?>
     }
     if($item4){
         $item_title = 'براش فانتزی 4تیکه';
-        $item_text = '';
+        $price = '60,000 تومان';
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/bbrushes.jpg';
+        $item_text = '💜لطفا با لبخند ورق بزنيد 💜
+        براش هاي مدل پري دريايي 💜
+        ٤تيكه و با كيفيت 💜
+        بدون ريزش و تراكم بالا 💜
+        طرحشو خودتون ميتونيد انتخاب كنيد 💜
+        ••••';
     }
     if($item5){
         $item_title = 'براش BH Cosmetics';
@@ -166,6 +174,28 @@ function get_content(){ ?>
                         <br/>
                         <br/>
                         <span>item3</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+                </div>
+                <?php endif; ?>
+
+                <?php if($item4): ?>
+                <div class="item-holder">
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=16"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item4</span> <br/>
                         <span><?php echo $item_text; ?></span> <br/>
                         <span>...</span> <br/>
                     </p>

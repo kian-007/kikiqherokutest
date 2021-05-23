@@ -67,6 +67,10 @@ case 15:
     $filename = 'capsul5.jpg';
     $type = 'image/jpg';
     break;
+case 16:
+    $filename = 'bbrushes.jpg';
+    $type = 'image/jpg';
+    break;
 }
 
 if(!is_null($filename)){
