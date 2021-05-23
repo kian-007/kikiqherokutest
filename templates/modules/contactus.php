@@ -41,21 +41,6 @@ function get_style(){ ?>
 				border-bottom-right-radius:35px;
 				overflow:auto;
 			}
-			@media only screen and (min-width: 768px){
-				#pcontainer
-				{
-					position:relative;
-					top: 100px;
-					background-color:#dddddd;
-					width: 500px;
-					height: 500px;
-					border: solid black 3px;
-					border-top-left-radius:35px;
-					border-bottom-right-radius:35px;
-					overflow:auto;
-				}
-			}
-			
 			#pcontainer #dimages
 			{
 				background-color:#888888; 
@@ -64,9 +49,36 @@ function get_style(){ ?>
 				position:relative;
 				float: center;
 				top:100px;
-				left: 100px;
+				left: 70px;
 				box-shadow: 20px 15px 15px #333388
 			}
+			@media only screen and (min-width: 768px){
+				#pcontainer
+				{
+					position:relative;
+					top: 100px;
+					float: center;
+					background-color:#dddddd;
+					width: 500px;
+					height: 500px;
+					border: solid black 3px;
+					border-top-left-radius:35px;
+					border-bottom-right-radius:35px;
+					overflow:auto;
+				}
+				#pcontainer #dimages
+				{
+					background-color:#888888; 
+					width:300px;
+					height:300px;
+					position:relative;
+					float: center;
+					top:100px;
+					left: 100px;
+					box-shadow: 20px 15px 15px #333388
+				}
+			}
+			
 			.ulmenue > li:nth-child(6)
 			{
 				background-image: url('images/threeline3.jpg');
