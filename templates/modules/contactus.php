@@ -34,12 +34,26 @@ function get_style(){ ?>
 				position:relative;
 				top: 100px;
 				background-color:#dddddd;
-				width: 500px;
+				width: 100%;
 				height: 500px;
 				border: solid black 3px;
 				border-top-left-radius:35px;
 				border-bottom-right-radius:35px;
 				overflow:auto;
+			}
+			@media only screen and (min-width: 768px){
+				#pcontainer
+				{
+					position:relative;
+					top: 100px;
+					background-color:#dddddd;
+					width: 500px;
+					height: 500px;
+					border: solid black 3px;
+					border-top-left-radius:35px;
+					border-bottom-right-radius:35px;
+					overflow:auto;
+				}
 			}
 			
 			#pcontainer #dimages
