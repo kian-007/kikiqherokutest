@@ -28,13 +28,23 @@ function get_content(){ ?>
     $item6 = get_value('item-brushmask', 0);
     $item7 = get_value('item-bag', 0);
     $item8 = get_value('item-rimmel', 0);
-
+    
     if($item1){
-        $item_title = 'برق لب قرصی';
-        $item_text = '';
+        $item_title = 'برق لب لامپی';
+        $price = '23,000 تومان';
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/lamp3.jpg';
+        $item_text = '💜لطفا با لبخند ورق بزنيد💜
+        ليپ گلاس هاي لامپي حرارتي آورديم 💜
+        توي ٦ رنگ زيبا 💜
+        اين ليپ گلاس ها حرارتي هستند و با توجه به حرارت بدنتون رنگشون كم و زياد ميشه 💜
+        يه شاين خوشگل هم به لبا ميده 💜
+        رنگ شاين و خود بدنه متفاوته اما رنگي كه به لب ميدن يكسان هست 💜
+        كيفيت بسيار بالاااا 💜
+        ٠٠٠٠';
     }
     if($item2){
-        $item_title = 'برق لب لامپی';
+        $item_title = 'برق لب قرصی';
         $item_text = '';
     }
     if($item3){
@@ -90,6 +100,30 @@ function get_content(){ ?>
 				<div class="left2 col-l-1 col-12">
 				</div>
 				<div class="content2 col-l-9 col-12">
+
+
+                <?php if($item1): ?>
+                <div class="item-holder">
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=14"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item1</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+                </div>
+                <?php endif; ?>
+
 
                 <?php if($item3): ?>
                 <div class="item-holder">
