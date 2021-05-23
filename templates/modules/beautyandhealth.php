@@ -149,20 +149,22 @@ $rimmel = get_value('rimmel', 0);
 					
 				<?php if($brush): ?>
 				<h2 class="clrb">*براش فانتزی 4تیکه*</h2>
+				<a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
+				</a>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/nbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/nbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/bbrushes.jpg"	alt="براش"/><p class="price">60,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/beautyandhealth/bbrushes.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1"><p class="pinside"></p></a></div>
 					</div>
 					<?php endif; ?>
 					
