@@ -170,20 +170,22 @@ $rimmel = get_value('rimmel', 0);
 					
 				<?php if($brushbh): ?>
 				<h2 class="clrb">*براش BH Cosmetics*</h2>
+				<a href="<?php echo home_url('iteminfo'); ?>?item-brush=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/cobrush1.jpg"	/><img	id='img2' src="images/beautyandhealth/cobrush5.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
+				</a>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush2.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush2.jpg"	alt="براش"/><p class="price">250,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushbh1.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushbh1.jpg"	alt="براش"/><p class="price">250,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush3.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush3.jpg"	alt="براش"/><p class="price">250,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush4.jpg"	alt="براش"/><p class="price">250,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/cobrush4.jpg"	alt="براش"/><p class="price">250,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
 					</div>
 					<?php endif; ?>
 

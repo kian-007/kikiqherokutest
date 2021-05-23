@@ -90,7 +90,21 @@ function get_content(){ ?>
     }
     if($item5){
         $item_title = 'براش BH Cosmetics';
-        $item_text = '';
+        $price = '250,000 تومان';
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/cobrush2.jpg';
+        $item_text = 'لطفا با لبخند ورق بزنيد 💜
+        سلام دوستاي عزيزم 💜
+        بالاخره پست براش هاي قشنگمون رو گذاشتم 💜
+        دخنوا اين براش ها از برند Bh cosmetics هست همون طور كه ميدونين براش هاي اين برند به كيفيت عاليشون معروف هستن 
+        اين براش ها ١٣ تيكه داره 💜
+        براي آرايش حرفه اي هم حتي استفاده ميشه چون همه براش هاي كاربردي رو داره 💜
+        توي شيك ترين رنگ (سفيد) شارژ شده 💜
+        تراكم مو ها بسيار بالاس💜
+        ريزش مو اصلا نداره 💜
+        كيفيت عالي 💜
+        قيمتش خيلي خوبه واقعا با بقيه پيج ها مقايسه كنيد 💜
+        ';
     }
     if($item6){
         $item_title = 'براش ماسک';
@@ -196,6 +210,28 @@ function get_content(){ ?>
                         <br/>
                         <br/>
                         <span>item4</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+                </div>
+                <?php endif; ?>
+
+                <?php if($item5): ?>
+                <div class="item-holder">
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=17"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item5</span> <br/>
                         <span><?php echo $item_text; ?></span> <br/>
                         <span>...</span> <br/>
                     </p>

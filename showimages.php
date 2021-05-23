@@ -71,6 +71,10 @@ case 16:
     $filename = 'bbrushes.jpg';
     $type = 'image/jpg';
     break;
+case 17:
+    $filename = 'cobrush2.jpg';
+    $type = 'image/jpg';
+    break;
 }
 
 if(!is_null($filename)){
