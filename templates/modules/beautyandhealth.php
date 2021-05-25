@@ -191,39 +191,41 @@ $rimmel = get_value('rimmel', 0);
 
 				<?php if($brushmask): ?>
 				<h2 class="clrb">*براش ماسک*</h2>
+				<a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/brushm3.jpg"	/><img	id='img2' src="images/beautyandhealth/brushm6.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
+				</a>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm7.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm7.jpg"	alt="براش"/><p class="price">25,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm1.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm1.jpg"	alt="براش"/><p class="price">25,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm4.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm4.jpg"	alt="براش"/><p class="price">25,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm5.jpg"	alt="براش"/><p class="price">25,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img  src="images/beautyandhealth/brushm5.jpg"	alt="براش"/><p class="price">25,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<?php endif; ?>
 
 				<?php if($bag): ?>
 				<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/compressed/bags1.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"	 ><img	src="images/compressed/bags1.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/compressed/bags2.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"	 ><img	src="images/compressed/bags2.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img  src="images/beautyandhealth/abag1.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr fil"><img  src="images/beautyandhealth/abag1.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag2.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag2.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag3.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag3.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
 					</div>
 					
 					<?php endif; ?>
