@@ -47,23 +47,25 @@ $handcream = get_value('handcream' , 0);
 				
 				<?php if($handcream): ?>
 					<h2>* کرم مرطوب کننده *</h2>
+				<a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/skin/ax1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
+				</a>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb44.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/mrtb44.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb55.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/mrtb55.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb66.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/mrtb66.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb77.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/mrtb77.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb88.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/mrtb88.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
 					</div>
 
 					<?php endif; ?>
