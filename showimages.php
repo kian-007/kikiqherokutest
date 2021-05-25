@@ -83,6 +83,10 @@ case 19:
     $filename = 'mrtb55.jpg';
     $type = 'image/jpg';
     break;
+case 20:
+    $filename = 'facebrush1.jpg';
+    $type = 'image/jpg';
+    break;
 }
 
 if(!is_null($filename)){
