@@ -31,6 +31,7 @@ function get_content(){ ?>
     $item8 = get_value('item-rimmel', 0);
     #skin
     $item9 = get_value('item-handcream', 0);
+    $item10 = get_value('item-facebrush', 0);
     
     if($item1){
         $item_title = 'برق لب لامپی';
