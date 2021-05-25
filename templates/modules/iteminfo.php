@@ -110,7 +110,7 @@ function get_content(){ ?>
         $item_title = 'براش ماسک';
         $price = '25,000 تومان';
         $categury = 'آرایشی و بهداشتی';
-        $img_src = 'images/beautyandhealth/cobrush2.jpg';
+        $img_src = 'images/beautyandhealth/brushm7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
         براش هاي سيليكوني مخصوص ماسك 💜
         توي ٣ رنگ شارژ شده 💜
