@@ -20,6 +20,7 @@ function get_content(){ ?>
 <?php
     $item_title = '';
     $item_text = '';
+    #beauty
     $item1 = get_value('item-lamp', 0);
     $item2 = get_value('item-lipgloss', 0);
     $item3 = get_value('item-icebalm', 0);
@@ -28,6 +29,8 @@ function get_content(){ ?>
     $item6 = get_value('item-brushmask', 0);
     $item7 = get_value('item-bag', 0);
     $item8 = get_value('item-rimmel', 0);
+    #skin
+    $item9 = get_value('item-handcream', 0);
     
     if($item1){
         $item_title = 'برق لب لامپی';
@@ -136,6 +139,26 @@ function get_content(){ ?>
         و به نسبت قيمت خوبي كه داره عاليه 💜
         
         ....';
+    }
+    if($item9){
+        $item_title = 'کرم مرطوب کننده دست';
+        $price = '20,000 تومان';
+        $categury = 'پوست';
+        $img_src = 'images/beautyandhealth/mrtb55.jpg';
+        $item_text = 'لطفا با لبخند ورق بزنيد 💜
+        كرم دست مرطوب كننده براتون آورديم 💜
+        مرطوب‌کننده پوست💜
+        نرم کننده پوست💜
+         بدون چربی اضافی💜
+         آبرسانی قوی💜
+         روشن کننده پوست💜
+        با اسید میوه و آنتی اکسیدان💜
+        پرکننده بافت پوست دست ها ضد خشکی💜
+        ضد ترک پوست💜
+        لطیف کننده پوست دست💜
+        هم دونه اي داريم هم به صورت پك ٥ تايي 💜
+        
+        ٠٠٠';
     }
 ?>
 				<div class="left2 col-l-1 col-12">
@@ -284,6 +307,28 @@ function get_content(){ ?>
                         <br/>
                         <br/>
                         <span>item8</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+                </div>
+                <?php endif; ?>
+
+                <?php if($item9): ?>
+                <div class="item-holder">
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=19"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item9</span> <br/>
                         <span><?php echo $item_text; ?></span> <br/>
                         <span>...</span> <br/>
                     </p>
