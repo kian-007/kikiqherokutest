@@ -72,23 +72,25 @@ $handcream = get_value('handcream' , 0);
 					
 				<?php if($facebrush): ?>
 					<h2>* فیس براش *</h2>
+				<a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/skin/facebrush1.jpg"	/><img	id='img2' src="images/skin/brush4.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
+				</a>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush2.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/brush2.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush7.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/brush7.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush6.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/brush6.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush5.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/brush5.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush3.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img	src="images/skin/brush3.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
 					</div>
 
 					<?php endif; ?>
