@@ -11,44 +11,46 @@ function get_content(){ ?>
 				</div>
 				<div class="content2 col-l-9 col-12">
 				<h2>* آیینه *</h2>
+				<a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img loading="lazy"	src="images/fantasy/mir14.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
+				</a>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir1.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir1.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir2.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir2.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir4.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir4.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir5.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir5.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir6.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir6.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir7.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir7.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir8.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir8.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir9.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir9.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir10.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir10.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir11.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir11.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir12.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir12.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir13.jpg"	alt="آیینه"/><p class="price">17,000 t</p><p class="pinside"></p></div>
+						<div class="doutside ftr"><img loading="lazy"	src="images/fantasy/mir13.jpg"	alt="آیینه"/><p class="price">17,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 					</div>
 					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>

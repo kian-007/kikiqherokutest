@@ -32,6 +32,8 @@ function get_content(){ ?>
     #skin
     $item9 = get_value('item-handcream', 0);
     $item10 = get_value('item-facebrush', 0);
+    #fantasy
+    $item11 = get_value('item-mirror', 0);
     
     if($item1){
         $item_title = 'برق لب لامپی';
@@ -173,6 +175,18 @@ function get_content(){ ?>
         براش ها كاملا نرم هستن و با بالاترين كيفت 💜
         تازه ٢ طرفه هست طرف ديگش براش سيليكوني داره كه مخصوص منافز باز صورته 💜
         ٠٠٠';
+    }
+    if($item11){
+        $item_title = 'آیینه';
+        $price = '17,000 تومان';
+        $categury = 'فانتزی';
+        $img_src = 'images/fantasy/mir6.jpg';
+        $item_text = '💜لطفا با لبخند ورق بزنيد
+        آينه هاي طرح دار خوشگلمون رسيد 💜
+        دو طرفه هست يكي آينه معمولي و يك طرف هم بزرگ تر ميكنه 💜 
+        طرح هاش خيلي متنوع هست و ميتونيد هر كدون رو كه خواستيد سفارش بديد 💜 
+        مناسب براي كيف لوازم آرايش 💜 
+        ••••';
     }
 ?>
 				<div class="left2 col-l-1 col-12">
@@ -365,6 +379,28 @@ function get_content(){ ?>
                         <br/>
                         <br/>
                         <span>item10</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+                </div>
+                <?php endif; ?>
+
+                <?php if($item11): ?>
+                <div class="item-holder">
+                    <a href="https://kikiq.herokuapp.com/showimages.php?image=21"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item11</span> <br/>
                         <span><?php echo $item_text; ?></span> <br/>
                         <span>...</span> <br/>
                     </p>
