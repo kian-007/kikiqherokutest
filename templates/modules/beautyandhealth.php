@@ -1,6 +1,6 @@
 <?php
 
-$firstname = $_GET['firstname'];
+$firstname = $_POST['firstname'];
 
 
 $title = null;
@@ -69,6 +69,7 @@ $rimmel = get_value('rimmel', 0);
 				
 				<?php if($firstname): ?>
 				<h2><?php echo $firstname; ?></h2>
+				<pre><?php var_dump($firstname); ?> </pre>
 				<?php endif; ?>
 				
 				<?php if($lipgloss): ?>
