@@ -1,4 +1,8 @@
 <?php
+
+$firstname = $_POST['firstname']
+
+
 $title = null;
 
 function get_value($para, $default){
@@ -62,7 +66,8 @@ $rimmel = get_value('rimmel', 0);
 				
 				
 				<div class="content2 col-l-9 col-12">
-				
+				<?php if($firstname): ?>
+				<h2><?php echo $firstname ?></h2>
 				<?php if($lipgloss): ?>
 				<h2 class="clrb">* برق لب قرصی *</h2>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1">
