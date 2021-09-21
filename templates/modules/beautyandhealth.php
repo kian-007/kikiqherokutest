@@ -1,6 +1,6 @@
 <?php
 
-$firstname = $_GET['firstname'];
+$firstname = $_POST['firstname'];
 
 
 $title = null;
@@ -68,6 +68,7 @@ $rimmel = get_value('rimmel', 0);
 				<div class="content2 col-l-9 col-12">
 				<?php if($firstname): ?>
 				<h2><?php echo $firstname ?></h2>
+				<?php endif; ?>
 				<?php if($lipgloss): ?>
 				<h2 class="clrb">* برق لب قرصی *</h2>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1">
