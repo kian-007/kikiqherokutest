@@ -1,6 +1,6 @@
 <?php
 
-$firstname = $_GET['firstname']
+$firstname = $_POST['firstname'];
 
 
 $title = null;
