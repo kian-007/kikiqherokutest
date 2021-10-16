@@ -642,14 +642,7 @@
         left: 100px;
         box-shadow: 20px 15px 15px #333388
     }
-    .alert {
-        font-family: Sahel, Shabnam;
-        height: 40px;
-        border-radius: 30px;
-        font-weight: bold;
-        margin-top: 25px;
-        text-align: right;
-    }
+    
     .alert-error {
         color: #c43434;
         background-color: #ff8ebb;
