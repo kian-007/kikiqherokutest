@@ -535,7 +535,6 @@
 			    left: 22px;
 			    top: 3px;
 			}
-			
 			.alert {
 			    font-family: Sahel, Shabnam;
 			    height: 35px;
@@ -544,8 +543,8 @@
 			    border-color: #000000;
 			    border-width: 1px;
 			    font-weight: bold;
+			    margin-top:17px; 
 			    clear: both;
-			    margin-top: 15px;
 			    text-align: right;
 			}
 			
