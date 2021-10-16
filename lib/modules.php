@@ -78,13 +78,13 @@ function show_message(){
         return;
     }
     foreach ($messages as $item){
-        $messages = $item['message'];
+        $message = $item['message'];
         $type = $item['type'];
     
     ?>
     <div class="alert alert-<?php echo $type; ?>">
         <p>
-            <?php echo $messages; ?>
+            <?php echo $message; ?>
         </p>
     </div>
     <?php }
