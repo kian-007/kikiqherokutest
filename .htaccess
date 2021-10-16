@@ -1,7 +1,7 @@
 Options All -Indexes
 
 RewriteEngine on
-#RewriteBase https://kikiq.herokuapp.com/
+#RewriteBase https://kikiq2.herokuapp.com/
 RewriteRule ^index\.php -[L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
