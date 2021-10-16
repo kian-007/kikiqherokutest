@@ -26,7 +26,7 @@
 /*var d = new Date();
 var d = d.toDateString();
 alert(d + '\n خوش آمدید')
-slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To Kikiqutest')*/
+slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To kikiq2utest')*/
 				$('.ulmenue').children().addClass('prevli')
 				$('.secondulmenue').children('li').addClass('prevli2')
 				$('.ulmenue').find('li').last().removeClass('prevli')
