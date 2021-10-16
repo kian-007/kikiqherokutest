@@ -20,9 +20,6 @@
 
 		}else{
 			add_message('آدرس وارد شده صحیح نیست','error');
-			add_message('آدرس وارد شده صحیح نیست','warning');
-			add_message('آدرس وارد شده صحیح نیست','info');
-			add_message('آدرس وارد شده صحیح نیست','success');
 			require_once ('templates/modules/home.php');
 		}
 
