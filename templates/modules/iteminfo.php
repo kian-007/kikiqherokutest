@@ -196,7 +196,7 @@ function get_content(){ ?>
 
                 <?php if($item1): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=14"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=14"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -218,7 +218,7 @@ function get_content(){ ?>
 
                 <?php if($item2): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=15"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=15"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -240,7 +240,7 @@ function get_content(){ ?>
 
                 <?php if($item3): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=13"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=13"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -262,7 +262,7 @@ function get_content(){ ?>
 
                 <?php if($item4): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=16"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=16"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -284,7 +284,7 @@ function get_content(){ ?>
 
                 <?php if($item5): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=17"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=17"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -306,7 +306,7 @@ function get_content(){ ?>
 
                 <?php if($item6): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=18"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=18"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -328,7 +328,7 @@ function get_content(){ ?>
 
                 <?php if($item8): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=12"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=12"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -350,7 +350,7 @@ function get_content(){ ?>
 
                 <?php if($item9): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=19"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=19"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -372,7 +372,7 @@ function get_content(){ ?>
 
                 <?php if($item10): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=20"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=20"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
@@ -394,7 +394,7 @@ function get_content(){ ?>
 
                 <?php if($item11): ?>
                 <div class="item-holder">
-                    <a href="https://kikiq.herokuapp.com/showimages.php?image=21"> 
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=21"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>

@@ -60,7 +60,7 @@ function get_content(){ ?>
 
 						<div class="mySlides fade">
 							<div class="numbertext">5 / 11</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=5">
+							<a href="http://kikiq.herokuapp.com/showimages.php?image=5">
 							<img class="image" src="images\compressed\bags1.jpg" >
 							</a>
 							<div class="text">BAG's</div>
@@ -68,7 +68,7 @@ function get_content(){ ?>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">6 / 11</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=6">
+							<a href="http://kikiq.herokuapp.com/showimages.php?image=6">
 							<img class="image" src="images\compressed\bags2.jpg" >
                             </a>
 							<div class="text">BAG's</div>
@@ -76,7 +76,7 @@ function get_content(){ ?>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">7 / 11</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=7">
+							<a href="http://kikiq.herokuapp.com/showimages.php?image=7">
 							<img class="image" src="images\compressed\brushes.jpg" >
 							</a>
 							<div class="text">Brush</div>
@@ -84,7 +84,7 @@ function get_content(){ ?>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">8 / 11</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=8">
+							<a href="http://kikiq.herokuapp.com/showimages.php?image=8">
 							<img class="image" src="images\compressed\mirror1.jpg" >
                             </a>
 							<div class="text">Mirror</div>
@@ -92,7 +92,7 @@ function get_content(){ ?>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">9 / 11</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=9">
+							<a href="http://kikiq.herokuapp.com/showimages.php?image=9">
 							<img class="image" src="images\compressed\mirror1.jpg">
 							</a>
 							<div class="text">Mirror</div>
@@ -100,7 +100,7 @@ function get_content(){ ?>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">10 / 11</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=10">
+							<a href="http://kikiq.herokuapp.com/showimages.php?image=10">
 							<img class="image" src="images\mirror2.jpg" >
 							</a>
 							<div class="text">BAG's</div>
@@ -108,7 +108,7 @@ function get_content(){ ?>
 						
 						<div class="mySlides fade">
 							<div class="numbertext">11 / 11</div>
-							<a href="https://kikiq.herokuapp.com/showimages.php?image=11">
+							<a href="http://kikiq.herokuapp.com/showimages.php?image=11">
 							<img class="image" src="images\kiki.jpg" >
 							</a>
 							<div class="text">KikiCutest</div>
