@@ -16,7 +16,7 @@ function get_content(){ ?>
 							<span style="font-size:15pt; position:relative; float:right; text-align:right;">KikiCutest را در شبکه های اجتماعی دنبال کنید</span>
 							<p class="mg" style="color:white; position: relative; top:50px"><a href="https://www.instagram.com/kikicutest_online/">kikicutest_online@</a><img style="float:right" class="imglogo" src="images\instagram.svg"  /></p>
 							<p class="mg" style="color:white; position: relative; top:70px"><a href="https://t.me/kikicutest_online">kikicutest_online@</a><img style="clear:right; float:right;"class="imglogo" src="images\telegram.svg"  /></p>
-							<p class="mg" style="color:white; position: relative; top:90px"><a href="https://mail.google.com/mail/u/1/#inbox">kikiq2utest.online@gmail.com</a><img style="clear:right; float:right;" class="imglogo" src="images\email.svg"  /></p>
+							<p class="mg" style="color:white; position: relative; top:90px"><a href="https://mail.google.com/mail/u/1/#inbox">kikiqutest.online@gmail.com</a><img style="clear:right; float:right;" class="imglogo" src="images\email.svg"  /></p>
 							<p class="mg" style="color:white; position: relative; top:110px">phone > 09931556696</p>
 						</div>
 					</div>
