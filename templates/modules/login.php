@@ -70,8 +70,8 @@ function process_inputs(){
         add_message('نام کاربری یا رمز عبور اشتباه است', 'error');
     }else{
         redirect_to(home_url());
+		add_message('user login was successfully', 'success');
     }
-    add_message('user login was successfully', 'success');
 }
 
 
