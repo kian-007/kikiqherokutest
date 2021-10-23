@@ -9,7 +9,8 @@ function home_url($path = null){
 
 function get_module_name(){
 	//bejay $_SERVER['REQUEST_SCHEME'] az reshte https estefade kardim
-    $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    // $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+    $url = $_SERVER['HTTP_X_FORWARDED_PROTO'] . '://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
     include_once ('config.php');
     $req = str_replace(SITE_URL, '', $url);
     $question_mark_pos = strpos($req, '?');
