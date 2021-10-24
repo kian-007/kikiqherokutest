@@ -115,7 +115,6 @@ function process_inputs(){
 				width: 420px;
 				height: 350px;
 				padding-right: 100px;
-				padding-left: 100px;
 				box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255) ;
 			}
 			button {
