@@ -13,7 +13,7 @@ function authentication_required(){
 function get_content(){ ?>
 
 	<?php $current_user = get_current_user_data(); ?>
-	<h3><?php echo $current_user['username']; ?></h3>
+	<h3 style="margin: auto 50%;"><?php echo $current_user['username']; ?></h3>
 	<div class="left2 col-l-1 col-12">
     </div>
     <div class="content2 col-l-9 col-12">
@@ -112,7 +112,7 @@ function process_inputs(){
 				background: #d1bbbb;
 				margin: 0px auto;
 				border-radius: 30px;
-				width: 350px;
+				width: 420px;
 				height: 350px;
 				box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255) ;
 			}
