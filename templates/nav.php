@@ -7,8 +7,10 @@
 					<li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
 				<?php endif; ?>
 					<li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
+					<?php if(is_user_logged_in()): ?>
 					<?php $current_user = get_current_user_data(); ?>
-					<li>«<?php $current_user['username']; ?>»</li>
+					<li>«<?php echo $current_user['username']; ?>»</li>
+					<?php endif; ?>
 				</ul>
 				<ul class ="ulmenue" >
 					<li><a href='#'>آرایشی و بهداشتی</a>
