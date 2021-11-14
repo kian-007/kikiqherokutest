@@ -5,7 +5,7 @@ function get_goods_by_id($id){
 		return null;
 	}
     global $pdo;
-    $result = query("
+    $result = $pdo->query("
         SELECT * FROM goods
         WHERE id = '$id'
     ");
@@ -18,7 +18,7 @@ function get_goods_by_serial_number($serial_number){
 		return null;
 	}
     global $pdo;
-    $result = query("
+    $result = $pdo->query("
         SELECT * FROM goods
         WHERE serial_number = '$serial_number'
     ");
@@ -28,14 +28,13 @@ function get_goods_by_serial_number($serial_number){
 
 function get_all_goods(){
     global $pdo;
-    $result = query("
+    $result = $pdo->query("
         SELECT * FROM goods
-        WHERE name = '$name'
     ");
 
     $goods = array();
     while($row = $result->fetch(PDO::FETCH_ASSOC)){
-        goods[] = $row;
+        $goods[] = $row;
     }
     return $goods;
 }
@@ -45,7 +44,7 @@ function goods_exists($serial_number){
         return false;
     }
     $goods = get_goods_by_serial_number($serial_number);
-    return isset($goods[$id]);
+    return isset($goods['id']);
 }
 
 function goods_count(){
