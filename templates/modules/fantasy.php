@@ -10,7 +10,7 @@ function get_content(){ ?>
 				</div>
 				<div class="content2 col-l-9 col-12">
 				<?php
-					$goods = get_goods_by_name('mirror');
+					$goods = get_goods_by_serial_number('100');
 					$name = $goods['name'];
 					$price = $goods['price'];
 					$off = $goods['off'];
