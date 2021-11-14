@@ -1,3 +1,5 @@
+<?php 
+
 function get_goods_by_id($id){
     if(!$id){
 		return null;
