@@ -13,6 +13,19 @@ function get_goods_by_id($id){
     return $row;
 }
 
+function get_goods_by_name($name){
+    if(!$name){
+		return null;
+	}
+    global $pdo;
+    $result = $pdo->query("
+        SELECT * FROM goods
+        WHERE name = '$name'
+    ");
+    $row = $result->fetch(PDO::FETCH_ASSOC);
+    return $row;
+}
+
 function get_goods_by_serial_number($serial_number){
     if(!$serial_number){
 		return null;
