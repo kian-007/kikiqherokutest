@@ -170,7 +170,7 @@ function get_content(){ ?>
         ٠٠٠';
     }
     if($item10){
-        $goods = get_goods_by_serial_number('101');
+        $goods = get_goods_by_serial_number('102');
 		$name = $goods['name'];
 		$price = $goods['price'];
 		$off = $goods['off'];
