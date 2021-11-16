@@ -5,10 +5,10 @@ require 'config.php';
 
 $query = array(
 	'id' => 2,
-    'name' => 'کرم مرطوب کننده دست',
-    'price' => '20,000',
+    'name' => 'فیس براش چکشی',
+    'price' => '48,000',
     'off' => '',
-    'serial_number' => '101'
+    'serial_number' => '102'
 );
 
 try{

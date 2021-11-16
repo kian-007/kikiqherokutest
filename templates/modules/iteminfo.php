@@ -170,8 +170,14 @@ function get_content(){ ?>
         ٠٠٠';
     }
     if($item10){
-        $item_title = 'فیس براش';
-        $item_price = '48,000 تومان';
+        $goods = get_goods_by_serial_number('101');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'پوست';
         $img_src = 'images/skin/facebrush1.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد💜

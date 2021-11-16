@@ -59,40 +59,35 @@ $handcream = get_value('handcream' , 0);
 							<div class="doutside ftr d1"><img	id='img1'	src="images/skin/ax1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
 						</div>
 					</a>
-
 					<?php
 					foreach($img_src as $img): ?>
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr"><img src="<?php echo "images/skin/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
 						</div>
 					<?php endforeach; ?>
-
 				<?php endif; ?>
 					
-				<?php if($facebrush): ?>
+				<?php if($facebrush):
+					$goods = get_goods_by_serial_number('102');
+					$name = $goods['name'];
+					$price = $goods['price'];
+					$off = $goods['off'];
+					$serial_number = $goods['serial_number'];
+					$img_src = array('brush2', 'brush7', 'brush6', 'brush5', 'brush3');
+				?>
 					<h2>* فیس براش *</h2>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/skin/facebrush1.jpg"	/><img	id='img2' src="images/skin/brush4.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
 				</a>
+				<?php
+				foreach($img_src as $img): ?>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush2.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"><img	src="<?php echo "images/skin/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
 					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush7.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush6.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush5.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/brush3.jpg"	alt="فیس براش"/><p class="price">48,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1"><p class="pinside"></p></a></div>
-					</div>
-
-					<?php endif; ?>
+				<?php endforeach; ?>
+				<?php endif; ?>
 					
 					<?php if($handcream || $facebrush): ?>
 						<div class="new col-6 col-l-4">
