@@ -63,7 +63,7 @@ $handcream = get_value('handcream' , 0);
 					<?php
 					foreach($img_src as $img): ?>
 						<div class="new col-6 col-l-4">
-							<div class="doutside ftr"><img src="<?php echo "images/fantasy/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
+							<div class="doutside ftr"><img src="<?php echo "images/skin/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
 						</div>
 					<?php endforeach; ?>
 
