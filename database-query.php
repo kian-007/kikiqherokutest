@@ -4,11 +4,11 @@ require 'config.php';
 
 
 $query = array(
-	'id' => 1,
-    'name' => 'آیینه',
-    'price' => '17,000',
+	'id' => 2,
+    'name' => 'کرم مرطوب کننده دست',
+    'price' => '20,000',
     'off' => '',
-    'serial_number' => '100'
+    'serial_number' => '101'
 );
 
 try{

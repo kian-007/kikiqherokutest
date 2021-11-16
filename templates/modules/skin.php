@@ -45,30 +45,29 @@ $handcream = get_value('handcream' , 0);
 				</div>
 				<div class="content2 col-l-9 col-12">
 				
-				<?php if($handcream): ?>
+				<?php if($handcream):
+					$goods = get_goods_by_serial_number('101');
+					$name = $goods['name'];
+					$price = $goods['price'];
+					$off = $goods['off'];
+					$serial_number = $goods['serial_number'];
+					$img_src = array('mrtb44', 'mrtb55', 'mrtb66', 'mrtb77', 'mrtb88');
+				?>
 					<h2>* کرم مرطوب کننده *</h2>
-				<a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1">
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img1'	src="images/skin/ax1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					</div>
-				</a>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb44.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb55.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb66.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb77.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/skin/mrtb88.jpg"	alt="کرم مرطوب کننده دست"/><p class="price">20,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1"><p class="pinside"></p></a></div>
-					</div>
+					<a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1">
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr d1"><img	id='img1'	src="images/skin/ax1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						</div>
+					</a>
 
-					<?php endif; ?>
+					<?php
+					foreach($img_src as $img): ?>
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr"><img src="<?php echo "images/fantasy/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1"><p class="pinside"></p></a></div>
+						</div>
+					<?php endforeach; ?>
+
+				<?php endif; ?>
 					
 				<?php if($facebrush): ?>
 					<h2>* فیس براش *</h2>
