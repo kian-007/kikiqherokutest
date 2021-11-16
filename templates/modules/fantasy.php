@@ -17,12 +17,14 @@ function get_content(){ ?>
 					$serial_number = $goods['serial_number'];
 					$img_src = array('mir14', 'mir1', 'mir2', 'mir4', 'mir5', 'mir6', 'mir7', 'mir8', 'mir9', 'mir10', 'mir11', 'mir12', 'mir13');
 				?>
+
 				<h2>* <?php echo $name; ?> *</h2>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img loading="lazy"	src="images/fantasy/mir14.jpg"	/><p id='p1'><p class="pinside"></p></div>
 					</div>
 				</a>
+
 				<?php
 				foreach($img_src as $img): ?>
 					<div class="new col-6 col-l-4">
@@ -31,10 +33,8 @@ function get_content(){ ?>
 				<?php endforeach; ?>
 
 					
-					
 					<div class="dani"><img	style="position:absolute; top:4px; float:right; border-radius:45px" src="images/up.jpg"	/><a id='contact' href="#start" style="position:absolute; text-decoration: none; "><p class="pani"></p></a></div>
 				</div>
-				
 				<div class="right2 col-l-2 col-12">
 				</div>
 <?php }

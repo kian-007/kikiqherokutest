@@ -37,7 +37,7 @@ function get_content(){ ?>
     
     if($item1){
         $item_title = 'برق لب لامپی';
-        $price = '23,000 تومان';
+        $item_price = '23,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/capsul5.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد💜
@@ -51,7 +51,7 @@ function get_content(){ ?>
     }
     if($item2){
         $item_title = 'برق لب قرصی';
-        $price = '20,000 تومان';
+        $item_price = '20,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/capsul5.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -66,7 +66,7 @@ function get_content(){ ?>
     }
     if($item3){
         $item_title = 'بالم لب آبمیوه ای';
-        $price = '27,000 تومان';
+        $item_price = '27,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/balmbastani1.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -84,7 +84,7 @@ function get_content(){ ?>
     }
     if($item4){
         $item_title = 'براش فانتزی 4تیکه';
-        $price = '60,000 تومان';
+        $item_price = '60,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/bbrushes.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -96,7 +96,7 @@ function get_content(){ ?>
     }
     if($item5){
         $item_title = 'براش BH Cosmetics';
-        $price = '250,000 تومان';
+        $item_price = '250,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/cobrush2.jpg';
         $item_text = 'لطفا با لبخند ورق بزنيد 💜
@@ -114,7 +114,7 @@ function get_content(){ ?>
     }
     if($item6){
         $item_title = 'براش ماسک';
-        $price = '25,000 تومان';
+        $item_price = '25,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/brushm7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -131,7 +131,7 @@ function get_content(){ ?>
     }
     if($item8){
         $item_title = 'ریمل Hudamoji';
-        $price = '60,000 تومان';
+        $item_price = '60,000 تومان';
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/rimmel7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -145,7 +145,7 @@ function get_content(){ ?>
     }
     if($item9){
         $item_title = 'کرم مرطوب کننده دست';
-        $price = '20,000 تومان';
+        $item_price = '20,000 تومان';
         $categury = 'پوست';
         $img_src = 'images/skin/mrtb55.jpg';
         $item_text = 'لطفا با لبخند ورق بزنيد 💜
@@ -165,7 +165,7 @@ function get_content(){ ?>
     }
     if($item10){
         $item_title = 'فیس براش';
-        $price = '48,000 تومان';
+        $item_price = '48,000 تومان';
         $categury = 'پوست';
         $img_src = 'images/skin/facebrush1.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد💜
@@ -177,8 +177,14 @@ function get_content(){ ?>
         ٠٠٠';
     }
     if($item11){
-        $item_title = 'آیینه';
-        $price = '17,000 تومان';
+        $goods = get_goods_by_serial_number('100');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'فانتزی';
         $img_src = 'images/fantasy/mir6.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد
@@ -208,7 +214,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -230,7 +236,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -252,7 +258,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -274,7 +280,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -296,7 +302,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -318,7 +324,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -340,7 +346,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -362,7 +368,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -384,7 +390,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
@@ -406,7 +412,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span><b>قیمت:</b> <?php echo $price; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
