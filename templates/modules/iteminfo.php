@@ -39,7 +39,7 @@ function get_content(){ ?>
         $item_title = 'برق لب لامپی';
         $item_price = '23,000 تومان';
         $categury = 'آرایشی و بهداشتی';
-        $img_src = 'images/beautyandhealth/lamp6.jpg';
+        $img_src = 'images/beautyandhealth/lamp3.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد💜
         ليپ گلاس هاي لامپي حرارتي آورديم 💜
         توي ٦ رنگ زيبا 💜
