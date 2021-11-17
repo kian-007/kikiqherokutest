@@ -5,7 +5,7 @@ require 'config.php';
 
 $query = array(
 	'id' => 4,
-    'name' => "Victoria\'s secret کیف آرایشی ",
+    'name' => 'Victoria\'s secret کیف آرایشی ',
     'price' => '40,000',
     'off' => '',
     'serial_number' => '103'
