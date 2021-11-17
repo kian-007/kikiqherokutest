@@ -222,33 +222,26 @@ $rimmel = get_value('rimmel', 0);
 					<?php endforeach; ?>
 				<?php endif; ?>
 
-				<?php if($rimmel): ?>
-				<h2 class="clrb">*ریمل Hudamoji*</h2>
-				<a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1">
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/rimmel6.jpg"	/><img	id='img2' src="images/beautyandhealth/rimmel8.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					</div>
-				</a>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel7.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/beautyandhealth/rimmel5.jpg"	alt="کیف آرایشی"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img  src="images/beautyandhealth/rimmel4.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel1.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel2.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img	src="images/beautyandhealth/rimmel3.jpg"	alt="کیف آرایشی"/></a><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
-					</div>
-					
-					<?php endif; ?>
+				<?php if($rimmel):
+					$goods = get_goods_by_serial_number('107');
+					$name = $goods['name'];
+					$price = $goods['price'];
+					$off = $goods['off'];
+					$serial_number = $goods['serial_number'];
+					$img_src = array('rimmel7', 'rimmel5', 'rimmel4', 'rimmel1', 'rimmel2', 'rimmel3');
+					?>
+					<h2 class="clrb">*ریمل Hudamoji*</h2>
+					<a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1">
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/rimmel6.jpg"	/><img	id='img2' src="images/beautyandhealth/rimmel8.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						</div>
+					</a>
+					<?php foreach($img_src as $img): ?>
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr"	 ><img	src="<?php echo "images/beautyandhealth/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1"><p class="pinside"></p></a></div>
+						</div>
+					<?php endforeach; ?>
+				<?php endif; ?>
 					
 					<!-- -------up------- -->
 					<?php if($rimmel || $bag || $lamp || $lipgloss || $icebalm || $brush || $brushbh || $brushmask): ?>

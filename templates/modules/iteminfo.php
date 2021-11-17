@@ -36,8 +36,14 @@ function get_content(){ ?>
     $item11 = get_value('item-mirror', 0);
     
     if($item1){
-        $item_title = 'برق لب لامپی';
-        $item_price = '23,000 تومان';
+        $goods = get_goods_by_serial_number('104');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/lamp3.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد💜
@@ -50,8 +56,14 @@ function get_content(){ ?>
         ٠٠٠٠';
     }
     if($item2){
-        $item_title = 'برق لب قرصی';
-        $item_price = '20,000 تومان';
+        $goods = get_goods_by_serial_number('105');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/capsul5.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -65,8 +77,14 @@ function get_content(){ ?>
         ٠٠٠';
     }
     if($item3){
-        $item_title = 'بالم لب آبمیوه ای';
-        $item_price = '27,000 تومان';
+        $goods = get_goods_by_serial_number('106');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/balmbastani1.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -138,8 +156,14 @@ function get_content(){ ?>
         $item_text = '';
     }
     if($item8){
-        $item_title = 'ریمل Hudamoji';
-        $item_price = '60,000 تومان';
+        $goods = get_goods_by_serial_number('107');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/rimmel7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜

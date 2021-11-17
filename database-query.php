@@ -4,11 +4,11 @@ require 'config.php';
 
 
 $query = array(
-	'id' => 7,
-    'name' => "بالم لب آبمیوه ای",
-    'price' => '27,000',
+	'id' => 8,
+    'name' => "ریمل Hudamoji",
+    'price' => '60,000',
     'off' => '',
-    'serial_number' => '106'
+    'serial_number' => '107'
 );
 
 try{
