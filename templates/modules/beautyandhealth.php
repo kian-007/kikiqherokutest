@@ -63,7 +63,14 @@ $rimmel = get_value('rimmel', 0);
 				
 				<div class="content2 col-l-9 col-12">
 				
-				<?php if($lipgloss): ?>
+				<?php if($lipgloss):
+				$goods = get_goods_by_serial_number('104');
+				$name = $goods['name'];
+				$price = $goods['price'];
+				$off = $goods['off'];
+				$serial_number = $goods['serial_number'];
+				$img_src = array('lamp1', 'lamp2', 'lamp3', 'lamp4', 'lamp5');
+				?>
 				<h2 class="clrb">* برق لب قرصی *</h2>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1">
 					<div class="new col-6 col-l-4">

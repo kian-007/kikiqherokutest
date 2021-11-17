@@ -5,10 +5,10 @@ require 'config.php';
 
 $query = array(
 	'id' => 4,
-    'name' => "برق لب لامپی",
-    'price' => '23,000',
+    'name' => "Victoria's secret کیف آرایشی ",
+    'price' => '40,000',
     'off' => '',
-    'serial_number' => '104'
+    'serial_number' => '103'
 );
 
 try{
