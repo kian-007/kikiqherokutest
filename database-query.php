@@ -5,10 +5,10 @@ require 'config.php';
 
 $query = array(
 	'id' => 10,
-    'name' => "براش BH Cosmetics",
-    'price' => '250,000',
+    'name' => "براش ماسک",
+    'price' => '25,000',
     'off' => '',
-    'serial_number' => '109'
+    'serial_number' => '110'
 );
 
 try{

@@ -142,8 +142,14 @@ function get_content(){ ?>
         ';
     }
     if($item6){
-        $item_title = 'براش ماسک';
-        $item_price = '25,000 تومان';
+        $goods = get_goods_by_serial_number('110');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/brushm7.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
