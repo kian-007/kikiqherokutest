@@ -217,7 +217,7 @@ $rimmel = get_value('rimmel', 0);
 					<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
 					<?php foreach($img_src as $img): ?>
 						<div class="new col-6 col-l-4">
-							<div class="doutside ftr"	 ><img	src="<?php echo "images/compressed/$img.jpg"; ?>"		alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
+							<div class="doutside ftr"	 ><img	src="<?php echo "images/compressed/$img.jpg"; ?>"		alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-bag=1"><p class="pinside"></p></a></div>
 						</div>
 					<?php endforeach; ?>
 				<?php endif; ?>
