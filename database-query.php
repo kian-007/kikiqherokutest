@@ -4,11 +4,11 @@ require 'config.php';
 
 
 $query = array(
-	'id' => 4,
-    'name' => 'Victoria s secret کیف آرایشی ',
-    'price' => '40,000',
+	'id' => 6,
+    'name' => "برق لب قرصی",
+    'price' => '20,000',
     'off' => '',
-    'serial_number' => '103'
+    'serial_number' => '105'
 );
 
 try{
