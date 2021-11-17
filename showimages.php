@@ -91,6 +91,10 @@ case 21:
     $filename = 'mir6.jpg';
     $type = 'image/jpg';
     break;
+case 22:
+    $filename = 'bags2.jpg';
+    $type = 'image/jpg';
+    break;
 }
 
 if(!is_null($filename)){

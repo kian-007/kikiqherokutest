@@ -125,7 +125,15 @@ function get_content(){ ?>
         ٠٠٠٠';
     }
     if($item7){
-        $item_title = 'Victoria\'s secret کیف آرایشی';
+        $goods = get_goods_by_serial_number('103');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/compressed/bags2.jpg';
         $item_text = '';
     }
@@ -325,6 +333,28 @@ function get_content(){ ?>
                 <?php if($item6): ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=18"> 
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item6</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+                </div>
+                <?php endif; ?>
+
+                <?php if($item7): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=22"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
                     </a>
                     <p id = 'showitem'><?php echo $item_title; ?>
