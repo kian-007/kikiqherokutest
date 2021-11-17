@@ -105,7 +105,13 @@ $rimmel = get_value('rimmel', 0);
 					<?php endforeach; ?>
 				<?php endif; ?>
 
-				<?php if($icebalm): ?>
+				<?php if($icebalm):
+				$goods = get_goods_by_serial_number('106');
+				$name = $goods['name'];
+				$price = $goods['price'];
+				$off = $goods['off'];
+				$serial_number = $goods['serial_number'];
+				?>
 				<h2 class="clrb">* بالم لب آبمیوه ای*</h2>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1">
 					<div class="new col-6 col-l-4">
@@ -118,22 +124,22 @@ $rimmel = get_value('rimmel', 0);
 					</div>
 				</a>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani5.jpg"	alt="بالم لب"/><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani5.jpg"	alt="بالم لب"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani6.jpg"	alt="بالم لب"/><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"><img	src="images/beautyandhealth/balmbastani6.jpg"	alt="بالم لب"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii1.jpg"><source media="(max-width: 768)" srcset="balmbastani7.jpg"><img	src="images/beautyandhealth/balmbastani7.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii1.jpg"><source media="(max-width: 768)" srcset="balmbastani7.jpg"><img	src="images/beautyandhealth/balmbastani7.jpg"	alt="بالم لب"/></picture><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii2.jpg"><source media="(max-width: 768)" srcset="balmbastani8.jpg"><img	src="images/beautyandhealth/balmbastani8.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii2.jpg"><source media="(max-width: 768)" srcset="balmbastani8.jpg"><img	src="images/beautyandhealth/balmbastani8.jpg"	alt="بالم لب"/></picture><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii3.jpg"><source media="(max-width: 768)" srcset="balmbastani9.jpg"><img	src="images/beautyandhealth/balmbastani9.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii3.jpg"><source media="(max-width: 768)" srcset="balmbastani9.jpg"><img	src="images/beautyandhealth/balmbastani9.jpg"	alt="بالم لب"/></picture><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii4.jpg"><source media="(max-width: 768)" srcset="balmbastani10.jpg"><img	src="images/beautyandhealth/balmbastani10.jpg"	alt="بالم لب"/></picture><p class="price">27,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
+						<div class="doutside ftr"><picture><source media="(min-width: 768)" srcset="balmbastanii4.jpg"><source media="(max-width: 768)" srcset="balmbastani10.jpg"><img	src="images/beautyandhealth/balmbastani10.jpg"	alt="بالم لب"/></picture><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1"><p class="pinside"></p></a></div>
 					</div>
 					<?php endif; ?>
 					
