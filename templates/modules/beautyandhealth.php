@@ -143,26 +143,26 @@ $rimmel = get_value('rimmel', 0);
 					</div>
 					<?php endif; ?>
 					
-				<?php if($brush): ?>
-				<h2 class="clrb">*براش فانتزی 4تیکه*</h2>
-				<a href="<?php echo home_url('iteminfo'); ?>?item-brush=1">
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
-					</div>
-				</a>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/nbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/abrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/cbrush5.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/bbrushes.jpg"	alt="براش"/><p class="price">60,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
-					</div>
-					<?php endif; ?>
+				<?php if($brush):
+					$goods = get_goods_by_serial_number('108');
+					$name = $goods['name'];
+					$price = $goods['price'];
+					$off = $goods['off'];
+					$serial_number = $goods['serial_number'];
+					$img_src = array('nbrush5', 'abrush5', 'cbrush5', 'bbrushes');
+					?>
+					<h2 class="clrb">*براش فانتزی 4تیکه*</h2>
+					<a href="<?php echo home_url('iteminfo'); ?>?item-brush=1">
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
+						</div>
+					</a>
+					<?php foreach($img_src as $img): ?>
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr"><img  src="<?php echo "images/beautyandhealth/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brush=1"><p class="pinside"></p></a></div>
+						</div>
+					<?php endforeach; ?>
+				<?php endif; ?>
 					
 				<?php if($brushbh): ?>
 				<h2 class="clrb">*براش BH Cosmetics*</h2>

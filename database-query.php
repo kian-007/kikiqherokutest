@@ -4,11 +4,11 @@ require 'config.php';
 
 
 $query = array(
-	'id' => 8,
-    'name' => "ریمل Hudamoji",
+	'id' => 9,
+    'name' => "براش فانتزی 4تیکه",
     'price' => '60,000',
     'off' => '',
-    'serial_number' => '107'
+    'serial_number' => '108'
 );
 
 try{
