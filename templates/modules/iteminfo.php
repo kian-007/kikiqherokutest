@@ -101,8 +101,13 @@ function get_content(){ ?>
         ٠٠٠٠';
     }
     if($item4){
-        $item_title = 'براش فانتزی 4تیکه';
-        $item_price = '60,000 تومان';
+        $goods = get_goods_by_serial_number('108');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/bbrushes.jpg';
         $item_text = '💜لطفا با لبخند ورق بزنيد 💜
@@ -113,8 +118,14 @@ function get_content(){ ?>
         ••••';
     }
     if($item5){
-        $item_title = 'براش BH Cosmetics';
-        $item_price = '250,000 تومان';
+        $goods = get_goods_by_serial_number('109');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/cobrush2.jpg';
         $item_text = 'لطفا با لبخند ورق بزنيد 💜

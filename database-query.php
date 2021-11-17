@@ -4,11 +4,11 @@ require 'config.php';
 
 
 $query = array(
-	'id' => 9,
-    'name' => "براش فانتزی 4تیکه",
-    'price' => '60,000',
+	'id' => 10,
+    'name' => "براش BH Cosmetics",
+    'price' => '250,000',
     'off' => '',
-    'serial_number' => '108'
+    'serial_number' => '109'
 );
 
 try{
