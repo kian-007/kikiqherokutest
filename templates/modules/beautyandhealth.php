@@ -64,7 +64,7 @@ $rimmel = get_value('rimmel', 0);
 				<div class="content2 col-l-9 col-12">
 				
 				<?php if($lipgloss):
-					$goods = get_goods_by_serial_number('104');
+					$goods = get_goods_by_serial_number('105');
 					$name = $goods['name'];
 					$price = $goods['price'];
 					$off = $goods['off'];
