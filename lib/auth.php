@@ -45,7 +45,7 @@ function check_for_previous_login(){
 
     }
     if($expired){
-        add_message('Session Expired', 'info');
+        // add_message('Session Expired', 'info');
         clear_user_session();
         return;
         
