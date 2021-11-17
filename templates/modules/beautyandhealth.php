@@ -91,29 +91,26 @@ $rimmel = get_value('rimmel', 0);
 					
 					<?php endif; ?>
 				
-				<?php if($lamp): ?>
-				<h2 class="clrb">* برق لب لامپی *</h2>
-				<a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1">
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img  src="images/beautyandhealth/lamp6.jpg"	alt="برق لب"/><p><p class="pinside"></p></div>
-					</div>
-				</a>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp1.jpg"	alt="برق لب"/><p class="price">23,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp2.jpg"	alt="برق لب"/><p class="price">23,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp3.jpg"	alt="برق لب"/><p class="price">23,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp4.jpg"	alt="برق لب"/><p class="price">23,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"><img	src="images/beautyandhealth/lamp5.jpg"	alt="برق لب"/><p class="price">23,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1"><p class="pinside"></p></a></div>
-					</div>
-					<?php endif; ?>
+				<?php if($lamp):
+					$goods = get_goods_by_serial_number('104');
+					$name = $goods['name'];
+					$price = $goods['price'];
+					$off = $goods['off'];
+					$serial_number = $goods['serial_number'];
+					$img_src = array('lamp1', 'lamp2', 'lamp3', 'lamp4', 'lamp5');
+					?>
+					<h2 class="clrb">* برق لب لامپی *</h2>
+					<a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1">
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr"><img  src="images/beautyandhealth/lamp6.jpg"	alt="برق لب"/><p><p class="pinside"></p></div>
+						</div>
+					</a>
+					<?php foreach($img_src as $img): ?>
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr"><img	src="images/beautyandhealth/$img.jpg"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1"><p class="pinside"></p></a></div>
+						</div>
+					<?php endforeach; ?>
+				<?php endif; ?>
 
 				<?php if($icebalm): ?>
 				<h2 class="clrb">* بالم لب آبمیوه ای*</h2>
@@ -210,25 +207,21 @@ $rimmel = get_value('rimmel', 0);
 					</div>
 					<?php endif; ?>
 
-				<?php if($bag): ?>
-				<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/compressed/bags1.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr"	 ><img	src="images/compressed/bags2.jpg"		alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img  src="images/beautyandhealth/abag1.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag2.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
-					</div>
-					<div class="new col-6 col-l-4">
-						<div class="doutside ftr fil"><img	src="images/beautyandhealth/abag3.jpg"	alt="کیف آرایشی"/><p class="price">40,000 t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
-					</div>
-					
-					<?php endif; ?>
+				<?php if($bag):
+					$goods = get_goods_by_serial_number('103');
+					$name = $goods['name'];
+					$price = $goods['price'];
+					$off = $goods['off'];
+					$serial_number = $goods['serial_number'];
+					$img_src = array('bags1', 'bags2', 'abag1', 'abag2', 'abag3');
+					?>
+					<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
+					<?php foreach($img_src as $img): ?>
+						<div class="new col-6 col-l-4">
+							<div class="doutside ftr"	 ><img	src="images/compressed/$img.jpg"		alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1"><p class="pinside"></p></a></div>
+						</div>
+					<?php endforeach; ?>
+				<?php endif; ?>
 
 				<?php if($rimmel): ?>
 				<h2 class="clrb">*ریمل Hudamoji*</h2>
