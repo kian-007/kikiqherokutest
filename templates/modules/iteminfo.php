@@ -545,7 +545,10 @@ function get_content(){ ?>
                         </td>
                     </tr>
                 </table>
-
+                
+                <pre>
+                    <?php echo $_POST; ?>
+                </pre>
 
 				<div class="right2 col-l-2 col-12">
 				</div>
