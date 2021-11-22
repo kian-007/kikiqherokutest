@@ -28,9 +28,7 @@ var d = d.toDateString();
 alert(d + '\n خوش آمدید')
 slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To kikiqutest')*/
 
-				$('#buy').click(function(){
-					alert('fuck jquery')
-				})
+				
 
 				$('.ulmenue').children().addClass('prevli')
 				$('.secondulmenue').children('li').addClass('prevli2')
