@@ -500,8 +500,8 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form  action="<?php home_url('iteminfo.php?item-mirror=1'); ?>" method="post" style="background-color:green; color:white; float:right; clear:both; ">
-                        <input  name="buy" id="buy" type="button" value="خرید" />
+                    <form  action="<?php home_url('iteminfo.php?item-mirror=1'); ?>" method="post" style="background-color:green; color:white; float:right; clear:both; margin-right: 50px; ">
+                        <input  name="buy" id="buy" type="button" value="خرید" style="background-color:green; color:white; float:right;" />
                     <form>
                 </div>
                 <?php endif; ?>
