@@ -501,7 +501,7 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     <form action="home_url('iteminfo.php?item-mirror=1')" method="post">
-                        <input style="float:right;" name="buy" id="buy" value="خرید" />
+                        <input style="float:right; margin-right: 50px;" name="buy" id="buy" type="button" value="خرید" />
                     <form>
                 </div>
                 <?php endif; ?>
