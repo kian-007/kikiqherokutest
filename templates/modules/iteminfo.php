@@ -714,7 +714,7 @@ function get_script(){ ?>
         $.noConflict()
 		jQuery(document).ready(function($){
             $('#buy').click(function(){
-                $('bill_table').css('display','visible');
+                $('bill_table').css('display','show');
             })
             
             
