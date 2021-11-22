@@ -32,8 +32,6 @@
 		if(file_exists($module_file)){
 			require_once ("templates/modules/$module.php");
 			check_for_authentication_requirement();
-		}else{
-			require_once ("templates/modules/home.php");
 		}
 
 	}

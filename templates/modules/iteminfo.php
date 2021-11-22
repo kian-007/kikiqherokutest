@@ -718,5 +718,8 @@ function get_script(){ ?>
             }
         })
     </script>
+    <script>
+        alert('fuck script')
+    </script>
 
 <?php }
