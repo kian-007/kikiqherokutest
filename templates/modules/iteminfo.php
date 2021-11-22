@@ -713,7 +713,7 @@ function get_script(){ ?>
     <script>
         $.noConflict()
 		jQuery(document).ready(function($){
-            $('bill_table').css('display','show');
+            $('bill_table').show(250)
             
         })
     </script>
