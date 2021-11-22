@@ -510,7 +510,7 @@ function get_content(){ ?>
                 <br/>
                 <br/>
                 <table id="bill_table">
-                    <tr>
+                    <tr style="background-color:brown">
                         <th>
                             <span>نام</span>
                         </th>
