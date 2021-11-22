@@ -547,9 +547,9 @@ function get_content(){ ?>
                     </table>
                 </form>
                 
-                <pre style="float:right; clear:both;">
-                    <?php print_r($_POST); ?>
-                </pre>
+                <!-- <pre style="float:right; clear:both;">
+                    <?php //print_r($_POST); ?>
+                </pre> -->
 
 				<div class="right2 col-l-2 col-12">
 				</div>
@@ -713,7 +713,8 @@ function get_script(){ ?>
         $.noConflict()
 		jQuery(document).ready(function($){
             if($('buy').click){
-                $('bill_table').css('display','visible');
+                alert('fuck')
+                $('bill_table').css('display','show');
             }
         })
     </script>
