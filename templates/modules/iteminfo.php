@@ -712,15 +712,17 @@ function get_script(){ ?>
     <script src="jquery-3.5.1.min.js">
         $.noConflict()
 		jQuery(document).ready(function($){
-            if($('#buy').click){
+            $('#buy').click(function(){
                 alert('fuck jquery')
+            })
+                
                 // $('bill_table').css('display','show');
-            }
+            
         })
     </script>
 
     <script>
-        if(document.getElementById('buy').click()){
+        if(document.getElementById('buy').click){
             alert('fuck java')
         }
     </script>
