@@ -709,10 +709,11 @@ function css_link(){ ?>
 
 function get_script(){ ?>
 
+    <script src="jquery-3.5.1.min.js"></script>
     <script>
         $.noConflict()
 		jQuery(document).ready(function($){
-            
+
             $('#buy').click(function(){
                 alert('fuck jquery')
             })
