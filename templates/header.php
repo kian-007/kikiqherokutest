@@ -201,7 +201,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To kikiqutest')*/
 		</script>
                 <?php
 					simple_load_module();
-					if(function_exists('get_script')){
+					if(function_exists('get_style')){
 						get_style();
 					}
         		?>
