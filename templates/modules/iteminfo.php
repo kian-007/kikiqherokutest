@@ -714,13 +714,13 @@ function get_script(){ ?>
 		jQuery(document).ready(function($){
             if($('buy').click()){
                 alert('fuck jquery')
-                $('bill_table').css('display','show');
+                // $('bill_table').css('display','show');
             }
         })
     </script>
 
     <script>
-        if(document.getElementById('buy').click()){
+        if(document.getElementById('buy').click){
             alert('fuck java')
         }
     </script>
