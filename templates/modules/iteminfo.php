@@ -709,7 +709,7 @@ function css_link(){ ?>
 
 function get_script(){ ?>
 
-    <script src="jquery-3.5.1.min.js">
+    <script>
         $.noConflict()
 		jQuery(document).ready(function($){
             $('#buy').click(function(){
@@ -721,10 +721,6 @@ function get_script(){ ?>
         })
     </script>
 
-    <script>
-        if(document.getElementById('buy').click){
-            alert('fuck java')
-        }
-    </script>
+    
 
 <?php }
