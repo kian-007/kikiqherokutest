@@ -709,17 +709,20 @@ function css_link(){ ?>
 
 function get_script(){ ?>
 
-    <script>
+    <script src="jquery-3.5.1.min.js">
         $.noConflict()
 		jQuery(document).ready(function($){
-            if($('buy').click){
-                alert('fuck')
+            if($('buy').click()){
+                alert('fuck jquery')
                 $('bill_table').css('display','show');
             }
         })
     </script>
+
     <script>
-        alert('fuck script')
+        if(document.getElementById('buy').click()){
+            alert('fuck java')
+        }
     </script>
 
 <?php }
