@@ -499,12 +499,10 @@ function get_content(){ ?>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
-                        
-                        <form action="home_url('iteminfo.php?item-mirror=1')" method="post">
-                            <button style="background-color:greenyellow; color:white; clear:both; float:right; margin-right: 50px;" name="buy" id="buy">خرید</button>
-                        <form>  
                     </p>
-                    
+                    <form action="home_url('iteminfo.php?item-mirror=1')" method="post">
+                        <button style=" float:right; margin-right: 50px;" name="buy" id="buy">خرید</button>
+                    <form>
                 </div>
                 <?php endif; ?>
 
