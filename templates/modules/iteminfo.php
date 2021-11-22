@@ -500,7 +500,7 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form  action="<?php echo home_url('iteminfo'); ?>?item-mirror=1" method="post" style=" float:right; clear:both; margin-right: 50px; ">
+                    <form  action="https://kikiq.herokuapp.com/iteminfo?item-mirror=1" method="post" style=" float:right; clear:both; margin-right: 50px; ">
                         <input  name="buy" id="buy" type="button" value="خرید" style="background-color:greenyellow; color:blue; float:right;" />
                     <form>
                 </div>
