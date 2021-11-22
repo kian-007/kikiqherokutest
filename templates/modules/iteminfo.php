@@ -510,7 +510,7 @@ function get_content(){ ?>
                 <br/>
                 <br/>
                 <table id="bill_table">
-                    <tr style="background-color:brown">
+                    <tr style="background-color:brown; color:white;">
                         <th>
                             <span>نام</span>
                         </th>
@@ -526,7 +526,7 @@ function get_content(){ ?>
                         <th>
 
                         </th>
-                    </tr>
+                    </tr style="background-color:gray">
                     <tr>
                         <td>
                             <span><?php echo $item_title; ?></span>
