@@ -501,13 +501,13 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    
+                    <br/>
                 </div>
                 <?php endif; ?>
 
                 <br/>
                 <br/>
-                <form action="#" method="post" style="clear: both; float: right; margin-right: 50px;">
+                <form action="#" method="post" style="clear: both; float: right;">
                     <table id="bill_table">
                         <tr style="background-color:brown; color:white;">
                             <th>
@@ -547,7 +547,7 @@ function get_content(){ ?>
                 </form>
                 
                 <pre style="float:right; clear:both;">
-                    <?php echo $_POST; ?>
+                    <?php print_r($_POST); ?>
                 </pre>
 
 				<div class="right2 col-l-2 col-12">
