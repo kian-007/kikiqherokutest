@@ -713,12 +713,7 @@ function get_script(){ ?>
     <script>
         $.noConflict()
 		jQuery(document).ready(function($){
-
-            $('#buy').click(function(){
-                alert('fuck jquery')
-            })
-                
-                // $('bill_table').css('display','show');
+            $('bill_table').css('display','visible');
             
         })
     </script>
