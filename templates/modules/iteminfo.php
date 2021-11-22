@@ -501,7 +501,7 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     <form action="home_url('iteminfo.php?item-mirror=1')" method="post">
-                        <button style="background-color:greenyellow; color:white; clear:both; float:right;" name="buy" id="buy">خرید</button>
+                        <button style="background-color:greenyellow; color:white; clear:both; float:right; margin-right: 50px;" name="buy" id="buy">خرید</button>
                     <form>
                 </div>
                 <?php endif; ?>
@@ -562,6 +562,10 @@ function get_style(){ ?>
                 margin-right: 50px;
                 text-align: right;
                 direction: rtl;
+                border: 1px solid black;
+            }
+
+            #bill_table th,td{
                 border: 1px solid black;
             }
 
