@@ -526,8 +526,8 @@ function get_content(){ ?>
                         <th>
 
                         </th>
-                    </tr style="background-color:gray">
-                    <tr>
+                    </tr>
+                    <tr style="background-color:gray">
                         <td>
                             <span><?php echo $item_title; ?></span>
                         </td>
