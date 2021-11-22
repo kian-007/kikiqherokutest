@@ -546,7 +546,7 @@ function get_content(){ ?>
                     </tr>
                 </table>
                 
-                <pre>
+                <pre style="float:right; clear:both;">
                     <?php echo $_POST; ?>
                 </pre>
 
