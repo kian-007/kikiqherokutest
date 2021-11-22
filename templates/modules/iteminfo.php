@@ -532,7 +532,7 @@ function get_content(){ ?>
                                 <span><?php echo $item_title; ?></span>
                             </td>
                             <td>
-                                <input type="number" id="number" name="number" min="1" max="5" value="<?php echo $_POST['number']; ?>"/>
+                                <input onclick="play_java()" type="number" id="number" name="number" min="1" max="5" value="<?php echo $_POST['number']; ?>"/>
                             </td>
                             <td>
                                 <span><?php echo $item_price; ?></span>
@@ -712,6 +712,7 @@ function get_script(){ ?>
     <script>
         $.noConflict()
 		jQuery(document).ready(function($){
+            
             $('#buy').click(function(){
                 alert('fuck jquery')
             })
