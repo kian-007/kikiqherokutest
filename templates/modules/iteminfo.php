@@ -501,14 +501,14 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     <form action="home_url('iteminfo.php?item-mirror=1')" method="post">
-                        <button style="background-color:greenyellow; color:white;" name="buy" id="buy">خرید</button>
+                        <button style="background-color:greenyellow; color:white; clear:both; float:right;" name="buy" id="buy">خرید</button>
                     <form>
                 </div>
                 <?php endif; ?>
 
                 <br/>
                 <br/>
-                <table>
+                <table id="bill_table">
                     <tr>
                         <th>
                             <span>نام</span>
@@ -555,6 +555,16 @@ function get_content(){ ?>
 
 function get_style(){ ?>
         <style>
+
+            #bill_table{
+                clear: both;
+                float: right;
+                margin-right: 50px;
+                text-align: right;
+                direction: rtl;
+                border: 1px solid black;
+            }
+
             #showitem{
                 width: 300px;
 				height: auto;
@@ -587,9 +597,9 @@ function get_style(){ ?>
                 border-bottom: solid gray 1px;
                 clear: both;
                 float: right;
+                margin-right: 50px;
                 text-align: right;
                 direction: rtl;
-                margin-right: 50px;
             }
             .showitem-details span{
 				font-size: 14pt;
