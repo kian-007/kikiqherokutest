@@ -520,8 +520,11 @@ function get_content(){ ?>
                         <th>
                             <span>قیمت</span>
                         </th>
+                        <th> 
+
+                        </th>
                         <th>
-                            
+
                         </th>
                     </tr>
                     <tr>
@@ -529,10 +532,13 @@ function get_content(){ ?>
                             <span><?php echo $item_title; ?></span>
                         </td>
                         <td>
-                            <span>test</span>
+                            <span><input type="range"/></span>
                         </td>
                         <td>
-                            <span>test</span>
+                            <span><?php echo $item_price; ?></span>
+                        </td>
+                        <td>
+                            <span><?php echo $off; ?></span>
                         </td>
                         <td>
                             <button>تکمیل خرید</button>
