@@ -500,12 +500,54 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <form action="home_url('iteminfo.php?item-mirror=1')" method="post">
+                        <button style="background-color:greenyellow; color:white;" name="buy" id="buy">خرید</button>
+                    <form?
                 </div>
                 <?php endif; ?>
+
+                <br/>
+                <br/>
+                <table>
+                    <th>
+                        <span>نام</span>
+                    </th>
+                    <th>
+                        <span>تعداد</span>
+                    </th>
+                    <th>
+                        <span>قیمت</span>
+                    </th>
+                    <th>
+                        
+                    </th>
+                    <td>
+                        <span>test</span>
+                    </td>
+                    <td>
+                        <span>test</span>
+                    </td>
+                    <td>
+                        <span>test</span>
+                    </td>
+                    <td>
+                        <button>تکمیل خرید</button>
+                    </td>
+                </table>
+
 
 				<div class="right2 col-l-2 col-12">
 				</div>
 <?php }
+
+
+process_inputs(){
+    if(!isset($_POST['buy'])){
+        die("B Error!");
+    }
+
+}
+
 
 function get_style(){ ?>
         <style>
