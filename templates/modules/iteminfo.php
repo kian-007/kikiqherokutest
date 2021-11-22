@@ -532,7 +532,7 @@ function get_content(){ ?>
                             <span><?php echo $item_title; ?></span>
                         </td>
                         <td>
-                            <span><input type="number" id="number" name="number"/></span>
+                            <input type="number" id="number" name="number" min="1" max="5"/>
                         </td>
                         <td>
                             <span><?php echo $item_price; ?></span>
