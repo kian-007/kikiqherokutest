@@ -502,37 +502,41 @@ function get_content(){ ?>
                     </p>
                     <form action="home_url('iteminfo.php?item-mirror=1')" method="post">
                         <button style="background-color:greenyellow; color:white;" name="buy" id="buy">خرید</button>
-                    <form?
+                    <form>
                 </div>
                 <?php endif; ?>
 
                 <br/>
                 <br/>
                 <table>
-                    <th>
-                        <span>نام</span>
-                    </th>
-                    <th>
-                        <span>تعداد</span>
-                    </th>
-                    <th>
-                        <span>قیمت</span>
-                    </th>
-                    <th>
-                        
-                    </th>
-                    <td>
-                        <span>test</span>
-                    </td>
-                    <td>
-                        <span>test</span>
-                    </td>
-                    <td>
-                        <span>test</span>
-                    </td>
-                    <td>
-                        <button>تکمیل خرید</button>
-                    </td>
+                    <tr>
+                        <th>
+                            <span>نام</span>
+                        </th>
+                        <th>
+                            <span>تعداد</span>
+                        </th>
+                        <th>
+                            <span>قیمت</span>
+                        </th>
+                        <th>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>test</span>
+                        </td>
+                        <td>
+                            <span>test</span>
+                        </td>
+                        <td>
+                            <span>test</span>
+                        </td>
+                        <td>
+                            <button>تکمیل خرید</button>
+                        </td>
+                    </tr>
                 </table>
 
 
