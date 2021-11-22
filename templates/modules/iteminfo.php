@@ -499,10 +499,10 @@ function get_content(){ ?>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
-                        <form  action="https://kikiq.herokuapp.com/iteminfo?item-mirror=0" method="post" style=" float:right; clear:both; margin-right: 50px; ">
-                            <button  name="buy" id="buy" type="submit"  style="float:right;">اضافه کردن</button>
-                        <form>
                     </p>
+                    <form  action="https://kikiq.herokuapp.com/iteminfo?item-mirror=0" method="post" style=" float:right; clear:both; margin-right: 50px; ">
+                        <button  name="buy" id="buy" type="submit"  style="float:right;">اضافه کردن</button>
+                    <form>
                     
                 </div>
                 <?php endif; ?>
