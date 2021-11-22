@@ -577,6 +577,7 @@ function get_style(){ ?>
 
             #bill_table th,td{
                 border: 1px solid black;
+                min-width: 70px;
             }
 
             #showitem{
