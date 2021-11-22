@@ -521,7 +521,7 @@ function get_content(){ ?>
                             <span>قیمت</span>
                         </th>
                         <th> 
-
+                            <span>کد تخفیف</span>
                         </th>
                         <th>
 
@@ -532,7 +532,7 @@ function get_content(){ ?>
                             <span><?php echo $item_title; ?></span>
                         </td>
                         <td>
-                            <span><input type="range"/></span>
+                            <span><input type="number" id="number" name="number"/></span>
                         </td>
                         <td>
                             <span><?php echo $item_price; ?></span>
