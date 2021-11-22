@@ -6,18 +6,17 @@
 		<meta name="author"  content="kikicutest" />
 		<meta name="viewport"  content="width=device-width, initial-scale=1.0" />
 
-            <?php   include_once ('lib/functions.php');
-					$module = get_module_name();
-					$module_file = "templates/modules/$module.php";
-					if(file_exists($module_file)){
-						include_once ("templates/modules/$module.php");
-					}else{
-						include_once ('templates/modules/home.php');
-					}
-                  ?>
-            <title><?php echo get_title(); ?></title>
+            <?php
+				simple_load_module();
+			if(function_exists('get_title')): ?>
+            	<title><?php echo get_title(); ?></title>
+			<?php endif; ?>
 
-			<?php css_link(); ?>
+			<?php
+				if(function_exists('css_link')){
+					css_link();
+				}
+			?>
 		<script src="jquery-3.5.1.min.js"></script>
 		<script src="chk.js"></script>
 		<script>
@@ -200,15 +199,12 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To kikiqutest')*/
 
 			})
 		</script>
-                <?php   include_once ('lib/functions.php');
-						$module = get_module_name();
-						$module_file = "templates/modules/$module.php";
-						if(file_exists($module_file)){
-							include_once ("templates/modules/$module.php");
-						}else{
-							include_once ('templates/modules/home.php');
-						}
-                       get_style(); ?>
+                <?php
+					simple_load_module();
+					if(function_exists('get_script')){
+						get_style();
+					}
+        		?>
 	</head>
 	<body onload="showSlides()">
 	<a name="start"></a>
