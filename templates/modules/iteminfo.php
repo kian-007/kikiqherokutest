@@ -526,7 +526,7 @@ function get_content(){ ?>
                     </tr>
                     <tr>
                         <td>
-                            <span>test</span>
+                            <span><?php echo $item_title; ?></span>
                         </td>
                         <td>
                             <span>test</span>
