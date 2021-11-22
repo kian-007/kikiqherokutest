@@ -541,12 +541,12 @@ function get_content(){ ?>
 <?php }
 
 
-process_inputs(){
-    if(!isset($_POST['buy'])){
-        die("B Error!");
-    }
+// process_inputs(){
+//     if(!isset($_POST['buy'])){
+//         die("B Error!");
+//     }
 
-}
+// }
 
 
 function get_style(){ ?>
