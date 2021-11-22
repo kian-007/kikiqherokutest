@@ -500,51 +500,51 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form  action="https://kikiq.herokuapp.com/iteminfo?item-mirror=0" method="post" style=" float:right; clear:both; margin-right: 50px; ">
-                        <button  name="buy" id="buy" type="submit"  style="float:right;">اضافه کردن</button>
-                    <form>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
                     
                 </div>
                 <?php endif; ?>
 
                 <br/>
                 <br/>
-                <table id="bill_table">
-                    <tr style="background-color:brown; color:white;">
-                        <th>
-                            <span>نام</span>
-                        </th>
-                        <th>
-                            <span>تعداد</span>
-                        </th>
-                        <th>
-                            <span>قیمت</span>
-                        </th>
-                        <th> 
-                            <span>کد تخفیف</span>
-                        </th>
-                        <th>
+                <form action="#" method="post" style="clear: both; float: right; margin-right: 50px;">
+                    <table id="bill_table">
+                        <tr style="background-color:brown; color:white;">
+                            <th>
+                                <span>نام</span>
+                            </th>
+                            <th>
+                                <span>تعداد</span>
+                            </th>
+                            <th>
+                                <span>قیمت</span>
+                            </th>
+                            <th> 
+                                <span>کد تخفیف</span>
+                            </th>
+                            <th>
 
-                        </th>
-                    </tr>
-                    <tr style="background-color:gray">
-                        <td>
-                            <span><?php echo $item_title; ?></span>
-                        </td>
-                        <td>
-                            <input type="number" id="number" name="number" min="1" max="5"/>
-                        </td>
-                        <td>
-                            <span><?php echo $item_price; ?></span>
-                        </td>
-                        <td>
-                            <span><?php echo $off; ?></span>
-                        </td>
-                        <td>
-                            <button>تکمیل خرید</button>
-                        </td>
-                    </tr>
-                </table>
+                            </th>
+                        </tr>
+                        <tr style="background-color:gray">
+                            <td>
+                                <span><?php echo $item_title; ?></span>
+                            </td>
+                            <td>
+                                <input type="number" id="number" name="number" min="1" max="5"/>
+                            </td>
+                            <td>
+                                <span><?php echo $item_price; ?></span>
+                            </td>
+                            <td>
+                                <span><?php echo $off; ?></span>
+                            </td>
+                            <td>
+                                <button>تکمیل خرید</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
                 
                 <pre style="float:right; clear:both;">
                     <?php echo $_POST; ?>
