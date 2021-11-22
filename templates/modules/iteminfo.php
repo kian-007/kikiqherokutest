@@ -531,7 +531,7 @@ function get_content(){ ?>
                                 <span><?php echo $item_title; ?></span>
                             </td>
                             <td>
-                                <input type="number" id="number" name="number" min="1" max="5"/>
+                                <input type="number" id="number" name="number" min="1" max="5" value="<?php echo $_POST['number']; ?>"/>
                             </td>
                             <td>
                                 <span><?php echo $item_price; ?></span>
