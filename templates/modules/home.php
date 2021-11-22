@@ -193,7 +193,7 @@ function get_style(){ ?>
 		</style>
 <?php }
 
-function get_java_script(){ ?>
+function get_script(){ ?>
 		<script type="text/javascript">
 			// var Index = 0;                    auto slide show
 			// showSlides();

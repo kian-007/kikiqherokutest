@@ -502,6 +502,7 @@ function get_content(){ ?>
                     </p>
                     <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
                     <br/>
+                    </br>
                 </div>
                 <?php endif; ?>
 
@@ -509,7 +510,7 @@ function get_content(){ ?>
                 <br/>
                 <form action="#" method="post" style="clear: both; float: right;">
                     <table id="bill_table">
-                        <tr style="background-color:brown; color:white;">
+                        <tr style="background-color:orange; color:white;">
                             <th>
                                 <span>نام</span>
                             </th>
@@ -573,6 +574,7 @@ function get_style(){ ?>
                 text-align: right;
                 direction: rtl;
                 border: 1px solid black;
+                display: none;
             }
 
             #bill_table th,td{
@@ -702,5 +704,18 @@ function css_link(){ ?>
 
 	<link type="text/css"	rel="stylesheet"	href="index.css" />
 	<link type="text/css"	rel="stylesheet"	href="index3.css" />
+
+<?php }
+
+function get_script(){ ?>
+
+    <script>
+        $.noConflict()
+		jQuery(document).ready(function($){
+            if($('buy').click){
+                $('bill_table').css('display','visible');
+            }
+        })
+    </script>
 
 <?php }

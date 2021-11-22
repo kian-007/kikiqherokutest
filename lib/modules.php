@@ -26,6 +26,17 @@
 		render_page();
 	}
 
+	function simple_load_module(){
+		$module = get_module_name();
+		$module_file = "templates/modules/$module.php";
+		if(file_exists($module_file)){
+			require_once ("templates/modules/$module.php");
+			check_for_authentication_requirement();
+		}else{
+			require_once ("templates/modules/home.php");
+		}
+
+	}
 
 	function check_for_authentication_requirement(){
 		if(is_authentication_required() && !is_user_logged_in()){
