@@ -180,7 +180,7 @@ $rimmel = get_value('rimmel', 0);
 					</a>
 					<?php foreach ($img_src as $img): ?>
 						<div class="new col-6 col-l-4">
-							<div class="doutside ftr"><img  src="<php echo "images/beautyandhealth/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushbh=1"><p class="pinside"></p></a></div>
+							<div class="doutside ftr"><img  src="<?php echo "images/beautyandhealth/$img.jpg"; ?>"	alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-brushbh=1"><p class="pinside"></p></a></div>
 						</div>
 					<?php endforeach; ?>
 				<?php endif; ?>
