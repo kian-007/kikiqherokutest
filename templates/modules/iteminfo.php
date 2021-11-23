@@ -288,6 +288,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
