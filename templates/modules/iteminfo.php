@@ -582,7 +582,7 @@ function get_content(){ ?>
                                 <span><?php echo $item_title; ?></span>
                             </td>
                             <td>
-                                <input onclick="play_java()" type="number" id="number" name="number" min="1" max="5" value="<?php echo $_POST['number']; ?>"/>
+                                <input type="number" id="number" name="number" min="1" max="5" value="<?php echo $_POST['number']; ?>"/>
                             </td>
                             <td>
                                 <span><?php echo $item_price; ?></span>
@@ -766,7 +766,7 @@ function get_script(){ ?>
 		jQuery(document).ready(function($){
             $('#add').click(function(){
                 $('#bill_table').show(250)
-                $('#number').value() = $('#number').value() + 1
+                <?php $_POST['number'] += 1; ?>
             })
             
             
