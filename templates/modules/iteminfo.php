@@ -280,9 +280,7 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
-                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
                     <br/>
                     
                 </div>
@@ -307,9 +305,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -334,9 +332,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -361,9 +359,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -388,9 +386,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -415,9 +413,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -442,9 +440,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -469,9 +467,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -496,9 +494,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -523,9 +521,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
@@ -550,9 +548,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
-                    <form action="#" method="post">
+                    
                         <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
-                    </form>
+                    
                     <br/>
                     
                 </div>
