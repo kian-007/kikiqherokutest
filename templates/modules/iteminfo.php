@@ -280,6 +280,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -302,6 +305,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -324,6 +330,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -346,6 +355,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -368,6 +380,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -390,6 +405,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -412,6 +430,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -434,6 +455,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -456,6 +480,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -478,6 +505,9 @@ function get_content(){ ?>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
+                    <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                    <br/>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -502,7 +532,7 @@ function get_content(){ ?>
                     </p>
                     <button  name="buy" id="buy" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
                     <br/>
-                    </br>
+                    
                 </div>
                 <?php endif; ?>
 
@@ -570,6 +600,7 @@ function get_style(){ ?>
             #bill_table{
                 clear: both;
                 float: right;
+                margin-top: 25px;
                 margin-right: 50px;
                 text-align: right;
                 direction: rtl;
