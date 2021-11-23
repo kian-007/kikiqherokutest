@@ -71,9 +71,14 @@ function css_link(){ ?>
 
 function get_script(){ ?>
 
-		var elmnt = document.getElementById("scroll");
-        function scrollToBottom() {
-            elmnt.scrollIntoView(false); // Bottom
-        }
+	<script>
+		// var elmnt = document.getElementById("scroll");
+        // function scrollToBottom() {
+        //     elmnt.scrollIntoView(false); // Bottom
+        // }
+		function scroll(){
+			window.scrollBy(0,200)
+		}
+	</script>
 
 <?php }

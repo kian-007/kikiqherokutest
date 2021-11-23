@@ -206,7 +206,7 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To kikiqutest')*/
 					}
         		?>
 	</head>
-	<body onload="showSlides()">
+	<body onload="showSlides(); scroll()">
 	<a name="start"></a>
 		<div class="container col-l-12 col-12"> 
 			<div class="header col-l-12 col-12"> 
