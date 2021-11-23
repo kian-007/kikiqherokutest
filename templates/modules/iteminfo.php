@@ -805,6 +805,8 @@ function get_script(){ ?>
                 $('#number').val(num)
 
                 var price = $('#price').text()
+                price = price.replace(" تومان", "")
+                price = price.replace(",", "")
                 // price = (price*1)
                 alert(price)
             })
