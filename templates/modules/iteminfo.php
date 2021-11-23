@@ -770,9 +770,8 @@ function get_script(){ ?>
 
                 if($('#bill_table').css('display', 'visible')){
                     var elmnt = document.getElementById("bill_table");
-                    if(elmnt.scrollIntoView(false)){
-                        window.scrollBy(0,150);
-                    }
+                    elmnt.scrollIntoView(false); // Bottom
+                    alert(elmnt.scrollHeight)
                 }
 
                 // $('#bill_table').focus()
