@@ -805,7 +805,7 @@ function get_script(){ ?>
                 $('#number').val(num)
 
                 var price = $('#price').val()
-                price = (price*1)
+                // price = (price*1)
                 alert(price)
             })
 
