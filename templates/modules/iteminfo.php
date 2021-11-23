@@ -772,7 +772,7 @@ function get_script(){ ?>
                 $('#number').val(num)
             })
 
-            if($('#bill_table').css('display') !== 'none'){
+            if($('#bill_table').css('display') === 'none'){
                 // var elmnt = document.getElementById("bill_table");
                 // elmnt.scrollIntoView(false); // Bottom
                 window.scrollBy(0,150);
