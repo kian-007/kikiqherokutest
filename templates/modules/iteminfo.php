@@ -770,7 +770,6 @@ function get_script(){ ?>
                 var num = $('#number').val()
                 num = (1*num) + 1
                 $('#number').val(num)
-                alert(num)
             })
             
         })
