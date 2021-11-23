@@ -767,13 +767,13 @@ function get_script(){ ?>
             $('#add').click(function(){
                 $('#bill_table').show(250)
                 var num = $('#add').value()
-                alert(num)
+                $('#showitem-details').append(num)
             })
             
         })
     </script>
     <script>
-        window.scrollBy(0,450);
+        window.scrollBy(0,350);
     </script>
 
     
