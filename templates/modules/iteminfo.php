@@ -766,8 +766,8 @@ function get_script(){ ?>
 		jQuery(document).ready(function($){
             $('#add').click(function(){
                 $('#bill_table').show(250).focus()
-                var num = $('#add').val()
-                $('#showitem-details').append(num)
+                var num = $('#number').val()
+                alert(num)
             })
             
         })
