@@ -72,13 +72,7 @@ function css_link(){ ?>
 function get_script(){ ?>
 
 	<script>
-		// var elmnt = document.getElementById("scroll");
-        // function scrollToBottom() {
-        //     elmnt.scrollIntoView(false); // Bottom
-        // }
-		function scroll(){
-			window.scrollBy(0,200)
-		}
+		window.scrollBy(0,450)
 	</script>
 
 <?php }

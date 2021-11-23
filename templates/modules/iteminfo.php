@@ -766,13 +766,14 @@ function get_script(){ ?>
 		jQuery(document).ready(function($){
             $('#add').click(function(){
                 $('#bill_table').show(250)
-                alert('fuck')
+                var num = $('#add').value()
+                alert(num)
             })
             
         })
     </script>
     <script>
-        window.scrollBy(0,100);
+        window.scrollBy(0,450);
     </script>
 
     
