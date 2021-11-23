@@ -766,7 +766,10 @@ function get_script(){ ?>
 		jQuery(document).ready(function($){
             $('#add').click(function(){
                 $('#bill_table').show(250)
-                <?php $_POST['number'] += 1; ?>
+                var num = $('#add').value()
+                num += 1
+                $('#add').value(num)
+                alert(num)
             })
             
             
