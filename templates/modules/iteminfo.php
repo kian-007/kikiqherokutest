@@ -767,9 +767,10 @@ function get_script(){ ?>
             $('#add').click(function(){
                 $('#bill_table').show(250)
                 var num = $('#add').value()
-                num += 1
+                num = num + 1
                 $('#add').value(num)
                 alert(num)
+                alert('fuck')
             })
             
             
