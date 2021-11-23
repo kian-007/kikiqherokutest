@@ -768,7 +768,8 @@ function get_script(){ ?>
                 $('#bill_table').show(250)
                 // $('#bill_table').focus()
                 var num = $('#number').val()
-                num = num + 1
+                num = (1*num) + 1
+                $('#number').val(num)
                 alert(num)
             })
             
