@@ -771,10 +771,11 @@ function get_script(){ ?>
                 if($('#bill_table').css('display', 'visible')){
                     var elmnt = document.getElementById("bill_table");
                     elmnt.scrollIntoView(false); // Bottom
+                    if(window.scrollY===79){
+                        window.scrollBy(0,70)
+                    }
                 }
-                if(window.scrollY==79){
-                    window.scrollBy(0,50)
-                }
+
 
                 // $('#bill_table').focus()
                 var num = $('#number').val()
