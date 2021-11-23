@@ -771,7 +771,9 @@ function get_script(){ ?>
                 if($('#bill_table').css('display', 'visible')){
                     var elmnt = document.getElementById("bill_table");
                     elmnt.scrollIntoView(false); // Bottom
-                    alert(elmnt.scrollHeight)
+                }
+                if(window.scrollY==79){
+                    window.scrollBy(0,50)
                 }
 
                 // $('#bill_table').focus()
@@ -779,7 +781,7 @@ function get_script(){ ?>
                 num = (1*num) + 1
                 $('#number').val(num)
             })
-            
+
         })
     </script>
     <script>
