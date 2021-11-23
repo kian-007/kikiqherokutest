@@ -18,7 +18,7 @@ function get_content(){ ?>
 					$img_src = array('mir14', 'mir1', 'mir2', 'mir4', 'mir5', 'mir6', 'mir7', 'mir8', 'mir9', 'mir10', 'mir11', 'mir12', 'mir13');
 				?>
 
-				<h2>* <?php echo $name; ?> *</h2>
+				<h2 class="scroll">* <?php echo $name; ?> *</h2>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img loading="lazy"	src="images/fantasy/mir14.jpg"	/><p id='p1'><p class="pinside"></p></div>
@@ -66,5 +66,14 @@ function css_link(){ ?>
 
 	<link type="text/css"	rel="stylesheet"	href="index.css" />
 	<link type="text/css"	rel="stylesheet"	href="index3.css" />
+
+<?php }
+
+function get_script(){ ?>
+
+		var elmnt = document.getElementsByClassName("scroll");
+        function scrollToBottom() {
+            elmnt.scrollIntoView(false); // Bottom
+        }
 
 <?php }
