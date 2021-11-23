@@ -768,10 +768,11 @@ function get_script(){ ?>
                 $('#bill_table').show(250)
 
                 if($('#bill_table').css('display', 'visible')){
-                    var elmnt = document.getElementById("bill_table");
-                    elmnt.scrollIntoView(false); // Bottom
+                    // var elmnt = document.getElementById("bill_table");
+                    // elmnt.scrollIntoView(false); // Bottom
+                    window.scrollBy(0,150);
                 }
-                
+
                 // $('#bill_table').focus()
                 var num = $('#number').val()
                 num = (1*num) + 1
