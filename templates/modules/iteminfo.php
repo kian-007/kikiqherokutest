@@ -608,14 +608,11 @@ function get_content(){ ?>
 <?php }
 
 
-process_inputs(){
-    if(!isset($_POST['add'])){
-        return;
-    }else{
-
-    }
+function process_inputs(){
+    // if(!isset($_POST['add'])){
+    //     return;
+    // }
     
-
 }
 
 
