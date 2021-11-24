@@ -40,16 +40,17 @@ $json_response = json_decode($response , true);
 $trackid = $json_response['trackId'];
 
 curl_close($curl);
+?>
 
 
+<span><?php echo $response; ?></span><br/>
+<span><?php echo $json_response; ?></span><br/>
+<span><?php echo $trackid; ?></span><br/>
 
-echo $response.'</br>';
-echo $json_response.'</br>';
-echo $trackid.'</br>';
 
 
 //$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
 //echo $urlstart;
-?>
+
 
 
