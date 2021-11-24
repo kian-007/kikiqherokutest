@@ -796,6 +796,8 @@ function get_script(){ ?>
             let num = $('#number').val()
             num = (1*num)
 
+            let final_price = 0
+
             $('#add').click(function(){
                 $('#bill_table').show(250)
 
@@ -807,21 +809,22 @@ function get_script(){ ?>
                     // }
                 }
 
-
                 num = num + 1
                 $('#number').val(num)
 
                 if(num > 1){
-                    var final_price = main_price * num
+                    final_price = main_price * num
                     final_price = final_price + " تومان"
                     $('#f_price').text(final_price)
                 }
             })
 
             $('#number').click(function() {
-                if(num > 1){
+                // num = num * 1
+                // $('#number').val(num)
 
-                    var final_price = main_price * num
+                if(num > 1){
+                    final_price = main_price * num
                     final_price = final_price + " تومان"
                     $('#f_price').text(final_price)
                 }
