@@ -41,7 +41,7 @@ curl_close($curl);
 
 //echo $data;
 
-$urlstart = "https://gateway.zibal.ir/start/{{.$trackid.}}";
+$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
 echo $urlstart;
 ?>
 
