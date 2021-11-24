@@ -800,7 +800,7 @@ function get_script(){ ?>
 
 
                 // $('#bill_table').focus()
-                var num = $('#number').val()
+                let num = $('#number').val()
                 num = (1*num) + 1
                 $('#number').val(num)
 
