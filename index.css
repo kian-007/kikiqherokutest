@@ -158,7 +158,8 @@
 			
 			.login li a {
 			    text-decoration: none;
-			    color: rgb(70, 48, 48);
+			    /*color: rgb(70, 48, 48);*/
+				border-bottom: 2px solid white;
 			    margin-top: 10px;
 			    font-family: Sahel, Shabnam;
 			    font-size: 11pt;
