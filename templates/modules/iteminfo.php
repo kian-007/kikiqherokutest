@@ -787,11 +787,6 @@ function get_script(){ ?>
         $.noConflict()
 		jQuery(document).ready(function($){
 
-            let main_price = $('#price').text()
-            main_price = main_price.replace(" تومان", "")
-            main_price = main_price.replace("قیمت: ", "")
-            main_price = main_price.replace(",", "")
-            main_price = (main_price*1)
 
             $('#add').click(function(){
                 $('#bill_table').show(250)
@@ -804,12 +799,18 @@ function get_script(){ ?>
                     // }
                 }
 
-                let num = $('#number').val()
+                var num = $('#number').val()
                 num = (1*num) + 1
                 $('#number').val(num)
 
+                var main_price = $('#price').text()
+                main_price = main_price.replace(" تومان", "")
+                main_price = main_price.replace("قیمت: ", "")
+                main_price = main_price.replace(",", "")
+                main_price = (main_price*1)
+
                 if(num > 1){
-                    let final_price = main_price * num
+                    var final_price = main_price * num
                     final_price = final_price.replace("/\d\d\d(.)/", ",")
                     final_price = final_price + " تومان"
                     $('#f_price').text(final_price)
@@ -817,12 +818,7 @@ function get_script(){ ?>
             })
 
             $('#number').click(function() {
-                if(num > 1){
-                    let final_price = main_price * num
-                    final_price = final_price.replace("/\d\d\d(.)/", ",")
-                    final_price = final_price + " تومان"
-                    $('#f_price').text(final_price)
-                }
+                alert()
             })
 
         })
