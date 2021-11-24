@@ -36,16 +36,18 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
 
 $response = curl_exec($curl);
-$response = json_decode($response , true);
+$json_response = json_decode($response , true);
 
 $trackid = $response['trackId'];
 curl_close($curl);
-
-echo $response.'<br>';
+echo '<pre>';
+echo $response;
+echo $json_response;
 echo $trackid;
+echo '</pre>';
 
 //$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
 //echo $urlstart;
 ?>
 
-<!--<button onclick='location.href="--><?php //echo $urlstart; ?>//"'>ادامه خرید</button>
+
