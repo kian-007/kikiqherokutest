@@ -14,7 +14,7 @@ function get_content(){ ?>
 
         <div class="dform">
             <form method="post">
-                <h2>ثبت نام</h2>
+                <h2 style="margin-left: auto">ثبت نام</h2>
                 <span>فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</span>
                 <div class="dinput">
                     * <label for="username">نام کاربری جدید خود را وارد کنید:</label>
@@ -133,9 +133,7 @@ function get_style(){ ?>
             text-align: center;
             direction: rtl;
         }
-        label{
-            text-align: right;
-        }
+        
         button {
             margin-left: 35px;
             width: 200px;
