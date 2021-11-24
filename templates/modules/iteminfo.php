@@ -809,9 +809,11 @@ function get_script(){ ?>
                 main_price = main_price.replace(",", "")
                 main_price = (main_price*1)
 
-                var final_price = main_price * num
-                final_price = final_price + " تومان"
-                $('#f_price').text(final_price)
+                if(num > 1){
+                    var final_price = main_price * num
+                    final_price = final_price + " تومان"
+                    $('#f_price').text(final_price)
+                }
             })
 
         })
