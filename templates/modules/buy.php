@@ -29,11 +29,12 @@ $urlstart = "https://gateway.zibal.ir/start/".$trackid;
 echo $urlstart;
 
 //-------------------- verify
-if(isset($_GET['success'])){
+if(isset($_GET['trackId'])){
+    $trackid_vfy = $_GET['trackId'];
     $urlverify = "https://gateway.zibal.ir/v1/verify";
     $data_vfy = array(
         "merchant" => "zibal",
-        "trackId" => $trackid
+        "trackId" => $trackid_vfy
     );
     $j_data_vfy = json_encode($data_vfy);
     $curl = curl_init();
