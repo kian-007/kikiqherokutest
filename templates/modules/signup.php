@@ -133,7 +133,7 @@ function get_style(){ ?>
             text-align: center;
             direction: rtl;
         }
-        
+
         button {
             margin-left: 35px;
             width: 200px;

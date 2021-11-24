@@ -288,7 +288,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -314,7 +314,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -342,7 +342,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -370,7 +370,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -398,7 +398,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -426,7 +426,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -454,7 +454,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -482,7 +482,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -510,7 +510,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -538,7 +538,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
@@ -566,7 +566,7 @@ function get_content(){ ?>
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
                         <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
-                        <span><b>موجود در انبار:</b> <?php echo $max; ?> عدد</span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
