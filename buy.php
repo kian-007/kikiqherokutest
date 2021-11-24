@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://kikiq.herokuapp.com/testt.php";
+$url = "https://gateway.zibal.ir/v1/request";
 $data = array(
     "merchant" => "zibal",
     "amount" => 160000,
