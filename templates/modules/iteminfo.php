@@ -794,6 +794,7 @@ function get_script(){ ?>
             main_price = (main_price*1)
 
             let num = $('#number').val()
+            num = (1*num)
 
             $('#add').click(function(){
                 $('#bill_table').show(250)
@@ -807,7 +808,7 @@ function get_script(){ ?>
                 }
 
 
-                num = (1*num) + 1
+                num = num + 1
                 $('#number').val(num)
 
                 if(num > 1){
@@ -819,6 +820,7 @@ function get_script(){ ?>
 
             $('#number').click(function() {
                 if(num > 1){
+
                     var final_price = main_price * num
                     final_price = final_price + " تومان"
                     $('#f_price').text(final_price)
