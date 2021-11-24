@@ -42,16 +42,9 @@ $trackid = $json_response['trackId'];
 curl_close($curl);
 
 
-
-echo $response;
-echo '<br/>';
-var_dump($json_response);
-echo '<br/>';
-echo $trackid;
-
-
-//$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
-//echo $urlstart;
+$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
+echo $urlstart;
 ?>
+<button onclick='location.href="<?php echo $urlstart; ?>"'>ادامه خرید</button>
 
 
