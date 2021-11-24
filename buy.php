@@ -37,9 +37,11 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
 
 $response = curl_exec($curl);
 $json_response = json_decode($response , true);
+$trackid = $json_response['trackId'];
 
-$trackid = $response['trackId'];
 curl_close($curl);
+
+
 echo '<pre>';
 echo $response;
 echo $json_response;
