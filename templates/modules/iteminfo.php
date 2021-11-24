@@ -584,13 +584,13 @@ function get_content(){ ?>
                     <table id="bill_table">
                         <tr style="background-color:orange; color:white;">
                             <th>
-                                <span>نام</span>
+                                <span>نام محصول</span>
                             </th>
                             <th>
                                 <span>تعداد</span>
                             </th>
                             <th>
-                                <span>قیمت</span>
+                                <span>قیمت کل</span>
                             </th>
                             <th> 
                                 <span>کد تخفیف</span>
