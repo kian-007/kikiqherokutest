@@ -42,11 +42,11 @@ $trackid = $json_response['trackId'];
 curl_close($curl);
 
 
-echo '<pre>';
-echo $response.'<br>';
-echo $json_response.'<br>';
-echo $trackid.'<br>';
-echo '</pre>';
+
+echo $response.'<br/>';
+echo $json_response.'<br/>';
+echo $trackid.'<br/>';
+
 
 //$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
 //echo $urlstart;
