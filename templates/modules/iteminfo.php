@@ -808,7 +808,10 @@ function get_script(){ ?>
                 price = price.replace(" تومان", "")
                 price = price.replace(",", "")
                 price = (price*1)
-                alert(price)
+
+                price = price * num
+                price = price + " تومان"
+                $('#price').text(price)
             })
 
         })
