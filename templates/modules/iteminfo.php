@@ -807,11 +807,11 @@ function get_script(){ ?>
                 var price = $('#price').text()
                 price = price.replace(" تومان", "")
                 price = price.replace(",", "")
-                price = (price*1)
+                var main_price = (price*1)
 
-                price = price * num
-                price = price + " تومان"
-                $('#price').text(price)
+                var final_price = main_price * num
+                final_price = final_price + " تومان"
+                $('#price').text(final_price)
             })
 
         })
