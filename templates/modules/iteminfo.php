@@ -632,7 +632,12 @@ function process_inputs(){
     if(!isset($_POST['buy'])){
         return;
     }
-    redirect_to(home_url('login'));
+    if(is_user_logged_in()){
+        return;
+    }else{
+        redirect_to(home_url('login'));
+    }
+
 }
 
 
