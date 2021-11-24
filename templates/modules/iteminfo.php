@@ -819,6 +819,15 @@ function get_script(){ ?>
                 }
             })
 
+            $('#number').click(function (){
+                num = $('#number').val()
+                num = (1*num)
+
+                final_price = main_price * num
+                final_price = final_price + " تومان"
+                $('#f_price').text(final_price)
+            })
+
 
             //-------------------------------------------------------
             //--------------------------AJAX-------------------------
