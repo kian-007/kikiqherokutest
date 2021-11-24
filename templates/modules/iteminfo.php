@@ -132,7 +132,7 @@ function get_content(){ ?>
         $item_price = "$price تومان";
         $categury = 'آرایشی و بهداشتی';
         $img_src = 'images/beautyandhealth/cobrush2.jpg';
-        $max = 3;
+        $max = 0;
         $item_text = 'لطفا با لبخند ورق بزنيد 💜
         سلام دوستاي عزيزم 💜
         بالاخره پست براش هاي قشنگمون رو گذاشتم 💜
@@ -571,7 +571,7 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     
-                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; " <?php authentication_required() ? 'clicked' : ''; ?> >اضافه کردن</button>
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; " >اضافه کردن</button>
                     
                     <br/>
                     
@@ -613,7 +613,7 @@ function get_content(){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button>تکمیل خرید</button>
+                                <button name="buy" id="buy">تکمیل خرید</button>
                             </td>
                         </tr>
                     </table>
@@ -628,9 +628,12 @@ function get_content(){ ?>
 <?php }
 
 
-//function process_inputs(){
-//
-//}
+function process_inputs(){
+    if(!isset($_POST['buy'])){
+        die('خطا... !');
+    }
+    redirect_to(home_url('login'));
+}
 
 
 function get_style(){ ?>
