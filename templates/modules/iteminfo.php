@@ -629,9 +629,13 @@ function get_content(){ ?>
 
 
 function process_inputs(){
-    // if(!isset($_POST['add'])){
-    //     return;
-    // }
+     if(!isset($_POST['add'])){
+         return;
+     }else{
+         function authentication_required(){
+             return true;
+         }
+     }
     
 }
 
@@ -810,7 +814,7 @@ function get_script(){ ?>
                 }
                 num = num + 1
                 $('#number').val(num)
-                
+
                 if(num > 1){
                     final_price = main_price * num
                     final_price = final_price + " تومان"
