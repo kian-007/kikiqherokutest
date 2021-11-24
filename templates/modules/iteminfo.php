@@ -571,7 +571,7 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     
-                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; " <?php authentication_required() ? 'clicked' : ''; ?> >اضافه کردن</button>
                     
                     <br/>
                     
@@ -628,16 +628,9 @@ function get_content(){ ?>
 <?php }
 
 
-function process_inputs(){
-     if(!isset($_POST['add'])){
-         return;
-     }else{
-         function authentication_required(){
-             return true;
-         }
-     }
-    
-}
+//function process_inputs(){
+//
+//}
 
 
 function get_style(){ ?>

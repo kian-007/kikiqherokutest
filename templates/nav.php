@@ -5,6 +5,7 @@
 					<li><a href="<?php echo home_url('logout'); ?>">خروج</a></li>
 				<?php else: ?>
 					<li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
+                    <li><a href="<?php echo home_url('signup'); ?>">ثبت نام</a></li>
 				<?php endif; ?>
 					<li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
 					<?php if(is_user_logged_in()): ?>
