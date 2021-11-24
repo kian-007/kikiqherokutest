@@ -604,7 +604,7 @@ function get_content(){ ?>
                                 <span><?php echo $item_title; ?></span>
                             </td>
                             <td>
-                                <input type="number" id="number" name="number" min="1" max="<?php echo $max; ?>" value="<?php echo $_POST['number']; ?>"/>
+                                <input onkeyup="cal_price()" type="number" id="number" name="number" min="1" max="<?php echo $max; ?>" value="<?php echo $_POST['number']; ?>"/>
                             </td>
                             <td>
                                 <span id="f_price"><?php echo $item_price; ?></span>
