@@ -820,8 +820,8 @@ function get_script(){ ?>
             })
 
             $('#number').click(function() {
-                // num = num * 1
-                // $('#number').val(num)
+                num = num * 1
+                $('#number').val(num)
 
                 if(num > 1){
                     final_price = main_price * num
