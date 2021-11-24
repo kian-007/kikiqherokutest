@@ -856,7 +856,7 @@ function get_script(){ ?>
             // }
             // ---------------------------------------------------
 
-            $('#number').onkeyup(function(){
+            $('#number').keyup(function(){
 
                 var main_price = $('#price').text()
                 main_price = main_price.replace(" تومان", "")
