@@ -39,10 +39,10 @@ $response = curl_exec($curl);
 $trackid = $response['trackId'];
 curl_close($curl);
 
-echo $trackid;
+echo $response;
+//echo $trackid;
 
 //$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
-//echo $response;
 //echo $urlstart;
 ?>
 
