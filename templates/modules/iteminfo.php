@@ -801,22 +801,22 @@ function get_script(){ ?>
             $('#add').click(function(){
                 $('#bill_table').show(250)
 
-                if($('#bill_table').css('display', 'visible')){
-                    var elmnt = document.getElementById("bill_table");
-                    elmnt.scrollIntoView(false); // Bottom
-                    // if(window.scrollY == 79){
-                    //     window.scrollBy(0,70)
-                    // }
-                }
-
-                num = num + 1
-                $('#number').val(num)
-
-                if(num > 1){
-                    final_price = main_price * num
-                    final_price = final_price + " تومان"
-                    $('#f_price').text(final_price)
-                }
+                // if($('#bill_table').css('display', 'visible')){
+                //     var elmnt = document.getElementById("bill_table");
+                //     elmnt.scrollIntoView(false); // Bottom
+                //     // if(window.scrollY == 79){
+                //     //     window.scrollBy(0,70)
+                //     // }
+                // }
+                //
+                // num = num + 1
+                // $('#number').val(num)
+                //
+                // if(num > 1){
+                //     final_price = main_price * num
+                //     final_price = final_price + " تومان"
+                //     $('#f_price').text(final_price)
+                // }
             })
 
             $('#number').click(function() {
@@ -824,9 +824,9 @@ function get_script(){ ?>
             })
 
 
-            final_price = main_price * num
-            final_price = final_price + " تومان"
-            $('#f_price').text(final_price)
+            // final_price = main_price * num
+            // final_price = final_price + " تومان"
+            // $('#f_price').text(final_price)
 
             //-------------------------------------------------------
 
