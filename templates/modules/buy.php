@@ -38,9 +38,11 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
 $verify_response = curl_exec($curl);
 curl_close($curl);
-echo $verify_response;
+echo '<br/>';
+
 ?>
 
 <button onclick='location.href="<?php echo $urlstart; ?>"'>ادامه خرید</button>
 
 
+<p style="background-color: greenyellow; width: auto; height: 500px"><?php echo $verify_response; ?></p>
