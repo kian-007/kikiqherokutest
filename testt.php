@@ -1,4 +1,4 @@
 <?php
 
 
-echo '<pre>'. var_dump($_POST). '</pre>';
+echo $_POST['amount'];
