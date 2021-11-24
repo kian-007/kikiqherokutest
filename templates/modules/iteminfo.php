@@ -630,7 +630,7 @@ function get_content(){ ?>
 
 function process_inputs(){
     if(!isset($_POST['buy'])){
-        die('خطا... !');
+        return;
     }
     redirect_to(home_url('login'));
 }
