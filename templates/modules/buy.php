@@ -45,6 +45,7 @@ if(isset($_GET['success'])){
     $verify_response = curl_exec($curl);
     curl_close($curl);
     echo '<br/>';
+
 }
 
 
@@ -53,4 +54,4 @@ if(isset($_GET['success'])){
 <button onclick='location.href="<?php echo $urlstart; ?>"'>ادامه خرید</button>
 
 
-<p style="background-color: greenyellow; width: auto; height: 500px"><?php var_dump($verify_response); ?></p>
+<p style="background-color: greenyellow; width: auto; height: 500px"><?php var_dump($verify_response); echo'<br/>'.$trackid ?></p>
