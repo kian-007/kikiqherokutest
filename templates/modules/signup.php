@@ -127,9 +127,11 @@ function get_style(){ ?>
             background: #d1bbbb;
             margin: 0px auto;
             border-radius: 30px;
-            width: 350px;
+            width: 450px;
             height: auto;
             box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255) ;
+            text-align: right;
+            direction: rtl;
         }
         button {
             margin-left: 35px;
