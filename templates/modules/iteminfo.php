@@ -633,7 +633,7 @@ function process_inputs(){
         return;
     }
     if(is_user_logged_in()){
-        return;
+        redirect_to(home_url('buy'));
     }else{
         redirect_to(home_url('login'));
     }

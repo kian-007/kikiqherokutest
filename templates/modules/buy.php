@@ -9,9 +9,7 @@ $data = array(
     "orderId" => "ZBL-7799",
     "mobile" => "09198361951"
 );
-
 $json_data = json_encode($data);
-
 
 //$http = array(
 //    'http' => array(
@@ -22,11 +20,8 @@ $json_data = json_encode($data);
 //);
 //$context = stream_context_create($http);
 //$result = file_get_contents($url, false, $context);
-
 //echo $result;
-
 //--------------------------------------------------
-
 $curl = curl_init();
 
 curl_setopt($curl, CURLOPT_URL, $url);
@@ -40,7 +35,6 @@ $json_response = json_decode($response , true);
 $trackid = $json_response['trackId'];
 
 curl_close($curl);
-
 
 $urlstart = "https://gateway.zibal.ir/start/".$trackid;
 echo $urlstart;
