@@ -820,14 +820,14 @@ function get_script(){ ?>
             })
 
             $('#number').click(function() {
-
-                if(num > 1){
-                    final_price = main_price * num
-                    final_price = final_price + " تومان"
-                    $('#f_price').text(final_price)
-                }
-
+                alert()
             })
+            
+
+            final_price = main_price * num
+            final_price = final_price + " تومان"
+            $('#f_price').text(final_price)
+
 
         })
     </script>
