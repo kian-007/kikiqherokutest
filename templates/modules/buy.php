@@ -33,7 +33,7 @@ if(isset($_GET['success'])){
     $urlverify = "https://gateway.zibal.ir/v1/verify";
     $data_vfy = array(
         "merchant" => "zibal",
-        "trackId" => "$trackid"
+        "trackId" => $trackid
     );
     $j_data_vfy = json_encode($data_vfy);
     $curl = curl_init();
