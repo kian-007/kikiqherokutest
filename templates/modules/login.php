@@ -189,6 +189,6 @@ function css_link(){ ?>
 
 function get_script(){ ?>
     <script>
-        window.scrollBy(0,450)
+        window.scrollBy(0,250)
     </script>
 <?php }
