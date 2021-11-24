@@ -286,7 +286,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -312,7 +312,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -340,7 +340,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -368,7 +368,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -396,7 +396,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -424,7 +424,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -452,7 +452,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -480,7 +480,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -508,7 +508,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -536,7 +536,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -564,7 +564,7 @@ function get_content(){ ?>
                     </p>
                     <p class="showitem-details">
                         <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
-                        <span class="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
+                        <span id="price"><b>قیمت:</b> <?php echo $item_price; ?> </span> <br/>
                         <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
                         <span><b>عدد موجود در انبار:</b> <?php echo $max; ?> </span> <br/>
                         <span><b>رنگ بندی:</b> - </span> <br/>
@@ -607,7 +607,7 @@ function get_content(){ ?>
                                 <input type="number" id="number" name="number" min="1" max="<?php echo $max; ?>" value="<?php echo $_POST['number']; ?>"/>
                             </td>
                             <td>
-                                <span class="f_price"><?php echo $item_price; ?></span>
+                                <span id="f_price"><?php echo $item_price; ?></span>
                             </td>
                             <td>
                                 <span><?php echo $off; ?></span>
@@ -804,14 +804,14 @@ function get_script(){ ?>
                 num = (1*num) + 1
                 $('#number').val(num)
 
-                var main_price = $('.price').text()
+                var main_price = $('#price').text()
                 main_price = main_price.replace(" تومان", "")
                 main_price = main_price.replace(",", "")
                 main_price = (main_price*1)
 
                 var final_price = main_price * num
                 final_price = final_price + " تومان"
-                $('.f_price').text(final_price)
+                $('#f_price').text(final_price)
             })
 
         })
