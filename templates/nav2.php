@@ -3,10 +3,13 @@
 					<ul class="login2">
 					<?php if(is_user_logged_in()): ?>
 						<li><a href="<?php echo home_url('logout'); ?>">خروج</a></li>
-					<?php else: ?>
-						<li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
-					<?php endif; ?>
-						<li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
+                        <li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
+                        <?php $current_user = get_current_user_data(); ?>
+                        <li>«<?php echo $current_user['username']; ?>»</li>
+                    <?php else: ?>
+                        <li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
+                        <li><a href="<?php echo home_url('signup'); ?>">ثبت نام</a></li>
+                    <?php endif; ?>
 					</ul>
 					<ul class ="ulmenue2" >
 						<li id='homeli2'><a href="<?php echo home_url('home'); ?>">خانه</a></li>
