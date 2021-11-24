@@ -43,10 +43,11 @@ curl_close($curl);
 
 
 
-echo $response.'<br/>';
-var_dump($json_response).'<br/>';
+echo $response;
 echo '<br/>';
-echo $trackid.'<br/>';
+var_dump($json_response);
+echo '<br/>';
+echo $trackid;
 
 
 //$urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
