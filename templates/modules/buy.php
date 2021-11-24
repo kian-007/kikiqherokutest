@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://gateway.zibal.ir/v1/request";
+$urlrequest = "https://gateway.zibal.ir/v1/request";
 $data = array(
     "merchant" => 'zibal',
     "amount" => 160000,
@@ -10,21 +10,9 @@ $data = array(
     "mobile" => "09198361951"
 );
 $json_data = json_encode($data);
-
-//$http = array(
-//    'http' => array(
-//        'method' => 'POST',
-////        'header' => 'Content-Type:application/json',
-//        'content' => http_build_query($data)
-//    )
-//);
-//$context = stream_context_create($http);
-//$result = file_get_contents($url, false, $context);
-//echo $result;
-//--------------------------------------------------
+//--- request
 $curl = curl_init();
-
-curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_URL, $urlrequest);
 curl_setopt($curl, CURLOPT_POST, TRUE);
 curl_setopt($curl, CURLOPT_POSTFIELDS, $json_data);
 curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
@@ -36,9 +24,23 @@ $trackid = $json_response['trackId'];
 
 curl_close($curl);
 
+//--- start
 $urlstart = "https://gateway.zibal.ir/start/".$trackid;
 echo $urlstart;
+
+//--- verify
+$urlverify = "https://gateway.zibal.ir/v1/verify";
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_URL, $urlverify);
+curl_setopt($curl, CURLOPT_POST, TRUE);
+curl_setopt($curl, CURLOPT_POSTFIELDS, $json_data);
+curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
+$verify_response = curl_exec($curl);
+curl_close($curl);
+echo $verify_response;
 ?>
+
 <button onclick='location.href="<?php echo $urlstart; ?>"'>ادامه خرید</button>
 
 
