@@ -839,7 +839,7 @@ function get_script(){ ?>
                 num = $('#number').val()
                 num = (1*num)
 
-                $.post("calc.php",{main_price, num}, function(data, status, xhr) {
+                $.post("calc.php", { main_pricee: main_price, numm: num}, function(data, status, xhr) {
                     if (status == "success"){
                         $('#f_price').text(data)
                     }
