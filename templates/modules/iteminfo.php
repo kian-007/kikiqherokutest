@@ -787,13 +787,13 @@ function get_script(){ ?>
         $.noConflict()
 		jQuery(document).ready(function($){
 
-            var main_price = $('#price').text()
+            let main_price = $('#price').text()
             main_price = main_price.replace(" تومان", "")
             main_price = main_price.replace("قیمت: ", "")
             main_price = main_price.replace(",", "")
             main_price = (main_price*1)
 
-            var num = $('#number').val()
+            let num = $('#number').val()
             num = (1*num)
 
             var final_price = 0
