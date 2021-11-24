@@ -811,7 +811,6 @@ function get_script(){ ?>
 
                 if(num > 1){
                     var final_price = main_price * num
-                    final_price = final_price.replace("/\d\d\d(.)/", ",")
                     final_price = final_price + " تومان"
                     $('#f_price').text(final_price)
                 }
