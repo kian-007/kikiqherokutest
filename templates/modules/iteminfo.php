@@ -804,18 +804,21 @@ function get_script(){ ?>
                 num = (1*num) + 1
                 $('#number').val(num)
 
-                var main_price = $('#price').text()
-                main_price = main_price.replace(" تومان", "")
-                main_price = main_price.replace("قیمت: ", "")
-                main_price = main_price.replace(",", "")
-                main_price = (main_price*1)
 
-                if(num > 1){
-                    var final_price = main_price * num
-                    final_price = final_price + " تومان"
-                    $('#f_price').text(final_price)
-                }
             })
+
+            var main_price = $('#price').text()
+            main_price = main_price.replace(" تومان", "")
+            main_price = main_price.replace("قیمت: ", "")
+            main_price = main_price.replace(",", "")
+            main_price = (main_price*1)
+
+            if(num > 1){
+                var final_price = main_price * num
+                final_price = final_price.replace("/\d\d\d(.)/", ",")
+                final_price = final_price + " تومان"
+                $('#f_price').text(final_price)
+            }
 
         })
     </script>
