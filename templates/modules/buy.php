@@ -53,4 +53,4 @@ if(isset($_GET['success'])){
 <button onclick='location.href="<?php echo $urlstart; ?>"'>ادامه خرید</button>
 
 
-<p style="background-color: greenyellow; width: auto; height: 500px"><?php echo $verify_response; ?></p>
+<p style="background-color: greenyellow; width: auto; height: 500px"><?php var_dump($verify_response); ?></p>
