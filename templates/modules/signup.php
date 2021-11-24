@@ -130,8 +130,11 @@ function get_style(){ ?>
             width: 450px;
             height: auto;
             box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255) ;
-            text-align: right;
+            text-align: center;
             direction: rtl;
+        }
+        label{
+            text-align: right;
         }
         button {
             margin-left: 35px;
