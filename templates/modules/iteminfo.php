@@ -819,9 +819,9 @@ function get_script(){ ?>
                 // }
             })
 
-            $('#number').click(function() {
-                alert()
-            })
+            // $('#number').click(function() {
+            //     alert()
+            // })
 
 
             // final_price = main_price * num
@@ -857,6 +857,16 @@ function get_script(){ ?>
             // ---------------------------------------------------
 
             $('#number').onkeyup(function(){
+
+                var main_price = $('#price').text()
+                main_price = main_price.replace(" تومان", "")
+                main_price = main_price.replace("قیمت: ", "")
+                main_price = main_price.replace(",", "")
+                main_price = (main_price*1)
+
+                var num = $('#number').val()
+                num = (1*num)
+
                 $.get("calc.php?mainprice="+main_price+"&num="+num , function(data, status, xhr) {
                     if (status == "success"){
                         $('#f_price').text(data)
