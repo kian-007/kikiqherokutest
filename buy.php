@@ -16,7 +16,7 @@ $json_data = json_encode($data);
 $http = array(
     'http' => array(
         'method' => 'POST',
-        'header' => 'Content-Type:application/json',
+//        'header' => 'Content-Type:application/json',
         'content' => http_build_query($data)
     )
 );
