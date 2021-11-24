@@ -8,9 +8,6 @@ function get_title(){
 
 function get_content(){ ?>
 
-    <h5 class="card-title">ثبت نام</h5>
-    <p class="card-text">فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</p>
-
     <div class="left2 col-l-1 col-12">
     </div>
     <div class="content2 col-l-9 col-12">
@@ -18,22 +15,22 @@ function get_content(){ ?>
         <div class="dform">
             <form method="post">
                 <h2>ثبت نام</h2>
-                <h1>فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</h1>
+                <span>فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</span>
                 <div class="dinput">
-                    * <label for="username" class="form-label">نام کاربری جدید خود را وارد کنید:</label>
+                    * <label for="username">نام کاربری جدید خود را وارد کنید:</label>
                     <input class="input second" id="username" name="username" placeholder="Username">
 
                     <br>
-                    * <label for="exampleInputEmail1" class="form-label">ایمیل خود را وارد کنید:</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" aria-describedby="emailHelp">
+                    * <label for="email">ایمیل خود را وارد کنید:</label>
+                    <input type="email" class="input second" id="email" name="email" placeholder="Email" aria-describedby="emailHelp">
                 </div>
                 <div class="dinput">
                     <br>
-                    <label for="phone_number" class="form-label">شماره همراه خود را وارد کنید:</label>
-                    <input class="form-control" id="phone_number" name="phone_number" placeholder="Phone Number">
+                    <label for="phone_number">شماره همراه خود را وارد کنید:</label>
+                    <input class="input second" id="phone_number" name="phone_number" placeholder="Phone Number">
 
                     <br>
-                    * <label for="password" class="form-label">رمز عبور جدید خود را وارد کنید:</label>
+                    * <label for="password">رمز عبور جدید خود را وارد کنید:</label>
                     <input type="password" class="input second" id="password" name="password" placeholder="Password">
                 </div>
                 <br/>
@@ -131,7 +128,7 @@ function get_style(){ ?>
             margin: 0px auto;
             border-radius: 30px;
             width: 350px;
-            height: 350px;
+            height: auto;
             box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7), -7px -7px 7px rgb(255, 255, 255) ;
         }
         button {
