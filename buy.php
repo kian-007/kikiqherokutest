@@ -35,13 +35,13 @@ curl_setopt($curl, CURLOPT_POSTFIELDS, $json_data);
 curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
 
-$trackid_response = curl_exec($curl);
+$response = curl_exec($curl);
 
 curl_close($curl);
 
 //echo $data;
 
-$urlstart = "https://gateway.zibal.ir/start/{{$trackid_response}}";
+$urlstart = "https://gateway.zibal.ir/start/{{$response['trackId']}}";
 echo $urlstart;
 ?>
 
