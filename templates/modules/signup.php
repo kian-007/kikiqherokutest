@@ -231,3 +231,9 @@ function css_link(){ ?>
     <link type="text/css"	rel="stylesheet"	href="index3.css" />
 
 <?php }
+
+function get_script(){ ?>
+    <script>
+        window.scrollBy(0,450)
+    </script>
+<?php }
