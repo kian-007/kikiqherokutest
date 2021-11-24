@@ -808,10 +808,9 @@ function get_script(){ ?>
                     //     window.scrollBy(0,70)
                     // }
                 }
-
                 num = num + 1
                 $('#number').val(num)
-
+                
                 if(num > 1){
                     final_price = main_price * num
                     final_price = final_price + " تومان"
@@ -828,18 +827,10 @@ function get_script(){ ?>
                 $('#f_price').text(final_price)
             })
 
-
             //-------------------------------------------------------
             //--------------------------AJAX-------------------------
 
             $('#number').keyup(function(){
-
-                // var main_price = $('#price').text()
-                // main_price = main_price.replace(" تومان", "")
-                // main_price = main_price.replace("قیمت: ", "")
-                // main_price = main_price.replace(",", "")
-                // main_price = (main_price*1)
-                //
                 num = $('#number').val()
                 num = (1*num)
 
