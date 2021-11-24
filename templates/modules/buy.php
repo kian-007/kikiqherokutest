@@ -55,4 +55,4 @@ if(isset($_GET['trackId'])){
 <button onclick='location.href="<?php echo $urlstart; ?>"'>ادامه خرید</button>
 
 
-<p style="background-color: greenyellow; width: auto; height: 500px"><?php var_dump($verify_response); echo'<br/>'.$trackid ?></p>
+<p style="background-color: greenyellow; width: auto; height: 500px"><?php var_dump($verify_response); ?></p>
