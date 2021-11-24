@@ -24,26 +24,29 @@ $trackid = $json_response['trackId'];
 
 curl_close($curl);
 
-//--- start
+//--------------------- start
 $urlstart = "https://gateway.zibal.ir/start/".$trackid;
 echo $urlstart;
 
-//--- verify
-$urlverify = "https://gateway.zibal.ir/v1/verify";
-$data_vfy = array(
+//-------------------- verify
+if(isset($_GET['success'])){
+    $urlverify = "https://gateway.zibal.ir/v1/verify";
+    $data_vfy = array(
         "merchant" => "zibal",
         "trackId" => "$trackid"
-);
-$j_data_vfy = json_encode($data_vfy);
-$curl = curl_init();
-curl_setopt($curl, CURLOPT_URL, $urlverify);
-curl_setopt($curl, CURLOPT_POST, TRUE);
-curl_setopt($curl, CURLOPT_POSTFIELDS, $j_data_vfy);
-curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
-$verify_response = curl_exec($curl);
-curl_close($curl);
-echo '<br/>';
+    );
+    $j_data_vfy = json_encode($data_vfy);
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $urlverify);
+    curl_setopt($curl, CURLOPT_POST, TRUE);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $j_data_vfy);
+    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
+    $verify_response = curl_exec($curl);
+    curl_close($curl);
+    echo '<br/>';
+}
+
 
 ?>
 
