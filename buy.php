@@ -42,7 +42,8 @@ curl_close($curl);
 //echo $data;
 
 $urlstart = "https://gateway.zibal.ir/start/{{".$trackid."}}";
+echo $response;
 echo $urlstart;
 ?>
 
-<button onclick='location.href="<?php echo $urlstart; ?>"'>ادامه خرید</button>
+<!--<button onclick='location.href="--><?php //echo $urlstart; ?>//"'>ادامه خرید</button>
