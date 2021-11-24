@@ -607,7 +607,7 @@ function get_content(){ ?>
                                 <input type="number" id="number" name="number" min="1" max="<?php echo $max; ?>" value="<?php echo $_POST['number']; ?>"/>
                             </td>
                             <td>
-                                <span><?php echo $item_price; ?></span>
+                                <span class="f_price"><?php echo $item_price; ?></span>
                             </td>
                             <td>
                                 <span><?php echo $off; ?></span>
@@ -811,7 +811,7 @@ function get_script(){ ?>
 
                 var final_price = main_price * num
                 final_price = final_price + " تومان"
-                $('#price').text(final_price)
+                $('.f_price').text(final_price)
             })
 
         })
