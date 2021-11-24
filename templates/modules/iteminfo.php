@@ -787,16 +787,16 @@ function get_script(){ ?>
         $.noConflict()
 		jQuery(document).ready(function($){
 
-            let main_price = $('#price').text()
+            var main_price = $('#price').text()
             main_price = main_price.replace(" تومان", "")
             main_price = main_price.replace("قیمت: ", "")
             main_price = main_price.replace(",", "")
             main_price = (main_price*1)
 
-            let num = $('#number').val()
+            var num = $('#number').val()
             num = (1*num)
 
-            let final_price = 0
+            var final_price = 0
 
             $('#add').click(function(){
                 $('#bill_table').show(250)
@@ -830,30 +830,40 @@ function get_script(){ ?>
 
             //-------------------------------------------------------
 
-            function cal_price(){
-                var xhr;
-                if(window.XMLHttpRequest){
-                    xhr = new XMLHttpRequest()
-                }else {
-                    xhr = new ActiveXObject('Microsoft.XMLHTTP')
-                }
+            // function cal_price(){
+            //     var xhr;
+            //     if(window.XMLHttpRequest){
+            //         xhr = new XMLHttpRequest()
+            //     }else {
+            //         xhr = new ActiveXObject('Microsoft.XMLHTTP')
+            //     }
+            //
+            //     xhr.onreadystatechange = function() {
+            //       if(xhr.readyState==4 && xhr.status==200){
+            //           $('#f_price').text(xhr.responseText)
+            //       }
+            //     }
+            //     var main_price = $('#price').text()
+            //     main_price = main_price.replace(" تومان", "")
+            //     main_price = main_price.replace("قیمت: ", "")
+            //     main_price = main_price.replace(",", "")
+            //     main_price = (main_price*1)
+            //
+            //     var num = $('#number').val()
+            //     num = (1*num)
+            //     xhr.open("get", "calc.php?mainprice="+main_price+"&num="+num, true)
+            //     xhr.send()
+            // }
+            // ---------------------------------------------------
 
-                xhr.onreadystatechange = function() {
-                  if(xhr.readyState==4 && xhr.status==200){
-                      $('#f_price').text(xhr.responseText)
-                  }
-                }
-                var main_price = $('#price').text()
-                main_price = main_price.replace(" تومان", "")
-                main_price = main_price.replace("قیمت: ", "")
-                main_price = main_price.replace(",", "")
-                main_price = (main_price*1)
+            $('#number').onkeyup(function(){
+                $.get("calc.php?mainprice="+main_price+"&num="+num , function(data, status, xhr) {
+                    if (status == "success"){
+                        $('#f_price').text(data)
+                    }
+                })
+            })
 
-                var num = $('#number').val()
-                num = (1*num)
-                xhr.open("get", "calc.php?mainprice="+main_price+"&num="+num, true)
-                xhr.send()
-            }
 
 
         })
