@@ -822,11 +822,38 @@ function get_script(){ ?>
             $('#number').click(function() {
                 alert()
             })
-            
+
 
             final_price = main_price * num
             final_price = final_price + " تومان"
             $('#f_price').text(final_price)
+
+            //-------------------------------------------------------
+
+            function cal_price(){
+                var xhr;
+                if(window.XMLHttpRequest){
+                    xhr = new XMLHttpRequest()
+                }else {
+                    xhr = new ActiveXObject('Microsoft.XMLHTTP')
+                }
+
+                xhr.onreadystatechange = function() {
+                  if(xhr.readyState==4 && xhr.status==200){
+                      $('#f_price').text(xhr.responseText)
+                  }
+                }
+                var main_price = $('#price').text()
+                main_price = main_price.replace(" تومان", "")
+                main_price = main_price.replace("قیمت: ", "")
+                main_price = main_price.replace(",", "")
+                main_price = (main_price*1)
+
+                var num = $('#number').val()
+                num = (1*num)
+                xhr.open("get", "calc.php?mainprice="+main_price+"&num="+num, true)
+                xhr.send()
+            }
 
 
         })
