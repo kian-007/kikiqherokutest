@@ -1,27 +1,27 @@
 <?php
 
-
+$url = "https://kikiq.herokuapp.com/testt.php";
 $data = array(
     "merchant" => "zibal",
     "amount" => 160000,
-    "callbackUrl" => "http://yourapiurl.com/callback.php",
+    "callbackUrl" => "https://kikiq.herokuapp.com/buy.php",
     "description" => "Hello World!",
     "orderId" => "ZBL-7799",
     "mobile" => "09123456789"
 );
 
 $json_data = json_encode($data);
-echo '<pre>';
-var_dump($json_data);
-echo '</pre>';
 
 
-//---------------------------------------------
-//{
-//    "merchant": "zibal",
-//    "amount": 160000,
-//    "callbackUrl": "http://yourapiurl.com/callback.php",
-//    "description": "Hello World!",
-//    "orderId": "ZBL-7799",
-//    "mobile": "09123456789"
-//}
+$http = array(
+    'http' => array(
+        'method' => 'POST',
+        'header' => 'Content-Type:application/json',
+        'content' => http_build_query($data)
+    )
+);
+$context = stream_context_create($http);
+$result = file_get_contents($url, false, $context);
+
+//echo $result;
+
