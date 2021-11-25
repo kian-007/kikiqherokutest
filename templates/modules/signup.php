@@ -95,8 +95,8 @@ function process_inputs(){
         return;
     }
 
-    if(empty($email)){
-        add_message('فیلد ایمیل نمیتواند خالی باشد!', 'error');
+    if(empty($phone_number)){
+        add_message('فیلد شماره تماس نمیتواند خالی باشد!', 'error');
         return;
     }
 
