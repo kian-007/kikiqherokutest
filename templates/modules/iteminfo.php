@@ -784,9 +784,11 @@ function process_inputs(){
     $price = $_POST['price'];
     echo $price;
     echo '<br/>';
+
     if(!isset($_POST['buy'])){
         return;
     }
+    $price = $_POST['price'];
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
 
