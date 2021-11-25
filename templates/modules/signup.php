@@ -214,7 +214,7 @@ function get_style(){ ?>
             }
             .input ~label{
                 position: relative;
-                margin-top: -25px;
+                margin-bottom: 25px;
                 left: 15px;
                 z-index: 7;
                 transition: .5s;
