@@ -1,6 +1,6 @@
 <?php
 
-require 'lib/functions.php';
+require_once ('lib/functions.php');
 
 if($_GET['success']==1) {
     echo "شناسه سفارش: ".$_GET['orderId']."<br>";
