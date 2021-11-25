@@ -16,7 +16,7 @@ function get_title(){
     return 'iteminfo';
 }
 
-
+    
     $item_title = '';
     $item_text = '';
     #beauty
@@ -270,11 +270,9 @@ function get_title(){
 function get_content(){ ?>
 
 <?php
-    global $item1,$item2,$item3,$item4,$item5,$item6,$item7,$item8,$item9,$item10,$item11;
+
     global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
 
-    $item_title = '';
-    $item_text = '';
     #beauty
     $item1 = get_value('item-lamp', 0);
     $item2 = get_value('item-lipgloss', 0);
