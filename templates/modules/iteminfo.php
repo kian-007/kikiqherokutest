@@ -647,7 +647,8 @@ function process_inputs(){
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
         global $price;
-        $price = intval(str_replace($price, ',', ''));
+        $price = str_replace($price, ',', '');
+        $price = intval($price."0");
         echo '<br/>'.$price;
         $number = intval($_POST['number']);
         $final_price = ($price*$number);
