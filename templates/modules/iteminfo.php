@@ -201,11 +201,11 @@ function process_inputs(){
 
         echo $price.'c'.'<br/>';
 
-        $price = str_replace($price, ',', '');
-        echo $price.'d'.'<br/>';
-
-        $price = intval($price."0");
-        echo $price.'e'.'<br/>';
+//        $price = str_replace($price, ',', '');
+//        echo $price.'d'.'<br/>';
+//
+//        $price = intval($price."0");
+//        echo $price.'e'.'<br/>';
 
 //        $number = intval($_POST['number']);
 //        $final_price = ($price*$number);
