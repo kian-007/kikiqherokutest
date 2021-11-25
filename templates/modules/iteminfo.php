@@ -1,8 +1,8 @@
 <?php
 
-$price = '';
-$pprice = '';
+$price = null;
 $title = null;
+
 function get_value($para, $default){
     if(isset($_GET[$para])){
         $value = $_GET[$para];
@@ -16,7 +16,11 @@ function get_title(){
     return 'iteminfo';
 }
 
-global $price;
+
+function get_content(){ ?>
+
+<?php
+    global $price;
     $item_title = '';
     $item_text = '';
     #beauty
@@ -37,7 +41,6 @@ global $price;
     if($item1){
         $goods = get_goods_by_serial_number('104');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -59,7 +62,6 @@ global $price;
     if($item2){
         $goods = get_goods_by_serial_number('105');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -82,7 +84,6 @@ global $price;
     if($item3){
         $goods = get_goods_by_serial_number('106');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -108,7 +109,6 @@ global $price;
     if($item4){
         $goods = get_goods_by_serial_number('108');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -127,7 +127,6 @@ global $price;
     if($item5){
         $goods = get_goods_by_serial_number('109');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -153,7 +152,6 @@ global $price;
     if($item6){
         $goods = get_goods_by_serial_number('110');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -173,7 +171,6 @@ global $price;
     if($item7){
         $goods = get_goods_by_serial_number('103');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -188,7 +185,6 @@ global $price;
     if($item8){
         $goods = get_goods_by_serial_number('107');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -210,7 +206,6 @@ global $price;
     if($item9){
         $goods = get_goods_by_serial_number('101');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -238,7 +233,6 @@ global $price;
     if($item10){
         $goods = get_goods_by_serial_number('102');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -259,7 +253,6 @@ global $price;
     if($item11){
         $goods = get_goods_by_serial_number('100');
 		$name = $goods['name'];
-        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -276,28 +269,6 @@ global $price;
         مناسب براي كيف لوازم آرايش 💜 
         ••••';
     }
-
-function get_content(){ ?>
-
-<?php
-
-    $item_title = '';
-    $item_text = '';
-    #beauty
-    $item1 = get_value('item-lamp', 0);
-    $item2 = get_value('item-lipgloss', 0);
-    $item3 = get_value('item-icebalm', 0);
-    $item4 = get_value('item-brush', 0);
-    $item5 = get_value('item-brushbh', 0);
-    $item6 = get_value('item-brushmask', 0);
-    $item7 = get_value('item-bag', 0);
-    $item8 = get_value('item-rimmel', 0);
-    #skin
-    $item9 = get_value('item-handcream', 0);
-    $item10 = get_value('item-facebrush', 0);
-    #fantasy
-    $item11 = get_value('item-mirror', 0);
-
 ?>
 				<div class="left2 col-l-1 col-12">
 				</div>
@@ -660,13 +631,14 @@ function get_content(){ ?>
 				</div>
 
 <?php
-global $pprice;
-$pprice = $price;
-echo $pprice.'ka'.'<br/>';
-echo $price.'a'.'<br/>';
+    echo $price.'a'.'<br/>';
+    function returnprice(){
+        global $price;
+        return $price;
+    }
 }
 
-echo $pprice.'kb'.'<br/>';
+$price = returnprice();
 echo $price.'b'.'<br/>';
 function process_inputs(){
     if(!isset($_POST['buy'])){
