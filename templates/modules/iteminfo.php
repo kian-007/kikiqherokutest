@@ -792,7 +792,9 @@ function process_inputs(){
 
         $price = str_replace($price, ',', '');
         $price = intval($price."0");
+        echo '<br/>';
         echo $price.'process'.'<br/>';
+        var_dump($_POST);
 
         $number = intval($_POST['number']);
         $final_price = ($price*$number);
