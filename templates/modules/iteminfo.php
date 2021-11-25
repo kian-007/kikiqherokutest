@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_ALL);
 
 $price = '';
 $title = null;
@@ -646,7 +645,7 @@ function process_inputs(){
         return;
     }
     if(is_user_logged_in()){
-        require 'lib/functions.php';
+        require_once ('lib/functions.php');
 //        global $price;
 //        $price = str_replace($price, ',', '');
 //        $price = (int)$price;
