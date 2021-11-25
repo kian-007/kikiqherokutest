@@ -46,15 +46,15 @@
 
     function render_page(){
 		if(function_exists('process_inputs')){
-            global $price;
-			process_inputs($price);
+			process_inputs();
 		}
         include_once ('templates/header.php');
 
 		show_message();
         
 		if(function_exists('get_content')){
-			get_content();
+            global $price;
+			get_content($price);
 		}
 
 		include_once('templates/footer.php'); 

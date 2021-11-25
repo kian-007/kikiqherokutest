@@ -267,14 +267,14 @@ function get_title(){
     }
 
 
-function get_content(){ ?>
+function get_content($price = null){ ?>
 
 <?php
 
     global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
     global $item1,$item2,$item3,$item4,$item5,$item6,$item7,$item8,$item9,$item10,$item11;
 
-
+    echo $price.'testt';
 ?>
 				<div class="left2 col-l-1 col-12">
 				</div>
@@ -640,7 +640,7 @@ function get_content(){ ?>
 
 
 echo $price.'b'.'<br/>';
-function process_inputs($price = null){
+function process_inputs(){
     global $price;
     if(!isset($_POST['buy'])){
         return;
