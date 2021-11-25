@@ -53,8 +53,7 @@
 		show_message();
         
 		if(function_exists('get_content')){
-            global $price;
-			get_content($price);
+			get_content();
 		}
 
 		include_once('templates/footer.php'); 

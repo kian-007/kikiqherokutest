@@ -250,6 +250,7 @@ function get_title(){
         $goods = get_goods_by_serial_number('100');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -273,7 +274,7 @@ function get_content($price = null){ ?>
 
     global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
     global $item1,$item2,$item3,$item4,$item5,$item6,$item7,$item8,$item9,$item10,$item11;
-
+    $price = $_POST['price'];
     echo $price.'testt';
 ?>
 				<div class="left2 col-l-1 col-12">
