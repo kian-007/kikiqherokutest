@@ -625,7 +625,7 @@ function get_content(){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button name="buy" id="buy">تکمیل خرید</button>
+                                <button type="submit" name="buy" id="buy">تکمیل خرید</button>
                             </td>
                         </tr>
                     </table>
@@ -658,7 +658,7 @@ function process_inputs(){
             "amount"=> $final_price,//required
 
             "orderId"=> time(),//optional
-            "mobile"=> "$phone_number"//optional for mpg
+            "mobile"=> $phone_number//optional for mpg
         );
 
         $response = postToZibal('request', $parameters);
@@ -675,7 +675,7 @@ function process_inputs(){
 
 
     }else{
-        add_message('برای ادامه فرایند خرید ورود یا ثبت نام شما لازم است!', 'info');
+        add_message('برای ادامه فرایند خرید ورود یا ثبت نام شما لازم است!', 'error');
         redirect_to(home_url('login'));
     }
 
