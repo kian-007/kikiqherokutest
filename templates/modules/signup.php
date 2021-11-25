@@ -37,7 +37,6 @@ function get_content(){ ?>
                     <input type="password" class="input second" id="password" name="password" placeholder="Password">
                     <label for="password">* رمز عبور جدید خود را وارد کنید:</label>
                 </div>
-                <br/>
                 <button type="submit" name="signup" class="first" style="margin-right: 50px">ذخیره و ثبت نام</button>
                 <p style="margin-left: 110px;">&copy;2020–2021</p>
             </form>
@@ -127,7 +126,7 @@ function get_style(){ ?>
         label{
             position: relative;
             bottom: 100px;
-            margin-right: 50px;
+            margin-right: 25px;
         }
         h1 {
             margin-left: 75px;
