@@ -17,20 +17,20 @@ function get_content(){ ?>
                 <h2 style="margin-left: auto">ثبت نام</h2>
                 <span>فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</span>
                 <div class="dinput">
-                    * <label for="username">نام کاربری جدید خود را وارد کنید:</label>
+                    <label for="username">* نام کاربری جدید خود را وارد کنید:</label>
                     <input class="input second" id="username" name="username" placeholder="Username">
 
                     <br>
-                    * <label for="email">ایمیل خود را وارد کنید:</label>
+                    <label for="email">ایمیل خود را وارد کنید:</label>
                     <input type="email" class="input second" id="email" name="email" placeholder="Email" aria-describedby="emailHelp">
                 </div>
                 <div class="dinput">
                     <br>
-                    <label for="phone_number">شماره همراه خود را وارد کنید:</label>
+                    <label for="phone_number">* شماره همراه خود را وارد کنید:</label>
                     <input class="input second" id="phone_number" name="phone_number" placeholder="Phone Number">
 
                     <br>
-                    * <label for="password">رمز عبور جدید خود را وارد کنید:</label>
+                    <label for="password">* رمز عبور جدید خود را وارد کنید:</label>
                     <input type="password" class="input second" id="password" name="password" placeholder="Password">
                 </div>
                 <br/>
