@@ -191,15 +191,15 @@ function get_style(){ ?>
             color: #03e9f4; font-size: 14px;
         }
 
-        @media only screen and (max-width: 768px){
-            .input ~label{
-                position: relative;
-                margin-top: -25;
-                left: -115px;
-                z-index: 7;
-                transition: .5s;
-            }
-        }
+        /*@media only screen and (max-width: 768px){*/
+        /*    .input ~label{*/
+        /*        position: relative;*/
+        /*        margin-top: -25;*/
+        /*        left: -115px;*/
+        /*        z-index: 7;*/
+        /*        transition: .5s;*/
+        /*    }*/
+        /*}*/
 
 
         @media only screen and (min-width: 768px){
