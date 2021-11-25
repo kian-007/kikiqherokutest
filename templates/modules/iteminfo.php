@@ -68,12 +68,12 @@ function get_title(){
 function get_content(){ ?>
 
 <?php
-
-    global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
+    $fprice = $GLOBALS["price"];
+    global $img_src,$item_title,$item_text,$item_price,$categury,$max,$off;
     $item11 = $_GET['item-mirror'];
 //    global $item1,$item11;
 
-    echo $GLOBALS["price"].'a'.'<br/>';
+    echo $fprice.'a'.'<br/>';
     echo $item11.'<br/>';
     echo $_GET['item-mirror'].'<br/>';
 
