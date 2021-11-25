@@ -1,5 +1,6 @@
 <?php
 
+$price = '';
 $pprice = '';
 $title = null;
 function get_value($para, $default){
@@ -643,10 +644,11 @@ function get_content(){ ?>
 <?php
 global $pprice;
 $pprice = $price;
-echo $pprice.'k'.'<br/>';
+echo $pprice.'ka'.'<br/>';
 echo $price.'a'.'<br/>';
 }
 
+echo $pprice.'kb'.'<br/>';
 echo $price.'b'.'<br/>';
 function process_inputs(){
     if(!isset($_POST['buy'])){
