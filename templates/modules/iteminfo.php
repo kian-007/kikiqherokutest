@@ -780,6 +780,7 @@ function get_content($price = null){ ?>
 
 function process_inputs(){
     $price = $_POST['price'];
+    $item_title = $_POST['item_title'];
 
     if(!isset($_POST['buy'])){
         return;
@@ -802,6 +803,7 @@ function process_inputs(){
             "amount"=> $final_price,//required
             "orderId"=> time(),//optional
             "mobile"=> $phone_number,//optional for mpg
+            "description"=> $item_title,
         );
 
         $response = postToZibal('request', $parameters);
