@@ -35,7 +35,7 @@ function get_content(){ ?>
                 </div>
                 <br/>
                 <button type="submit" name="signup" class="first" style="margin-right: 50px">ذخیره و ثبت نام</button>
-                <p style="margin-left: 110px;">&copy;2017–2021</p>
+                <p style="margin-left: 110px;">&copy;2020–2021</p>
             </form>
         </div>
 
