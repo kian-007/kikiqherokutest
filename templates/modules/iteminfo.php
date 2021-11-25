@@ -792,7 +792,7 @@ function process_inputs(){
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
 
-//        $price = str_replace($price, ',', '');
+        $price = str_replace($price, ',', '');
 //        $price = intval($price."0");
         echo '<br/>';
         echo $price.'process'.'<br/>';
