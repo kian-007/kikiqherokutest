@@ -19,6 +19,7 @@ function get_title(){
 function get_content(){ ?>
 
 <?php
+    global $price;
     $item_title = '';
     $item_text = '';
     #beauty
