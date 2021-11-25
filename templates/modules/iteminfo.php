@@ -779,11 +779,8 @@ function get_content($price = null){ ?>
 
 
 function process_inputs(){
-    var_dump($_POST['price']);
-    echo '<br>';
     $price = $_POST['price'];
-    echo $price.'<br/>';
-
+    
     if(!isset($_POST['buy'])){
         return;
     }
@@ -793,9 +790,6 @@ function process_inputs(){
 
         $price = str_replace(',', '', $price);
         $price = intval($price."0");
-        echo '<br/>';
-        echo $price.'process'.'<br/>';
-        var_dump($_POST['price']);
 
         $number = intval($_POST['number']);
         $final_price = ($price*$number);
