@@ -16,11 +16,7 @@ function get_title(){
     return 'iteminfo';
 }
 
-
-function get_content(){ ?>
-
-<?php
-    global $price;
+global $price;
     $item_title = '';
     $item_text = '';
     #beauty
@@ -37,7 +33,7 @@ function get_content(){ ?>
     $item10 = get_value('item-facebrush', 0);
     #fantasy
     $item11 = get_value('item-mirror', 0);
-    
+
     if($item1){
         $goods = get_goods_by_serial_number('104');
 		$name = $goods['name'];
@@ -280,6 +276,28 @@ function get_content(){ ?>
         مناسب براي كيف لوازم آرايش 💜 
         ••••';
     }
+
+function get_content(){ ?>
+
+<?php
+
+    $item_title = '';
+    $item_text = '';
+    #beauty
+    $item1 = get_value('item-lamp', 0);
+    $item2 = get_value('item-lipgloss', 0);
+    $item3 = get_value('item-icebalm', 0);
+    $item4 = get_value('item-brush', 0);
+    $item5 = get_value('item-brushbh', 0);
+    $item6 = get_value('item-brushmask', 0);
+    $item7 = get_value('item-bag', 0);
+    $item8 = get_value('item-rimmel', 0);
+    #skin
+    $item9 = get_value('item-handcream', 0);
+    $item10 = get_value('item-facebrush', 0);
+    #fantasy
+    $item11 = get_value('item-mirror', 0);
+
 ?>
 				<div class="left2 col-l-1 col-12">
 				</div>
