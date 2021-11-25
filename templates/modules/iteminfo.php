@@ -1,5 +1,6 @@
 <?php
 
+$price = 0;
 $title = null;
 function get_value($para, $default){
     if(isset($_GET[$para])){
@@ -38,6 +39,7 @@ function get_content(){ ?>
     if($item1){
         $goods = get_goods_by_serial_number('104');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -59,6 +61,7 @@ function get_content(){ ?>
     if($item2){
         $goods = get_goods_by_serial_number('105');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -81,6 +84,7 @@ function get_content(){ ?>
     if($item3){
         $goods = get_goods_by_serial_number('106');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -106,6 +110,7 @@ function get_content(){ ?>
     if($item4){
         $goods = get_goods_by_serial_number('108');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -124,6 +129,7 @@ function get_content(){ ?>
     if($item5){
         $goods = get_goods_by_serial_number('109');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -149,6 +155,7 @@ function get_content(){ ?>
     if($item6){
         $goods = get_goods_by_serial_number('110');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -168,6 +175,7 @@ function get_content(){ ?>
     if($item7){
         $goods = get_goods_by_serial_number('103');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -182,6 +190,7 @@ function get_content(){ ?>
     if($item8){
         $goods = get_goods_by_serial_number('107');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -203,6 +212,7 @@ function get_content(){ ?>
     if($item9){
         $goods = get_goods_by_serial_number('101');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -230,6 +240,7 @@ function get_content(){ ?>
     if($item10){
         $goods = get_goods_by_serial_number('102');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -250,6 +261,7 @@ function get_content(){ ?>
     if($item11){
         $goods = get_goods_by_serial_number('100');
 		$name = $goods['name'];
+        global $price;
 		$price = $goods['price'];
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
@@ -633,8 +645,35 @@ function process_inputs(){
         return;
     }
     if(is_user_logged_in()){
-        redirect_to(home_url('buy'));
+        require 'lib/functions.php';
+        global $price;
+        $final_price = str_replace($price, ',', '');
+        $current_user = get_current_user_data();
+        $phone_number = $current_user['phone_number'];
+        $parameters = array(
+            "merchant"=> ZIBAL_MERCHANT_KEY,//required
+            "callbackUrl"=> ZIBAL_CALLBACK_URL,//required
+            "amount"=> $final_price,//required
+
+            "orderId"=> time(),//optional
+            "mobile"=> "$phone_number",//optional for mpg
+        );
+
+        $response = postToZibal('request', $parameters);
+        var_dump($response);
+        if ($response->result == 100)
+        {
+            $startGateWayUrl = "https://gateway.zibal.ir/start/".$response->trackId;
+            header('location: '.$startGateWayUrl);
+        }
+        else{
+            echo "errorCode: ".$response->result."<br>";
+            echo "message: ".$response->message;
+        }
+
+
     }else{
+        add_message('برای ادامه فرایند خرید ورود یا ثبت نام شما لازم است!', 'info');
         redirect_to(home_url('login'));
     }
 
