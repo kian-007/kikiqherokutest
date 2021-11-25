@@ -207,7 +207,7 @@ function get_style(){ ?>
             .input{
                 margin-left: 95px;
             }
-            .input:focus ~label{
+            .input:focus *label{
                 margin-top: -25;
                 margin-left: 0px;
                 color: #03e9f4; font-size: 14px;
