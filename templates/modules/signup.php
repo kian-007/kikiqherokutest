@@ -17,21 +17,23 @@ function get_content(){ ?>
                 <h2 style="margin-left: auto">ثبت نام</h2>
                 <span>فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</span>
                 <div class="dinput">
-                    <input class="input second" id="username" name="username" placeholder="Username">
                     <label for="username">* نام کاربری جدید خود را وارد کنید:</label>
-
-                    <br>
-                    <input type="email" class="input second" id="email" name="email" placeholder="Email" aria-describedby="emailHelp">
+                    <input class="input second" id="username" name="username" placeholder="Username">
+                </div>
+                <br>
+                <div class="dinput">
                     <label for="email">ایمیل خود را وارد کنید:</label>
+                    <input type="email" class="input second" id="email" name="email" placeholder="Email" aria-describedby="emailHelp">
                 </div>
                 <div class="dinput">
                     <br>
-                    <input class="input second" id="phone_number" name="phone_number" placeholder="Phone Number">
                     <label for="phone_number">* شماره همراه خود را وارد کنید:</label>
-
-                    <br>
-                    <input type="password" class="input second" id="password" name="password" placeholder="Password">
+                    <input class="input second" id="phone_number" name="phone_number" placeholder="Phone Number">
+                </div>
+                <br>
+                <div class="dinput">
                     <label for="password">* رمز عبور جدید خود را وارد کنید:</label>
+                    <input type="password" class="input second" id="password" name="password" placeholder="Password">
                 </div>
                 <br/>
                 <button type="submit" name="signup" class="first" style="margin-right: 50px">ذخیره و ثبت نام</button>
