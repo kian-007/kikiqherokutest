@@ -645,7 +645,7 @@ function process_inputs(){
         return;
     }
     if(is_user_logged_in()){
-//        require 'lib/functions.php';
+        require 'lib/functions.php';
 //        global $price;
 //        $price = str_replace($price, ',', '');
 //        $price = (int)$price;
