@@ -893,7 +893,7 @@ function process_inputs(){
     }
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
-
+        global $price;
         echo $price.'c'.'<br/>';
 
         $price = str_replace($price, ',', '');
