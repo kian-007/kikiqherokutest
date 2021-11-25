@@ -659,7 +659,7 @@ function process_inputs(){
             "callbackUrl"=> ZIBAL_CALLBACK_URL,//required
             "amount"=> $final_price,//required
             "orderId"=> time(),//optional
-            "mobile"=> "$phone_number"//optional for mpg
+            "mobile"=> $phone_number,//optional for mpg
         );
 
         $response = postToZibal('request', $parameters);
