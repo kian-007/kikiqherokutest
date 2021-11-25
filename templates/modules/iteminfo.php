@@ -1,6 +1,6 @@
 <?php
 
-//$price = null;
+
 $title = null;
 
 function get_value($para, $default){
@@ -17,8 +17,7 @@ function get_title(){
 }
 
 
-//    $item_title = '';
-//    $item_text = '';
+
     #beauty
     $item1 = get_value('item-lamp', 0);
     $item2 = get_value('item-lipgloss', 0);
@@ -413,7 +412,7 @@ function get_content($price = null){ ?>
     $item9 = $_POST['item9'];
     $item10 = $_POST['item10'];
     $item11 = $_POST['item11'];
-    echo $price.'testt';
+
 ?>
 				<div class="left2 col-l-1 col-12">
 				</div>
@@ -778,7 +777,7 @@ function get_content($price = null){ ?>
 <?php }
 
 
-echo $price.'b'.'<br/>';
+
 function process_inputs(){
     $price = $_POST['price'];
     if(!isset($_POST['buy'])){
@@ -787,13 +786,9 @@ function process_inputs(){
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
 
-        echo $price.'c'.'<br/>';
-
         $price = str_replace($price, ',', '');
-        echo $price.'d'.'<br/>';
-
         $price = intval($price."0");
-        echo $price.'e'.'<br/>';
+        echo $price.'process'.'<br/>';
 
 //        $number = intval($_POST['number']);
 //        $final_price = ($price*$number);
