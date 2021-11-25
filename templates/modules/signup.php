@@ -123,6 +123,11 @@ function get_style(){ ?>
         h1 {
             margin-left: 75px;
         }
+
+        .dinput{
+            text-align: center;
+        }
+
         .dform {
             background: #d1bbbb;
             margin: 0px auto;
