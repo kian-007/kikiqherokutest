@@ -645,15 +645,16 @@ function process_inputs(){
         return;
     }
     if(is_user_logged_in()){
-        require 'lib/functions.php';
-        global $price;
-        $price = str_replace($price, ',', '');
-        $price = (int)$price;
-        $number = $_POST['number'];
-        $number = (int)$number;
-        $final_price = ($price*$number);
-        $current_user = get_current_user_data();
-        $phone_number = $current_user['phone_number'];
+//        require 'lib/functions.php';
+//        global $price;
+//        $price = str_replace($price, ',', '');
+//        $price = (int)$price;
+//        $number = $_POST['number'];
+//        $number = (int)$number;
+//        $final_price = ($price*$number);
+//        $current_user = get_current_user_data();
+//        $phone_number = $current_user['phone_number'];
+
 //        $parameters = array(
 //            "merchant"=> ZIBAL_MERCHANT_KEY,//required
 //            "callbackUrl"=> ZIBAL_CALLBACK_URL,//required
