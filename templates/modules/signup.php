@@ -124,7 +124,7 @@ function get_style(){ ?>
             margin-left: 75px;
         }
 
-        .dinput{
+        .dinput input{
             text-align: center;
         }
 
