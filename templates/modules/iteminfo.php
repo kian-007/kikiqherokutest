@@ -637,9 +637,10 @@ function get_content(){ ?>
 
 				<div class="right2 col-l-2 col-12">
 				</div>
-<?php }
 
+<?php   echo $price.'a'.'<br/>'; }
 
+echo $price.'b'.'<br/>';
 function process_inputs(){
     if(!isset($_POST['buy'])){
         return;
@@ -647,9 +648,14 @@ function process_inputs(){
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
         global $price;
+        echo $price.'c'.'<br/>';
+
         $price = str_replace($price, ',', '');
+        echo $price.'d'.'<br/>';
+
         $price = intval($price."0");
-        echo '<br/>'.$price;
+        echo $price.'e'.'<br/>';
+
 //        $number = intval($_POST['number']);
 //        $final_price = ($price*$number);
 //        $current_user = get_current_user_data();
