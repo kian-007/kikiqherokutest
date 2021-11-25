@@ -44,7 +44,7 @@ function redirect_to($url){
  */
 define("ZIBAL_MERCHANT_KEY","zibal");
 
-define("ZIBAL_CALLBACK_URL","https://kikiq.herokuapp.com/callback");
+define("ZIBAL_CALLBACK_URL","https://kikiq.herokuapp.com/callback.php");
 
 /**
  * connects to zibal's rest api
