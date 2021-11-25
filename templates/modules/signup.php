@@ -126,6 +126,7 @@ function get_style(){ ?>
         .dform {
             background: #d1bbbb;
             margin: 0px auto;
+            padding-right: 100px;
             border-radius: 30px;
             width: 450px;
             height: auto;
@@ -198,7 +199,7 @@ function get_style(){ ?>
 
         @media only screen and (min-width: 768px){
             .dform{
-                width: 375px;
+                width: 85%;
             }
             .input{
                 margin-left: 95px;

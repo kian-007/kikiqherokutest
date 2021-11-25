@@ -23,5 +23,6 @@ if($_GET['success']==1) {
         echo "message: " . $response->message;
     }
 }else{
+//    simple_load_module();
     echo "پرداخت با شکست مواجه شد.";
 }
