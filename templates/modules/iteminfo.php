@@ -638,7 +638,9 @@ function get_content(){ ?>
 				<div class="right2 col-l-2 col-12">
 				</div>
 
-<?php   echo $price.'a'.'<br/>'; }
+<?php   echo $price.'a'.'<br/>';
+return $price;
+}
 
 echo $price.'b'.'<br/>';
 function process_inputs(){
