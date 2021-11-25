@@ -126,6 +126,7 @@ function get_style(){ ?>
 
         .dinput input{
             text-align: center;
+            margin-right: 50px;
         }
 
         .dform {
