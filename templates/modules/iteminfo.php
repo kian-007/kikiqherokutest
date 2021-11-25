@@ -1,6 +1,6 @@
 <?php
 
-$price = '';
+$pprice = '';
 $title = null;
 function get_value($para, $default){
     if(isset($_GET[$para])){
@@ -641,8 +641,10 @@ function get_content(){ ?>
 				</div>
 
 <?php
+global $pprice;
+$pprice = $price;
+echo $pprice.'k'.'<br/>';
 echo $price.'a'.'<br/>';
-return $price;
 }
 
 echo $price.'b'.'<br/>';
