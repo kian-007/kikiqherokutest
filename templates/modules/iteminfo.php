@@ -70,7 +70,8 @@ function get_content(){ ?>
 <?php
 
     global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
-    global $item1,$item11;
+    $item11 = $_GET['item-mirror'];
+//    global $item1,$item11;
 
     echo $price.'a'.'<br/>';
     echo $item11.'<br/>';
