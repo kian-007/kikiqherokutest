@@ -523,7 +523,7 @@ function get_content(){ ?>
 				<div class="content2 col-l-9 col-12">
 
 
-                <?php if($item1): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item1):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=14"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -549,7 +549,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item2): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item2):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=15"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -577,7 +577,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item3): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item3):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=13"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -605,7 +605,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item4): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item4):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=16"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -633,7 +633,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item5): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item5):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=17"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -661,7 +661,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item6): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item6):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=18"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -689,7 +689,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item7): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item7):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=22"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -717,7 +717,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item8): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item8):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=12"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -745,7 +745,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item9): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item9):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=19"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -773,7 +773,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item10): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item10):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=20"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
@@ -801,7 +801,7 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
-                <?php if($item11): global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off; ?>
+                <?php if($item11):  ?>
                 <div class="item-holder">
                     <a href="http://kikiq.herokuapp.com/showimages.php?image=21"> 
                         <img class="item-img" src="<?php echo $img_src; ?>" />
