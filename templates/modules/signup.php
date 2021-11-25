@@ -34,7 +34,7 @@ function get_content(){ ?>
                     <input type="password" class="input second" id="password" name="password" placeholder="Password">
                 </div>
                 <br/>
-                <button type="submit" name="signup" class="first">ذخیره و ثبت نام</button>
+                <button type="submit" name="signup" class="first" style="margin-right: 50px">ذخیره و ثبت نام</button>
                 <p style="margin-left: 140px;">&copy;2017–2021</p>
             </form>
         </div>
