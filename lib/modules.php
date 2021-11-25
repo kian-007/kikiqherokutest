@@ -46,6 +46,7 @@
 
     function render_page(){
 		if(function_exists('process_inputs')){
+            global $price;
 			process_inputs();
 		}
         include_once ('templates/header.php');
