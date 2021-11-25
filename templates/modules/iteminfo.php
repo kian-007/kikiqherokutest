@@ -640,7 +640,7 @@ function get_content(){ ?>
 
 
 echo $price.'b'.'<br/>';
-function process_inputs(){
+function process_inputs($price = null){
     global $price;
     if(!isset($_POST['buy'])){
         return;
