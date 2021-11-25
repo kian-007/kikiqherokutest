@@ -584,7 +584,7 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     
-                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px;" <?php return 'clicked' ? $price : '' ?> >اضافه کردن</button>
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px;" >اضافه کردن</button>
                     
                     <br/>
                     
@@ -640,7 +640,9 @@ function get_content(){ ?>
 				<div class="right2 col-l-2 col-12">
 				</div>
 
-<?php   echo $price.'a'.'<br/>';
+<?php
+echo $price.'a'.'<br/>';
+return $price;
 }
 
 echo $price.'b'.'<br/>';
