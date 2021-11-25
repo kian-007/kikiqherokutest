@@ -16,7 +16,7 @@ function get_title(){
     return 'iteminfo';
 }
 
-    
+
     $item_title = '';
     $item_text = '';
     #beauty
@@ -651,17 +651,20 @@ function get_content(){ ?>
 
 <?php
     echo $price.'a'.'<br/>';
+    echo $item11.'<br/>';
+    echo $_GET['item-mirror'].'<br/>';
 }
 
 
 echo $price.'b'.'<br/>';
 function process_inputs(){
+    global $price;
     if(!isset($_POST['buy'])){
         return;
     }
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
-        global $price;
+
         echo $price.'c'.'<br/>';
 
         $price = str_replace($price, ',', '');
