@@ -588,6 +588,7 @@ function get_content(){ ?>
                     <br/>
                     
                 </div>
+                <?php return $price; ?>
                 <?php endif; ?>
 
                 <br/>
@@ -639,7 +640,6 @@ function get_content(){ ?>
 				</div>
 
 <?php   echo $price.'a'.'<br/>';
-return $price;
 }
 
 echo $price.'b'.'<br/>';
