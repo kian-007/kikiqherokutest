@@ -3,7 +3,7 @@
 				<ul class="login">
 				<?php if(is_user_logged_in()): ?>
 					<li><a href="<?php echo home_url('logout'); ?>">خروج</a></li>
-                    <li style="margin-bottom: 7px"><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
+                    <li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
                     <?php $current_user = get_current_user_data(); ?>
                     <li>«<?php echo $current_user['username']; ?>»</li>
 				<?php else: ?>
