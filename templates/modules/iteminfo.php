@@ -17,9 +17,21 @@ function get_title(){
 }
 
 
-
+//    $item_title = '';
+//    $item_text = '';
     #beauty
     $item1 = get_value('item-lamp', 0);
+    $item2 = get_value('item-lipgloss', 0);
+    $item3 = get_value('item-icebalm', 0);
+    $item4 = get_value('item-brush', 0);
+    $item5 = get_value('item-brushbh', 0);
+    $item6 = get_value('item-brushmask', 0);
+    $item7 = get_value('item-bag', 0);
+    $item8 = get_value('item-rimmel', 0);
+    #skin
+    $item9 = get_value('item-handcream', 0);
+    $item10 = get_value('item-facebrush', 0);
+    #fantasy
     $item11 = get_value('item-mirror', 0);
 
     if($item1){
@@ -43,7 +55,197 @@ function get_title(){
         كيفيت بسيار بالاااا 💜
         ٠٠٠٠';
     }
+    if($item2){
+        $goods = get_goods_by_serial_number('105');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
 
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/capsul5.jpg';
+        $max = 6;
+        $item_text = '💜لطفا با لبخند ورق بزنيد 💜
+        سلام دوستاي گلم با اولين پست و محصول ١٤٠٠ همراهتون هستيم 💜
+        برق لب حرارتي مدل قرصي براتون شارژ كرديم 💜
+        بچه ها اينا بوشون و اسانس هاشون فرق ميكنه اما رنگشون يكيه 💜
+        توي ٦ اسانس مختلف شارژ كرديم 💜
+        كيفت ++A هست 💜
+        خودتون هر مدلي كه خواستين و انتخاب كنين 💜
+        
+        ٠٠٠';
+    }
+    if($item3){
+        $goods = get_goods_by_serial_number('106');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/balmbastani1.jpg';
+        $max = 6;
+        $item_text = '💜لطفا با لبخند ورق بزنيد 💜
+        سلام دوستاي گلم 💜
+        بالاخره بالم لب آبميوه اي پر طرفدار شارژ شد 💜
+        بچه ها اين بالم لب ها به جز كيفيت و تنوع بالايي كه دارن خيلي خيلي خوش بو هستن 💜
+        ٦ تا اسانس دارن :
+        سيب ، توتفرنگي ، انگور ، پرتقال ، هلو ، انار 💜
+        مي تونين هر كدوم كه دوست دارين انتخاب كنيد 💜
+        خواص بالم لب : 
+        بالم لب ها بي رنگ هستن اما به مرور زمان كه استفاده ميكنين رنگ خود لبتون رو خوش رنگ تر ميكنن علاوه بر اينكه از خشكي لب جلو گيري ميكنن خاصيت آبرساني و مرطوب كنندگي دارن 💜
+        ميتونين بالم لب رو از توي روتين پوستي استفاده كنيد يا قبل از رژ لب زدت 💜
+        
+        ٠٠٠٠';
+    }
+    if($item4){
+        $goods = get_goods_by_serial_number('108');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/bbrushes.jpg';
+        $max = 4;
+        $item_text = '💜لطفا با لبخند ورق بزنيد 💜
+        براش هاي مدل پري دريايي 💜
+        ٤تيكه و با كيفيت 💜
+        بدون ريزش و تراكم بالا 💜
+        طرحشو خودتون ميتونيد انتخاب كنيد 💜
+        ••••';
+    }
+    if($item5){
+        $goods = get_goods_by_serial_number('109');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/cobrush2.jpg';
+        $max = 0;
+        $item_text = 'لطفا با لبخند ورق بزنيد 💜
+        سلام دوستاي عزيزم 💜
+        بالاخره پست براش هاي قشنگمون رو گذاشتم 💜
+        دخنوا اين براش ها از برند Bh cosmetics هست همون طور كه ميدونين براش هاي اين برند به كيفيت عاليشون معروف هستن 
+        اين براش ها ١٣ تيكه داره 💜
+        براي آرايش حرفه اي هم حتي استفاده ميشه چون همه براش هاي كاربردي رو داره 💜
+        توي شيك ترين رنگ (سفيد) شارژ شده 💜
+        تراكم مو ها بسيار بالاس💜
+        ريزش مو اصلا نداره 💜
+        كيفيت عالي 💜
+        قيمتش خيلي خوبه واقعا با بقيه پيج ها مقايسه كنيد 💜
+        ';
+    }
+    if($item6){
+        $goods = get_goods_by_serial_number('110');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/brushm7.jpg';
+        $max = 5;
+        $item_text = '💜لطفا با لبخند ورق بزنيد 💜
+        براش هاي سيليكوني مخصوص ماسك 💜
+        توي ٣ رنگ شارژ شده 💜
+        كيفيت خيلي بالاس💜
+        هر دختري يدونه از اين براش ها براي ماسك نياز داره 💜
+        ٠٠٠٠';
+    }
+    if($item7){
+        $goods = get_goods_by_serial_number('103');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/compressed/bags2.jpg';
+        $max = 4;
+        $item_text = '';
+    }
+    if($item8){
+        $goods = get_goods_by_serial_number('107');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'آرایشی و بهداشتی';
+        $img_src = 'images/beautyandhealth/rimmel7.jpg';
+        $max = 20;
+        $item_text = '💜لطفا با لبخند ورق بزنيد 💜
+        سلام دخترا امروز مي خوام اين ريمل ٢٤ ساعته و ضد آب از برند hudamoji رو معرفي كنم 💜
+        بچه ها جدا از طراحي و زيبايي خاص اين ريمل بايد از كيفيتش بگم 💜
+        اين ريمل موژه هارو دونه دونه مي كنه مشكي و پر رنگ ميكنه 💜
+        و همون طور كه گفتم ضد آب هست 
+        و به نسبت قيمت خوبي كه داره عاليه 💜
+        
+        ....';
+    }
+    if($item9){
+        $goods = get_goods_by_serial_number('101');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'پوست';
+        $img_src = 'images/skin/mrtb55.jpg';
+        $max = 10;
+        $item_text = 'لطفا با لبخند ورق بزنيد 💜
+        كرم دست مرطوب كننده براتون آورديم 💜
+        مرطوب‌کننده پوست💜
+        نرم کننده پوست💜
+         بدون چربی اضافی💜
+         آبرسانی قوی💜
+         روشن کننده پوست💜
+        با اسید میوه و آنتی اکسیدان💜
+        پرکننده بافت پوست دست ها ضد خشکی💜
+        ضد ترک پوست💜
+        لطیف کننده پوست دست💜
+        هم دونه اي داريم هم به صورت پك ٥ تايي 💜
+        
+        ٠٠٠';
+    }
+    if($item10){
+        $goods = get_goods_by_serial_number('102');
+		$name = $goods['name'];
+		$price = $goods['price'];
+		$off = $goods['off'];
+		$serial_number = $goods['serial_number'];
+
+        $item_title = "$name";
+        $item_price = "$price تومان";
+        $categury = 'پوست';
+        $img_src = 'images/skin/facebrush1.jpg';
+        $max = 3;
+        $item_text = '💜لطفا با لبخند ورق بزنيد💜
+        دخترا به درخواست خودتون فيس براش دستي آورديم 💜
+        طرح هلوگرامي تازه 😍💜
+        توي ٣ رنگ موجود هست كه مي تونين رنگش رو انتخاب كنين 💜
+        براش ها كاملا نرم هستن و با بالاترين كيفت 💜
+        تازه ٢ طرفه هست طرف ديگش براش سيليكوني داره كه مخصوص منافز باز صورته 💜
+        ٠٠٠';
+    }
     if($item11){
         $goods = get_goods_by_serial_number('100');
 		$name = $goods['name'];
@@ -68,14 +270,10 @@ function get_title(){
 function get_content(){ ?>
 
 <?php
-    $fprice = $GLOBALS["price"];
-    global $img_src,$item_title,$item_text,$item_price,$categury,$max,$off;
-    $item11 = $_GET['item-mirror'];
-//    global $item1,$item11;
 
-    echo $fprice.'a'.'<br/>';
-    echo $item11.'<br/>';
-    echo $_GET['item-mirror'].'<br/>';
+    global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
+    global $item1,$item2,$item3,$item4,$item5,$item6,$item7,$item8,$item9,$item10,$item11;
+
 
 ?>
 				<div class="left2 col-l-1 col-12">
@@ -109,6 +307,257 @@ function get_content(){ ?>
                 </div>
                 <?php endif; ?>
 
+                <?php if($item2): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=15">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item2</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item3): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=13">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item3</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item4): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=16">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item4</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item5): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=17">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item5</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item6): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=18">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item6</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item7): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=22">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item6</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item8): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=12">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item8</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item9): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=19">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item9</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
+
+                <?php if($item10): ?>
+                <div class="item-holder">
+                    <a href="http://kikiq.herokuapp.com/showimages.php?image=20">
+                        <img class="item-img" src="<?php echo $img_src; ?>" />
+                    </a>
+                    <p id = 'showitem'><?php echo $item_title; ?>
+                        <br/>
+                        <br/>
+                        <span>item10</span> <br/>
+                        <span><?php echo $item_text; ?></span> <br/>
+                        <span>...</span> <br/>
+                    </p>
+                    <p class="showitem-details">
+                        <span><b>نام محصول:</b> <?php echo $item_title; ?> </span> <br/>
+                        <span id="price"><b>قیمت: </b><?php echo $item_price; ?></span> <br/>
+                        <span><b>دسته بندی:</b> <?php echo $categury; ?> </span> <br/>
+                        <span><b>موجود در انبار:</b> <?php echo $max==0 ? 'ناموجود' : 'موجود'; ?></span> <br/>
+                        <span><b>رنگ بندی:</b> - </span> <br/>
+                        <span><b>تخفیف:</b> - </span> <br/>
+                    </p>
+
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; ">اضافه کردن</button>
+
+                    <br/>
+
+                </div>
+                <?php endif; ?>
 
                 <?php if($item11): ?>
                 <div class="item-holder">
@@ -191,22 +640,21 @@ function get_content(){ ?>
 
 
 echo $price.'b'.'<br/>';
-
 function process_inputs(){
     global $price;
     if(!isset($_POST['buy'])){
         return;
     }
     if(is_user_logged_in()){
-//        require_once ('lib/functions.php');
+        require_once ('lib/functions.php');
 
         echo $price.'c'.'<br/>';
 
-//        $price = str_replace($price, ',', '');
-//        echo $price.'d'.'<br/>';
-//
-//        $price = intval($price."0");
-//        echo $price.'e'.'<br/>';
+        $price = str_replace($price, ',', '');
+        echo $price.'d'.'<br/>';
+
+        $price = intval($price."0");
+        echo $price.'e'.'<br/>';
 
 //        $number = intval($_POST['number']);
 //        $final_price = ($price*$number);
@@ -235,6 +683,7 @@ function process_inputs(){
 
 
     }else{
+        add_message('برای ادامه فرایند خرید ورود یا ثبت نام شما لازم است!', 'error');
         redirect_to(home_url('login'));
     }
 
