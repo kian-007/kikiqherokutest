@@ -583,12 +583,12 @@ function get_content(){ ?>
                         <span><b>تخفیف:</b> - </span> <br/>
                     </p>
                     
-                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px; " >اضافه کردن</button>
+                        <button  name="add" id="add" type="submit"  style="float:right; clear:both; margin-right: 50px;" <?php return 'clicked' ? $price : '' ?> >اضافه کردن</button>
                     
                     <br/>
                     
                 </div>
-                <?php return $price; ?>
+
                 <?php endif; ?>
 
                 <br/>
