@@ -34,10 +34,23 @@ function get_title(){
     #fantasy
     $item11 = get_value('item-mirror', 0);
 
+    $_POST['item1'] = $item1;
+    $_POST['item2'] = $item2;
+    $_POST['item3'] = $item3;
+    $_POST['item4'] = $item4;
+    $_POST['item5'] = $item5;
+    $_POST['item6'] = $item6;
+    $_POST['item7'] = $item7;
+    $_POST['item8'] = $item8;
+    $_POST['item9'] = $item9;
+    $_POST['item10'] = $item10;
+    $_POST['item11'] = $item11;
+
     if($item1){
         $goods = get_goods_by_serial_number('104');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -54,11 +67,21 @@ function get_title(){
         رنگ شاين و خود بدنه متفاوته اما رنگي كه به لب ميدن يكسان هست 💜
         كيفيت بسيار بالاااا 💜
         ٠٠٠٠';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item2){
         $goods = get_goods_by_serial_number('105');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -76,11 +99,21 @@ function get_title(){
         خودتون هر مدلي كه خواستين و انتخاب كنين 💜
         
         ٠٠٠';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item3){
         $goods = get_goods_by_serial_number('106');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -101,11 +134,21 @@ function get_title(){
         ميتونين بالم لب رو از توي روتين پوستي استفاده كنيد يا قبل از رژ لب زدت 💜
         
         ٠٠٠٠';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item4){
         $goods = get_goods_by_serial_number('108');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
         $item_title = "$name";
@@ -119,11 +162,21 @@ function get_title(){
         بدون ريزش و تراكم بالا 💜
         طرحشو خودتون ميتونيد انتخاب كنيد 💜
         ••••';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item5){
         $goods = get_goods_by_serial_number('109');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -144,11 +197,21 @@ function get_title(){
         كيفيت عالي 💜
         قيمتش خيلي خوبه واقعا با بقيه پيج ها مقايسه كنيد 💜
         ';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item6){
         $goods = get_goods_by_serial_number('110');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -163,11 +226,21 @@ function get_title(){
         كيفيت خيلي بالاس💜
         هر دختري يدونه از اين براش ها براي ماسك نياز داره 💜
         ٠٠٠٠';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item7){
         $goods = get_goods_by_serial_number('103');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -177,11 +250,21 @@ function get_title(){
         $img_src = 'images/compressed/bags2.jpg';
         $max = 4;
         $item_text = '';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item8){
         $goods = get_goods_by_serial_number('107');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -198,11 +281,21 @@ function get_title(){
         و به نسبت قيمت خوبي كه داره عاليه 💜
         
         ....';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item9){
         $goods = get_goods_by_serial_number('101');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -225,11 +318,21 @@ function get_title(){
         هم دونه اي داريم هم به صورت پك ٥ تايي 💜
         
         ٠٠٠';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item10){
         $goods = get_goods_by_serial_number('102');
 		$name = $goods['name'];
 		$price = $goods['price'];
+        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -245,12 +348,20 @@ function get_title(){
         براش ها كاملا نرم هستن و با بالاترين كيفت 💜
         تازه ٢ طرفه هست طرف ديگش براش سيليكوني داره كه مخصوص منافز باز صورته 💜
         ٠٠٠';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
     if($item11){
         $goods = get_goods_by_serial_number('100');
 		$name = $goods['name'];
 		$price = $goods['price'];
-        $_POST['price'] = $price;
 		$off = $goods['off'];
 		$serial_number = $goods['serial_number'];
 
@@ -265,6 +376,15 @@ function get_title(){
         طرح هاش خيلي متنوع هست و ميتونيد هر كدون رو كه خواستيد سفارش بديد 💜 
         مناسب براي كيف لوازم آرايش 💜 
         ••••';
+        $_POST['price'] = $price;
+        $_POST['off'] = $off;
+        $_POST['serial_number'] = $serial_number;
+        $_POST['item_title'] = $item_title;
+        $_POST['item_price'] = $item_price;
+        $_POST['categury'] = $categury;
+        $_POST['img_src'] = $img_src;
+        $_POST['max'] = $max;
+        $_POST['item_text'] = $item_text;
     }
 
 
@@ -272,9 +392,27 @@ function get_content($price = null){ ?>
 
 <?php
 
-    global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
-    global $item1,$item2,$item3,$item4,$item5,$item6,$item7,$item8,$item9,$item10,$item11;
+//    global $img_src,$item_title,$item_text,$item_price,$categury,$max,$price,$off;
+//    global $item1,$item2,$item3,$item4,$item5,$item6,$item7,$item8,$item9,$item10,$item11;
     $price = $_POST['price'];
+    $img_src = $_POST['img_src'];
+    $item_title = $_POST['item_title'];
+    $item_text = $_POST['item_text'];
+    $item_price = $_POST['item_price'];
+    $categury = $_POST['categury'];
+    $max = $_POST['max'];
+    $off = $_POST['off'];
+    $item1 = $_POST['item1'];
+    $item2 = $_POST['item2'];
+    $item3 = $_POST['item3'];
+    $item4 = $_POST['item4'];
+    $item5 = $_POST['item5'];
+    $item6 = $_POST['item6'];
+    $item7 = $_POST['item7'];
+    $item8 = $_POST['item8'];
+    $item9 = $_POST['item9'];
+    $item10 = $_POST['item10'];
+    $item11 = $_POST['item11'];
     echo $price.'testt';
 ?>
 				<div class="left2 col-l-1 col-12">
@@ -642,7 +780,7 @@ function get_content($price = null){ ?>
 
 echo $price.'b'.'<br/>';
 function process_inputs(){
-    global $price;
+    $price = $_POST['price'];
     if(!isset($_POST['buy'])){
         return;
     }
