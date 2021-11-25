@@ -632,13 +632,9 @@ function get_content(){ ?>
 
 <?php
     echo $price.'a'.'<br/>';
-    function returnprice(){
-        global $price;
-        return $price;
-    }
 }
 
-$price = returnprice();
+
 echo $price.'b'.'<br/>';
 function process_inputs(){
     if(!isset($_POST['buy'])){
