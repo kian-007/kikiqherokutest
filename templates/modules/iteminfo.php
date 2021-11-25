@@ -648,6 +648,7 @@ function process_inputs(){
         require_once ('lib/functions.php');
         global $price;
         $price = intval(str_replace($price, ',', ''));
+        echo '<br/>'.$price;
         $number = intval($_POST['number']);
         $final_price = ($price*$number);
         $current_user = get_current_user_data();
