@@ -73,7 +73,7 @@ function get_content(){ ?>
     $item11 = $_GET['item-mirror'];
 //    global $item1,$item11;
 
-    echo $price.'a'.'<br/>';
+    echo $GLOBALS["price"].'a'.'<br/>';
     echo $item11.'<br/>';
     echo $_GET['item-mirror'].'<br/>';
 
