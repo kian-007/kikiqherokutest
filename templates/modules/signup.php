@@ -16,6 +16,8 @@ function get_content(){ ?>
             <form method="post">
                 <h2 style="margin-left: auto">ثبت نام</h2>
                 <span>فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</span>
+                <br>
+                <br>
                 <div class="dinput">
                     <input class="input second" id="username" name="username" placeholder="Username">
                     <label for="username">* نام کاربری جدید خود را وارد کنید:</label>
@@ -200,7 +202,7 @@ function get_style(){ ?>
 
         @media only screen and (max-width: 768px){
             .dinput input{
-                margin-right: 120px;
+                margin-right: 140px;
             }
         }
 
