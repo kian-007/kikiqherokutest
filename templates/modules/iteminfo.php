@@ -779,8 +779,11 @@ function get_content($price = null){ ?>
 
 
 function process_inputs(){
-    var_dump($_POST);
+    var_dump($_POST['price']);
+    echo '<br>';
     $price = $_POST['price'];
+    echo $price;
+    echo '<br/>';
     if(!isset($_POST['buy'])){
         return;
     }
