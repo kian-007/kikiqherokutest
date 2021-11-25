@@ -197,7 +197,7 @@ function process_inputs(){
         return;
     }
     if(is_user_logged_in()){
-        require_once ('lib/functions.php');
+//        require_once ('lib/functions.php');
 
         echo $price.'c'.'<br/>';
 
