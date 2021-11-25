@@ -124,7 +124,8 @@ function get_style(){ ?>
     <style>
         label{
             position: relative;
-            bottom: 50px;
+            bottom: 100px;
+            margin-right: 50px;
         }
         h1 {
             margin-left: 75px;
