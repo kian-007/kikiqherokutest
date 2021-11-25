@@ -234,7 +234,6 @@ function process_inputs(){
 
 
     }else{
-        add_message('برای ادامه فرایند خرید ورود یا ثبت نام شما لازم است!', 'error');
         redirect_to(home_url('login'));
     }
 
