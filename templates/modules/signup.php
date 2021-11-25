@@ -122,6 +122,10 @@ function process_inputs(){
 
 function get_style(){ ?>
     <style>
+        label{
+            position: relative;
+            bottom: 25px;
+        }
         h1 {
             margin-left: 75px;
         }
@@ -214,7 +218,7 @@ function get_style(){ ?>
             }
             .input ~label{
                 position: relative;
-                margin-bottom: 25px;
+                margin-top: -25;
                 left: 15px;
                 z-index: 7;
                 transition: .5s;
