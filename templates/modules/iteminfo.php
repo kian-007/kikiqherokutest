@@ -1146,7 +1146,7 @@ function get_script(){ ?>
                  }
                 ?>
 
-                $('#address').css('-webkit-animation', 'a7 2s')
+                $('#address_form').css('-webkit-animation', 'a7 3s')
                 $('#address').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'inline-block')){
