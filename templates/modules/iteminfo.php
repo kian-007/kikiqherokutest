@@ -944,6 +944,9 @@ function get_style(){ ?>
                 #final_level{
                 margin-right: 50px;
                 }
+                #buy{
+                margin-right: 50px;
+                }
             }
 
             #bill_table{
