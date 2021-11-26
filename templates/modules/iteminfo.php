@@ -1126,14 +1126,14 @@ function get_script(){ ?>
             //---------------------------------------------------------
 
             $('#buy').click(function(event){
-                event.preventDefault();
+
 
                 <?php if(!is_user_logged_in()): ?>
                     window.location.href = "<?php echo home_url('login'); ?>";
                 <?php endif; ?>
 
                 $('#address').css('display', 'inline-block')
-                $('#address').css('transition', 'display 2s')
+                event.preventDefault();
             })
 
         })
