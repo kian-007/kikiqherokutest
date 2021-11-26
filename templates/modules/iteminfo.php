@@ -789,7 +789,7 @@ function get_content($price = null){ ?>
                     <br>
                     <br>
                     <label for="address">آدرس خود را اینجا وارد کنید</label>
-                    <input type="text" name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" />
+                    <input type="textarea" name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" />
                     <br>
                     <button type="submit">تکمیل خرید</button>
                 </div>
@@ -871,6 +871,7 @@ function get_style(){ ?>
 
             details{
              background-color: deeppink;
+             color: white;
              border-radius: 25px;
              width: 90%;
              height: 40px;
@@ -880,7 +881,7 @@ function get_style(){ ?>
                 color: white;
                 margin-right: 10px;
             }
-            summary:hover{color: hotpink;}
+            summary:hover{color: #666666;}
             details:hover{
                 background-color: gray;
             }
