@@ -1054,10 +1054,11 @@ function get_style(){ ?>
 			@-webkit-keyframes a7 {
 			    from{
 			        display: inline-block;
-                    margin-top: 1000px;
+                    position:relative;
+                    top: 700px;
 			    }
 			    to{
-			        margin-top: auto;
+			        top: 0px;
 			    }
 			}
 		</style>
