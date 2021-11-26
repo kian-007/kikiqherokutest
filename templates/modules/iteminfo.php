@@ -1080,8 +1080,8 @@ function get_script(){ ?>
             $('#add').click(function(){
                 $('#bill_table').css('display', 'inline-block')
 
-                if($('#bill_table').css('display', 'visible')){
-                    var elmnt = document.getElementById("add");
+                if($('#bill_table').css('display', 'inline-block')){
+                    var elmnt = document.getElementById("address");
                     elmnt.scrollIntoView(false); // Bottom
                     // if(window.scrollY == 79){
                     //     window.scrollBy(0,70)
@@ -1124,7 +1124,7 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
 
-            $('#buy').click(function(){
+            $('#buy').click(function(event){
 
 
                 <?php
@@ -1135,7 +1135,7 @@ function get_script(){ ?>
                 ?>
 
                 $('#address').css('display', 'inline-block')
-                // event.preventDefault();
+                event.preventDefault();
             })
 
         })
