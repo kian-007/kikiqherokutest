@@ -770,7 +770,7 @@ function get_content($price = null){ ?>
                 <br>
 
 
-                <form action="#" method="post" style="clear: both; float: right;">
+                <form id="address_form" action="#" method="post">
                     <div id="address">
                         <div>
                             <h2>اطلاعات آدرس خود را وارد کنید</h2>
@@ -867,11 +867,20 @@ function process_inputs(){
 
 function get_style(){ ?>
         <style>
-            #address{
+            #address_form{
                 clear: both;
                 float: right;
                 margin-right: 50px;
                 width: 85%;
+                height: auto;
+                display: none;
+                text-align: right;
+                direction: rtl;
+                background-color: deepskyblue;
+                border-radius: 25px;
+            }
+            #address{
+                width: 100%;
                 height: auto;
                 display: none;
                 text-align: right;
@@ -1118,7 +1127,13 @@ function get_script(){ ?>
 
             $('#buy').click(function(event){
                 event.preventDefault();
+
+                <?php if(!is_user_logged_in()): ?>
+                    window.location.href = "<?php echo home_url('login'); ?>";
+                <?php endif; ?>
+
                 $('#address').css('display', 'inline-block')
+                $('#address').css('transition', 'display 2s')
             })
 
         })
