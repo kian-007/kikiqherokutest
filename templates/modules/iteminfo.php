@@ -766,18 +766,19 @@ function get_content($price = null){ ?>
                         </tr>
                     </table>
                 </form>
-
+                <br>
+                <br>
 
                 <div id="address">
                     <div>
                         <h2>اطلاعات آدرس خود را وارد کنید</h2>
-                        <datalist style="background-color: deeppink>
+                        <details style="background-color: deeppink">
                             <summary>
                                 * راهنما !
                             </summary>
                             لطفا مارا برای هرچه سریع تر رساندن کالای خریداری شده به دستتان یاری کرده
                             آدرس خود را دقیق و با وسواس وارد کنید :)
-                        </datalist>
+                        </details>
                     </div>
 
                     <input type="text" name="postal_code" />
