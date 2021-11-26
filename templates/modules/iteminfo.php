@@ -1152,7 +1152,7 @@ function get_script(){ ?>
                 if($('#bill_table').css('display', 'inline-block')){
                     // var elmnt = document.getElementById("final_level");
                     // elmnt.scrollIntoView(false)
-                    window.scrollBy(0,200)
+                    window.scrollBy(0,300)
                  }
             })
 
