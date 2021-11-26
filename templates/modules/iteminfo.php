@@ -791,7 +791,7 @@ function get_content($price = null){ ?>
                     <label for="address">آدرس خود را اینجا وارد کنید</label>
                     <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ></textarea>
                     <br>
-                    <button type="submit">تکمیل خرید</button>
+                    <button type="submit" name="final_level" id="final_level">تکمیل خرید</button>
                 </div>
                 
                 <!-- <pre style="float:right; clear:both;">
@@ -809,7 +809,7 @@ function process_inputs(){
     $price = $_POST['price'];
     $item_title = $_POST['item_title'];
 
-    if(!isset($_POST['buy'])){
+    if(!isset($_POST['final_level'])){
         return;
     }
     $price = $_POST['price'];
@@ -883,7 +883,7 @@ function get_style(){ ?>
             }
             summary:hover{color: #666666;}
             details:hover{
-                background-color: gray;
+                background-color: hotpink;
             }
 
             #address input{
@@ -1062,7 +1062,7 @@ function get_script(){ ?>
                 $('#bill_table').show(250)
 
                 if($('#bill_table').css('display', 'visible')){
-                    var elmnt = document.getElementById("bill_table");
+                    var elmnt = document.getElementById("address");
                     elmnt.scrollIntoView(false); // Bottom
                     // if(window.scrollY == 79){
                     //     window.scrollBy(0,70)
@@ -1102,6 +1102,9 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
 
+            $('#buy').click(function(){
+                $('#address').show(250)
+            })
 
         })
     </script>
