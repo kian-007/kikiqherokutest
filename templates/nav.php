@@ -5,7 +5,7 @@
 					<li><a href="<?php echo home_url('logout'); ?>">خروج</a></li>
                     <li><a href="<?php echo home_url('dashboard'); ?>">صفحه کاربری</a></li>
                     <?php $current_user = get_current_user_data(); ?>
-                    <li>«<?php echo $current_user['username']; ?>»</li>
+                    <li>«<?php echo $current_user['username']."\n"; ?>»خوش آمدید</li>
 				<?php else: ?>
 					<li><a href="<?php echo home_url('login'); ?>">ورود</a></li>
                     <li><a href="<?php echo home_url('signup'); ?>">ثبت نام</a></li>
