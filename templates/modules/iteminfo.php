@@ -772,7 +772,7 @@ function get_content($price = null){ ?>
                 <div id="address">
                     <div>
                         <h2>اطلاعات آدرس خود را وارد کنید</h2>
-                        <details style="background-color: deeppink">
+                        <details>
                             <summary>
                                 * راهنما !
                             </summary>
@@ -858,7 +858,16 @@ function get_style(){ ?>
                 /*display: none;*/
                 text-align: right;
                 direction: rtl;
-                background-color: blue;
+                background-color: deepskyblue;
+                border-radius: 25px;
+            }
+
+            details{
+             background-color: deeppink;
+             border-radius: 25px;
+             width: auto;
+             height: 40px;
+             margin-right: 13px;
             }
 
             #address input{
