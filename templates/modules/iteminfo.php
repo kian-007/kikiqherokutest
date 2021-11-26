@@ -919,6 +919,33 @@ function get_style(){ ?>
                 margin-right: 13px;
             }
 
+            @media only screen and (max-width:768px){
+                #address_form{
+                    clear: both;
+                    float: right;
+                    margin-right: 50px;
+                    margin-top: 150px;
+                    width: 85%;
+                    height: auto;
+                    text-align: right;
+                    direction: rtl;
+                    background-color: deepskyblue;
+                    border-radius: 25px;
+                }
+                details{
+                     background-color: deeppink;
+                     color: white;
+                     border-radius: 25px;
+                     width: 90%;
+                     height: auto;
+                     line-height: 80%;
+                     margin-right: 5px;
+                }
+                #final_level{
+                margin-right: 50px;
+                }
+            }
+
             #bill_table{
                 clear: both;
                 float: right;
@@ -1146,15 +1173,13 @@ function get_script(){ ?>
                  }
                 ?>
 
-
                 $('#address_form').css('-webkit-animation', 'a7 3s')
-                $('#address').css('display', 'inline-block')
 
+                $('#address').css('display', 'inline-block')
                 if($('#bill_table').css('display', 'inline-block')){
                     test = test + 1
                  }
-
-                 if(test<1)){
+                 if(test<1){
                     scrollBy(0,500)
                  }else{
                     var elmnt = document.getElementById("final_level");
