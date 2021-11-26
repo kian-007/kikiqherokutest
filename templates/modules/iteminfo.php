@@ -1055,7 +1055,7 @@ function get_style(){ ?>
 			    from{
 			        display: inline-block;
                     position:relative;
-                    top: 700px;
+                    top: 400px;
 			    }
 			    to{
 			        top: 0px;
@@ -1152,6 +1152,7 @@ function get_script(){ ?>
                 if($('#bill_table').css('display', 'inline-block')){
                     // var elmnt = document.getElementById("final_level");
                     // elmnt.scrollIntoView(false)
+                    window.scrollBy(0,200)
                  }
             })
 
