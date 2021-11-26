@@ -886,7 +886,7 @@ function get_style(){ ?>
                 direction: rtl;
                 background-color: deepskyblue;
                 border-radius: 25px;
-                transition: display 2s;
+                transition: visibility 2s;
             }
 
             details{
