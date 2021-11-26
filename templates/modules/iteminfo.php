@@ -782,10 +782,14 @@ function get_content($price = null){ ?>
                             آدرس خود را دقیق و با وسواس وارد کنید :)
                         </details>
                     </div>
-
-                    <input type="text" name="postal_code" />
                     <br>
                     <br>
+                    <br>
+                    <label for="postal_code">کد پستی خود را اینجا وارد کنید</label>
+                    <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" />
+                    <br>
+                    <br>
+                    <label for="address">آدرس خود را اینجا وارد کنید</label>
                     <input type="text" name="address" style="width: 85%; min-height: 150px" />
                     <br>
                     <button type="submit">تکمیل خرید</button>
@@ -869,9 +873,13 @@ function get_style(){ ?>
             details{
              background-color: deeppink;
              border-radius: 25px;
-             width: auto;
+             width: 90%;
              height: 40px;
-             margin-right: 13px;
+             margin-right: 7px;
+            }
+            summary{color: white;}
+            details:hover{
+                background-color: gray;
             }
 
             #address input{
