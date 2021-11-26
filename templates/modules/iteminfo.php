@@ -1093,11 +1093,10 @@ function get_script(){ ?>
                 $('#bill_table').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'inline-block')){
-                    var elmnt = document.getElementById("buy");
-                    elmnt.scrollIntoView(false); // Bottom
-                    // if(window.scrollY == 79){
-                    //     window.scrollBy(0,70)
-                    // }
+                    // var elmnt = document.getElementById("buy");
+                    // elmnt.scrollIntoView(false); // Bottom
+                    window.scrollBy(0,300)
+
                 }
                 num = num + 1
                 $('#number').val(num)
@@ -1152,7 +1151,7 @@ function get_script(){ ?>
                 if($('#bill_table').css('display', 'inline-block')){
                     // var elmnt = document.getElementById("final_level");
                     // elmnt.scrollIntoView(false)
-                    window.scrollBy(0,300)
+                    window.scrollBy(0,500)
                  }
             })
 
