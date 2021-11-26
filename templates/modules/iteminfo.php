@@ -770,30 +770,31 @@ function get_content($price = null){ ?>
                 <br>
 
 
-
-                <div id="address">
-                    <div>
-                        <h2>اطلاعات آدرس خود را وارد کنید</h2>
-                        <details>
-                            <summary>
-                                * راهنما !
-                            </summary>
-                            لطفا مارا برای هرچه سریع تر رساندن کالای خریداری شده به دستتان یاری کرده
-                            آدرس خود را دقیق و با وسواس وارد کنید :)
-                        </details>
+                <form action="#" method="post" style="clear: both; float: right;">
+                    <div id="address">
+                        <div>
+                            <h2>اطلاعات آدرس خود را وارد کنید</h2>
+                            <details>
+                                <summary>
+                                    * راهنما !
+                                </summary>
+                                لطفا مارا برای هرچه سریع تر رساندن کالای خریداری شده به دستتان یاری کرده
+                                آدرس خود را دقیق و با وسواس وارد کنید :)
+                            </details>
+                        </div>
+                        <br>
+                        <br>
+                        <?php $current_user = get_current_user_data(); ?>
+                        <label for="postal_code">کد پستی خود را اینجا وارد کنید</label>
+                        <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" value="<?php echo $current_user['postal_code']; ?>" />
+                        <br>
+                        <br>
+                        <label for="address">آدرس خود را اینجا وارد کنید</label>
+                        <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" value="<?php echo $current_user['address']; ?>" ></textarea>
+                        <br>
+                        <button type="submit" name="final_level" id="final_level">تکمیل خرید</button>
                     </div>
-                    <br>
-                    <br>
-                    <?php $current_user = get_current_user_data(); ?>
-                    <label for="postal_code">کد پستی خود را اینجا وارد کنید</label>
-                    <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" value="<?php echo $current_user['postal_code']; ?>" />
-                    <br>
-                    <br>
-                    <label for="address">آدرس خود را اینجا وارد کنید</label>
-                    <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" value="<?php echo $current_user['address']; ?>" ></textarea>
-                    <br>
-                    <button type="submit" name="final_level" id="final_level">تکمیل خرید</button>
-                </div>
+                </form>
                 
                 <!-- <pre style="float:right; clear:both;">
                     <?php //print_r($_POST); ?>
