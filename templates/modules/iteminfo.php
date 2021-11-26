@@ -1130,7 +1130,7 @@ function get_script(){ ?>
 
                 <?php
                  if(!is_user_logged_in()){
-                   echo "window.location.href =".home_url('login').'"';
+                   echo "window.location.href ="; echo home_url('login'); echo '"';
                  }
                 ?>
 
