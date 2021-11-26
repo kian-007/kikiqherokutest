@@ -856,6 +856,7 @@ function get_style(){ ?>
             #address{
                 clear: both;
                 float: right;
+                margin-right: 50px;
                 width: 85%;
                 height: auto;
                 /*display: none;*/
