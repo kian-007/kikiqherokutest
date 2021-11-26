@@ -1050,6 +1050,16 @@ function get_style(){ ?>
 					margin-left: 450px;
 				}
 			}
+
+			@-webkit-keyframes a7 {
+			    from{
+			        display: inline-block;
+                    margin-top: 1000px;
+			    }
+			    to{
+			        margin-top: auto;
+			    }
+			}
 		</style>
 <?php }
 
@@ -1135,6 +1145,7 @@ function get_script(){ ?>
                  }
                 ?>
 
+                $('#address').css('-webkit-animation', 'a7 2s')
                 $('#address').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'inline-block')){
