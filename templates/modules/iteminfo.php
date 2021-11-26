@@ -784,12 +784,13 @@ function get_content($price = null){ ?>
                     </div>
                     <br>
                     <br>
+                    <?php $current_user = get_current_user_data(); ?>
                     <label for="postal_code">کد پستی خود را اینجا وارد کنید</label>
-                    <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" />
+                    <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" value="<?php echo $current_user['postal_code']; ?>" />
                     <br>
                     <br>
                     <label for="address">آدرس خود را اینجا وارد کنید</label>
-                    <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ></textarea>
+                    <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" value="<?php echo $current_user['address']; ?>" ></textarea>
                     <br>
                     <button type="submit" name="final_level" id="final_level">تکمیل خرید</button>
                 </div>
@@ -812,6 +813,14 @@ function process_inputs(){
     if(!isset($_POST['final_level'])){
         return;
     }
+    //------add address to database-----
+    $postal_code = $_POST['postal_code'];
+    $address = $_POST['address'];
+    $current_user = get_current_user_data();
+    $current_user['postal_code'] = $postal_code;
+    $current_user['address'] = $address;
+    update_user($current_user);
+    //----------------------------------
     $price = $_POST['price'];
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
