@@ -784,7 +784,6 @@ function get_content($price = null){ ?>
                     </div>
                     <br>
                     <br>
-                    <br>
                     <label for="postal_code">کد پستی خود را اینجا وارد کنید</label>
                     <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" />
                     <br>
@@ -875,9 +874,10 @@ function get_style(){ ?>
              border-radius: 25px;
              width: 90%;
              height: 40px;
-             margin-right: 7px;
+             margin-right: 5px;
             }
             summary{color: white;}
+            summary:hover{color: hotpink;}
             details:hover{
                 background-color: gray;
             }
