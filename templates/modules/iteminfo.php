@@ -850,6 +850,8 @@ function process_inputs(){
 function get_style(){ ?>
         <style>
             #address{
+                clear: both;
+                float: right;
                 width: 85%;
                 height: auto;
                 /*display: none;*/
