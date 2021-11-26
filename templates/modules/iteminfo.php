@@ -876,7 +876,10 @@ function get_style(){ ?>
              height: 40px;
              margin-right: 5px;
             }
-            summary{color: white;}
+            summary{
+                color: white;
+                margin-right: 10px;
+            }
             summary:hover{color: hotpink;}
             details:hover{
                 background-color: gray;
