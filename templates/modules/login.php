@@ -10,7 +10,7 @@ function get_content(){ ?>
 
         <div class="dform">
             <form method="post">
-                <h1>Please sign in</h1>
+                <h1>ورود به حساب کاربری</h1>
                 <div class="dinput">
                     <?php
                         $username ='';

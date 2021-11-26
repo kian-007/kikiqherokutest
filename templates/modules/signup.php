@@ -18,21 +18,20 @@ function get_content(){ ?>
                 <span>فیلد هایی که با  * مشخص شده اند پر کردنشان اجباری است.</span>
                 <br>
                 <br>
+                <br>
+                <br>
                 <div class="dinput">
                     <input class="input second" id="username" name="username" placeholder="Username">
                     <label for="username">* نام کاربری جدید خود را وارد کنید:</label>
                 </div>
-                <br>
                 <div class="dinput">
                     <input type="email" class="input second" id="email" name="email" placeholder="Email" aria-describedby="emailHelp">
                     <label for="email">ایمیل خود را وارد کنید:</label>
                 </div>
                 <div class="dinput">
-                    <br>
                     <input class="input second" id="phone_number" name="phone_number" placeholder="Phone Number">
                     <label for="phone_number">* شماره همراه خود را وارد کنید:</label>
                 </div>
-                <br>
                 <div class="dinput">
                     <input type="password" class="input second" id="password" name="password" placeholder="Password">
                     <label for="password">* رمز عبور جدید خود را وارد کنید:</label>
