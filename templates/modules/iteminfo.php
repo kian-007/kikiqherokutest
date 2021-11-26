@@ -1183,7 +1183,7 @@ function get_script(){ ?>
                     test = test + 1
                  }
                  if(test<1){
-                    scrollBy(0,500)
+                    scrollBy(0,350)
                  }else{
                     var elmnt = document.getElementById("final_level");
                     elmnt.scrollIntoView(false)
