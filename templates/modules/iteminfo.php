@@ -769,6 +769,8 @@ function get_content($price = null){ ?>
                 <br>
                 <br>
 
+
+
                 <div id="address">
                     <div>
                         <h2>اطلاعات آدرس خود را وارد کنید</h2>
@@ -783,7 +785,8 @@ function get_content($price = null){ ?>
 
                     <input type="text" name="postal_code" />
                     <br>
-                    <input type="text" name="address" />
+                    <br>
+                    <input type="text" name="address" style="width: 85%; min-height: 150px" />
                     <br>
                     <button type="submit">تکمیل خرید</button>
                 </div>
@@ -873,6 +876,8 @@ function get_style(){ ?>
             #address input{
                 text-align: right;
                 direction: rtl;
+                border-radius: 15px;
+                margin-right: 13px;
             }
 
             #bill_table{
