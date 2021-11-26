@@ -1071,7 +1071,7 @@ function get_script(){ ?>
                 $('#bill_table').show(250)
 
                 if($('#bill_table').css('display', 'visible')){
-                    var elmnt = document.getElementById("address");
+                    var elmnt = document.getElementById("add");
                     elmnt.scrollIntoView(false); // Bottom
                     // if(window.scrollY == 79){
                     //     window.scrollBy(0,70)
@@ -1094,6 +1094,9 @@ function get_script(){ ?>
                 final_price = main_price * num
                 final_price = final_price + " تومان"
                 $('#f_price').text(final_price)
+
+                var elmnt = document.getElementById("address");
+                elmnt.scrollIntoView(false); // Bottom
             })
 
             //-------------------------------------------------------
