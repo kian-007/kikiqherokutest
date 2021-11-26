@@ -1125,7 +1125,7 @@ function get_script(){ ?>
             //---------------------------------------------------------
 
             $('#buy').click(function(event){
-
+                event.preventDefault();
 
                 <?php
                  if(!is_user_logged_in()){
@@ -1135,7 +1135,11 @@ function get_script(){ ?>
                 ?>
 
                 $('#address').css('display', 'inline-block')
-                event.preventDefault();
+                
+                if($('#bill_table').css('display', 'inline-block')){
+                    var elmnt = document.getElementById("final_level");
+                    elmnt.scrollIntoView(false)
+                 }
             })
 
         })
