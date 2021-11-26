@@ -1150,8 +1150,8 @@ function get_script(){ ?>
                 $('#address').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'inline-block')){
-                    var elmnt = document.getElementById("final_level");
-                    elmnt.scrollIntoView(false)
+                    // var elmnt = document.getElementById("final_level");
+                    // elmnt.scrollIntoView(false)
                  }
             })
 
