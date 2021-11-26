@@ -816,6 +816,7 @@ function process_inputs(){
     $price = $_POST['price'];
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
+
         //------add address to database-----
         $postal_code = $_POST['postal_code'];
         $address = $_POST['address'];
@@ -1068,7 +1069,7 @@ function get_script(){ ?>
             var final_price = 0
 
             $('#add').click(function(){
-                $('#bill_table').css('display', 'visible')
+                $('#bill_table').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'visible')){
                     var elmnt = document.getElementById("add");
