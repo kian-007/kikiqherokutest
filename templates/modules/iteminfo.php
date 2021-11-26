@@ -1093,10 +1093,11 @@ function get_script(){ ?>
                 $('#bill_table').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'inline-block')){
-                    // var elmnt = document.getElementById("buy");
-                    // elmnt.scrollIntoView(false); // Bottom
-                    window.scrollBy(0,300)
-
+                    var elmnt = document.getElementById("buy");
+                    elmnt.scrollIntoView(false); // Bottom
+                    // if(window.scrollY == 79){
+                    //     window.scrollBy(0,70)
+                    // }
                 }
                 num = num + 1
                 $('#number').val(num)
@@ -1134,7 +1135,7 @@ function get_script(){ ?>
                 })
             })
             //---------------------------------------------------------
-
+            var test = 0
             $('#buy').click(function(event){
                 event.preventDefault();
 
@@ -1145,13 +1146,19 @@ function get_script(){ ?>
                  }
                 ?>
 
+
                 $('#address_form').css('-webkit-animation', 'a7 3s')
                 $('#address').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'inline-block')){
-                    // var elmnt = document.getElementById("final_level");
-                    // elmnt.scrollIntoView(false)
-                    window.scrollBy(0,500)
+                    test = test + 1
+                 }
+
+                 if(test<1)){
+                    scrollBy(0,500)
+                 }else{
+                    var elmnt = document.getElementById("final_level");
+                    elmnt.scrollIntoView(false)
                  }
             })
 
