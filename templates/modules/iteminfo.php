@@ -771,7 +771,7 @@ function get_content($price = null){ ?>
                 <div id="address">
                     <div>
                         <h2>اطلاعات آدرس خود را وارد کنید</h2>
-                        <datalist>
+                        <datalist style="background-color: deeppink>
                             <summary>
                                 * راهنما !
                             </summary>
@@ -855,6 +855,7 @@ function get_style(){ ?>
                 /*display: none;*/
                 text-align: right;
                 direction: rtl;
+                background-color: blue;
             }
 
             #address input{
