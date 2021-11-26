@@ -414,7 +414,7 @@ function get_content($price = null){ ?>
     $item11 = $_POST['item11'];
 
 ?>
-				<div class="left2 col-l-1 col-12">
+<div class="left2 col-l-1 col-12" xmlns="http://www.w3.org/1999/html">
 				</div>
 				<div class="content2 col-l-9 col-12">
 
@@ -789,7 +789,7 @@ function get_content($price = null){ ?>
                     <br>
                     <br>
                     <label for="address">آدرس خود را اینجا وارد کنید</label>
-                    <input type="textarea" name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" />
+                    <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ></textarea>
                     <br>
                     <button type="submit">تکمیل خرید</button>
                 </div>
@@ -887,6 +887,12 @@ function get_style(){ ?>
             }
 
             #address input{
+                text-align: right;
+                direction: rtl;
+                border-radius: 15px;
+                margin-right: 13px;
+            }
+            #address textarea{
                 text-align: right;
                 direction: rtl;
                 border-radius: 15px;
