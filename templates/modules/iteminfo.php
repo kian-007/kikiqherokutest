@@ -813,7 +813,7 @@ function process_inputs(){
     if(!isset($_POST['final_level'])){
         return;
     }
-    $price = $_POST['price'];
+
     if(is_user_logged_in()){
         require_once ('lib/functions.php');
 
@@ -1068,7 +1068,8 @@ function get_script(){ ?>
 
             var final_price = 0
 
-            $('#add').click(function(){
+            $('#add').click(function(e){
+                e.preventDefault()
                 $('#bill_table').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'visible')){
