@@ -1128,9 +1128,11 @@ function get_script(){ ?>
             $('#buy').click(function(event){
 
 
-                <?php if(!is_user_logged_in()): ?>
-                    window.location.href = "<?php echo home_url('login'); ?>";
-                <?php endif; ?>
+                <?php
+                 if(!is_user_logged_in()){
+                   echo "window.location.href =".home_url('login').'"';
+                 }
+                ?>
 
                 $('#address').css('display', 'inline-block')
                 event.preventDefault();
