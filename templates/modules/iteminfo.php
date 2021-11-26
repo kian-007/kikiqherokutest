@@ -873,7 +873,6 @@ function get_style(){ ?>
                 margin-right: 50px;
                 width: 85%;
                 height: auto;
-                display: none;
                 text-align: right;
                 direction: rtl;
                 background-color: deepskyblue;
