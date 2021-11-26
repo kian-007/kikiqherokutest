@@ -1125,7 +1125,7 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
 
-            $('#buy').click(function(event){
+            $('#buy').click(function(){
 
 
                 <?php
@@ -1136,7 +1136,7 @@ function get_script(){ ?>
                 ?>
 
                 $('#address').css('display', 'inline-block')
-                event.preventDefault();
+                // event.preventDefault();
             })
 
         })
