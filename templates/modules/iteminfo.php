@@ -1135,7 +1135,8 @@ function get_script(){ ?>
                 ?>
 
                 $('#address').css('display', 'inline-block')
-                
+                $('#address').css('transition', 'display 2s')
+
                 if($('#bill_table').css('display', 'inline-block')){
                     var elmnt = document.getElementById("final_level");
                     elmnt.scrollIntoView(false)
