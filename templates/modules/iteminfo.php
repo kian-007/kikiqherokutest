@@ -761,11 +761,31 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button type="submit" name="buy" id="buy">تکمیل خرید</button>
+                                <button type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
                 </form>
+
+
+                <div id="address">
+                    <div>
+                        <h2>اطلاعات آدرس خود را وارد کنید</h2>
+                        <datalist>
+                            <summary>
+                                * راهنما !
+                            </summary>
+                            لطفا مارا برای هرچه سریع تر رساندن کالای خریداری شده به دستتان یاری کرده
+                            آدرس خود را دقیق و با وسواس وارد کنید :)
+                        </datalist>
+                    </div>
+
+                    <input type="text" name="postal_code" />
+                    <br>
+                    <input type="text" name="address" />
+                    <br>
+                    <button type="submit">تکمیل خرید</button>
+                </div>
                 
                 <!-- <pre style="float:right; clear:both;">
                     <?php //print_r($_POST); ?>
@@ -829,6 +849,18 @@ function process_inputs(){
 
 function get_style(){ ?>
         <style>
+            #address{
+                width: 85%;
+                height: auto;
+                /*display: none;*/
+                text-align: right;
+                direction: rtl;
+            }
+
+            #address input{
+                text-align: right;
+                direction: rtl;
+            }
 
             #bill_table{
                 clear: both;
