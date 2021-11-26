@@ -789,7 +789,7 @@ function get_content($price = null){ ?>
                     <br>
                     <br>
                     <label for="address">آدرس خود را اینجا وارد کنید</label>
-                    <input type="text" name="address" style="width: 85%; min-height: 150px" />
+                    <input type="text" name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" />
                     <br>
                     <button type="submit">تکمیل خرید</button>
                 </div>
