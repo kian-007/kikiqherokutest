@@ -1125,7 +1125,7 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
 
-            $('#buy').click(function(event){
+            $('#buy').click(function(){
 
 
                 <?php if(!is_user_logged_in()): ?>
@@ -1133,7 +1133,7 @@ function get_script(){ ?>
                 <?php endif; ?>
 
                 $('#address').css('display', 'inline-block')
-                event.preventDefault();
+                // event.preventDefault();
             })
 
         })
