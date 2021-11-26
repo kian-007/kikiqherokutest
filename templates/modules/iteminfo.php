@@ -1068,8 +1068,7 @@ function get_script(){ ?>
 
             var final_price = 0
 
-            $('#add').click(function(e){
-                e.preventDefault()
+            $('#add').click(function(){
                 $('#bill_table').css('display', 'inline-block')
 
                 if($('#bill_table').css('display', 'visible')){
@@ -1116,7 +1115,8 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
 
-            $('#buy').click(function(){
+            $('#buy').click(function(event){
+                event.preventDefault();
                 $('#address').css('display', 'inline-block')
             })
 
