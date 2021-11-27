@@ -12,31 +12,27 @@ function authentication_required(){
 
 function get_content(){ ?>
 
-	<?php $current_user = get_current_user_data(); ?>
-	<h3 style="margin-left: 666px;"><?php echo $current_user['username']; ?></h3>
 	<div class="left2 col-l-1 col-12">
     </div>
     <div class="content2 col-l-9 col-12">
 
         <div class="dform">
             <form method="post">
-                <h1>Please sign in</h1>
+                <h1>ویرایش اطلاعات کاربری</h1>
+                <br>
+                <?php $current_user = get_current_user_data(); ?>
+                <span>کاربر: <?php echo $current_user['username']; ?></span>
                 <div class="dinput">
-                    <?php
-                        $username ='';
-                        if(isset($_POST['username'])){
-                            $username = $_POST['username'];
-                        }  
-                     ?>
-                    <input class="input second" id="new_username" name='new_username' placeholder="username" />
+                    <input class="input second" id="new_username" name='new_username' placeholder="نام کاربری" />
                     <label for="new_username">نام کاربری جدید:</label>
                 </div>
+                <br>
                 <div class="dinput">
-                    <input class="input second" type="password" id="password" name='password' placeholder="Password" />
+                    <input class="input second" type="password" id="password" name='password' placeholder="رمز عبور" />
                     <label for="password">رمز عبور جدید:</label>
                 </div>
                 <br/>
-                <button class="first" type="submit" name="save">Save</button>
+                <button class="first" type="submit" name="save">ذخیره</button>
                 <p style="margin-left: 140px;">&copy;2017–2021</p>
             </form>
         </div>
