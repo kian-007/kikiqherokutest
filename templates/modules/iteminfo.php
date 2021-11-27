@@ -728,7 +728,7 @@ function get_content($price = null){ ?>
 
                 <br/>
                 <br/>
-                <form action="" method="post" style="clear: both; float: right;">
+                <form id="number_form" action="" method="post" style="clear: both; float: right;">
                     <table id="bill_table">
                         <tr style="background-color:orange; color:white;">
                             <th>
@@ -1169,7 +1169,9 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
             var test2 = 0
-            $('#buy').click(function(){
+            $('#buy').click(function(event){
+                event.preventDefault()
+                $('#number_form').submit();
                 scrolll()
                 test2 = test2 + 1
                  if(test2<2){
