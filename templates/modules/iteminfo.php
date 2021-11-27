@@ -1192,10 +1192,12 @@ function get_script(){ ?>
 
             })
 
-            $('#address_form').submit(function (){
+            if($('#address_form').submit()){
                 $('#number_form').submit()
-            })
+            }
+
             
+
             // function scrolll(){
             //     window.onload = function(){
             //         document.getElementById("bill_table").style.display = "inline-block";
