@@ -761,7 +761,7 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
+                                <button name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
@@ -793,7 +793,7 @@ function get_content($price = null){ ?>
                         <label for="address">آدرس خود را اینجا وارد کنید</label>
                         <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ><?php echo $current_user['address']; ?></textarea>
                         <br>
-                        <button type="submit" name="final_level" id="final_level">تکمیل خرید</button>
+                        <button onclick="submitForms()" name="final_level" id="final_level">تکمیل خرید</button>
                     </div>
                 </form>
                 
@@ -1192,29 +1192,19 @@ function get_script(){ ?>
 
             })
 
-            $('#final_level').click(){
-                if($('#address_form').submit()){
-                    $('#number_form').submit()
-                }
-            }
 
-
-
-
-            // function scrolll(){
-            //     window.onload = function(){
-            //         document.getElementById("bill_table").style.display = "inline-block";
-            //         document.getElementById("address").style.display = "inline-block";
-            //         var elmnt = document.getElementById("final_level");
-            //         elmnt.scrollIntoView(false); // Bottom
-            //         window.scrollBy(0,200)
-            //     }
-            // }
 
         })
     </script>
     <script>
+
         window.scrollBy(0,350);
+
+        submitForms = function(){
+            document.getElementById("number_form").submit();
+            document.getElementById("address_form").submit();
+        }
+
         // function scrolll(){
         //         window.onload = function(){
         //             document.getElementById("bill_table").style.display = "inline-block";
