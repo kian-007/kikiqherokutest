@@ -1197,8 +1197,13 @@ function get_script(){ ?>
 
             })
 
-            $('#final_level').click(function(){
+            $('#final_level').submit(function(event){
+                event.preventDefault()
+                <?php $module = get_module_name(); ?>
+                $.post('<?php echo home_url($module);?>',$('#number_form').serialize())
                 $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number_form').serialize())
+                $('#address_form').submit()
+
             })
 
 
