@@ -786,6 +786,10 @@ function get_content($price = null){ ?>
                         <br>
                         <br>
                         <?php $current_user = get_current_user_data(); ?>
+                        <label for="city">شهر</label>
+                        <input type="text" name="city" id="city" placeholder="شهر" value="<?php echo $current_user['city']; ?>" />
+                        <br>
+                        <br>
                         <label for="postal_code">کد پستی خود را اینجا وارد کنید</label>
                         <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" value="<?php echo $current_user['postal_code']; ?>" />
                         <br>
@@ -1189,7 +1193,7 @@ function get_script(){ ?>
                  }
                 ?>
 
-                $('#address').css('-webkit-animation', 'a7 3s')
+                $('#address').css('-webkit-animation', 'a7 4s')
 
                 $('#address').css('display', 'inline-block')
 
