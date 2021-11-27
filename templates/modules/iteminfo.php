@@ -1169,8 +1169,8 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
             var test2 = 0
-            $('#buy').click(function(event){
-                event.preventDefault();
+            $('#buy').click(function(){
+                scrolll()
                 test2 = test2 + 1
                  if(test2<2){
                     scrollBy(0,350)
@@ -1189,6 +1189,14 @@ function get_script(){ ?>
                 $('#address').css('display', 'inline-block')
 
             })
+
+            function scrolll(){
+                $('#bill_table').css('display', 'inline-block')
+                $('#address').css('display', 'inline-block')
+                var elmnt = document.getElementById("final_level");
+                elmnt.scrollIntoView(false); // Bottom
+                scrollBy(0,200)
+            }
 
         })
     </script>
