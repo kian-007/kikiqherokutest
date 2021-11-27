@@ -1198,18 +1198,18 @@ function get_script(){ ?>
         window.scrollBy(0,350);
         function scrolll(){
                 window.onload = function(){
-                    <?php
-                     if(!is_user_logged_in()){
-                         $login_url = home_url('login');
-                         echo "window.location.href=\"$login_url\"";
-                     }
-                    ?>
                     document.getElementById("bill_table").style.display = "inline-block";
                     document.getElementById("address").style.display = "inline-block";
                     var elmnt = document.getElementById("final_level");
                     elmnt.scrollIntoView(false); // Bottom
                     window.scrollBy(0,200)
                 }
+                <?php
+                 if(!is_user_logged_in()){
+                     $login_url = home_url('login');
+                     echo "window.location.href=\"$login_url\"";
+                 }
+                ?>
             }
     </script>
 
