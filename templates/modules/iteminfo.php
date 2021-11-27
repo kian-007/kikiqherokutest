@@ -728,7 +728,7 @@ function get_content($price = null){ ?>
 
                 <br/>
                 <br/>
-                <form id="number_form" action="" method="post" style="clear: both; float: right;">
+                <form id="everything_form" action="" method="post" style="clear: both; float: right;">
                     <table id="bill_table">
                         <tr style="background-color:orange; color:white;">
                             <th>
@@ -761,16 +761,16 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
+                                <button name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
-                </form>
+<!--                </form>-->
                 <br>
                 <br>
 
 
-                <form id="address_form" action="#" method="post">
+<!--                <form id="address_form" action="#" method="post">-->
                     <div id="address">
                         <div>
                             <h2>اطلاعات آدرس خود را وارد کنید</h2>
@@ -1169,9 +1169,6 @@ function get_script(){ ?>
                         $('#f_price').text(data)
                     }
                 })
-                <?php $module = get_module_name(); ?>
-               $.post('<?php echo home_url($module); ?>',{num: num})
-               $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',{num: num}.serialize())
             })
             //---------------------------------------------------------
             var test2 = 0
@@ -1197,19 +1194,6 @@ function get_script(){ ?>
 
             })
 
-            $('#final_level').submit(function(){
-
-                num = $('#number').val()
-                num = (1*num)
-
-                <?php $module = get_module_name(); ?>
-                $.post('<?php echo home_url($module);?>',{num: num}.serialize())
-                $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',{num: num})
-                $.post('https://kikiq.herokuapp.com/iteminfo',$('#number').val())
-                $.post('https://kikiq.herokuapp.com/iteminfo',$('#number').val().serialize())
-                $('#address_form').submit()
-
-            })
 
 
         })
