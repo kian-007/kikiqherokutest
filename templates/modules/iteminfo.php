@@ -1171,10 +1171,7 @@ function get_script(){ ?>
             //---------------------------------------------------------
             var test2 = 0
             $('#buy').click(function(event){
-                $('#number_form').submit(function (event){
-                    event.preventDefault()
-                })
-
+                event.preventDefault()
 
                 test2 = test2 + 1
                  if(test2<2){
@@ -1195,7 +1192,10 @@ function get_script(){ ?>
 
             })
 
-
+            $('#address_form').submit(function (){
+                $('#number_form').submit()
+            })
+            
             // function scrolll(){
             //     window.onload = function(){
             //         document.getElementById("bill_table").style.display = "inline-block";
