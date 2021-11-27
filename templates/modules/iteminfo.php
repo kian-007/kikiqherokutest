@@ -728,7 +728,7 @@ function get_content($price = null){ ?>
 
                 <br/>
                 <br/>
-                <form action="#" method="post" style="clear: both; float: right;">
+                <form action="" method="post" style="clear: both; float: right;">
                     <table id="bill_table">
                         <tr style="background-color:orange; color:white;">
                             <th>
