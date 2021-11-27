@@ -174,7 +174,7 @@ function process_inputs(){
 				}
                 label{
                     position: relative;
-                    bottom: 25px;
+                    bottom: 33px;
                     margin-left: 50px;
                 }
 			}
