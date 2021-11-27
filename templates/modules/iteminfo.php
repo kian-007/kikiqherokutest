@@ -1193,7 +1193,7 @@ function get_script(){ ?>
                  }
                 ?>
 
-                $('#address').css('-webkit-animation', 'a7 4s')
+                $('#address').css('-webkit-animation', 'a7 1s')
 
                 $('#address').css('display', 'inline-block')
 
