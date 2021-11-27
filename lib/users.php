@@ -65,18 +65,27 @@ function add_user($userdata){
 	if(isset($userdata['email'])){
 		$email = $userdata['email'];
 	}
-        if(isset($userdata['new_username'])){
-		$new_username = $userdata['new_username']; //برای تغییر نام کاربری و پسورد
+    if(isset($userdata['new_username'])){
+    $new_username = $userdata['new_username']; //برای تغییر نام کاربری و پسورد
 	}
+    if(isset($userdata['postal_code'])){
+        $postal_code = $userdata['postal_code'];
+    }
+    if(isset($userdata['address'])){
+        $address = $userdata['address'];
+    }
+    if(isset($userdata['city'])){
+        $city = $userdata['city'];
+    }
 	
 
 	global $pdo;
 	if(!user_exists($username)){
 		$pdo->query("
-			INSERT INTO users (username, password, first_name, last_name, phone_number, email) VALUES
-			('$username', '$password', '$first_name', '$last_name', '$phone_number', '$email');
+			INSERT INTO users (username, password, first_name, last_name, phone_number, email, city, address, postal_code) VALUES
+			('$username', '$password', '$first_name', '$last_name', '$phone_number', '$email', '$city', '$address', '$postal_code');
 		");
-	}else{
+	}elseif(user_exists($username) && !empty($new_username)){
 		$user = get_user($username);
 		$id = $user['id'];
 
@@ -96,12 +105,61 @@ function add_user($userdata){
 			$email = $userdata['email'];
 		}else{$email = $user['email'];}
 
+        if(isset($userdata['city'])){
+            $city = $userdata['city'];
+        }else{$city = $user['city'];}
+
+        if(isset($userdata['address'])){
+            $address = $userdata['address'];
+        }else{$address = $user['address'];}
+
+        if(isset($userdata['postal_code'])){
+            $postal_code = $userdata['postal_code'];
+        }else{$postal_code = $user['postal_code'];}
+
 		$pdo->query("
             UPDATE users
-            SET username='$new_username', password='$password', first_name='$first_name', last_name='$last_name', phone_number='$phone_number', email='$email'
+            SET username='$new_username', password='$password', first_name='$first_name', last_name='$last_name', phone_number='$phone_number', email='$email', city='$city', address='$address', postal_code='$postal_code'
             WHERE id ='$id';
         ");
-	}
+        }else{
+            $user = get_user($username);
+		$id = $user['id'];
+
+		if(isset($userdata['first_name'])){
+			$first_name = $userdata['first_name'];
+		}else{$first_name = $user['first_name'];}
+
+		if(isset($userdata['last_name'])){
+			$last_name = $userdata['last_name'];
+		}else{$last_name = $user['last_name'];}
+
+		if(isset($userdata['phone_number'])){
+			$phone_number = $userdata['phone_number'];
+		}else{$phone_number = $user['phone_number'];}
+
+		if(isset($userdata['email'])){
+			$email = $userdata['email'];
+		}else{$email = $user['email'];}
+
+        if(isset($userdata['city'])){
+            $city = $userdata['city'];
+        }else{$city = $user['city'];}
+
+        if(isset($userdata['address'])){
+            $address = $userdata['address'];
+        }else{$address = $user['address'];}
+
+        if(isset($userdata['postal_code'])){
+            $postal_code = $userdata['postal_code'];
+        }else{$postal_code = $user['postal_code'];}
+
+		$pdo->query("
+            UPDATE users
+            SET username='$username', password='$password', first_name='$first_name', last_name='$last_name', phone_number='$phone_number', email='$email', city='$city', address='$address', postal_code='$postal_code'
+            WHERE id ='$id';
+        ");
+        }
 }
 
 function update_user($userdata){
