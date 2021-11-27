@@ -1123,10 +1123,9 @@ function get_script(){ ?>
             var test = 0
             $('#add').click(function(){
                 $('#bill_table').css('display', 'inline-block')
-                if($('#bill_table').css('display', 'inline-block')){
-                    test = test + 1
-                 }
-                 if(test<1){
+
+                test = test + 1
+                 if(test<2){
                     scrollBy(0,350)
                  }else{
                     var elmnt = document.getElementById("buy");
@@ -1169,9 +1168,17 @@ function get_script(){ ?>
                 })
             })
             //---------------------------------------------------------
-
+            var test2 = 0
             $('#buy').click(function(event){
                 event.preventDefault();
+                test2 = test2 + 1
+                 if(test2<2){
+                    scrollBy(0,350)
+                 }else{
+                    var elmnt = document.getElementById("final_level");
+                    elmnt.scrollIntoView(false)
+                 }
+
 
                 <?php
                  if(!is_user_logged_in()){
@@ -1183,9 +1190,6 @@ function get_script(){ ?>
                 $('#address_form').css('-webkit-animation', 'a7 3s')
 
                 $('#address').css('display', 'inline-block')
-
-                var elmnt = document.getElementById("final_level");
-                elmnt.scrollIntoView(false)
 
             })
 
