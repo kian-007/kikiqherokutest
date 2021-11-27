@@ -1170,11 +1170,7 @@ function get_script(){ ?>
                     }
                 })
                 <?php $module = get_module_name(); ?>
-                $.post("#",{num: num}, function(data, status, xhr) {
-                    if (status == "success"){
-                        var success = 1;
-                    }
-                })
+                $.post('<?php echo home_url($module); ?>',$('#number_form'))
             })
             //---------------------------------------------------------
             var test2 = 0
