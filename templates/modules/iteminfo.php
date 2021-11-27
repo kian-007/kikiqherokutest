@@ -804,64 +804,68 @@ function get_content($price = null){ ?>
 				<div class="right2 col-l-2 col-12">
 				</div>
 
+                <pre>
+				<?php var_dump($_POST); ?>
+				</pre>
+
 <?php }
 
 
 
 function process_inputs(){
-    $price = $_POST['price'];
-    $item_title = $_POST['item_title'];
-
-    if(!isset($_POST['final_level'])){
-        return;
-    }
-
-    if(is_user_logged_in()){
-        require_once ('lib/functions.php');
-
-        //------add address to database-----
+//    $price = $_POST['price'];
+//    $item_title = $_POST['item_title'];
+//
+//    if(!isset($_POST['final_level'])){
+//        return;
+//    }
+//
+//    if(is_user_logged_in()){
+//        require_once ('lib/functions.php');
+//
+//        //------add address to database-----
 //        $postal_code = $_POST['postal_code'];
 //        $address = $_POST['address'];
 //        $current_user = get_current_user_data();
 //        $current_user['postal_code'] = $postal_code;
 //        $current_user['address'] = $address;
 //        update_user($current_user);
-        //----------------------------------
-
-        $price = str_replace(',', '', $price);
-        $price = intval($price."0");
-
-        $number = intval($_POST['number']);
-        $final_price = ($price*$number);
-        $current_user = get_current_user_data();
-        $phone_number = $current_user['phone_number'];
-
-        $parameters = array(
-            "merchant"=> ZIBAL_MERCHANT_KEY,//required
-            "callbackUrl"=> ZIBAL_CALLBACK_URL,//required
-            "amount"=> $final_price,//required
-            "orderId"=> time(),//optional
-            "mobile"=> $phone_number,//optional for mpg
-            "description"=> $item_title,
-        );
-
-        $response = postToZibal('request', $parameters);
-        var_dump($response);
-        if ($response->result == 100)
-        {
-            $startGateWayUrl = "https://gateway.zibal.ir/start/".$response->trackId;
-            header('location: '.$startGateWayUrl);
-        }
-        else{
-            echo "errorCode: ".$response->result."<br>";
-            echo "message: ".$response->message;
-        }
-
-
-    }else{
-        add_message('برای ادامه فرایند خرید ورود یا ثبت نام شما لازم است!', 'error');
-        redirect_to(home_url('login'));
-    }
+//        //----------------------------------
+//
+//        $price = str_replace(',', '', $price);
+//        $price = intval($price."0");
+//
+//        $number = intval($_POST['number']);
+//        $final_price = ($price*$number);
+//        $current_user = get_current_user_data();
+//        $phone_number = $current_user['phone_number'];
+//
+//        $parameters = array(
+//            "merchant"=> ZIBAL_MERCHANT_KEY,//required
+//            "callbackUrl"=> ZIBAL_CALLBACK_URL,//required
+//            "amount"=> $final_price,//required
+//            "orderId"=> time(),//optional
+//            "mobile"=> $phone_number,//optional for mpg
+//            "description"=> $item_title,
+//        );
+//
+//        $response = postToZibal('request', $parameters);
+//        var_dump($response);
+//        if ($response->result == 100)
+//        {
+//            $startGateWayUrl = "https://gateway.zibal.ir/start/".$response->trackId;
+//            header('location: '.$startGateWayUrl);
+//        }
+//        else{
+//            echo "errorCode: ".$response->result."<br>";
+//            echo "message: ".$response->message;
+//        }
+//
+//
+//    }else{
+//        add_message('برای ادامه فرایند خرید ورود یا ثبت نام شما لازم است!', 'error');
+//        redirect_to(home_url('login'));
+//    }
 
 }
 
