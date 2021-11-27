@@ -159,8 +159,13 @@ function add_user($userdata, $flag = null){
     }
 }
 
-function update_user($userdata){
-	add_user($userdata);
+function update_user($userdata, $flag = null){
+    if($flag){
+        add_user($userdata, $flag);
+    }else{
+        add_user($userdata);
+    }
+
 }
 
 function delete_user($username){

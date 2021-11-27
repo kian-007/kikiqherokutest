@@ -828,7 +828,8 @@ function process_inputs(){
         $current_user = get_current_user_data();
         $current_user['postal_code'] = $postal_code;
         $current_user['address'] = $address;
-        update_user($current_user);
+        $flag = 1;
+        update_user($current_user,$flag);
         //----------------------------------
 
         $price = str_replace(',', '', $price);
@@ -1170,7 +1171,7 @@ function get_script(){ ?>
             //---------------------------------------------------------
             var test2 = 0
             $('#buy').click(function(event){
-                $('#number_form').submit(function (){
+                $('#number_form').submit(function (event){
                     event.preventDefault()
                 })
 
