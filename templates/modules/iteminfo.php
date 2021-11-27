@@ -1172,7 +1172,7 @@ function get_script(){ ?>
             $('#buy').click(function(event){
                 event.preventDefault()
 
-                scrolll()
+                
                 test2 = test2 + 1
                  if(test2<2){
                     scrollBy(0,350)
@@ -1192,9 +1192,9 @@ function get_script(){ ?>
 
             })
 
-            // $('#final_level').click(function (){
-            //     $('#number_form').submit();
-            // })
+            $('#final_level').click(function (){
+                $('#number_form').submit();
+            })
 
             // function scrolll(){
             //     window.onload = function(){
