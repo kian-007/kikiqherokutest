@@ -165,7 +165,7 @@ function process_inputs(){
 			@media only screen and (max-width: 768px){
 				.input ~label{
 					position: relative;
-					margin-top: -25;
+					margin-top: 0px;
 					left: -115px;
 					z-index: 7;
 					transition: .5s;
