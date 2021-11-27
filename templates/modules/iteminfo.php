@@ -1087,12 +1087,15 @@ function get_style(){ ?>
 			}
 
 			@-webkit-keyframes a7 {
-			    from{
+			    0%{
 			        display: inline-block;
                     position:relative;
                     top: 400px;
 			    }
-			    to{
+			    50%{
+			        top: 200px;
+			    }
+			    100%{
 			        top: 0px;
 			    }
 			}
