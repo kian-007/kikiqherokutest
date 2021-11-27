@@ -1174,9 +1174,10 @@ function get_script(){ ?>
                  if(!is_user_logged_in()){
                      $login_url = home_url('login');
                      echo "window.location.href=\"$login_url\"";
+                     redirect_to(home_url('login'));
                  }
                 ?>
-                
+
                 scrolll()
                 test2 = test2 + 1
                  if(test2<2){
