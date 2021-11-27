@@ -811,9 +811,7 @@ function get_content($price = null){ ?>
 
 
 function process_inputs(){
-    echo '<pre>';
-    var_dump($_POST); echo '<br>';
-    echo '</pre>';
+
     $price = $_POST['price'];
     $item_title = $_POST['item_title'];
 
@@ -874,19 +872,17 @@ function process_inputs(){
 
 function get_style(){ ?>
         <style>
-            #address_form{
+            #everything_form{
                 clear: both;
                 float: right;
                 margin-right: 50px;
-                width: 85%;
+                width: 100%;
                 height: auto;
                 text-align: right;
                 direction: rtl;
-                background-color: deepskyblue;
-                border-radius: 25px;
             }
             #address{
-                width: 100%;
+                width: 85%;
                 height: auto;
                 display: none;
                 text-align: right;
