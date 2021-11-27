@@ -823,12 +823,16 @@ function process_inputs(){
         require_once ('lib/functions.php');
 
         //------add address to database-----
+        $current_user = get_current_user_data();
+        $username = $current_user['username'];
         $postal_code = $_POST['postal_code'];
         $address = $_POST['address'];
-        $current_user = get_current_user_data();
-        $current_user['postal_code'] = $postal_code;
-        $current_user['address'] = $address;
-        update_user($current_user);
+        $userdata = array(
+                'username' => $username,
+                'postal_code' => $postal_code,
+                'address' => $address
+        );
+        update_user($userdata);
         //----------------------------------
 
         $price = str_replace(',', '', $price);
