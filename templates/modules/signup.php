@@ -104,7 +104,10 @@ function process_inputs(){
     }
 
 //    var_dump($_POST);
-
+    if(user_exists($username)){
+        add_message('این نام کاربری قبلا انتخاب شده است!','error');
+        return;
+    }
     add_user($_POST);
     user_login($username, $password);
 
