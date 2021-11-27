@@ -761,7 +761,7 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button onclick="scrolll()" type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
+                                <button type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
