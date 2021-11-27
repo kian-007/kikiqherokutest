@@ -1174,7 +1174,6 @@ function get_script(){ ?>
                  if(!is_user_logged_in()){
                      $login_url = home_url('login');
                      echo "window.location.href=\"$login_url\"";
-                     redirect_to(home_url('login'));
                  }
                 ?>
 
@@ -1198,6 +1197,12 @@ function get_script(){ ?>
     <script>
         window.scrollBy(0,350);
         function scrolll(){
+                <?php
+                 if(!is_user_logged_in()){
+                     $login_url = home_url('login');
+                     echo "window.location.href=\"$login_url\"";
+                 }
+                ?>
                 window.onload = function(){
                     document.getElementById("bill_table").style.display = "inline-block";
                     document.getElementById("address").style.display = "inline-block";
