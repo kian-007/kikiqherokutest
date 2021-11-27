@@ -1170,7 +1170,7 @@ function get_script(){ ?>
                     }
                 })
                 <?php $module = get_module_name(); ?>
-                $.post("<?php echo home_url($module); ?>",{num: num}, function(data, status, xhr) {
+                $.post("#",{num: num}, function(data, status, xhr) {
                     if (status == "success"){
                         var success = 1;
                     }
