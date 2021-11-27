@@ -811,7 +811,9 @@ function get_content($price = null){ ?>
 
 
 function process_inputs(){
-
+    echo '<pre>';
+    var_dump($_POST); echo '<br>';
+    echo '</pre>';
     $price = $_POST['price'];
     $item_title = $_POST['item_title'];
 
