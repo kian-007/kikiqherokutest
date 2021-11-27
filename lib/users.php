@@ -52,7 +52,9 @@ function add_user($userdata){
 		return;
 	}
 
-	$password = sha1($userdata['password']);
+    if(isset($userdata['password'])) {
+        $password = sha1($userdata['password']);
+    }
 	if(isset($userdata['first_name'])){
 		$first_name = $userdata['first_name'];
 	}
@@ -140,6 +142,10 @@ function add_user($userdata){
 
         if(!isset($city)){
             $city = $user['city'];
+        }
+
+        if(!isset($password)){
+            $password = $user['password'];
         }
 
         $pdo->query("
