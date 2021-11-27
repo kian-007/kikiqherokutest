@@ -154,60 +154,38 @@ function add_user($userdata){
             $user = get_user($username);
 		$id = $user['id'];
 
-        if(isset($userdata['first_name'])){
-            $first_name = $userdata['first_name'];
-        }elseif(isset($user['first_name'])){
-            $first_name = $user['first_name'];
-        }else{
-            $first_name = "";
-        }
+		if(isset($userdata['first_name'])){
+			$first_name = $userdata['first_name'];
+		}else{$first_name = $user['first_name'];}
 
-        if(isset($userdata['last_name'])){
-            $last_name = $userdata['last_name'];
-        }elseif(isset($user['last_name'])){
-            $last_name = $user['last_name'];
-        }else{
-            $last_name = "";
-        }
+		if(isset($userdata['last_name'])){
+			$last_name = $userdata['last_name'];
+		}else{$last_name = $user['last_name'];}
 
-        if(isset($userdata['phone_number'])){
-            $phone_number = $userdata['phone_number'];
-        }elseif(isset($user['phone_number'])){
-            $phone_number = $user['phone_number'];
-        }else{
-            $phone_number = "";
-        }
+		if(isset($userdata['phone_number'])){
+			$phone_number = $userdata['phone_number'];
+		}else{$phone_number = $user['phone_number'];}
 
-        if(isset($userdata['email'])){
-            $email = $userdata['email'];
-        }elseif(isset($user['email'])){
-            $email = $user['email'];
-        }else{
-            $email = "";
-        }
+		if(isset($userdata['email'])){
+			$email = $userdata['email'];
+		}else{$email = $user['email'];}
 
         if(isset($userdata['city'])){
             $city = $userdata['city'];
-        }elseif(isset($user['city'])){
-            $city = $user['city'];
         }else{
-            $city = "";
+            $city = $user['city'];
         }
 
         if(isset($userdata['address'])){
             $address = $userdata['address'];
-        }elseif(isset($user['address'])){
-            $address = $user['address'];
         }else{
-            $address = "";
+            $address = $user['address'];
         }
 
         if(isset($userdata['postal_code'])){
             $postal_code = $userdata['postal_code'];
-        }elseif(isset($user['postal_code'])){
-            $postal_code = $user['postal_code'];
         }else{
-            $postal_code = "";
+            $postal_code = $user['postal_code'];
         }
 
 		$pdo->query("
