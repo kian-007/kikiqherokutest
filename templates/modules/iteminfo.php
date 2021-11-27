@@ -882,6 +882,8 @@ function get_style(){ ?>
                 direction: rtl;
             }
             #address{
+                clear: both;
+                float: right;
                 width: 85%;
                 height: auto;
                 display: none;
