@@ -1171,9 +1171,6 @@ function get_script(){ ?>
             var test2 = 0
             $('#buy').click(function(event){
                 event.preventDefault()
-                swal({
-                  text: "Hello world!",
-                });
 
                 scrolll()
                 test2 = test2 + 1
