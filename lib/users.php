@@ -68,11 +68,11 @@ function add_user($userdata){
     if(isset($userdata['new_username'])){
     $new_username = $userdata['new_username']; //برای تغییر نام کاربری و پسورد
 	}
-    if(isset($userdata['postal_code'])){
-        $postal_code = $userdata['postal_code'];
-    }
     if(isset($userdata['address'])){
         $address = $userdata['address'];
+    }
+    if(isset($userdata['postal_code'])){
+        $postal_code = $userdata['postal_code'];
     }
     if(isset($userdata['city'])){
         $city = $userdata['city'];
@@ -91,71 +91,6 @@ function add_user($userdata){
 
 		if(isset($userdata['first_name'])){
 			$first_name = $userdata['first_name'];
-		}elseif(isset($user['first_name'])){
-            $first_name = $user['first_name'];
-        }else{
-            $first_name = "";
-        }
-
-		if(isset($userdata['last_name'])){
-			$last_name = $userdata['last_name'];
-		}elseif(isset($user['last_name'])){
-            $last_name = $user['last_name'];
-        }else{
-            $last_name = "";
-        }
-
-		if(isset($userdata['phone_number'])){
-			$phone_number = $userdata['phone_number'];
-		}elseif(isset($user['phone_number'])){
-            $phone_number = $user['phone_number'];
-        }else{
-            $phone_number = "";
-        }
-
-		if(isset($userdata['email'])){
-			$email = $userdata['email'];
-		}elseif(isset($user['email'])){
-            $email = $user['email'];
-        }else{
-            $email = "";
-        }
-
-        if(isset($userdata['city'])){
-            $city = $userdata['city'];
-        }elseif(isset($user['city'])){
-            $city = $user['city'];
-        }else{
-            $city = "";
-        }
-
-        if(isset($userdata['address'])){
-            $address = $userdata['address'];
-        }elseif(isset($user['address'])){
-            $address = $user['address'];
-        }else{
-            $address = "";
-        }
-
-        if(isset($userdata['postal_code'])){
-            $postal_code = $userdata['postal_code'];
-        }elseif(isset($user['postal_code'])){
-            $postal_code = $user['postal_code'];
-        }else{
-            $postal_code = "";
-        }
-
-		$pdo->query("
-            UPDATE users
-            SET username='$new_username', password='$password', first_name='$first_name', last_name='$last_name', phone_number='$phone_number', email='$email', city='$city', address='$address', postal_code='$postal_code'
-            WHERE id ='$id';
-        ");
-        }else{
-            $user = get_user($username);
-		$id = $user['id'];
-
-		if(isset($userdata['first_name'])){
-			$first_name = $userdata['first_name'];
 		}else{$first_name = $user['first_name'];}
 
 		if(isset($userdata['last_name'])){
@@ -170,30 +105,49 @@ function add_user($userdata){
 			$email = $userdata['email'];
 		}else{$email = $user['email'];}
 
-        if(isset($userdata['city'])){
-            $city = $userdata['city'];
-        }else{
-            $city = $user['city'];
+		$pdo->query("
+            UPDATE users
+            SET username='$new_username', password='$password', first_name='$first_name', last_name='$last_name', phone_number='$phone_number', email='$email'
+            WHERE id ='$id';
+        ");
+	}elseif (user_exists($username) && empty($new_username)){
+        $user = get_user($username);
+        $id = $user['id'];
+
+        if(!isset($first_name)){
+            $first_name = $user['first_name'];
         }
 
-        if(isset($userdata['address'])){
-            $address = $userdata['address'];
-        }else{
+        if(!isset($last_name)){
+            $last_name = $user['last_name'];
+        }
+
+        if(!isset($phone_number)){
+            $phone_number = $user['phone_number'];
+        }
+
+        if(!isset($email)){
+            $email = $user['email'];
+        }
+
+        if(!isset($address)){
             $address = $user['address'];
         }
 
-        if(isset($userdata['postal_code'])){
-            $postal_code = $userdata['postal_code'];
-        }else{
+        if(!isset($postal_code)){
             $postal_code = $user['postal_code'];
         }
 
-		$pdo->query("
+        if(!isset($city)){
+            $city = $user['city'];
+        }
+
+        $pdo->query("
             UPDATE users
-            SET username='$username', password='$password', first_name='$first_name', last_name='$last_name', phone_number='$phone_number', email='$email', city='$city', address='$address', postal_code='$postal_code'
+            SET password='$password', first_name='$first_name', last_name='$last_name', phone_number='$phone_number', email='$email', address='$address', postal_code='$postal_code', city='$city'
             WHERE id ='$id';
         ");
-        }
+    }
 }
 
 function update_user($userdata){
