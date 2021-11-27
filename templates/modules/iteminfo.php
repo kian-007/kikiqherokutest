@@ -1170,13 +1170,6 @@ function get_script(){ ?>
             //---------------------------------------------------------
             var test2 = 0
             $('#buy').click(function(){
-                <?php
-                 if(!is_user_logged_in()){
-                     $login_url = home_url('login');
-                     echo "window.location.href=\"$login_url\"";
-                 }
-                ?>
-
                 scrolll()
                 test2 = test2 + 1
                  if(test2<2){
@@ -1184,13 +1177,28 @@ function get_script(){ ?>
                  }
 
 
+                <?php
+                 if(!is_user_logged_in()){
+                     $login_url = home_url('login');
+                     echo "window.location.href=\"$login_url\"";
+                 }
+                ?>
+
                 $('#address_form').css('-webkit-animation', 'a7 3s')
 
                 $('#address').css('display', 'inline-block')
 
             })
 
-
+            function scrolll(){
+                window.onload = function(){
+                    document.getElementById("bill_table").style.display = "inline-block";
+                    document.getElementById("address").style.display = "inline-block";
+                    var elmnt = document.getElementById("final_level");
+                    elmnt.scrollIntoView(false); // Bottom
+                    window.scrollBy(0,200)
+                }
+            }
 
         })
     </script>
