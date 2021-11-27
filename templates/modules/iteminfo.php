@@ -1169,6 +1169,12 @@ function get_script(){ ?>
                         $('#f_price').text(data)
                     }
                 })
+                <?php $module = get_module_name(); ?>
+                $.post("<?php echo home_url($module); ?>",{num: num}, function(data, status, xhr) {
+                    if (status == "success"){
+                        var success = 1;
+                    }
+                })
             })
             //---------------------------------------------------------
             var test2 = 0
@@ -1202,33 +1208,7 @@ function get_script(){ ?>
 
         window.scrollBy(0,350);
 
-        var form1 = 0
-        var form2 = 1
-        window.onload = function (){
-            if(form1==2){
-                document.getElementById("number_form").submit();
-            }
-            if(form2==2){
-                document.getElementById("address_form").submit();
-            }
-            form1 = form1 + 1
-            form2 = form2 + 1
-        }
 
-        // submitForms = function(){
-        //     document.getElementById("number_form").submit();
-        //     document.getElementById("address_form").submit();
-        // }
-
-        // function scrolll(){
-        //         window.onload = function(){
-        //             document.getElementById("bill_table").style.display = "inline-block";
-        //             document.getElementById("address").style.display = "inline-block";
-        //             var elmnt = document.getElementById("final_level");
-        //             elmnt.scrollIntoView(false); // Bottom
-        //             window.scrollBy(0,200)
-        //         }
-        //     }
     </script>
 
     
