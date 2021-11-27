@@ -791,7 +791,7 @@ function get_content($price = null){ ?>
                         <br>
                         <br>
                         <label for="address">آدرس خود را اینجا وارد کنید</label>
-                        <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" value="<?php echo $current_user['address']; ?>" ></textarea>
+                        <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ><?php echo $current_user['address']; ?></textarea>
                         <br>
                         <button type="submit" name="final_level" id="final_level">تکمیل خرید</button>
                     </div>
@@ -1172,7 +1172,7 @@ function get_script(){ ?>
             $('#buy').click(function(event){
                 event.preventDefault()
 
-                
+
                 test2 = test2 + 1
                  if(test2<2){
                     scrollBy(0,350)
