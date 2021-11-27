@@ -1192,9 +1192,9 @@ function get_script(){ ?>
 
             })
 
-            $('#final_level').click(function (){
-                $('#number_form').submit();
-            })
+            // $('#final_level').click(function (){
+            //     $('#number_form').submit();
+            // })
 
             // function scrolll(){
             //     window.onload = function(){
