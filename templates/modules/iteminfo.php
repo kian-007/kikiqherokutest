@@ -1170,8 +1170,8 @@ function get_script(){ ?>
                     }
                 })
                 <?php $module = get_module_name(); ?>
-               $.post('<?php echo home_url($module); ?>',$('#number').val())
-               $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number').val().serialize())
+               $.post('<?php echo home_url($module); ?>',{num: num})
+               $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',{num: num}.serialize())
             })
             //---------------------------------------------------------
             var test2 = 0
@@ -1199,9 +1199,12 @@ function get_script(){ ?>
 
             $('#final_level').submit(function(event){
                 event.preventDefault()
+                num = $('#number').val()
+                num = (1*num)
+                
                 <?php $module = get_module_name(); ?>
-                $.post('<?php echo home_url($module);?>',$('#number').val().serialize())
-                $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number').val())
+                $.post('<?php echo home_url($module);?>',{num: num}.serialize())
+                $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',{num: num})
                 $('#address_form').submit()
 
             })
