@@ -1170,7 +1170,7 @@ function get_script(){ ?>
                     }
                 })
                 <?php $module = get_module_name(); ?>
-                $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number_form'))
+                $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number_form').serialize())
             })
             //---------------------------------------------------------
             var test2 = 0
