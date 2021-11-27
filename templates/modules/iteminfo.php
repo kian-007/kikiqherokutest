@@ -793,10 +793,10 @@ function get_content($price = null){ ?>
                         <label for="address">آدرس خود را اینجا وارد کنید</label>
                         <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ><?php echo $current_user['address']; ?></textarea>
                         <br>
-                        <button onclick="forms()" name="final_level" id="final_level">تکمیل خرید</button>
                     </div>
                 </form>
-                
+                        <button onclick="submitForms()" name="final_level" id="final_level">تکمیل خرید</button>
+
                 <!-- <pre style="float:right; clear:both;">
                     <?php //print_r($_POST); ?>
                 </pre> -->
@@ -1202,7 +1202,7 @@ function get_script(){ ?>
 
         window.scrollBy(0,350);
 
-        function forms(){
+        submitForms = function(){
             document.getElementById("number_form").submit();
             document.getElementById("address_form").submit();
         }
