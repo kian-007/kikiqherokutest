@@ -784,6 +784,7 @@ function get_content($price = null){ ?>
                         </div>
                         <br>
                         <br>
+                        <br>
                         <?php $current_user = get_current_user_data(); ?>
                         <label for="postal_code">کد پستی خود را اینجا وارد کنید</label>
                         <input type="text" name="postal_code" id="postal_code" placeholder="کد پستی" value="<?php echo $current_user['postal_code']; ?>" />
@@ -1131,7 +1132,7 @@ function get_script(){ ?>
                     var elmnt = document.getElementById("buy");
                     elmnt.scrollIntoView(false)
                  }
-               
+
                 num = num + 1
                 $('#number').val(num)
 
