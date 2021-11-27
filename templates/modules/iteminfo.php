@@ -761,11 +761,11 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
+                                <button name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
                 </form>
-                                <button name="buy" id="buy">ادامه فرایند خرید</button>
                 <br>
                 <br>
 
@@ -793,9 +793,9 @@ function get_content($price = null){ ?>
                         <label for="address">آدرس خود را اینجا وارد کنید</label>
                         <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ><?php echo $current_user['address']; ?></textarea>
                         <br>
+                        <button onclick="submitForms()" name="final_level" id="final_level">تکمیل خرید</button>
                     </div>
                 </form>
-                        <button onclick="submitForms()" name="final_level" id="final_level">تکمیل خرید</button>
 
                 <!-- <pre style="float:right; clear:both;">
                     <?php //print_r($_POST); ?>
