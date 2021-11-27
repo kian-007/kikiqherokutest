@@ -761,11 +761,11 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
                 </form>
+                                <button name="buy" id="buy">ادامه فرایند خرید</button>
                 <br>
                 <br>
 
