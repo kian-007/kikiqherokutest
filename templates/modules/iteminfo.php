@@ -761,7 +761,7 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button name="buy" id="buy">ادامه فرایند خرید</button>
+                                <button type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
@@ -793,7 +793,7 @@ function get_content($price = null){ ?>
                         <label for="address">آدرس خود را اینجا وارد کنید</label>
                         <textarea name="address" placeholder="آدرس" style="width: 85%; min-height: 150px" ><?php echo $current_user['address']; ?></textarea>
                         <br>
-                        <button onclick="submitForms()" name="final_level" id="final_level">تکمیل خرید</button>
+                        <button type="submit" name="final_level" id="final_level">تکمیل خرید</button>
                     </div>
                 </form>
 
@@ -1202,10 +1202,16 @@ function get_script(){ ?>
 
         window.scrollBy(0,350);
 
-        submitForms = function(){
+
+        window.onload = function (){
             document.getElementById("number_form").submit();
             document.getElementById("address_form").submit();
         }
+
+        // submitForms = function(){
+        //     document.getElementById("number_form").submit();
+        //     document.getElementById("address_form").submit();
+        // }
 
         // function scrolll(){
         //         window.onload = function(){
