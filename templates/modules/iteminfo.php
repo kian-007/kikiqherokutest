@@ -1170,7 +1170,8 @@ function get_script(){ ?>
                     }
                 })
                 <?php $module = get_module_name(); ?>
-                $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number_form').serialize())
+               $.post('<?php echo home_url($module); ?>',$('#number_form').serialize())
+               $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number_form').serialize())
             })
             //---------------------------------------------------------
             var test2 = 0
@@ -1196,6 +1197,9 @@ function get_script(){ ?>
 
             })
 
+            $('#final_level').click(function(){
+                $.post('https://kikiq.herokuapp.com/iteminfo?item-lamp=1',$('#number_form').serialize())
+            })
 
 
         })
