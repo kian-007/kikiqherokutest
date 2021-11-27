@@ -882,6 +882,7 @@ function get_style(){ ?>
                 direction: rtl;
             }
             #address{
+                margin-top: 20px;
                 clear: both;
                 float: right;
                 width: 85%;
@@ -958,7 +959,6 @@ function get_style(){ ?>
                 clear: both;
                 float: right;
                 margin-top: 25px;
-                margin-right: 50px;
                 text-align: right;
                 direction: rtl;
                 border: 1px solid black;
@@ -1175,7 +1175,7 @@ function get_script(){ ?>
 
                 test2 = test2 + 1
                  if(test2<2){
-                    scrollBy(0,350)
+                    scrollBy(0,250)
                  }
 
 
@@ -1186,7 +1186,7 @@ function get_script(){ ?>
                  }
                 ?>
 
-                $('#address_form').css('-webkit-animation', 'a7 3s')
+                $('#address').css('-webkit-animation', 'a7 3s')
 
                 $('#address').css('display', 'inline-block')
 
