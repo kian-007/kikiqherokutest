@@ -1119,16 +1119,19 @@ function get_script(){ ?>
 
             var final_price = 0
 
+            var test = 0
             $('#add').click(function(){
                 $('#bill_table').css('display', 'inline-block')
-
                 if($('#bill_table').css('display', 'inline-block')){
+                    test = test + 1
+                 }
+                 if(test<1){
+                    scrollBy(0,350)
+                 }else{
                     var elmnt = document.getElementById("buy");
-                    elmnt.scrollIntoView(false); // Bottom
-                    // if(window.scrollY == 79){
-                    //     window.scrollBy(0,70)
-                    // }
-                }
+                    elmnt.scrollIntoView(false)
+                 }
+               
                 num = num + 1
                 $('#number').val(num)
 
@@ -1165,7 +1168,7 @@ function get_script(){ ?>
                 })
             })
             //---------------------------------------------------------
-            var test = 0
+
             $('#buy').click(function(event){
                 event.preventDefault();
 
@@ -1179,15 +1182,10 @@ function get_script(){ ?>
                 $('#address_form').css('-webkit-animation', 'a7 3s')
 
                 $('#address').css('display', 'inline-block')
-                if($('#bill_table').css('display', 'inline-block')){
-                    test = test + 1
-                 }
-                 if(test<1){
-                    scrollBy(0,350)
-                 }else{
-                    var elmnt = document.getElementById("final_level");
-                    elmnt.scrollIntoView(false)
-                 }
+
+                var elmnt = document.getElementById("final_level");
+                elmnt.scrollIntoView(false)
+
             })
 
         })
