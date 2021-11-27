@@ -46,7 +46,7 @@ function initialize_users(){
 }
  */
 
-function add_user($userdata){
+function add_user($userdata, $flag = null){
 	$username = $userdata['username'];
 	if(!$username){
 		return;
@@ -113,6 +113,9 @@ function add_user($userdata){
             WHERE id ='$id';
         ");
 	}elseif (user_exists($username) && empty($new_username)){
+        if($flag){
+            $password = $userdata['password'];
+        }
         $user = get_user($username);
         $id = $user['id'];
 

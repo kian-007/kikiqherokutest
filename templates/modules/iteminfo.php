@@ -1170,7 +1170,9 @@ function get_script(){ ?>
             //---------------------------------------------------------
             var test2 = 0
             $('#buy').click(function(event){
-                event.preventDefault()
+                $('#number_form').submit(function (){
+                    event.preventDefault()
+                })
 
 
                 test2 = test2 + 1
@@ -1192,9 +1194,6 @@ function get_script(){ ?>
 
             })
 
-            $('#final_level').click(function (){
-                $('#number_form').submit();
-            })
 
             // function scrolll(){
             //     window.onload = function(){
