@@ -827,9 +827,11 @@ function process_inputs(){
         require_once ('lib/functions.php');
 
         //------add address to database-----
+        $city = $_POST['city'];
         $postal_code = $_POST['postal_code'];
         $address = $_POST['address'];
         $current_user = get_current_user_data();
+        $current_user['city'] = $city;
         $current_user['postal_code'] = $postal_code;
         $current_user['address'] = $address;
         $flag = 1;
