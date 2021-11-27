@@ -1192,11 +1192,14 @@ function get_script(){ ?>
 
             })
 
-            if($('#address_form').submit()){
-                $('#number_form').submit()
+            $('#final_level').click(){
+                if($('#address_form').submit()){
+                    $('#number_form').submit()
+                }
             }
 
-            
+
+
 
             // function scrolll(){
             //     window.onload = function(){
