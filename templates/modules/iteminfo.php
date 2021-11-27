@@ -804,15 +804,18 @@ function get_content($price = null){ ?>
 				<div class="right2 col-l-2 col-12">
 				</div>
 
-                <pre>
-				<?php var_dump($_POST); ?>
-				</pre>
+
 
 <?php }
 
 
 
 function process_inputs(){
+
+        echo '<pre>';
+        var_dump($_POST);
+        echo '</pre>';
+
 //    $price = $_POST['price'];
 //    $item_title = $_POST['item_title'];
 //
