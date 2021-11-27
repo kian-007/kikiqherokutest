@@ -943,10 +943,10 @@ function get_style(){ ?>
                      margin-right: 5px;
                 }
                 #final_level{
-                margin-right: 50px;
+                    margin-right: 70px;
                 }
                 #buy{
-                margin-right: 50px;
+                    margin-right: 70px;
                 }
             }
 
