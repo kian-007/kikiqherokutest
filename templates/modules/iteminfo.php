@@ -1171,7 +1171,10 @@ function get_script(){ ?>
             var test2 = 0
             $('#buy').click(function(event){
                 event.preventDefault()
-                $('#number_form').submit();
+                swal({
+                  text: "Hello world!",
+                });
+
                 scrolll()
                 test2 = test2 + 1
                  if(test2<2){
@@ -1192,29 +1195,33 @@ function get_script(){ ?>
 
             })
 
-            function scrolll(){
-                window.onload = function(){
-                    document.getElementById("bill_table").style.display = "inline-block";
-                    document.getElementById("address").style.display = "inline-block";
-                    var elmnt = document.getElementById("final_level");
-                    elmnt.scrollIntoView(false); // Bottom
-                    window.scrollBy(0,200)
-                }
-            }
+            $('#final_level').click(function (){
+                $('#number_form').submit();
+            })
+
+            // function scrolll(){
+            //     window.onload = function(){
+            //         document.getElementById("bill_table").style.display = "inline-block";
+            //         document.getElementById("address").style.display = "inline-block";
+            //         var elmnt = document.getElementById("final_level");
+            //         elmnt.scrollIntoView(false); // Bottom
+            //         window.scrollBy(0,200)
+            //     }
+            // }
 
         })
     </script>
     <script>
         window.scrollBy(0,350);
-        function scrolll(){
-                window.onload = function(){
-                    document.getElementById("bill_table").style.display = "inline-block";
-                    document.getElementById("address").style.display = "inline-block";
-                    var elmnt = document.getElementById("final_level");
-                    elmnt.scrollIntoView(false); // Bottom
-                    window.scrollBy(0,200)
-                }
-            }
+        // function scrolll(){
+        //         window.onload = function(){
+        //             document.getElementById("bill_table").style.display = "inline-block";
+        //             document.getElementById("address").style.display = "inline-block";
+        //             var elmnt = document.getElementById("final_level");
+        //             elmnt.scrollIntoView(false); // Bottom
+        //             window.scrollBy(0,200)
+        //         }
+        //     }
     </script>
 
     
