@@ -99,11 +99,7 @@ function process_inputs(){
 
 	function get_style(){ ?>
 		<style>
-            label{
-                position: relative;
-                bottom: 100px;
-                margin-left: 50px;
-            }
+
 			h1 {
 				margin-left: 75px;
 			}
@@ -176,10 +172,20 @@ function process_inputs(){
 					z-index: 7;
 					transition: .5s;
 				}
+                label{
+                    position: relative;
+                    bottom: 25px;
+                    margin-left: 50px;
+                }
 			}
 	
 	
 			@media only screen and (min-width: 768px){
+                label{
+                    position: relative;
+                    bottom: 100px;
+                    margin-left: 50px;
+                }
 				.dform{
 					width: 375px;
 				}
