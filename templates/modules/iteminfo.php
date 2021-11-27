@@ -1173,8 +1173,8 @@ function get_script(){ ?>
             })
             //---------------------------------------------------------
             var test2 = 0
-            $('#buy').click(function(event){
-                event.preventDefault();
+            $('#buy').click(function(){
+                // event.preventDefault();
                 test2 = test2 + 1
                  if(test2<2){
                     scrollBy(0,350)
