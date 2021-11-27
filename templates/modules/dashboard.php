@@ -99,6 +99,11 @@ function process_inputs(){
 
 	function get_style(){ ?>
 		<style>
+            label{
+                position: relative;
+                bottom: 100px;
+                margin-left: 50px;
+            }
 			h1 {
 				margin-left: 75px;
 			}
