@@ -82,8 +82,8 @@ function add_user($userdata){
 	global $pdo;
 	if(!user_exists($username)){
 		$pdo->query("
-			INSERT INTO users (username, password, first_name, last_name, phone_number, email, city, address, postal_code) VALUES
-			('$username', '$password', '$first_name', '$last_name', '$phone_number', '$email', '$city', '$address', '$postal_code');
+			INSERT INTO users (username, password, first_name, last_name, phone_number, email) VALUES
+			('$username', '$password', '$first_name', '$last_name', '$phone_number', '$email');
 		");
 	}elseif(user_exists($username) && !empty($new_username)){
 		$user = get_user($username);
