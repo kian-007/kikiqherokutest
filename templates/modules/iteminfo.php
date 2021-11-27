@@ -761,7 +761,7 @@ function get_content($price = null){ ?>
                                 <span><?php echo $off; ?></span>
                             </td>
                             <td>
-                                <button type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
+                                <button onclick="scrolll()" type="submit" name="buy" id="buy">ادامه فرایند خرید</button>
                             </td>
                         </tr>
                     </table>
@@ -1190,27 +1190,21 @@ function get_script(){ ?>
 
             })
 
-            function scrolll(){
-                $('#bill_table').css('display', 'inline-block')
-                $('#address').css('display', 'inline-block')
 
-                var elmnt = document.getElementById("final_level");
-                elmnt.scrollIntoView(false); // Bottom
-                window.scrollBy(0,200)
-            }
-
-            window.onload = function(){
-                document.getElementById("bill_table").style.display = "inline-block";
-                document.getElementById("address").style.display = "inline-block";
-                var elmnt = document.getElementById("final_level");
-                elmnt.scrollIntoView(false); // Bottom
-                window.scrollBy(0,200)
-            }
 
         })
     </script>
     <script>
         window.scrollBy(0,350);
+        function scrolll(){
+                window.onload = function(){
+                    document.getElementById("bill_table").style.display = "inline-block";
+                    document.getElementById("address").style.display = "inline-block";
+                    var elmnt = document.getElementById("final_level");
+                    elmnt.scrollIntoView(false); // Bottom
+                    window.scrollBy(0,200)
+                }
+            }
     </script>
 
     
