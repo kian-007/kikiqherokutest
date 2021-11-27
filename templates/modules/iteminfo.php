@@ -1127,9 +1127,6 @@ function get_script(){ ?>
                 test = test + 1
                  if(test<2){
                     scrollBy(0,350)
-                 }else{
-                    var elmnt = document.getElementById("buy");
-                    elmnt.scrollIntoView(false)
                  }
 
                 num = num + 1
@@ -1174,9 +1171,6 @@ function get_script(){ ?>
                 test2 = test2 + 1
                  if(test2<2){
                     scrollBy(0,350)
-                 }else{
-                    var elmnt = document.getElementById("final_level");
-                    elmnt.scrollIntoView(false)
                  }
 
 
