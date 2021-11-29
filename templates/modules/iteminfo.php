@@ -877,7 +877,7 @@ function process_inputs(){
 
 
 function get_style(){ ?>
-        <style>
+        
             #everything_form{
                 clear: both;
                 float: right;
@@ -1105,7 +1105,7 @@ function get_style(){ ?>
 			        top: 0px;
 			    }
 			}
-		</style>
+		
 <?php }
 
 function css_link(){ ?>

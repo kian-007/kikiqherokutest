@@ -125,7 +125,7 @@ function process_inputs(){
 
 
 function get_style(){ ?>
-    <style>
+    
         label{
             position: relative;
             bottom: 100px;
@@ -234,7 +234,7 @@ function get_style(){ ?>
         }
 
 
-    </style>
+    
 <?php }
 
 

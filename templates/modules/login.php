@@ -76,7 +76,7 @@ function process_inputs(){
 
 
 function get_style(){ ?>
-    <style>
+    
         h1 {
             margin-left: 75px;
         }
@@ -175,7 +175,7 @@ function get_style(){ ?>
         }
 
 
-    </style>
+    
 <?php }
 
 

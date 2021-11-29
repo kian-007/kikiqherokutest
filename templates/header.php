@@ -200,12 +200,54 @@ slert('User <?php   echo $_GET['REMOTE_ADDR'];	?> \n Wellcome To kikiqutest')*/
 
 			})
 		</script>
-                <?php
-					simple_load_module();
-					if(function_exists('get_style')){
-						get_style();
-					}
-        		?>
+				<style>
+					<?php
+						simple_load_module();
+						if(function_exists('get_style')){
+							get_style();
+						}
+					?>
+					
+					
+					@-webkit-keyframes a9 {
+						from {
+							position: fixed;
+							top: 50px;
+							left: 325px;
+							display: inline-block;
+	
+						}
+						to {
+							position: fixed;
+							top: 50px;
+							left: 165px;
+							display: inline-block;
+	
+							}
+						}
+					@-webkit-keyframes a10 {
+						0% {
+							position: fixed;
+							top: 50px;
+							left: 165px;
+							display: inline-block;
+						}
+						99% {
+							position: fixed;
+							top: 50px;
+							left: 325px;
+							display: inline-block;
+	
+						}
+						100%{
+							position: fixed;
+							top: 50px;
+							left: 315px;
+							display: none;
+							}
+						}
+					
+				</style>
 	</head>
 	<body onload="showSlides(); scroll(); ">
 	<a name="start"></a>

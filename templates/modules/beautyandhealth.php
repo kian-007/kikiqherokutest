@@ -307,7 +307,7 @@ $rimmel = get_value('rimmel', 0);
 
 
 function get_style(){ ?>
-        <style>
+        
 			button{
 				margin-top: 10px;
 				border-radius: 30px;
@@ -364,7 +364,7 @@ function get_style(){ ?>
 				filter: saturate(200%);
 				-webkit-filter: saturate(200%);
 			}
-		</style>
+		
 <?php }
 
 function css_link(){ ?>

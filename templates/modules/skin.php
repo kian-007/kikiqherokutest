@@ -118,7 +118,7 @@ $handcream = get_value('handcream' , 0);
 <?php }
 
 function get_style(){ ?>
-        <style>
+        
 			button{
 				margin-top: 10px;
 				border-radius: 30px;
@@ -177,7 +177,7 @@ function get_style(){ ?>
 					margin-left: 450px;
 				}
 			}
-		</style>
+		
 <?php }
 
 function css_link(){ ?>

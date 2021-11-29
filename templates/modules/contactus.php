@@ -28,7 +28,7 @@ function get_content(){ ?>
 <?php }
 
 function get_style(){ ?>
-        <style>
+        
 			#pcontainer
 			{
 				position:relative;
@@ -98,7 +98,7 @@ function get_style(){ ?>
 			{
 				color: white;
 			}
-		</style>
+		
 <?php }
 
 function css_link(){ ?>

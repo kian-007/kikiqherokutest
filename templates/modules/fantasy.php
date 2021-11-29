@@ -40,7 +40,7 @@ function get_content(){ ?>
 <?php }
 
 function get_style(){ ?>
-        <style>
+        
 			.ulmenue > li:nth-child(6)
 			{
 				background-image: url('images/threeline3.jpg');
@@ -59,7 +59,7 @@ function get_style(){ ?>
 			h2{
 				margin-left: 150px;
 			}
-		</style>
+		
 <?php }
 
 function css_link(){ ?>
