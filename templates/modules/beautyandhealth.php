@@ -71,7 +71,7 @@ $rimmel = get_value('rimmel', 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('capsul1', 'capsul2', 'capsul3', 'capsul4', 'capsul5', 'capsul6');
 					?>
-					<h2 class="clrb">* برق لب قرصی *</h2>
+					<p class="title"><span>* برق لب قرصی *</span></p>
 					<a href="<?php echo home_url('iteminfo'); ?>?item-lipgloss=1">
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/capsul7.jpg"	/><img	id='img2' src="images/beautyandhealth/capsul9.jpg"	/><p id='p1'><p class="pinside"></p></div>
@@ -92,7 +92,7 @@ $rimmel = get_value('rimmel', 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('lamp1', 'lamp2', 'lamp3', 'lamp4', 'lamp5');
 					?>
-					<h2 class="clrb">* برق لب لامپی *</h2>
+					<p class="title"><span>* برق لب لامپی *</span></p>
 					<a href="<?php echo home_url('iteminfo'); ?>?item-lamp=1">
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr"><img  src="images/beautyandhealth/lamp6.jpg"	alt="برق لب"/><p><p class="pinside"></p></div>
@@ -112,7 +112,7 @@ $rimmel = get_value('rimmel', 0);
 				$off = $goods['off'];
 				$serial_number = $goods['serial_number'];
 				?>
-				<h2 class="clrb">* بالم لب آبمیوه ای*</h2>
+				<p class="title"><span>* بالم لب آبمیوه ای*</span></p>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-icebalm=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/balmbastani1.jpg"	/><img	id='img2' src="images/beautyandhealth/balmbastani2.jpg"	/><p id='p1'><p class="pinside"></p></div>
@@ -151,7 +151,7 @@ $rimmel = get_value('rimmel', 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('nbrush5', 'abrush5', 'cbrush5', 'bbrushes');
 					?>
-					<h2 class="clrb">*براش فانتزی 4تیکه*</h2>
+					<p class="title"><span>*براش فانتزی 4تیکه*</span></p>
 					<a href="<?php echo home_url('iteminfo'); ?>?item-brush=1">
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/newbrush.jpg"	/><img	id='img2' src="images/beautyandhealth/newbrush2.jpg"	/><p id='p1'><p class="pinside"></p></div>
@@ -172,7 +172,7 @@ $rimmel = get_value('rimmel', 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('cobrush2', 'brushbh1', 'cobrush3', 'cobrush4');
 					?>
-					<h2 class="clrb">*براش BH Cosmetics*</h2>
+					<p class="title"><span>*براش BH Cosmetics*</span></p>
 					<a href="<?php echo home_url('iteminfo'); ?>?item-brushbh=1">
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/cobrush1.jpg"	/><img	id='img2' src="images/beautyandhealth/cobrush5.jpg"	/><p id='p1'><p class="pinside"></p></div>
@@ -193,7 +193,7 @@ $rimmel = get_value('rimmel', 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('brushm7', 'brushm1', 'brushm4', 'brushm5');
 					?>
-					<h2 class="clrb">*براش ماسک*</h2>
+					<p class="title"><span>*براش ماسک*</span></p>
 					<a href="<?php echo home_url('iteminfo'); ?>?item-brushmask=1">
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/brushm3.jpg"	/><img	id='img2' src="images/beautyandhealth/brushm6.jpg"	/><p id='p1'><p class="pinside"></p></div>
@@ -214,7 +214,7 @@ $rimmel = get_value('rimmel', 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('bags1', 'bags2', 'abag1', 'abag2', 'abag3');
 					?>
-					<h2 class="clrb">*  Victoria's secret کیف آرایشی *</h2>
+					<p class="title"><span>*  Victoria's secret کیف آرایشی *</span></p>
 					<?php foreach($img_src as $img): ?>
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr"	 ><img	src="<?php echo "images/compressed/$img.jpg"; ?>"		alt="<?php echo $name; ?>"/><p class="price"><?php echo $price; ?> t</p><a href="<?php echo home_url('iteminfo'); ?>?item-bag=1"><p class="pinside"></p></a></div>
@@ -230,7 +230,7 @@ $rimmel = get_value('rimmel', 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('rimmel7', 'rimmel5', 'rimmel4', 'rimmel1', 'rimmel2', 'rimmel3');
 					?>
-					<h2 class="clrb">*ریمل Hudamoji*</h2>
+					<p class="title"><span>*ریمل Hudamoji*</span></p>
 					<a href="<?php echo home_url('iteminfo'); ?>?item-rimmel=1">
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr d1"><img	id='img1'	src="images/beautyandhealth/rimmel6.jpg"	/><img	id='img2' src="images/beautyandhealth/rimmel8.jpg"	/><p id='p1'><p class="pinside"></p></div>

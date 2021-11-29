@@ -53,7 +53,7 @@ $handcream = get_value('handcream' , 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('mrtb44', 'mrtb55', 'mrtb66', 'mrtb77', 'mrtb88');
 				?>
-					<h2>* کرم مرطوب کننده *</h2>
+					<p class="title"><span>* کرم مرطوب کننده *</span></p>
 					<a href="<?php echo home_url('iteminfo'); ?>?item-handcream=1">
 						<div class="new col-6 col-l-4">
 							<div class="doutside ftr d1"><img	id='img1'	src="images/skin/ax1.jpg"	/><img	id='img2' src="images/skin/mrtb99.jpg"	/><p id='p1'><p class="pinside"></p></div>
@@ -75,7 +75,7 @@ $handcream = get_value('handcream' , 0);
 					$serial_number = $goods['serial_number'];
 					$img_src = array('brush2', 'brush7', 'brush6', 'brush5', 'brush3');
 				?>
-					<h2>* فیس براش *</h2>
+					<p class="title"><span>* فیس براش *</span></p>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-facebrush=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img	id='img1'	src="images/skin/facebrush1.jpg"	/><img	id='img2' src="images/skin/brush4.jpg"	/><p id='p1'><p class="pinside"></p></div>
