@@ -78,7 +78,7 @@
 			
 			.title{
 				margin: 50px auto;
-				width: 300px;
+				min-width: 300px;
 				border-bottom: solid #ff8566 2px;
 			}
 			.title span{
