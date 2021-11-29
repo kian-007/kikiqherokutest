@@ -17,8 +17,8 @@ function get_content(){ ?>
 					$serial_number = $goods['serial_number'];
 					$img_src = array('mir14', 'mir1', 'mir2', 'mir4', 'mir5', 'mir6', 'mir7', 'mir8', 'mir9', 'mir10', 'mir11', 'mir12', 'mir13');
 				?>
-
-				<h2>* <?php echo $name; ?> *</h2>
+				
+				<p class="title"><span>* <?php echo $name; ?> *</span></p>
 				<a href="<?php echo home_url('iteminfo'); ?>?item-mirror=1">
 					<div class="new col-6 col-l-4">
 						<div class="doutside ftr d1"><img loading="lazy"	src="images/fantasy/mir14.jpg"	/><p id='p1'><p class="pinside"></p></div>

@@ -76,6 +76,18 @@
 				}
 			}
 			
+			.title{
+				margin: 50px auto;
+				width: 300px;
+				border-bottom: solid #ff8566 2px;
+			}
+			.title span{
+				font-family: Sahel, Shabnam;
+				font-size: 17pt;
+				margin-left: 60px;
+				border-bottom: solid #ff471a 3px;
+			}
+			
 			.h1 {
 			    display: inline-block;
 			    width: 200px;
