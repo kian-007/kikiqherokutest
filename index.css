@@ -38,6 +38,43 @@
 			    background-color: rgba(200, 0, 0, 0);
 			    Z-index: 20;
 			}
+			@-webkit-keyframes a9 {
+			 from {
+				 position: fixed;
+				 top: 50px;
+				 left: 325px;
+				 display: inline-block;
+
+			 }
+			 to {
+				 position: fixed;
+				 top: 50px;
+				 left: 165px;
+				 display: inline-block;
+
+				 }
+			 }
+			@-webkit-keyframes a10 {
+				0% {
+					position: fixed;
+					top: 50px;
+					left: 165px;
+					display: inline-block;
+				}
+				99% {
+					position: fixed;
+					top: 50px;
+					left: 325px;
+					display: inline-block;
+
+				}
+				100%{
+					position: fixed;
+					top: 50px;
+					left: 315px;
+					display: none;
+				}
+			}
 			
 			.h1 {
 			    display: inline-block;
