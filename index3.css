@@ -470,6 +470,43 @@
         float: right;
         z-index: 33;
     }
+	@-webkit-keyframes a9 {
+         from {
+             position: fixed;
+             top: 50px;
+             left: 325px;
+             display: inline-block;
+
+         }
+         to {
+             position: fixed;
+             top: 50px;
+             left: 165px;
+             display: inline-block;
+
+         }
+     }
+    @-webkit-keyframes a10 {
+        0% {
+            position: fixed;
+            top: 50px;
+            left: 165px;
+            display: inline-block;
+        }
+        99% {
+            position: fixed;
+            top: 50px;
+            left: 325px;
+            display: inline-block;
+
+        }
+        100%{
+            position: fixed;
+            top: 50px;
+            left: 315px;
+            display: none;
+        }
+    }
     .secondulmenue>li {
         padding-top: 20px;
         list-style-type: none;
