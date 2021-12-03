@@ -4,7 +4,7 @@ $current_user = null;
 $current_user_id = null;
 
 //ABOUT two month
-define('SESSION_EXPIRATION', 1296000);
+define('SESSION_EXPIRATION', 1296001);
 
 function get_current_user_data(){
     global $current_user;
